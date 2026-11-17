@@ -1,0 +1,180 @@
+{
+  "schema_version": "4.0.0",
+  "group_id": "supporting_npcs_and_spirits",
+  "source_bible_drive_id": "1-PHuM0bftg6W2JlWkWJRPmUAMG2vkFMK",
+  "shapeshift_spirits": {
+    "spirit_str_scroll": {
+      "name": "str Scroll Spirit",
+      "zone": "ENV_R06–R07",
+      "palette_hex": [
+        "#F6C863",
+        "#3B8EA5"
+      ],
+      "prompt_tokens": "floating rolled golden parchment ribbon-scroll spirit (#F6C863) with friendly ink eyes and unfurling silk tails shimmering with azure-teal word ribbons (#3B8EA5)"
+    },
+    "spirit_int_block": {
+      "name": "int Stone Golem",
+      "zone": "ENV_R07",
+      "palette_hex": [
+        "#7E7872",
+        "#F4D068"
+      ],
+      "prompt_tokens": "stout chunky rune-carved mossy granite boulder helper (~60cm, #7E7872) with glowing amber eyes (#F4D068) doing crisp push-ups and lifting timber beams"
+    },
+    "spirit_float_droplet": {
+      "name": "float Water Droplet",
+      "zone": "ENV_R07",
+      "palette_hex": [
+        "#4EA8DE",
+        "#D9E4EC"
+      ],
+      "prompt_tokens": "smooth buoyant translucent sky-blue water droplet spirit (#4EA8DE) glistening with tiny floating decimal dewdrops (#D9E4EC)"
+    },
+    "spirit_bool_gem": {
+      "name": "bool Truth Gem",
+      "zone": "ENV_R07",
+      "palette_hex": [
+        "#2ECC71",
+        "#E74C3C"
+      ],
+      "prompt_tokens": "octagonal hovering faceted prism crystal spirit flashing emerald TRUE (#2ECC71) or crimson FALSE (#E74C3C) light beams"
+    }
+  },
+  "zone_npcs": {
+    "barnaby_baker": {
+      "name": "Barnaby the Baker",
+      "zone": "ENV_R01",
+      "stature_cm": 162,
+      "palette_hex": [
+        "#D8B474",
+        "#F4EFE6"
+      ],
+      "prompt_tokens": "Barnaby the Baker of Silent Village, rosy-cheeked stout village baker in flour-dusted cream apron (#F4EFE6) carrying warm golden sourdough honey loaves (#D8B474)"
+    },
+    "little_girl": {
+      "name": "Little Girl of Silent Village",
+      "zone": "ENV_R01",
+      "stature_cm": 115,
+      "palette_hex": [
+        "#3A86FF",
+        "#F4EFE6"
+      ],
+      "prompt_tokens": "~7yo village child with neat dark pigtails wearing sky-blue pinafore dress (#3A86FF) over cream blouse (#F4EFE6)"
+    },
+    "forest_spirit": {
+      "name": "Whispering Forest Spirit",
+      "zone": "ENV_R04",
+      "stature_cm": 168,
+      "palette_hex": [
+        "#6BC4B8",
+        "#8CF0BD",
+        "#8A79A6"
+      ],
+      "prompt_tokens": "luminous translucent cerulean mist woodland dryad (#6BC4B8) woven of glowing leaves (#8CF0BD) and fireflies holding mossy wooden lantern staff"
+    },
+    "ghost_librarian": {
+      "name": "Ghost Librarian",
+      "zone": "ENV_R06",
+      "stature_cm": 165,
+      "palette_hex": [
+        "#8A79A6",
+        "#79D8E6",
+        "#EFE4CE"
+      ],
+      "prompt_tokens": "gentle translucent lavender-cyan spectral archivist (#8A79A6 / #79D8E6) floating with round spectacles and glowing silver '#' feather quill held to lips"
+    },
+    "sleeping_red_dragon": {
+      "name": "Sleeping Red Dragon",
+      "zone": "ENV_R06",
+      "stature_cm": 480,
+      "palette_hex": [
+        "#B83A2D",
+        "#A86454",
+        "#F6C863"
+      ],
+      "prompt_tokens": "colossal crimson-scaled guardian dragon (#B83A2D) curled peacefully fast asleep across massive bronze library double doors, warm ember smoke curling gently from nostrils"
+    },
+    "goblin_thief": {
+      "name": "Hungry Sunnybrook Goblin",
+      "zone": "ENV_R07",
+      "stature_cm": 95,
+      "palette_hex": [
+        "#7F8C4D",
+        "#8C6D46"
+      ],
+      "prompt_tokens": "small pointy-eared orchard imp (~95cm) with olive-green skin (#7F8C4D) and tattered burlap tunic (#8C6D46), redeemed when Kai shares vegetarian harvest food kindly"
+    },
+    "eye_of_truth": {
+      "name": "Eye of Truth Archway",
+      "zone": "ENV_R09",
+      "stature_cm": 360,
+      "palette_hex": [
+        "#1F2A44",
+        "#2ECC71",
+        "#FDE08D"
+      ],
+      "prompt_tokens": "monumental carved stone archway (#1F2A44) inlaid with a luminous sapphire-and-gold all-seeing iris (#2ECC71 / #FDE08D) that reveals flickering glitch wires"
+    },
+    "signpost_keeper": {
+      "name": "Hooded Signpost-Keeper",
+      "zone": "ENV_R10",
+      "stature_cm": 172,
+      "palette_hex": [
+        "#6B3FA0",
+        "#F7C852"
+      ],
+      "prompt_tokens": "solemn wise elder cloaked in twilight-violet robes (#6B3FA0) holding a brass balance lantern (#F7C852) beside DRAGON, TREASURE, and HOME wooden signposts and golden colon (:) gates"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "character_id": "supporting_npcs_and_spirits",
+  "canonical_name": "Supporting NPCs & Shapeshift Data-Type Spirits",
+  "archetype_class": "ARCHETYPE_B_STOUT_ARTISAN_ELDER",
+  "reference_drive_ids": {
+    "shared_cast_scale_chart": "1cLi6Yjaj9IpPUyGl5svSbhz9C7RSZTaz",
+    "npcs_and_spirits_bible": "1-PHuM0bftg6W2JlWkWJRPmUAMG2vkFMK"
+  },
+  "local_reference_paths": {
+    "shared_cast_scale_chart": "02_reference_anchors/shared_cast_and_insignia/Pythonia_Size_Comparison_and_Color_Key_v3.png",
+    "npcs_and_spirits_bible": "02_reference_anchors/character_bibles/NPCS_AND_SPIRITS_BIBLE.md"
+  },
+  "physical_proportions": {
+    "note": "Multi-entity pack; see individual zone_npcs stature_cm and shapeshift_spirits dimensions",
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "facial_and_hair_locks": {
+    "summary_prompt_tokens": "Canonical Pythonia Supporting Cast & 4 Shapeshift Data-Type Spirits: str Scroll Spirit (#F6C863/#3B8EA5), int Stone Golem (#7E7872/#F4D068), float Water Droplet (#4EA8DE/#D9E4EC), bool Truth Gem (#2ECC71/#E74C3C), Barnaby the Baker (#D8B474), Little Girl (#3A86FF), Forest Spirit (#6BC4B8), Ghost Librarian (#8A79A6/#79D8E6), Sleeping Red Dragon (#B83A2D), Hungry Goblin (#7F8C4D), Eye of Truth (#1F2A44), Signpost-Keeper (#6B3FA0)"
+  },
+  "asymmetric_equipment_invariants": {
+    "summary_prompt_tokens": "100% vegetarian food props only (golden honey sourdough bread, vegetable pot-pie, herbal tea, harvest fruits); Ghost Librarian holds glowing silver '#' quill; Signpost-Keeper holds brass balance lantern beside DRAGON/TREASURE/HOME signposts"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "Ember pet",
+      "non-vegetarian meat food",
+      "modern sunglasses or jeans",
+      "Hero Kai crescent brooch or 3 hip potions on NPCs"
+    ]
+  },
+  "palette_hex_locks": [
+    "#F6C863",
+    "#4EA8DE",
+    "#2ECC71",
+    "#6BC4B8",
+    "#8A79A6",
+    "#B83A2D"
+  ]
+}

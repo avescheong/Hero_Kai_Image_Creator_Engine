@@ -1,0 +1,157 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "string",
+  "canonical_name": "String",
+  "chinese_name": "小犬「字串」（String）",
+  "role": "Kai's Loyal Golden-Tan Terrier Pup & Telepathic str Conduit",
+  "zones_present": [
+    "ENV_R02",
+    "ENV_R03",
+    "ENV_R04",
+    "ENV_R05",
+    "ENV_R05A",
+    "ENV_R06",
+    "ENV_R07",
+    "ENV_R08",
+    "ENV_R09",
+    "ENV_R10",
+    "ENV_R11"
+  ],
+  "physical_proportions": {
+    "stature_shoulder_cm": 35,
+    "body_length_cm": 42,
+    "head_ratio_storybook": "2.5 to 3.0 heads tall (quadruped puppy reaching just below Kai's knee)",
+    "pixel_height_in_256_cell": [
+      76,
+      92
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "coat_and_facial_locks": {
+    "coat_hex": "#D89B4C",
+    "secondary_coat_hex": "#D8A657",
+    "cream_muzzle_chest_paws_hex": "#F5E6CC",
+    "eyes_hex": "#3B2416",
+    "nose_hex": "#1E1410",
+    "description": "Compact fluffy scruffy honey-wheat golden-tan terrier-retriever puppy with soft cream muzzle whisker tufts, chest patch, and paw tips, floppy expressive ears, warm dark mahogany button eyes with white catchlights, black button nose, joyfully curved scruffy tail"
+  },
+  "progression_states": {
+    "unnamed_pup": {
+      "scenes": [
+        "CH02_S01..CH04_S02"
+      ],
+      "prompt_tokens": "natural scruffy golden-tan terrier puppy (#D89B4C) with cream muzzle (#F5E6CC) and bare fluffy neck — NO collar, NO neckerchief, NO crystal tag",
+      "negative_tokens": "dog collar, green bandana, neckerchief, teal crystal tag, wooden stick in mouth, treasure chest under dog"
+    },
+    "named_green_neckerchief": {
+      "scenes": [
+        "CH04_S03..CH06_S04"
+      ],
+      "prompt_tokens": "scruffy golden-tan terrier puppy (#D89B4C) with cream muzzle (#F5E6CC) wearing ONLY a woven moss-green cloth neckerchief (#2ECC71) around neck",
+      "negative_tokens": "leather dog collar, glowing teal crystal tag, wooden stick in mouth"
+    },
+    "telepathic_str_collar": {
+      "scenes": [
+        "CH07_S01..CH11_S04"
+      ],
+      "prompt_tokens": "scruffy golden-tan terrier puppy (#D89B4C) with cream muzzle (#F5E6CC) wearing a woven moss-green neckerchief (#2ECC71) plus a brown leather collar (#6E4226) suspending a glowing faceted cyan-teal 'str' scroll crystal shard (#3B8EA5) at chest, projecting luminous golden-teal telepathic word ribbons (#F6C863)",
+      "negative_tokens": "cat, wolf, bipedal dog in human clothes, spiked collar, robot dog, Ember"
+    }
+  },
+  "canonical_drive_references": {
+    "turnaround_4view": {
+      "title": "01_Turnaround_4View.png",
+      "drive_id": "1gfiJ7wHYfGRs_1t6ortYVeQXNBJk2iMm",
+      "url": "https://drive.google.com/file/d/1gfiJ7wHYfGRs_1t6ortYVeQXNBJk2iMm/view?usp=drivesdk"
+    },
+    "equipment_callout": {
+      "title": "02_Equipment_and_Props_Callout.png",
+      "drive_id": "14G0C_taODlnRRgqZhOtXzFvReZh1gCqM",
+      "url": "https://drive.google.com/file/d/14G0C_taODlnRRgqZhOtXzFvReZh1gCqM/view?usp=drivesdk"
+    },
+    "action_poses": {
+      "title": "03_Action_Poses_Sheet.png",
+      "drive_id": "1sxMUqLFIfzPJYdIyPlxlGuazh3wPiki9",
+      "url": "https://drive.google.com/file/d/1sxMUqLFIfzPJYdIyPlxlGuazh3wPiki9/view?usp=drivesdk"
+    },
+    "expressions_phonemes": {
+      "title": "04_Expressions_and_Phonemes.png",
+      "drive_id": "1ALfDIYh5UnvpS2DeLsn51Sq1whsrbZRH",
+      "url": "https://drive.google.com/file/d/1ALfDIYh5UnvpS2DeLsn51Sq1whsrbZRH/view?usp=drivesdk"
+    },
+    "wardrobe_color_key": {
+      "title": "05_Wardrobe_and_Color_Key.png",
+      "drive_id": "1BXXuk_rC5BFBGSLx6YJ9btBhUjSIBbZL",
+      "url": "https://drive.google.com/file/d/1BXXuk_rC5BFBGSLx6YJ9btBhUjSIBbZL/view?usp=drivesdk"
+    },
+    "story_website_cast": {
+      "title": "string.webp",
+      "drive_id": "1HaNi4YsEmGUyiKZvIIdjIJeeDX_dHHY_",
+      "url": "https://drive.google.com/file/d/1HaNi4YsEmGUyiKZvIIdjIJeeDX_dHHY_/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_D_QUADRUPED_OR_SPRITE_PET",
+  "reference_drive_ids": {
+    "turnaround_4view": "1gfiJ7wHYfGRs_1t6ortYVeQXNBJk2iMm",
+    "equipment_callout": "14G0C_taODlnRRgqZhOtXzFvReZh1gCqM",
+    "action_poses": "1sxMUqLFIfzPJYdIyPlxlGuazh3wPiki9",
+    "expressions_phonemes": "1ALfDIYh5UnvpS2DeLsn51Sq1whsrbZRH",
+    "wardrobe_color_key": "1BXXuk_rC5BFBGSLx6YJ9btBhUjSIBbZL",
+    "story_website_cast": "1HaNi4YsEmGUyiKZvIIdjIJeeDX_dHHY_"
+  },
+  "local_reference_paths": {
+    "turnaround_4view": "02_reference_anchors/characters/String/01_Turnaround_4View.png",
+    "equipment_callout": "02_reference_anchors/characters/String/02_Equipment_and_Props_Callout.png",
+    "action_poses": "02_reference_anchors/characters/String/03_Action_Poses_Sheet.png",
+    "expressions_phonemes": "02_reference_anchors/characters/String/04_Expressions_and_Phonemes.png",
+    "wardrobe_color_key": "02_reference_anchors/characters/String/05_Wardrobe_and_Color_Key.png",
+    "story_website_cast": "02_reference_anchors/story_website_cast/string.webp"
+  },
+  "facial_and_hair_locks": {
+    "coat_and_facial_locks": {
+      "coat_hex": "#D89B4C",
+      "secondary_coat_hex": "#D8A657",
+      "cream_muzzle_chest_paws_hex": "#F5E6CC",
+      "eyes_hex": "#3B2416",
+      "nose_hex": "#1E1410",
+      "description": "Compact fluffy scruffy honey-wheat golden-tan terrier-retriever puppy with soft cream muzzle whisker tufts, chest patch, and paw tips, floppy expressive ears, warm dark mahogany button eyes with white catchlights, black button nose, joyfully curved scruffy tail"
+    },
+    "summary_prompt_tokens": "compact scruffy honey-wheat golden-tan terrier-retriever puppy String (#D89B4C / #D8A657) with soft cream muzzle whisker tufts, chest patch, and paw tips (#F5E6CC), floppy expressive ears, warm dark mahogany button eyes (#3B2416) with white catchlights, black button nose (#1E1410), joyfully curved tail"
+  },
+  "asymmetric_equipment_invariants": {
+    "default_state": "telepathic_str_collar",
+    "summary_prompt_tokens": "wearing woven moss-green cloth neckerchief (#2ECC71) plus brown leather collar (#6E4226) suspending a glowing faceted cyan-teal 'str' scroll crystal shard (#3B8EA5) at chest (use bare neck for Stage 1 unnamed_pup; neckerchief only for Stage 2 named_green_neckerchief)"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "Ember pet",
+      "cat",
+      "wolf",
+      "bipedal dog in human clothes",
+      "spiked collar",
+      "robot dog",
+      "non-vegetarian meat food"
+    ]
+  },
+  "palette_hex_locks": [
+    "#D89B4C",
+    "#F5E6CC",
+    "#2ECC71",
+    "#6E4226",
+    "#3B8EA5"
+  ]
+}

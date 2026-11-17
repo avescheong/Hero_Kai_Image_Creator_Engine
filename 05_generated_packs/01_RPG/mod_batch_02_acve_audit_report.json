@@ -1,0 +1,118 @@
+{
+  "batch_id": "MOD_BATCH_02_MODULAR_WEAPONS_SHIELDS_AND_VFX_ARSENAL",
+  "engine_version": "ACVE_v1.0_7Gate_BFS",
+  "total_sheets": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "asset_id": "MOD_B02_01_MODULAR_SWORDS_AND_BLADES_ARSENAL_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_11165289405077039534.jpg",
+      "asset_file": "MOD_B02_01_MODULAR_SWORDS_AND_BLADES_ARSENAL_4x4.png",
+      "atlas_file": "MOD_B02_01_MODULAR_SWORDS_AND_BLADES_ARSENAL_4x4.json",
+      "sha256": "22f4825ed838ec2382976ec5f3008c6c95fb1d36d48cc7dce3001ab343bcb79e",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 84.8,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B02_02_MODULAR_HAMMERS_AND_FORGE_TOOLS_4x4",
+      "character_id": "master_grimsby",
+      "watermarked_ref": "watermarked_img_9819341245257317767.jpg",
+      "asset_file": "MOD_B02_02_MODULAR_HAMMERS_AND_FORGE_TOOLS_4x4.png",
+      "atlas_file": "MOD_B02_02_MODULAR_HAMMERS_AND_FORGE_TOOLS_4x4.json",
+      "sha256": "0917fd16c708e2066d8a45fce3f7def2c6d107979c82bb090369a30d3d996dd0",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 72.1,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4",
+      "character_id": "wizard",
+      "watermarked_ref": "watermarked_img_13058002728432647547.jpg",
+      "asset_file": "MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4.png",
+      "atlas_file": "MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4.json",
+      "sha256": "87820061ea4b523167b8b9835f28beb490567c89576d5fec145c287007aed842",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 80.88,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B02_04_MODULAR_SHIELDS_SPELLBOOKS_AND_OFFHANDS_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_1041999939235312513.jpg",
+      "asset_file": "MOD_B02_04_MODULAR_SHIELDS_SPELLBOOKS_AND_OFFHANDS_4x4.png",
+      "atlas_file": "MOD_B02_04_MODULAR_SHIELDS_SPELLBOOKS_AND_OFFHANDS_4x4.json",
+      "sha256": "b124e3bcecacae4f93b724e853f3214e5ded12b41ee2602e3d27fac4536c2cce",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 51.0,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B02_05_MODULAR_SLASH_ARCS_AND_SPELL_PROJECTILES_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_12695531969469379803.jpg",
+      "asset_file": "MOD_B02_05_MODULAR_SLASH_ARCS_AND_SPELL_PROJECTILES_4x4.png",
+      "atlas_file": "MOD_B02_05_MODULAR_SLASH_ARCS_AND_SPELL_PROJECTILES_4x4.json",
+      "sha256": "c5c89a0ea7d6118be4cf19a3718700455c01ef182614a17f8b018ba550a344c1",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 66.56,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

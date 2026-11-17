@@ -1,0 +1,110 @@
+{
+  "batch": "CG_BATCH_01",
+  "assets": [
+    {
+      "asset_id": "CG_B01_01_CHIBI_KAI_AUTO_MARCH_AND_COMBAT_4x4",
+      "png_file": "CG_B01_01_CHIBI_KAI_AUTO_MARCH_AND_COMBAT_4x4.png",
+      "json_file": "CG_B01_01_CHIBI_KAI_AUTO_MARCH_AND_COMBAT_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 56.42,
+      "sha256": "e24296eb549337a46506d599e22ef11ab9d0c840ba1ca5071ff73cb9b3a0f5bf",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B01_02_CHIBI_KAI_4TIER_EQUIPMENT_PROGRESSION_4x4",
+      "png_file": "CG_B01_02_CHIBI_KAI_4TIER_EQUIPMENT_PROGRESSION_4x4.png",
+      "json_file": "CG_B01_02_CHIBI_KAI_4TIER_EQUIPMENT_PROGRESSION_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 56.29,
+      "sha256": "71f544fa959e92399aeb78dcb75d6ac73920ed01f30c4e177547c66b6fd6012b",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B01_03_CHIBI_KAI_MOUNT_RIDING_PROGRESSION_4x4",
+      "png_file": "CG_B01_03_CHIBI_KAI_MOUNT_RIDING_PROGRESSION_4x4.png",
+      "json_file": "CG_B01_03_CHIBI_KAI_MOUNT_RIDING_PROGRESSION_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 54.47,
+      "sha256": "02a45a6c1c1e326cfd383e93c3ee14bfade89fd82e0d94a66a8662709bb8cdcb",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B01_04_CHIBI_KAI_11_PYTHON_SPELL_ULTIMATES_4x4",
+      "png_file": "CG_B01_04_CHIBI_KAI_11_PYTHON_SPELL_ULTIMATES_4x4.png",
+      "json_file": "CG_B01_04_CHIBI_KAI_11_PYTHON_SPELL_ULTIMATES_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 47.85,
+      "sha256": "2492ca0495b296104f4a27555293e006366c99a4d0e197b14e1a86680dd95dad",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B01_05_CHIBI_KAI_STICKER_EMOTES_AND_AVATARS_4x4",
+      "png_file": "CG_B01_05_CHIBI_KAI_STICKER_EMOTES_AND_AVATARS_4x4.png",
+      "json_file": "CG_B01_05_CHIBI_KAI_STICKER_EMOTES_AND_AVATARS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 52.39,
+      "sha256": "f5eb74e47c6ad16371498567f9f65bad7847af31b071d45b194edbef2a500433",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

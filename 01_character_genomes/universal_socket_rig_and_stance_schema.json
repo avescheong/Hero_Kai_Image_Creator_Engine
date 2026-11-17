@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "schema_id": "PYTHONIA_UNIVERSAL_SOCKET_RIG_AND_32_STANCE_MATRIX",
+  "cell_dimensions": { "w": 256, "h": 256 },
+  "sheet_dimensions": { "w": 1024, "h": 1024, "cols": 4, "rows": 4 },
+  "z_layer_stack": [
+    { "z": 0, "id": "SLOT_BACK_CAPE_AND_SCABBARD", "description": "Back cloak exterior, diagonal oak scabbard, backpack, yarn basket, or wings" },
+    { "z": 1, "id": "SLOT_OFFHAND_REAR", "description": "Rear off-hand tool or secondary weapon behind torso" },
+    { "z": 2, "id": "BASE_SOCKET_MANNEQUIN", "description": "Canonical unarmed character body, face, hair, and undertunic across the 32-stance matrix (NEVER regenerated when gear changes)" },
+    { "z": 3, "id": "SLOT_TORSO_OUTFIT", "description": "Synchronized 4x4 paper-doll outfit/armor overlay (Hoodie, Moss Cloak, Smelter Apron, Silver Dwarven Steel Cuirass, Lotus Paladin Mantle)" },
+    { "z": 4, "id": "SLOT_WAIST_AND_HIPS", "description": "Center Tzu Chi lotus belt buckle (#1F6A38), right-hip plain brown satchel, left-hip 3-potion holster (emerald/ruby/sapphire)" },
+    { "z": 5, "id": "SLOT_HEAD_AND_NECK", "description": "Golden crescent brooch (#D4AF37), striped scarf, glasses/goggles, SIGHT == visor, # mute mark, hats, helmets, crowns" },
+    { "z": 6, "id": "SLOT_MAINHAND_AND_SHIELD", "description": "Socketed main-hand weapon (handle grip at [0.25, 0.75]) and front off-hand shield/spellbook" },
+    { "z": 7, "id": "SLOT_VFX_OVERLAY", "description": "Weapon slash arcs, arithmetic sparks, spell rings, SyntaxError smoke puff" }
+  ],
+  "socket_anchors_hd2d_256x256": {
+    "ANCHOR_FOOT_PIVOT": { "x": 128, "y": 240, "default_angle_deg": 0 },
+    "ANCHOR_HAND_R_MAIN": { "x": 162, "y": 148, "default_angle_deg": 45, "weapon_grip_origin": [0.25, 0.75] },
+    "ANCHOR_HAND_L_OFF": { "x": 96, "y": 146, "default_angle_deg": 0 },
+    "ANCHOR_HEAD_TOP": { "x": 128, "y": 48, "default_angle_deg": 0 },
+    "ANCHOR_EYES_FACE": { "x": 132, "y": 78, "default_angle_deg": 0 },
+    "ANCHOR_NECK_CLASP": { "x": 130, "y": 112, "default_angle_deg": 0 },
+    "ANCHOR_CHEST_PAULDRON": { "x": 128, "y": 132, "default_angle_deg": 0 },
+    "ANCHOR_WAIST_HIP": { "x": 128, "y": 168, "default_angle_deg": 0, "right_hip_offset": [-22, 6], "left_hip_offset": [22, 6] },
+    "ANCHOR_BACK_MOUNT": { "x": 114, "y": 124, "default_angle_deg": -35 }
+  },
+  "universal_32_stance_taxonomy": {
+    "sheet_a_exploration_16": [
+      "01_idle_breath_1", "02_idle_breath_2_blink", "03_walk_contact_l", "04_walk_passing_r",
+      "05_sprint_lean_1", "06_sprint_stride_2", "07_jump_squat_takeoff", "08_jump_rising_apex",
+      "09_jump_falling_descent", "10_landing_crouch_absorb", "11_climb_ladder_l_up", "12_climb_ladder_r_up",
+      "13_interact_reach_f_key", "14_lift_carry_overhead", "15_push_brace_heavy_block", "16_sit_rest_scrub_soot"
+    ],
+    "sheet_b_combat_coding_16": [
+      "17_unarmed_combat_ready", "18_unarmed_melee_windup_0deg", "19_unarmed_melee_slash_90deg", "20_unarmed_heavy_smash_135deg",
+      "21_offhand_shield_brace", "22_throw_potion_or_dagger", "23_python_ide_typing_concentration", "24_python_spell_chant_loop",
+      "25_python_spell_release_burst", "26_syntax_error_smoke_fizzle", "27_eat_veg_food_drink_potion", "28_hit_damage_recoil",
+      "29_stunned_glitch_frozen", "30_critical_low_hp_one_knee_kneel", "31_knocked_out_prone_ko", "32_level_up_victory_fanfare"
+    ]
+  }
+}

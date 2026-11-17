@@ -1,0 +1,118 @@
+{
+  "batch_id": "BATCH_03_LOOMA_BLACKSMITH_GRIMSBY_GUARDIAN_SPIRITS",
+  "engine_version": "ACVE_v1.0_7Gate_BFS",
+  "total_sheets": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "asset_id": "B03_01_GRANDMA_LOOMA_WEAVING_LOCOMOTION_AND_SRPG_4x4",
+      "character_id": "grandma_looma",
+      "watermarked_ref": "watermarked_img_1787126632962721439.jpg",
+      "asset_file": "B03_01_GRANDMA_LOOMA_WEAVING_LOCOMOTION_AND_SRPG_4x4.png",
+      "atlas_file": "B03_01_GRANDMA_LOOMA_WEAVING_LOCOMOTION_AND_SRPG_4x4.json",
+      "sha256": "7bdfda8069f508b2e2309727f8644cb53723fe42f910c4e938c7363b058c6f03",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 65.46,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B03_02_IRON_OUTPOST_BLACKSMITH_FORGE_AND_SRPG_4x4",
+      "character_id": "blacksmith",
+      "watermarked_ref": "watermarked_img_10442712003959509672.jpg",
+      "asset_file": "B03_02_IRON_OUTPOST_BLACKSMITH_FORGE_AND_SRPG_4x4.png",
+      "atlas_file": "B03_02_IRON_OUTPOST_BLACKSMITH_FORGE_AND_SRPG_4x4.json",
+      "sha256": "3ee48bf9017a7430ade6648238921826bd7f3904f9fa76613791dac4cafc3214",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 61.05,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B03_03_MASTER_GRIMSBY_DWARVEN_FORGE_AND_SRPG_4x4",
+      "character_id": "master_grimsby",
+      "watermarked_ref": "watermarked_img_11686774315330484636.jpg",
+      "asset_file": "B03_03_MASTER_GRIMSBY_DWARVEN_FORGE_AND_SRPG_4x4.png",
+      "atlas_file": "B03_03_MASTER_GRIMSBY_DWARVEN_FORGE_AND_SRPG_4x4.json",
+      "sha256": "955b117595afffc838a00a888a3f0bd449e4726f207a5fe87da45648f8f07aa1",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 56.66,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B03_04_SPELL_GUARDIAN_BABY_MANTIS_AND_SRPG_4x4",
+      "character_id": "spell_guardian",
+      "watermarked_ref": "watermarked_img_7226224789837568566.jpg",
+      "asset_file": "B03_04_SPELL_GUARDIAN_BABY_MANTIS_AND_SRPG_4x4.png",
+      "atlas_file": "B03_04_SPELL_GUARDIAN_BABY_MANTIS_AND_SRPG_4x4.json",
+      "sha256": "5d52955c88426cb506c86d93c42dedcd08be1a2ec658e6c08f59d035d838afec",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 70.81,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B03_05_FOUR_SHAPESHIFT_SPIRITS_AND_VILLAGE_NPCS_4x4",
+      "character_id": "supporting_npcs_and_spirits",
+      "watermarked_ref": "watermarked_img_1965500461172170908.jpg",
+      "asset_file": "B03_05_FOUR_SHAPESHIFT_SPIRITS_AND_VILLAGE_NPCS_4x4.png",
+      "atlas_file": "B03_05_FOUR_SHAPESHIFT_SPIRITS_AND_VILLAGE_NPCS_4x4.json",
+      "sha256": "19b778fd3a73ea369921a62fed742a2b60e5202a93b9511ee3010c597de4a00f",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.65,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

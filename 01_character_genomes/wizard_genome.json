@@ -1,0 +1,119 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "wizard",
+  "canonical_name": "The Great Wizard",
+  "chinese_name": "大法師",
+  "role": "Grand Archmage & Benevolent Mentor of Pythonia",
+  "zones_present": [
+    "ENV_R00",
+    "ENV_R01",
+    "ENV_R05",
+    "ENV_R05A"
+  ],
+  "physical_proportions": {
+    "age_years": 70,
+    "stature_cm": 180,
+    "stature_with_hat_cm": 195,
+    "head_ratio_storybook": "5.8 to 6.2 heads tall",
+    "pixel_height_in_256_cell": [
+      204,
+      220
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "visual_locks": {
+    "hair_beard_hex": "#F2F4F7",
+    "eyes_hex": "#4A7BB7",
+    "hat_indigo_hex": "#4B679E",
+    "hatband_plum_hex": "#7C4B7D",
+    "shoulder_mantle_purple_hex": "#5A3C7E",
+    "outer_robe_blue_hex": "#4A6B9C",
+    "inner_tunic_lavender_hex": "#7A74A8",
+    "mauve_trim_hex": "#9E688F",
+    "gold_embroidery_hex": "#D4AF37",
+    "rope_belt_hex": "#9C7A42",
+    "staff_wood_hex": "#7E5A38",
+    "cyan_crystal_hex": "#42D4FF",
+    "prompt_tokens": "The Great Wizard, wise kind-hearted 70yo archmage sage (5.8 heads tall), long wavy silver-white hair cascading to shoulders, thick snow-white beard reaching mid-chest with full drooping mustache, bright sky-blue eyes (#4A7BB7), tall pointed indigo wizard hat (#4B679E) with curved tip, rose-plum chevron hatband (#7C4B7D), and gold crescent moon & stars (#D4AF37), royal purple shoulder mantle (#5A3C7E) with mauve gold-scroll trim (#9E688F), twilight-blue outer over-robe (#4A6B9C) over lavender inner tunic (#7A74A8) with gold diamond chest sigil, braided golden-brown tassel rope belt (#9C7A42), holding twisted double-helix hardwood staff (#7E5A38) cradling a glowing faceted cyan-blue mana crystal (#42D4FF)",
+    "negative_tokens": "young face, clean shaven, short beard, fiery red staff, skull staff, plain grey hat, potion bottles on wizard belt, leather pouches on wizard belt"
+  },
+  "canonical_drive_references": {
+    "master_reference": {
+      "title": "Wizard_Master_Reference.png",
+      "drive_id": "1vmgAMIFU-HSW5NpkXsxv2kfLmdtjFZGB",
+      "url": "https://drive.google.com/file/d/1vmgAMIFU-HSW5NpkXsxv2kfLmdtjFZGB/view?usp=drivesdk"
+    },
+    "game_sprite_cutout": {
+      "title": "Wizard_Game_Sprite_Cutout.png",
+      "drive_id": "1CViGQ5JZwC7TOLSx55HgQY_bCh-aCyyf",
+      "url": "https://drive.google.com/file/d/1CViGQ5JZwC7TOLSx55HgQY_bCh-aCyyf/view?usp=drivesdk"
+    },
+    "turnaround_and_equipment": {
+      "title": "Wizard_Turnaround_and_Equipment.jpg",
+      "drive_id": "1wdIcGEGsdqN48H9l4R08Z7mNw8482GNM",
+      "url": "https://drive.google.com/file/d/1wdIcGEGsdqN48H9l4R08Z7mNw8482GNM/view?usp=drivesdk"
+    },
+    "expressions_phonemes_wardrobe": {
+      "title": "Wizard_Expressions_Phonemes_Wardrobe_Props.jpg",
+      "drive_id": "1AKejnCD9K2PV4b6jwqM4QcOsZKTN7673",
+      "url": "https://drive.google.com/file/d/1AKejnCD9K2PV4b6jwqM4QcOsZKTN7673/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_C_TALL_MENTOR_BRAWLER",
+  "reference_drive_ids": {
+    "master_reference": "1vmgAMIFU-HSW5NpkXsxv2kfLmdtjFZGB",
+    "game_sprite_cutout": "1CViGQ5JZwC7TOLSx55HgQY_bCh-aCyyf",
+    "turnaround_and_equipment": "1wdIcGEGsdqN48H9l4R08Z7mNw8482GNM",
+    "expressions_phonemes_wardrobe": "1AKejnCD9K2PV4b6jwqM4QcOsZKTN7673",
+    "story_website_cast": "1dcQjSFkSmmpXi1zcIaXlnLXRLDvE1BTG"
+  },
+  "local_reference_paths": {
+    "master_reference": "02_reference_anchors/characters/Wizard/Wizard_Master_Reference.png",
+    "game_sprite_cutout": "02_reference_anchors/characters/Wizard/Wizard_Game_Sprite_Cutout.png",
+    "turnaround_and_equipment": "02_reference_anchors/characters/Wizard/Wizard_Turnaround_and_Equipment.jpg",
+    "expressions_phonemes_wardrobe": "02_reference_anchors/characters/Wizard/Wizard_Expressions_Phonemes_Wardrobe_Props.jpg",
+    "story_website_cast": "02_reference_anchors/story_website_cast/great-wizard.webp"
+  },
+  "facial_and_hair_locks": {
+    "hair_beard_hex": "#F2F4F7",
+    "eyes_hex": "#4A7BB7",
+    "summary_prompt_tokens": "The Great Wizard, benevolent 70yo archmage sage (5.8-6.2 heads tall, ~180 cm), long wavy silver-white hair cascading to shoulders, thick snow-white beard reaching mid-chest with full drooping mustache (#F2F4F7), bright sky-blue eyes (#4A7BB7)"
+  },
+  "asymmetric_equipment_invariants": {
+    "summary_prompt_tokens": "tall pointed indigo wizard hat (#4B679E) with curved tip, rose-plum chevron hatband (#7C4B7D), and gold crescent moon & stars (#D4AF37), royal purple shoulder mantle (#5A3C7E) with mauve gold-scroll trim (#9E688F), twilight-blue outer over-robe (#4A6B9C) over lavender inner tunic (#7A74A8) with gold diamond chest sigil, braided golden-brown tassel rope belt (#9C7A42) with ZERO potion vials, holding twisted double-helix hardwood staff (#7E5A38) cradling a glowing faceted cyan-blue mana crystal (#42D4FF)"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "young face",
+      "clean shaven",
+      "short beard",
+      "fiery red/orange beard (reserved for Master Grimsby)",
+      "horned iron helmet (reserved for Ch. 3 Blacksmith)",
+      "potion bottles or leather holsters on wizard belt (reserved for Hero Kai)",
+      "fiery red staff",
+      "skull staff"
+    ]
+  },
+  "palette_hex_locks": [
+    "#F2F4F7",
+    "#4B679E",
+    "#5A3C7E",
+    "#4A6B9C",
+    "#D4AF37",
+    "#42D4FF"
+  ]
+}

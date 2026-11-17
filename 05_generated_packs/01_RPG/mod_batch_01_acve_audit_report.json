@@ -1,0 +1,118 @@
+{
+  "batch_id": "MOD_BATCH_01_SOCKET_MANNEQUINS_AND_32_STANCE_MATRIX",
+  "engine_version": "ACVE_v1.0_7Gate_BFS",
+  "total_sheets": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "asset_id": "MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_4424998423449189797.jpg",
+      "asset_file": "MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4.png",
+      "atlas_file": "MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4.json",
+      "sha256": "4211c3b7cba81f41a12b9660214e80193bc8446381ad54f3a67fd53dad039622",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 69.34,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B01_02_KAI_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_14430091595560892053.jpg",
+      "asset_file": "MOD_B01_02_KAI_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4.png",
+      "atlas_file": "MOD_B01_02_KAI_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4.json",
+      "sha256": "dd8f233fb7519db7e85f5250e43868e0dcd6f07f79e056d347e064f409d72076",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 66.32,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B01_03_KAI_FFT_ISOMETRIC_SOCKET_MANNEQUIN_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_13903048497975056031.jpg",
+      "asset_file": "MOD_B01_03_KAI_FFT_ISOMETRIC_SOCKET_MANNEQUIN_4x4.png",
+      "atlas_file": "MOD_B01_03_KAI_FFT_ISOMETRIC_SOCKET_MANNEQUIN_4x4.json",
+      "sha256": "22dcf4c1e8f0a2548aeafad16df94be7e8afd21f7b5e0b207ba5ae80021c07dc",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 75.34,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B01_04_KAI_CAPYBARA_CHIBI_SOCKET_MANNEQUIN_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_11053198641535887529.jpg",
+      "asset_file": "MOD_B01_04_KAI_CAPYBARA_CHIBI_SOCKET_MANNEQUIN_4x4.png",
+      "atlas_file": "MOD_B01_04_KAI_CAPYBARA_CHIBI_SOCKET_MANNEQUIN_4x4.json",
+      "sha256": "0611e7b81dd6693cffb6aa58dcb3876293f8fd5409541b7d12d132c1a18028a5",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 59.41,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B01_05_CAST_IDE_CODING_AND_SYNTAX_ERROR_STANCES_4x4",
+      "character_id": "supporting_npcs_and_spirits",
+      "watermarked_ref": "watermarked_img_5910837008915121601.jpg",
+      "asset_file": "MOD_B01_05_CAST_IDE_CODING_AND_SYNTAX_ERROR_STANCES_4x4.png",
+      "atlas_file": "MOD_B01_05_CAST_IDE_CODING_AND_SYNTAX_ERROR_STANCES_4x4.json",
+      "sha256": "d042d9e31b7368980475c0a37498e267d624207b3db7d025f4f5c1aa4c019d14",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 59.2,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "spell_guardian",
+  "canonical_name": "Baby Praying Mantis (Spell Guardian)",
+  "chinese_name": "小螳螂咒語守護神",
+  "role": "True Spirit of Harmony Liberated at Dawn (ENV_R11 Finale)",
+  "zones_present": [
+    "ENV_R11"
+  ],
+  "physical_proportions": {
+    "stature_cm": 32,
+    "head_ratio_storybook": "2.8 heads tall (tiny palm-sized chibi hatchling mascot)",
+    "pixel_height_in_256_cell": [
+      68,
+      80
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "visual_locks": {
+    "emerald_chitin_hex": "#2ECC71",
+    "jade_secondary_hex": "#48C984",
+    "mint_highlight_hex": "#A3EBB1",
+    "wing_bud_gold_hex": "#F7C852",
+    "cracked_shell_obsidian_hex": "#2E1C44",
+    "prompt_tokens": "Baby Praying Mantis Spell Guardian of Pythonia (~32 cm tall, 2.8 heads tall tiny adorable chibi hatchling spirit), luminous spring-emerald translucent carapace (#2ECC71 / #48C984), huge round warm emerald-gold compound eyes brimming with gentle kindness and white catchlights, two delicate curved leaf-tipped antennae (#8CF0BD), tiny folded front forelimbs clasped politely in a peaceful bow, translucent pale-gold budding fairy wing petals (#F7C852), surrounded by golden dawn blossom motes and cracked dark obsidian Bug King shell shards (#2E1C44)",
+    "negative_tokens": "scary giant monster, dark corrupted black armor, menacing red eyes, grimdark insect"
+  },
+  "canonical_drive_references": {
+    "turnaround_4view": {
+      "title": "01_Turnaround_4View.png",
+      "drive_id": "1zt8MH43UqReQ0NLRo6ZpH6aB2cYXW7Qw",
+      "url": "https://drive.google.com/file/d/1zt8MH43UqReQ0NLRo6ZpH6aB2cYXW7Qw/view?usp=drivesdk"
+    },
+    "equipment_callout": {
+      "title": "02_Equipment_and_Props_Callout.png",
+      "drive_id": "18EK7z61pu0WiV_d7tWkZDMA40oMishp9",
+      "url": "https://drive.google.com/file/d/18EK7z61pu0WiV_d7tWkZDMA40oMishp9/view?usp=drivesdk"
+    },
+    "action_poses": {
+      "title": "03_Action_Poses_Sheet.png",
+      "drive_id": "1i2jIeLO_h1MMBruQZD05s2Ax92XDgCkM",
+      "url": "https://drive.google.com/file/d/1i2jIeLO_h1MMBruQZD05s2Ax92XDgCkM/view?usp=drivesdk"
+    },
+    "expressions_phonemes": {
+      "title": "04_Expressions_and_Phonemes.png",
+      "drive_id": "1FJJaOnBDzKzEbMgkoXd9THYDY5iysc5e",
+      "url": "https://drive.google.com/file/d/1FJJaOnBDzKzEbMgkoXd9THYDY5iysc5e/view?usp=drivesdk"
+    },
+    "wardrobe_color_key": {
+      "title": "05_Wardrobe_and_Color_Key.png",
+      "drive_id": "1zkW0vPzEDy96LYBNz3AVYIxT2NGarMzX",
+      "url": "https://drive.google.com/file/d/1zkW0vPzEDy96LYBNz3AVYIxT2NGarMzX/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_D_QUADRUPED_OR_SPRITE_PET",
+  "reference_drive_ids": {
+    "turnaround_4view": "1zt8MH43UqReQ0NLRo6ZpH6aB2cYXW7Qw",
+    "equipment_callout": "18EK7z61pu0WiV_d7tWkZDMA40oMishp9",
+    "action_poses": "1i2jIeLO_h1MMBruQZD05s2Ax92XDgCkM",
+    "expressions_phonemes": "1FJJaOnBDzKzEbMgkoXd9THYDY5iysc5e",
+    "wardrobe_color_key": "1zkW0vPzEDy96LYBNz3AVYIxT2NGarMzX",
+    "story_website_cast": "1oeMlYoUlnRgVifJLBiwRNo1KmTOycqb9"
+  },
+  "local_reference_paths": {
+    "turnaround_4view": "02_reference_anchors/characters/Spell_Guardian/01_Turnaround_4View.png",
+    "equipment_callout": "02_reference_anchors/characters/Spell_Guardian/02_Equipment_and_Props_Callout.png",
+    "action_poses": "02_reference_anchors/characters/Spell_Guardian/03_Action_Poses_Sheet.png",
+    "expressions_phonemes": "02_reference_anchors/characters/Spell_Guardian/04_Expressions_and_Phonemes.png",
+    "wardrobe_color_key": "02_reference_anchors/characters/Spell_Guardian/05_Wardrobe_and_Color_Key.png",
+    "story_website_cast": "02_reference_anchors/story_website_cast/spell-guardian.webp"
+  },
+  "facial_and_hair_locks": {
+    "emerald_chitin_hex": "#2ECC71",
+    "wing_bud_gold_hex": "#F7C852",
+    "summary_prompt_tokens": "Baby Praying Mantis Spell Guardian (~32 cm tall, 2.8 heads tall tiny palm-sized chibi hatchling spirit), luminous spring-emerald translucent carapace (#2ECC71 / #48C984), huge round warm emerald-gold compound eyes brimming with gentle kindness and white catchlights, two delicate curved leaf-tipped antennae (#8CF0BD), zero crown spikes"
+  },
+  "asymmetric_equipment_invariants": {
+    "summary_prompt_tokens": "delicate folded front raptorial forelimbs clasped politely like tiny hands, translucent pale-gold budding fairy wing petals (#F7C852), accompanied by golden dawn blossom motes and optional cracked dark obsidian Bug King shell shards (#2E1C44)"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "scary giant monster",
+      "dark corrupted black Bug King armor",
+      "menacing red eyes",
+      "jagged 5-point Bug King crown",
+      "grimdark insect"
+    ]
+  },
+  "palette_hex_locks": [
+    "#2ECC71",
+    "#48C984",
+    "#A3EBB1",
+    "#F7C852"
+  ]
+}

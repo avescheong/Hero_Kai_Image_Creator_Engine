@@ -1,0 +1,114 @@
+{
+  "asset_file": "B02_02_WIZARD_TURNAROUND_AND_CELESTIAL_ROBES_16x9.png",
+  "sha256": "30cdb539062f7c57b5027a78916e0fbc814156ad8da6f14b6a697b03fb64e6ce",
+  "dimensions": {
+    "w": 1376,
+    "h": 768
+  },
+  "grid": {
+    "columns": 4,
+    "rows": 1,
+    "cell_w": 344,
+    "cell_h": 768
+  },
+  "occupied_cells": "4/4",
+  "transparency_pct": 50.2,
+  "acve_gates": {
+    "gate_1_rgba_format": true,
+    "gate_2_dimension_lock": true,
+    "gate_3_bfs_alpha_preserved_interior": true,
+    "gate_4_grid_occupancy": true,
+    "gate_5_bottom_center_pivot": true,
+    "gate_7_sha256_sealed": true
+  },
+  "frames": [
+    {
+      "frame_index": 0,
+      "row": 0,
+      "col": 0,
+      "cell_rect": {
+        "x": 0,
+        "y": 0,
+        "w": 344,
+        "h": 768
+      },
+      "content_bbox": {
+        "x": 77,
+        "y": 70,
+        "w": 267,
+        "h": 640
+      },
+      "opaque_pixels": 130618,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 1,
+      "row": 0,
+      "col": 1,
+      "cell_rect": {
+        "x": 344,
+        "y": 0,
+        "w": 344,
+        "h": 768
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 70,
+        "w": 344,
+        "h": 644
+      },
+      "opaque_pixels": 145674,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 2,
+      "row": 0,
+      "col": 2,
+      "cell_rect": {
+        "x": 688,
+        "y": 0,
+        "w": 344,
+        "h": 768
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 70,
+        "w": 344,
+        "h": 639
+      },
+      "opaque_pixels": 123182,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 3,
+      "row": 0,
+      "col": 3,
+      "cell_rect": {
+        "x": 1032,
+        "y": 0,
+        "w": 344,
+        "h": 768
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 70,
+        "w": 268,
+        "h": 640
+      },
+      "opaque_pixels": 126825,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    }
+  ]
+}

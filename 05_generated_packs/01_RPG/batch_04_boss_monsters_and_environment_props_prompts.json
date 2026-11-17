@@ -1,0 +1,77 @@
+{
+  "B04_01_REGIONAL_BOSSES_ACT1_CH01_TO_CH06_4x4": {
+    "category": "regional_bosses_act1",
+    "format_id": "hd2d_4x4",
+    "aspect_ratio": "1:1",
+    "grid_layout": "4x4",
+    "zones": [
+      "ENV_R01",
+      "ENV_R02",
+      "ENV_R03",
+      "ENV_R04",
+      "ENV_R05"
+    ],
+    "prompt": "High-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting on solid pure flat white background (#FFFFFF), clean composition, completely text-free, no words, no numbers, no labels, no grid lines, no watermarks. Precision 4x4 2D RPG boss monster sprite sheet containing 16 evenly spaced monster sprites arranged in 4 rows by 4 columns on pure flat #FFFFFF white background. First row of 4 sprites (BOSS_01 Whispering Woods Glitch Thorn-Brute \u2014 bulky mossy bark treant-brute with glowing magenta glitch thorns): (1) menacing front-left battle idle stance, (2) heavy thorny vine smash attack, (3) hit recoil stagger pose, (4) compact isometric SRPG tactical boss unit. Second row of 4 sprites (BOSS_03 Iron Outpost Rust-Slag Anvil Construct \u2014 animated oxidized iron furnace golem with glowing orange slag core): (5) heavy armored battle idle stance, (6) molten slag hammer cleave attack, (7) defensive iron shield guard pose, (8) compact isometric SRPG tactical boss unit. Third row of 4 sprites (BOSS_04 Whispering Forest Shadow Bramble-Stag \u2014 corrupted twilight-violet antlered forest guardian beast with glowing cyan runes): (9) noble yet corrupted battle stance, (10) root-spike magic eruption cast, (11) purified kneeling stagger pose, (12) compact isometric SRPG tactical boss unit. Fourth row of 4 sprites (BOSS_06 Echoing Cavern Creeping Red Shadow Beast \u2014 smoky crimson-violet crystalline cavern shadow wolf-beast guarding the three chests): (13) low prowling shadow stance, (14) lunging crimson shadow claw swipe, (15) recoiling from bright golden spell light, (16) compact isometric SRPG tactical boss unit. Completely text-free, no labels anywhere.",
+    "negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, blurry, low resolution, screenshot artifacts, crop marks, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food"
+  },
+  "B04_02_REGIONAL_BOSSES_ACT2_AND_MINIONS_CH07_TO_CH11_4x4": {
+    "category": "regional_bosses_act2_and_minions",
+    "format_id": "hd2d_4x4",
+    "aspect_ratio": "1:1",
+    "grid_layout": "4x4",
+    "zones": [
+      "ENV_R08",
+      "ENV_R09",
+      "ENV_R10",
+      "ENV_R11"
+    ],
+    "prompt": "High-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting on solid pure flat white background (#FFFFFF), clean composition, completely text-free, no words, no numbers, no labels, no grid lines, no watermarks. Precision 4x4 2D RPG boss and dungeon minion sprite sheet containing 16 evenly spaced monster sprites arranged in 4 rows by 4 columns on pure flat #FFFFFF white background. First row of 4 sprites (BOSS_08 Deep Dwarven Forge Magma Cinder-Golem \u2014 hulking basalt-and-lava forge construct with glowing golden arithmetic rune cracks): (1) magma core battle idle stance, (2) double-fisted molten lava slam attack, (3) cooling cracked stone stagger pose, (4) compact isometric SRPG tactical boss unit. Second row of 4 sprites (BOSS_10 Twin Illusion Highland Mirage Doppelganger \u2014 crystalline violet-and-cyan mirror phantom knight wielding prism twin blades): (5) floating mirror guard stance, (6) prismatic illusion cross-slash attack, (7) shattering into glowing glass shards, (8) compact isometric SRPG tactical boss unit. Third row of 4 sprites (BOSS_11 Final Crossroads Stone Arbiter Sentinel \u2014 ancient weathered granite colossus knight in golden-trimmed mantle wielding a glowing balance halberd): (9) solemn guardian idle stance, (10) sweeping golden judgment halberd arc, (11) respectful kneeling approval pose, (12) compact isometric SRPG tactical boss unit. Fourth row of 4 sprites (4 Canonical Pythonia Field Minions): (13) grumpy red-cap spotted mushroom spore-imp monster, (14) purple crystal-winged cavern bat monster, (15) mischievous charcoal soot-sprite ember imp, (16) obsidian-and-crimson corrupted syntax beetle minion. Completely text-free, no labels anywhere.",
+    "negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, blurry, low resolution, screenshot artifacts, crop marks, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food"
+  },
+  "B04_03_INTERACTIVE_QUEST_CHESTS_ALTARS_AND_GATES_4x4": {
+    "category": "interactive_quest_props",
+    "format_id": "hd2d_4x4",
+    "aspect_ratio": "1:1",
+    "grid_layout": "4x4",
+    "zones": [
+      "ENV_R05",
+      "ENV_R06",
+      "ENV_R09",
+      "ENV_R10",
+      "ENV_R11"
+    ],
+    "prompt": "High-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting on solid pure flat white background (#FFFFFF), clean composition, completely text-free, no words, no numbers, no labels, no grid lines, no watermarks. Precision 4x4 2D RPG interactive environment and puzzle prop sprite sheet containing 16 evenly spaced object sprites arranged in 4 rows by 4 columns on pure flat #FFFFFF white background. First row of 4 sprites (Echoing Cavern Three Altar Chests \u2014 ENV_R05): (1) ornate crimson-and-brass Ruby HP treasure chest closed, (2) ornate crimson Ruby HP treasure chest open overflowing with glowing red heart crystals, (3) ornate sapphire-blue Mana treasure chest open overflowing with glowing azure star crystals, (4) ornate golden treasure chest open overflowing with gleaming gold coins. Second row of 4 sprites (Final Crossroads Logic Gate Props \u2014 ENV_R10): (5) rustic three-way wooden signpost with carved dragon, chest, and cottage icon plaques (no text), (6) ancient stone pillar inlaid with two glowing golden vertical colon gems, (7) recessed golden-rune stone floor pressure tile glowing brightly, (8) ancient mossy stone barrier arch dissolving into golden light motes. Third row of 4 sprites (Ancient Library & Highland Illusion Props \u2014 ENV_R06 & ENV_R09): (9) grand carved bronze-and-oak library double doors, (10) glowing prismatic crystal trapdoor set into stone floor, (11) ancient standing runestone carved with a glowing silver hash symbol, (12) twin crystalline pedestals (one glowing pure emerald truth, one flickering violet mirage). Fourth row of 4 sprites (Citadel of Core & Grand Academy Props \u2014 ENV_R11): (13) jagged dark obsidian insectoid throne, (14) cracked dark obsidian cocoon pedestal with emerald light beams, (15) sunlit white-marble courtyard fountain with clear cascading water, (16) ornate golden-oak master lectern holding a glowing unfurled scroll. Completely text-free, no words or labels anywhere.",
+    "negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, blurry, low resolution, screenshot artifacts, crop marks, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food"
+  },
+  "B04_04_VILLAGE_FORGE_AND_CRAFTING_WORKSTATIONS_4x4": {
+    "category": "village_forge_and_workstations",
+    "format_id": "hd2d_4x4",
+    "aspect_ratio": "1:1",
+    "grid_layout": "4x4",
+    "zones": [
+      "ENV_R01",
+      "ENV_R02",
+      "ENV_R03",
+      "ENV_R07",
+      "ENV_R08"
+    ],
+    "prompt": "High-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting on solid pure flat white background (#FFFFFF), clean composition, completely text-free, no words, no numbers, no labels, no grid lines, no watermarks. Precision 4x4 2D RPG village, craft, and forge workstation prop sprite sheet containing 16 evenly spaced object sprites arranged in 4 rows by 4 columns on pure flat #FFFFFF white background. First row of 4 sprites (Silent Village & Looma's Weaving Cottage \u2014 ENV_R01 & ENV_R02): (1) Grandma Looma's warm hardwood floor loom strung with glowing rainbow silk threads, (2) wicker basket brimming with colorful yarn spools and a wooden boat shuttle, (3) warm stone village bakery oven glowing with golden honey bread loaves inside, (4) stone village wishing well with timber roof and mossy wooden bucket. Second row of 4 sprites (Iron Outpost Blacksmith Workshop \u2014 ENV_R03): (5) roaring stone blacksmith forge hearth with leather bellows and glowing coals, (6) heavy horn-tipped cast-iron anvil on an oak stump with smithing hammer and tongs, (7) iron-banded oak water quenching barrel with rising wisps of steam, (8) wooden weapon rack displaying a gleaming iron broadsword and round shield. Third row of 4 sprites (Deep Dwarven Forge of Master Grimsby \u2014 ENV_R08): (9) subterranean dwarven brass-and-basalt runic smelting furnace pouring molten gold steel, (10) heavy iron minecart filled with glowing ember coal on iron rail tracks, (11) soot-stained brick furnace wall beside a wooden water bucket and stiff scrubbing brush, (12) dwarven armor stand displaying a gleaming silver steel chestplate and shoulder pauldrons. Fourth row of 4 sprites (Sunnybrook Village & Vegetarian Inn \u2014 ENV_R07): (13) rustic timber windmill with canvas sails, (14) lush watered garden bed bursting with golden wheat, pumpkins, and leafy greens, (15) cozy timber harvest storage shed with barrels of apples and grain sacks, (16) festive vegetarian banquet table laden with golden vegetable pot-pies, berry tarts, braided herb bread loaves, and a steaming ceramic teapot. Completely text-free, 100% vegetarian food only, no labels anywhere.",
+    "negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, blurry, low resolution, screenshot artifacts, crop marks, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food"
+  },
+  "B04_05_BIOME_TREES_TRAVERSAL_AND_SRPG_TILES_4x4": {
+    "category": "biome_trees_traversal_and_tiles",
+    "format_id": "hd2d_4x4",
+    "aspect_ratio": "1:1",
+    "grid_layout": "4x4",
+    "zones": [
+      "ENV_R01",
+      "ENV_R04",
+      "ENV_R05",
+      "ENV_R07",
+      "ENV_R08",
+      "ENV_R11"
+    ],
+    "prompt": "High-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting on solid pure flat white background (#FFFFFF), clean composition, completely text-free, no words, no numbers, no labels, no grid lines, no watermarks. Precision 4x4 2D RPG biome trees, platforming traversal props, and isometric SRPG terrain tiles sprite sheet containing 16 evenly spaced environment sprites arranged in 4 rows by 4 columns on pure flat #FFFFFF white background. First row of 4 sprites (4 Canonical Pythonia Full-Crown Regional Trees): (1) lush sunlit emerald oak tree of Silent Village, (2) mystical Whispering Forest willow tree with glowing cerulean-mint leaves and hanging moss lanterns, (3) majestic high-mountain Silver-Leafed Farewell Tree with shimmering silver foliage and pale starlight blossoms, (4) Sunnybrook golden-autumn orchard tree heavy with ripe red apples. Second row of 4 sprites (Interactive Platforming & Traversal Mechanics): (5) vertical braided hemp rope ladder with knotted wooden rungs, (6) coiled brass-and-red-mushroom bounce spring pad in compressed state, (7) coiled brass-and-red-mushroom bounce spring pad sprung tall upward with motion sparkles, (8) floating mossy stone sky-ledge platform with hanging vines. Third row of 4 sprites (Regional Flora, Crystals & Restorative Nodes): (9) luminous cavern cluster of amethyst and cyan quartz crystals, (10) cluster of glowing bioluminescent blue forest mushrooms, (11) mossy highland stone cairn waymarker with a glowing amber lantern, (12) carved wooden herb planter with emerald healing leaves and golden mana blossoms. Fourth row of 4 sprites (4 Isometric 12x8 SRPG Tactical Terrain Tiles): (13) isometric sunlit grass and mossy cobblestone terrain block, (14) isometric subterranean dwarven basalt and glowing magma-crack terrain block, (15) isometric underground crystal cavern stone terrain block, (16) isometric dark obsidian and emerald-rune citadel terrain block. Completely text-free, no labels anywhere.",
+    "negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, blurry, low resolution, screenshot artifacts, crop marks, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food"
+  }
+}

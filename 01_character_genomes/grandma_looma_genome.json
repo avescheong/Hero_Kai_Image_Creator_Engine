@@ -1,0 +1,120 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "grandma_looma",
+  "canonical_name": "Grandma Looma",
+  "chinese_name": "魯瑪奶奶",
+  "role": "Master Weaver & Kind-Hearted Village Elder of Loom Forest (ENV_R02, Spell 2 WEAVE)",
+  "zones_present": [
+    "ENV_R02",
+    "ENV_R11"
+  ],
+  "physical_proportions": {
+    "age_years": 65,
+    "stature_cm": 156,
+    "head_ratio_storybook": "4.9 heads tall",
+    "pixel_height_in_256_cell": [
+      172,
+      184
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "visual_locks": {
+    "hair_ash_silver_hex": "#A89F8D",
+    "eyes_hex": "#4F7FA8",
+    "earrings_wood_hex": "#8E5B3E",
+    "blouse_ochre_hex": "#C9965B",
+    "leaf_terracotta_hex": "#9B4A38",
+    "zigzag_sage_hex": "#5A7A58",
+    "vest_skirt_olive_hex": "#7B6B4F",
+    "apron_cream_hex": "#EDE4CE",
+    "glasses_wire_hex": "#555A5E",
+    "shuttle_wood_hex": "#8D5C34",
+    "prompt_tokens": "Grandma Looma, warmhearted 65yo master weaver village elder (~156 cm, 4.9 heads tall), dusty ash-silver wavy hair (#A89F8D) parted near center into a neat low nape bun, rosy cheeks, bright sky-blue eyes (#4F7FA8), small round wooden stud earrings (#8E5B3E), warm ochre-gold botanical leaf-patterned blouse (#C9965B) with sage-green zigzag V-neck border (#5A7A58), sleeveless olive-brown vest and ankle-length skirt (#7B6B4F), clean cream linen bib apron (#EDE4CE), small round wire reading glasses (#555A5E) hanging on thin tan leather neck cord over chest, holding smooth carved hardwood boat weaving shuttle (#8D5C34)",
+    "negative_tokens": "young woman, black hair, loose long hair, missing cream apron, missing neck-cord glasses, modern t-shirt"
+  },
+  "canonical_drive_references": {
+    "master_reference": {
+      "title": "Grandma_Looma_Master_Reference.jpg",
+      "drive_id": "1czQvpJyQ3jO6sA2HrIo55BtCkMOSW252",
+      "url": "https://drive.google.com/file/d/1czQvpJyQ3jO6sA2HrIo55BtCkMOSW252/view?usp=drivesdk"
+    },
+    "turnaround_4view": {
+      "title": "01_Turnaround_4View.jpg",
+      "drive_id": "1mUKdoCGTrm94t43RHnANbTkxQO-BBgkp",
+      "url": "https://drive.google.com/file/d/1mUKdoCGTrm94t43RHnANbTkxQO-BBgkp/view?usp=drivesdk"
+    },
+    "equipment_callout": {
+      "title": "02_Equipment_and_Props_Callout.jpg",
+      "drive_id": "1vTpGN-YVLPME-zzV5EoeK2fp6cAV-CwD",
+      "url": "https://drive.google.com/file/d/1vTpGN-YVLPME-zzV5EoeK2fp6cAV-CwD/view?usp=drivesdk"
+    },
+    "action_poses_wardrobe": {
+      "title": "03_Action_Poses_and_Wardrobe.jpg",
+      "drive_id": "1n8IKvpt5_3eVDVwTAEQQuAj_8BCKDg4N",
+      "url": "https://drive.google.com/file/d/1n8IKvpt5_3eVDVwTAEQQuAj_8BCKDg4N/view?usp=drivesdk"
+    },
+    "expressions_phonemes_color_key": {
+      "title": "04_Expressions_Phonemes_and_Color_Key.jpg",
+      "drive_id": "1tadjNIHP_rUSdHcbEZNfFX90yYojA27_",
+      "url": "https://drive.google.com/file/d/1tadjNIHP_rUSdHcbEZNfFX90yYojA27_/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_B_STOUT_ARTISAN_ELDER",
+  "reference_drive_ids": {
+    "master_reference": "1czQvpJyQ3jO6sA2HrIo55BtCkMOSW252",
+    "turnaround_4view": "1mUKdoCGTrm94t43RHnANbTkxQO-BBgkp",
+    "equipment_callout": "1vTpGN-YVLPME-zzV5EoeK2fp6cAV-CwD",
+    "action_poses_wardrobe": "1n8IKvpt5_3eVDVwTAEQQuAj_8BCKDg4N",
+    "expressions_phonemes_color_key": "1tadjNIHP_rUSdHcbEZNfFX90yYojA27_",
+    "story_website_cast": "1pmSEl9zE_cYC_h_nVvm9dLMdBj5QwYaU"
+  },
+  "local_reference_paths": {
+    "master_reference": "02_reference_anchors/characters/Grandma_Looma/Grandma_Looma_Master_Reference.jpg",
+    "turnaround_4view": "02_reference_anchors/characters/Grandma_Looma/01_Turnaround_4View.jpg",
+    "equipment_callout": "02_reference_anchors/characters/Grandma_Looma/02_Equipment_and_Props_Callout.jpg",
+    "action_poses_wardrobe": "02_reference_anchors/characters/Grandma_Looma/03_Action_Poses_and_Wardrobe.jpg",
+    "expressions_phonemes_color_key": "02_reference_anchors/characters/Grandma_Looma/04_Expressions_Phonemes_and_Color_Key.jpg",
+    "story_website_cast": "02_reference_anchors/story_website_cast/grandma-looma.webp"
+  },
+  "facial_and_hair_locks": {
+    "hair_ash_silver_hex": "#A89F8D",
+    "eyes_hex": "#4F7FA8",
+    "summary_prompt_tokens": "Grandma Looma, warmhearted 65yo master weaver village elder (~156 cm, 4.9 heads tall), dusty ash-silver wavy hair (#A89F8D) parted near center into a neat low nape bun, rosy cheeks, bright sky-blue eyes (#4F7FA8), small round wooden stud earrings (#8E5B3E)"
+  },
+  "asymmetric_equipment_invariants": {
+    "summary_prompt_tokens": "warm ochre-gold botanical leaf-patterned blouse (#C9965B) with sage-green zigzag V-neck border (#5A7A58), sleeveless olive-brown vest and ankle-length skirt (#7B6B4F), clean cream linen bib apron (#EDE4CE), mandatory small round thin wire reading spectacles (#555A5E) hanging on thin tan leather neck cord over chest, holding smooth carved hardwood boat weaving shuttle (#8D5C34)"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "young woman",
+      "black hair",
+      "loose long hair",
+      "high topknot",
+      "missing cream apron",
+      "missing neck-cord reading glasses",
+      "modern t-shirt"
+    ]
+  },
+  "palette_hex_locks": [
+    "#A89F8D",
+    "#C9965B",
+    "#7B6B4F",
+    "#EDE4CE",
+    "#5A7A58",
+    "#8D5C34"
+  ]
+}

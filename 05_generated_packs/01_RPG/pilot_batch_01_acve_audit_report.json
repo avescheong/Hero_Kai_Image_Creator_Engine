@@ -1,0 +1,139 @@
+{
+  "batch_id": "PILOT_BATCH_01_HERO_KAI_MULTI_FORMAT",
+  "character_id": "kai",
+  "genome_source": "01_character_genomes/kai_genome.json",
+  "total_assets_verified": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "format_id": "FMT01_KAI_TURNAROUND_AND_INSIGNIA_16x9",
+      "asset_file": "FMT01_KAI_TURNAROUND_AND_INSIGNIA_16x9.png",
+      "atlas_json_file": "FMT01_KAI_TURNAROUND_AND_INSIGNIA_16x9.json",
+      "sha256": "d9e715a0a8c015dd8c5a9075f661861bc7c4408e869db7a2f4e9637bb616aacb",
+      "dimensions": {
+        "w": 1376,
+        "h": 768
+      },
+      "grid": {
+        "columns": 4,
+        "rows": 1,
+        "cell_w": 344,
+        "cell_h": 768
+      },
+      "occupied_cells": "4/4",
+      "transparency_pct": 56.92,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "format_id": "FMT02_KAI_STORYBOOK_PROGRESSION_SPREAD_16x9",
+      "asset_file": "FMT02_KAI_STORYBOOK_PROGRESSION_SPREAD_16x9.png",
+      "atlas_json_file": "FMT02_KAI_STORYBOOK_PROGRESSION_SPREAD_16x9.json",
+      "sha256": "d7adc00eb78ef18f9a5514facd9839e7e0dfbef4e3c3b3dd002e110316023bd8",
+      "dimensions": {
+        "w": 1376,
+        "h": 768
+      },
+      "grid": {
+        "columns": 1,
+        "rows": 1,
+        "cell_w": 1376,
+        "cell_h": 768
+      },
+      "occupied_cells": "1/1",
+      "transparency_pct": 0.0,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "format_id": "FMT03_KAI_HD2D_LOCOMOTION_AND_COMBAT_4x4",
+      "asset_file": "FMT03_KAI_HD2D_LOCOMOTION_AND_COMBAT_4x4.png",
+      "atlas_json_file": "FMT03_KAI_HD2D_LOCOMOTION_AND_COMBAT_4x4.json",
+      "sha256": "09eaaafc28db456e4565af1dfb4b062539d6d7c5886b64dd47d016d1aba4a03e",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "grid": {
+        "columns": 4,
+        "rows": 4,
+        "cell_w": 256,
+        "cell_h": 256
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 68.09,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "format_id": "FMT04_KAI_PAPERDOLL_WARDROBE_PROGRESSION_4x4",
+      "asset_file": "FMT04_KAI_PAPERDOLL_WARDROBE_PROGRESSION_4x4.png",
+      "atlas_json_file": "FMT04_KAI_PAPERDOLL_WARDROBE_PROGRESSION_4x4.json",
+      "sha256": "20cbf3bf8632b0d4d217ba648061ed83d94057999b4b0dec1ef0d56fae86887c",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "grid": {
+        "columns": 4,
+        "rows": 4,
+        "cell_w": 256,
+        "cell_h": 256
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 66.95,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "format_id": "FMT05_KAI_DIALOGUE_EXPRESSIONS_AND_SRPG_UNIT_4x4",
+      "asset_file": "FMT05_KAI_DIALOGUE_EXPRESSIONS_AND_SRPG_UNIT_4x4.png",
+      "atlas_json_file": "FMT05_KAI_DIALOGUE_EXPRESSIONS_AND_SRPG_UNIT_4x4.json",
+      "sha256": "1a00629bf1bacd81565dc0285fd1fcb74dd4002c889f4b73abd4c3bb78853e38",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "grid": {
+        "columns": 4,
+        "rows": 4,
+        "cell_w": 256,
+        "cell_h": 256
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 61.49,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

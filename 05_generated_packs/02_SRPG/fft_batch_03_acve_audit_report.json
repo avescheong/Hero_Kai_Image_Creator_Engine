@@ -1,0 +1,110 @@
+{
+  "batch": "FFT_BATCH_03",
+  "assets": [
+    {
+      "asset_id": "FFT_B03_01_GRANDMA_LOOMA_ISOMETRIC_WEAVER_BARD_4x4",
+      "png_file": "FFT_B03_01_GRANDMA_LOOMA_ISOMETRIC_WEAVER_BARD_4x4.png",
+      "json_file": "FFT_B03_01_GRANDMA_LOOMA_ISOMETRIC_WEAVER_BARD_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 57.21,
+      "sha256": "4966842c0c91de6f3d206800398b6437fbae8862da55c16b07305594e10816e8",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B03_02_BLACKSMITH_CH03_ISOMETRIC_FORGEMAN_4x4",
+      "png_file": "FFT_B03_02_BLACKSMITH_CH03_ISOMETRIC_FORGEMAN_4x4.png",
+      "json_file": "FFT_B03_02_BLACKSMITH_CH03_ISOMETRIC_FORGEMAN_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 50.54,
+      "sha256": "470b60d47909ac3168f03fb6943fcf67d7f40893b0f5eed41d6718625a96b9a1",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B03_03_MASTER_GRIMSBY_CH09_ISOMETRIC_RUNESMITH_4x4",
+      "png_file": "FFT_B03_03_MASTER_GRIMSBY_CH09_ISOMETRIC_RUNESMITH_4x4.png",
+      "json_file": "FFT_B03_03_MASTER_GRIMSBY_CH09_ISOMETRIC_RUNESMITH_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 54.3,
+      "sha256": "e8a3c85e68d7809137964e58f8c37dca6dac045be405af5717989c479cd8d6aa",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B03_04_SPELL_GUARDIAN_ISOMETRIC_CELESTIAL_4x4",
+      "png_file": "FFT_B03_04_SPELL_GUARDIAN_ISOMETRIC_CELESTIAL_4x4.png",
+      "json_file": "FFT_B03_04_SPELL_GUARDIAN_ISOMETRIC_CELESTIAL_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 69.19,
+      "sha256": "c6bc7693e3d68ef2c360e74e25fac4b01b0e9320cbc81730983576d903c35a15",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B03_05_FOUR_SHAPESHIFT_SPIRITS_ISOMETRIC_4x4",
+      "png_file": "FFT_B03_05_FOUR_SHAPESHIFT_SPIRITS_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B03_05_FOUR_SHAPESHIFT_SPIRITS_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 74.64,
+      "sha256": "c5b1e20d51f062af88a6cb4b6a588f5c408647d322da5800bdec63c2a211bfc1",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

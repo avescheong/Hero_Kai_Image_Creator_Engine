@@ -1,0 +1,122 @@
+{
+  "character_id": "wizard",
+  "character_name": "Great Wizard",
+  "full_title": "The Great Wizard — Grand Archmage & Wise Mentor of Pythonia",
+  "demographics": {
+    "gender": "Male",
+    "apparent_age": "65-75 years old",
+    "proportions": "5.5 to 6.2 heads tall (including tall pointed wizard hat), dignified slightly stooped warm sage posture",
+    "build": "Slender-sturdy elder sage draped in voluminous layered robes"
+  },
+  "facial_features": {
+    "face_shape": "Kind, elongated oval elder face with gentle laugh lines and soft crow's feet",
+    "skin_tone": "Warm fair peach skin with soft rosy blush on cheeks and nose",
+    "hair": {
+      "color": "Flowing silver-white / pearl-grey",
+      "style": "Long wavy silver-white locks cascading from under hat onto shoulders"
+    },
+    "beard_and_mustache": {
+      "color": "Thick snow-white / pearl-silver",
+      "style": "Full layered flowing beard reaching mid-chest with soft wavy locks, paired with a full drooping mustache curving warmly over a gentle smile"
+    },
+    "eyes": {
+      "color": "Bright alert sky-blue / slate-blue irises",
+      "shape": "Warm, expressive rounded eyes with friendly arched white eyebrows",
+      "highlights": "Crisp white catchlight reflections conveying wisdom and kindness"
+    },
+    "nose_and_mouth": "Prominent rounded friendly nose, gentle welcoming smile"
+  },
+  "outfits": {
+    "grand_archmage_robes": {
+      "name": "Grand Archmage Celestial Robes (Canonical Default)",
+      "description": "The Wizard's iconic indigo, plum, and lavender celestial robes adorned with crescent moons, stars, and golden scrollwork",
+      "hat": {
+        "style": "Tall pointed wide-brimmed wizard hat with tip curving gently to his right (viewer's left)",
+        "color": "Deep indigo / slate-blue fabric (Hex: #4B679E)",
+        "embellishments": "Embroidered golden crescent moon and scattered four-pointed/five-pointed gold stars on crown",
+        "hatband": "Wide rose-plum / violet band (Hex: #7C4B7D) with wavy golden chevron embroidery and gold piping"
+      },
+      "shoulder_mantle": {
+        "color": "Deep royal purple / plum mantle (Hex: #5A3C7E) with flared collar points",
+        "trim": "Wide rose-plum/mauve border (Hex: #9E688F) with swirling golden scrollwork and double gold trim lines",
+        "motifs": "Golden crescent moon and small stars embroidered on right shoulder"
+      },
+      "outer_robe": {
+        "color": "Twilight slate-blue flowing over-robe (Hex: #4A6B9C), open down the front with deep purple lining and wide bell sleeves",
+        "trim": "Vertical front edges and wide sleeve cuffs bordered in mauve/rose-plum (Hex: #9E688F) with continuous golden wave-scroll embroidery",
+        "skirt_motifs": "Lower right skirt panel embellished with a golden crescent moon, stars, and delicate golden botanical/celestial hem filigree"
+      },
+      "inner_robe": {
+        "color": "Soft lavender-periwinkle under-tunic (Hex: #7A74A8)",
+        "details": "Golden geometric diamond sigil embroidered on upper chest and ornate golden crown-like filigree scrollwork along lower hem"
+      },
+      "belt_sash": {
+        "material": "Braided golden-brown cord rope belt (Hex: #9C7A42)",
+        "detail": "Twin hanging braided cords ending in golden multi-strand tassels at right hip"
+      },
+      "staff": {
+        "type": "Tall wooden Arcane Crystal Staff held in left hand",
+        "shaft": "Straight rustic brown hardwood shaft transitioning at upper neck into a twisted double-helix spiral wood cradle (Hex: #7E5A38)",
+        "crystal": "Four claw-like wooden/silvery prongs cradling a large, faceted, glowing cyan-ice blue mana crystal (Hex: #42D4FF to #8CF0FF)"
+      }
+    },
+    "traveling_sage_cloak": {
+      "name": "Traveling Sage Cloak",
+      "description": "Practical road-travel variant retaining the pointed indigo moon-and-star hat, flowing slate-blue traveling cloak over lavender tunic, braided tassel belt, and crystal staff"
+    },
+    "scholar_study_robes": {
+      "name": "Library & Study Robes",
+      "description": "Hatless indoors variant showing full wavy silver-white hair, wearing the lavender under-tunic, purple embroidered shoulder mantle, and braided tassel cord while reading or teaching Kai"
+    }
+  },
+  "art_style_dna": {
+    "primary_style": "Hand-drawn fantasy storybook illustration, Studio Ghibli meets classic fairytale watercolor and ink aesthetic (harmonious with Hero Kai)",
+    "line_art": "Clean warm-sepia and dark charcoal ink linework with organic hand-drawn lineweight variation",
+    "shading_technique": "Soft watercolor and gouache washes with gentle color gradients and subtle vintage parchment grain",
+    "color_palette": "Twilight slate-blues (#4A6B9C), royal purples (#5A3C7E), mauve-plum trims (#9E688F), lavender-periwinkle (#7A74A8), antique gold embroidery (#D4AF37), glowing cyan crystal (#42D4FF)",
+    "atmosphere": "Wise, whimsical, mystical, warm, grandfatherly, adventurous"
+  },
+  "invariants_do_and_dont": {
+    "do": [
+      "Always include the tall indigo pointed hat with rose-plum chevron band and golden crescent moon & stars (unless indoors study variant)",
+      "Always render his long thick flowing silver-white beard and drooping mustache with warm blue eyes",
+      "Always feature the layered indigo/blue outer robe over lavender inner tunic with mauve/rose-plum gold-scrollwork borders",
+      "Always include the braided golden-brown rope belt with twin hanging tassels on his right hip",
+      "Always render the wooden staff with its twisted spiral neck cradling a faceted glowing cyan-blue crystal",
+      "Maintain the exact hand-drawn ink and watercolor storybook art style matching Hero Kai"
+    ],
+    "dont": [
+      "Do NOT render in photorealistic 3D CGI, plastic Unreal Engine style, or dark grimdark necromancer aesthetics",
+      "Do NOT change the crystal staff orb to a fiery red skull, plain wooden stick, or metallic scepter — keep the faceted cyan-blue crystal in twisted wood prongs",
+      "Do NOT replace his blue-and-purple celestial robes with plain grey Gandalf robes or modern suits",
+      "Do NOT omit the golden crescent moon and star embroidery on hat and robe trim",
+      "Do NOT include screenshot artifacts, horizontal dashed crop lines, or rough cutout backgrounds"
+    ]
+  },
+  "reference_files": [
+    "02_Source_Assets/Characters/Wizard/Wizard_Master_Reference.png",
+    "02_Source_Assets/Characters/Wizard/Wizard_Turnaround_and_Equipment.jpg",
+    "02_Source_Assets/Characters/Wizard/Wizard_Expressions_Phonemes_Wardrobe_Props.jpg",
+    "02_Source_Assets/Characters/Wizard/Wizard_Game_Sprite_Cutout.png"
+  ],
+  "canonical_v3_arc": {
+    "story_version": "3.0",
+    "active_zones": [
+      "ENV_R00",
+      "ENV_R01",
+      "ENV_R05",
+      "ENV_R05A"
+    ],
+    "signature_artifacts": [
+      "Glowing Cyan Crystal Wood Staff",
+      "Spatial Dimensional Pocket (Silver Pouch)"
+    ],
+    "key_events": [
+      "ENV_R00: Greets Hero Kai upon arrival from the Virtual City glitch vortex.",
+      "ENV_R01: Guides Kai through Spell 1 VOICE (print()) in Silent Village and directs him toward Loom Forest.",
+      "ENV_R05: Teaches Spell 5 VAULT (gold = 100) and gifts Kai the silver Spatial Dimensional Pocket.",
+      "ENV_R05A: Teaches Spell 6 MULTI-VAULT (hp, mana, gold = 100, 50, 10) inside the Echoing Cavern, then bids Kai farewell beneath the Silver-Leafed Tree by dissolving into glowing emerald digital code."
+    ]
+  },
+  "legacy_id_alias": "elder_wizard"
+}

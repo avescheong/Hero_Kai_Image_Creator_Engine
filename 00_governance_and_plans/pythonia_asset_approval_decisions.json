@@ -1,0 +1,566 @@
+{
+  "exported_at": "2026-11-17T03:45:32.293Z",
+  "total_sheets": 140,
+  "decisions": {
+    "B02_01_STRING_PROGRESSION_AND_LOCOMOTION_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B02_02_WIZARD_TURNAROUND_AND_CELESTIAL_ROBES_16x9": {
+      "status": "regen",
+      "note": "need to remove the white spot near the lower part in between the magic wand and the body"
+    },
+    "B02_03_WIZARD_LOCOMOTION_SPELLS_AND_SRPG_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B02_04_BUG_KING_TURNAROUND_AND_HEXAPOD_LOCK_16x9": {
+      "status": "regen",
+      "note": "there is still white spot need to be removed from the arm to the lower body"
+    },
+    "B02_05_BUG_KING_BOSS_COMBAT_AND_SRPG_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "B03_01_GRANDMA_LOOMA_WEAVING_LOCOMOTION_AND_SRPG_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B03_02_IRON_OUTPOST_BLACKSMITH_FORGE_AND_SRPG_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B03_03_MASTER_GRIMSBY_DWARVEN_FORGE_AND_SRPG_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B03_04_SPELL_GUARDIAN_BABY_MANTIS_AND_SRPG_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B03_05_FOUR_SHAPESHIFT_SPIRITS_AND_VILLAGE_NPCS_4x4": {
+      "status": "regen",
+      "note": "golem, forest spirit needs removal of white spot in the background"
+    },
+    "B04_01_REGIONAL_BOSSES_ACT1_CH01_TO_CH06_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "B04_02_REGIONAL_BOSSES_ACT2_AND_MINIONS_CH07_TO_CH11_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background on the lower part of the body"
+    },
+    "B04_03_INTERACTIVE_QUEST_CHESTS_ALTARS_AND_GATES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B04_04_VILLAGE_FORGE_AND_CRAFTING_WORKSTATIONS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "B04_05_BIOME_TREES_TRAVERSAL_AND_SRPG_TILES_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "FMT01_KAI_TURNAROUND_AND_INSIGNIA_16x9": {
+      "status": "approved",
+      "note": ""
+    },
+    "FMT02_KAI_STORYBOOK_PROGRESSION_SPREAD_16x9": {
+      "status": "approved",
+      "note": ""
+    },
+    "FMT03_KAI_HD2D_LOCOMOTION_AND_COMBAT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FMT04_KAI_PAPERDOLL_WARDROBE_PROGRESSION_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FMT05_KAI_DIALOGUE_EXPRESSIONS_AND_SRPG_UNIT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background on the ladder "
+    },
+    "MOD_B01_02_KAI_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B01_03_KAI_FFT_ISOMETRIC_SOCKET_MANNEQUIN_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B01_04_KAI_CAPYBARA_CHIBI_SOCKET_MANNEQUIN_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B01_05_CAST_IDE_CODING_AND_SYNTAX_ERROR_STANCES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B02_01_MODULAR_SWORDS_AND_BLADES_ARSENAL_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B02_02_MODULAR_HAMMERS_AND_FORGE_TOOLS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background for the wand"
+    },
+    "MOD_B02_04_MODULAR_SHIELDS_SPELLBOOKS_AND_OFFHANDS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B02_05_MODULAR_SLASH_ARCS_AND_SPELL_PROJECTILES_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "MOD_B03_01_KAI_PAPERDOLL_HOODIE_AND_MOSS_CLOAK_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B03_02_KAI_PAPERDOLL_FOREST_CAMO_AND_SCHOLAR_ROBE_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B03_03_KAI_PAPERDOLL_SMELTER_APRON_AND_DWARVEN_ARMOR_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B03_04_KAI_PAPERDOLL_LOTUS_PALADIN_AND_SEER_MANTLE_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B03_05_CAST_VARIANT_OUTFITS_STRING_BLACKSMITH_GRIMSBY_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B04_01_SOCKET_HEADWEAR_HELMETS_HATS_AND_CROWNS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B04_02_SOCKET_EYEWEAR_GOGGLES_AND_FACE_RUNES_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "MOD_B04_03_SOCKET_NECKWEAR_BROOCHES_SCARVES_AND_COLLARS_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "MOD_B04_04_SOCKET_BELTS_BUCKLES_SATCHELS_AND_POTIONS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B04_05_SOCKET_BACKPACKS_SCABBARDS_AND_WINGS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B05_01_STRING_COMPLETE_MISSING_STANCES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B05_02_GREAT_WIZARD_COMPLETE_MISSING_STANCES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B05_03_GRANDMA_LOOMA_COMPLETE_MISSING_STANCES_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "MOD_B05_04_BLACKSMITH_CH03_COMPLETE_MISSING_STANCES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B05_05_MASTER_GRIMSBY_CH09_COMPLETE_MISSING_STANCES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B06_01_ACT1_BOSSES_SPAWN_PHASE2_AND_PURIFIED_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "MOD_B06_02_ACT2_BOSSES_SPAWN_PHASE2_AND_PURIFIED_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "MOD_B06_03_BUG_KING_COMPLETE_MISSING_STANCES_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "MOD_B06_04_FIELD_MINIONS_LOCOMOTION_AND_PURIFIED_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B06_05_SLEEPING_RED_DRAGON_AND_GUARDIANS_STATES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B07_01_PYTHON_VARIABLE_CONTAINERS_AND_LABELS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B07_02_STRING_FUSE_AND_COMMA_WEAVE_CONNECTORS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B07_03_ARITHMETIC_FORGE_AND_DATA_TYPE_CONVERTERS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B07_04_COMPARISON_SIGHT_LENS_AND_BOOLEAN_GATES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B07_05_CONDITIONAL_INDENTATION_AND_LOOP_TRACKS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B08_01_FFT_ISOMETRIC_MODULAR_WEAPONS_AND_SHIELDS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B08_02_FFT_ISOMETRIC_MODULAR_HEADWEAR_AND_ARMOR_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B08_03_CAPYBARA_CHIBI_MODULAR_WEAPONS_AND_SHIELDS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B08_04_CAPYBARA_CHIBI_MODULAR_HATS_OUTFITS_AND_BAGS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "MOD_B08_05_MASTER_PAPERDOLL_CALIBRATION_AND_ANCHOR_CHART_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B01_01_KAI_YOSHIDA_JOB_CLASSES_AND_PORTRAITS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B01_02_KAI_SQUIRE_ISOMETRIC_4DIR_LOCOMOTION_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B01_03_KAI_SQUIRE_ISOMETRIC_COMBAT_CHANT_KO_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B01_04_KAI_DWARVEN_KNIGHT_ISOMETRIC_PACK_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B01_05_TACTICAL_TILE_CURSORS_AND_SPELL_RINGS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B02_01_STRING_ISOMETRIC_4DIR_LOCOMOTION_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B02_02_STRING_TELEPATHIC_STR_COMBAT_AND_KO_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B02_03_GREAT_WIZARD_ISOMETRIC_4DIR_LOCOMOTION_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B02_04_GREAT_WIZARD_ISOMETRIC_CHANT_AND_STARLIGHT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B02_05_HERO_PARTY_FFT_CUTIN_BANNERS_AND_SIGILS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B03_01_GRANDMA_LOOMA_ISOMETRIC_WEAVER_BARD_4x4": {
+      "status": "approved",
+      "note": "removal of white spot in the background"
+    },
+    "FFT_B03_02_BLACKSMITH_CH03_ISOMETRIC_FORGEMAN_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B03_03_MASTER_GRIMSBY_CH09_ISOMETRIC_RUNESMITH_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B03_04_SPELL_GUARDIAN_ISOMETRIC_CELESTIAL_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B03_05_FOUR_SHAPESHIFT_SPIRITS_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B04_01_VILLAGE_AND_FOREST_NPCS_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B04_02_SUNNYBROOK_AND_CROSSROADS_NPCS_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B04_03_LARGE_GUARDIANS_AND_DRAGON_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B04_04_SUPPORTING_CAST_YOSHIDA_PORTRAITS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B04_05_FFT_VEGETARIAN_ITEMS_AND_GEAR_ICONS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B05_01_BOSS01_GLITCH_THORN_BRUTE_ISOMETRIC_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "FFT_B05_02_BOSS03_RUST_SLAG_CONSTRUCT_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B05_03_BOSS04_SHADOW_BRAMBLE_STAG_ISOMETRIC_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "FFT_B05_04_BOSS06_CREEPING_RED_SHADOW_BEAST_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B05_05_FIELD_MINIONS_ISOMETRIC_SQUAD_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B06_01_BOSS08_MAGMA_CINDER_GOLEM_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B06_02_BOSS10_HIGHLAND_MIRAGE_DOPPELGANGER_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B06_03_BOSS11_CROSSROADS_STONE_ARBITER_ISOMETRIC_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B06_04_BUG_KING_PHASE1_IMPERIAL_ISOMETRIC_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "FFT_B06_05_BUG_KING_PHASE2_OVERLORD_AND_COCOON_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "FFT_B07_01_ENV_R01_SILENT_VILLAGE_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B07_02_ENV_R02_LOOM_FOREST_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B07_03_ENV_R03_IRON_OUTPOST_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B07_04_ENV_R04_WHISPERING_FOREST_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B07_05_ENV_R05_CURSED_RIVERBANK_AND_CHESTS_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B08_01_ENV_R06_DRAGONS_LIBRARY_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B08_02_ENV_R07_CRYSTAL_CAVE_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B08_03_ENV_R08_DEEP_DWARVEN_FORGE_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B08_04_ENV_R09_TWIN_ILLUSION_AND_CROSSROADS_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "FFT_B08_05_ENV_R11_CITADEL_OF_CORE_DIORAMA_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B01_01_CHIBI_KAI_AUTO_MARCH_AND_COMBAT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B01_02_CHIBI_KAI_4TIER_EQUIPMENT_PROGRESSION_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B01_03_CHIBI_KAI_MOUNT_RIDING_PROGRESSION_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B01_04_CHIBI_KAI_11_PYTHON_SPELL_ULTIMATES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B01_05_CHIBI_KAI_STICKER_EMOTES_AND_AVATARS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B02_01_CHIBI_STRING_BEAN_PET_AUTO_BATTLER_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B02_02_CHIBI_SPELL_GUARDIAN_MANTIS_PET_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B02_03_CHIBI_FOUR_SHAPESHIFT_SPIRIT_PETS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B02_04_CHIBI_GREAT_WIZARD_EVENT_MENTOR_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B02_05_CHIBI_PET_EGGS_GACHAPON_AND_SYNERGY_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B03_01_CHIBI_GRANDMA_LOOMA_WEAVING_EVENT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B03_02_CHIBI_BLACKSMITH_CH03_FORGE_EVENT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B03_03_CHIBI_MASTER_GRIMSBY_CH09_DWARF_EVENT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B03_04_CHIBI_VILLAGE_AND_FOREST_EVENT_NPCS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B03_05_CHIBI_SUNNYBROOK_AND_CROSSROADS_NPCS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B04_01_CHIBI_BOSS01_GLITCH_THORN_BRUTE_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B04_02_CHIBI_BOSS03_RUST_SLAG_CONSTRUCT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B04_03_CHIBI_BOSS04_SHADOW_BRAMBLE_STAG_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B04_04_CHIBI_BOSS06_CREEPING_RED_SHADOW_BEAST_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B04_05_CHIBI_ACT1_FIELD_MINIONS_SQUAD_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B05_01_CHIBI_BOSS08_MAGMA_CINDER_GOLEM_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B05_02_CHIBI_BOSS10_HIGHLAND_MIRAGE_DOPPELGANGER_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B05_03_CHIBI_BOSS11_CROSSROADS_STONE_ARBITER_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B05_04_CHIBI_BUG_KING_PHASE1_AND_PHASE2_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B05_05_CHIBI_BUG_KING_COCOON_TO_BABY_MANTIS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B06_01_PYTHON_SPELL_SKILL_ICONS_CH01_TO_CH06_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B06_02_PYTHON_SPELL_SKILL_ICONS_CH07_TO_CH11_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B06_03_CAPYBARA_COMBAT_TECH_ICONS_SWORD_DAGGER_RAGE_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B06_04_PET_AND_MOUNT_PASSIVE_SKILL_ICONS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B06_05_ROGUELITE_SKILL_CARD_FRAMES_AND_RARITY_BORDERS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B07_01_WEAPONS_AND_SHIELDS_LOADOUT_ICONS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B07_02_ARMOR_CLOAKS_AND_INSIGNIA_ACCESSORIES_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "CG_B07_03_VEGETARIAN_STAMINA_FOOD_AND_POTIONS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B07_04_TREASURE_CHEST_GACHA_TIERS_AND_CURRENCIES_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B07_05_MOUNT_TOKENS_AND_ARTIFACT_RELICS_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B08_01_TOP_SCREEN_BIOME_BANNERS_ACT1_CH01_TO_CH06_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B08_02_TOP_SCREEN_BIOME_BANNERS_ACT2_CH07_TO_CH11_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "CG_B08_03_ROADSIDE_DAY_EVENT_ENCOUNTER_PROPS_4x4": {
+      "status": "regen",
+      "note": "removal of white spot in the background"
+    },
+    "CG_B08_04_BOTTOM_SCREEN_TEXT_LOG_AND_BUTTON_UI_KIT_4x4": {
+      "status": "approved",
+      "note": ""
+    },
+    "CG_B08_05_COMBAT_VFX_DAMAGE_POPUPS_AND_VICTORY_BANNERS_4x4": {
+      "status": "approved",
+      "note": ""
+    }
+  }
+}

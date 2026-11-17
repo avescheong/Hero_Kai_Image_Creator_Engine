@@ -1,0 +1,152 @@
+{
+  "checkpoint": "CHK-PYTHONIA-V2-3-CLEANUP-20261117",
+  "total_sheets": 140,
+  "clean_approved": 127,
+  "surgically_cleaned": 13,
+  "acve_pass": "140/140",
+  "cleaned_sheets": [
+    {
+      "file": "B02_05_BUG_KING_BOSS_COMBAT_AND_SRPG_4x4.png",
+      "drive_id": "1EhBSxneugaMrsdqyGVTd_wKxWfWMXluB",
+      "drive_url": "https://drive.google.com/file/d/1EhBSxneugaMrsdqyGVTd_wKxWfWMXluB/view?usp=drivesdk",
+      "islands_removed": 11,
+      "island_pixels": 171,
+      "speckles_removed": 30,
+      "speckle_pixels": 215,
+      "sha256": "02a43ab559f109039f000fa9969a5af8d69402affe5331bdffc27ad0db25a813",
+      "transparent_ratio": 0.6692
+    },
+    {
+      "file": "B03_05_FOUR_SHAPESHIFT_SPIRITS_AND_VILLAGE_NPCS_4x4.png",
+      "drive_id": "1zG7F6OiaOx228wDYjqJXM9gNVCfkdcK0",
+      "drive_url": "https://drive.google.com/file/d/1zG7F6OiaOx228wDYjqJXM9gNVCfkdcK0/view?usp=drivesdk",
+      "islands_removed": 5,
+      "island_pixels": 100,
+      "speckles_removed": 29,
+      "speckle_pixels": 68,
+      "sha256": "470ba58a7eeca72ec896404bed3f8574173363c2b6408bbb9290c8ac034ec8b2",
+      "transparent_ratio": 0.5902
+    },
+    {
+      "file": "B04_04_VILLAGE_FORGE_AND_CRAFTING_WORKSTATIONS_4x4.png",
+      "drive_id": "1J-A-sbhY--zMkuoZV9B2NMwbgWqEi5VZ",
+      "drive_url": "https://drive.google.com/file/d/1J-A-sbhY--zMkuoZV9B2NMwbgWqEi5VZ/view?usp=drivesdk",
+      "islands_removed": 39,
+      "island_pixels": 14858,
+      "speckles_removed": 0,
+      "speckle_pixels": 0,
+      "sha256": "d2f82348d72240187bc25d398ba6bf547c30f1b6933658039cd15788d87873dc",
+      "transparent_ratio": 0.5123
+    },
+    {
+      "file": "MOD_B03_05_CAST_VARIANT_OUTFITS_STRING_BLACKSMITH_GRIMSBY_4x4.png",
+      "drive_id": "1v3BIxeOXbeD1mRPGeWT0tjhvnjlTxOhI",
+      "drive_url": "https://drive.google.com/file/d/1v3BIxeOXbeD1mRPGeWT0tjhvnjlTxOhI/view?usp=drivesdk",
+      "islands_removed": 9,
+      "island_pixels": 4873,
+      "speckles_removed": 0,
+      "speckle_pixels": 0,
+      "sha256": "f76db6283ac97e2f70d0f5dcbd0f57fafa34f1e80fc8f51dfbdb72f35d43e527",
+      "transparent_ratio": 0.4859
+    },
+    {
+      "file": "MOD_B04_04_SOCKET_BELTS_BUCKLES_SATCHELS_AND_POTIONS_4x4.png",
+      "drive_id": "1k_baDZ-vQp4sklNJFJ2yw8ExAiz-eYla",
+      "drive_url": "https://drive.google.com/file/d/1k_baDZ-vQp4sklNJFJ2yw8ExAiz-eYla/view?usp=drivesdk",
+      "islands_removed": 9,
+      "island_pixels": 1934,
+      "speckles_removed": 0,
+      "speckle_pixels": 0,
+      "sha256": "0d54b7731154ade2bec54c7e706f8698492d00284314c01c704621250d23c111",
+      "transparent_ratio": 0.6357
+    },
+    {
+      "file": "MOD_B04_05_SOCKET_BACKPACKS_SCABBARDS_AND_WINGS_4x4.png",
+      "drive_id": "16j2kfitPeah_QNgpbrl5tcIF3C7Gnrs3",
+      "drive_url": "https://drive.google.com/file/d/16j2kfitPeah_QNgpbrl5tcIF3C7Gnrs3/view?usp=drivesdk",
+      "islands_removed": 13,
+      "island_pixels": 5091,
+      "speckles_removed": 7,
+      "speckle_pixels": 10,
+      "sha256": "857aefb013f78f1150681837b7548197f49e45c823f67ba75f3e73dea18ef273",
+      "transparent_ratio": 0.5709
+    },
+    {
+      "file": "MOD_B08_01_FFT_ISOMETRIC_MODULAR_WEAPONS_AND_SHIELDS_4x4.png",
+      "drive_id": "1-_Pq8qmOIowk__gWS6Ftf-ruCJg0KBLL",
+      "drive_url": "https://drive.google.com/file/d/1-_Pq8qmOIowk__gWS6Ftf-ruCJg0KBLL/view?usp=drivesdk",
+      "islands_removed": 15,
+      "island_pixels": 7276,
+      "speckles_removed": 9,
+      "speckle_pixels": 13,
+      "sha256": "5fdc227f19123eb7dd5c99fdfae92cc95a5f5e49a56b7bab826ce94267d01c40",
+      "transparent_ratio": 0.6742
+    },
+    {
+      "file": "MOD_B08_02_FFT_ISOMETRIC_MODULAR_HEADWEAR_AND_ARMOR_4x4.png",
+      "drive_id": "11eQWOOLcj10Pfatpe-tiydqmpemgiNd6",
+      "drive_url": "https://drive.google.com/file/d/11eQWOOLcj10Pfatpe-tiydqmpemgiNd6/view?usp=drivesdk",
+      "islands_removed": 4,
+      "island_pixels": 10909,
+      "speckles_removed": 0,
+      "speckle_pixels": 0,
+      "sha256": "3ec539b45179acc759225e3f48c5876643c164141a34f28b08aa6a57957900ac",
+      "transparent_ratio": 0.6038
+    },
+    {
+      "file": "MOD_B08_03_CAPYBARA_CHIBI_MODULAR_WEAPONS_AND_SHIELDS_4x4.png",
+      "drive_id": "1W2cQwRBe5GVrIsWTDNGQgAHIDxdxFaHY",
+      "drive_url": "https://drive.google.com/file/d/1W2cQwRBe5GVrIsWTDNGQgAHIDxdxFaHY/view?usp=drivesdk",
+      "islands_removed": 77,
+      "island_pixels": 10769,
+      "speckles_removed": 11,
+      "speckle_pixels": 15,
+      "sha256": "01ef96da325a30b5def77e93abb6ab975931d4f31408dc84c822de410c17f95c",
+      "transparent_ratio": 0.6159
+    },
+    {
+      "file": "FFT_B03_01_GRANDMA_LOOMA_ISOMETRIC_WEAVER_BARD_4x4.png",
+      "drive_id": "12B5v6YrHWT7I4ibZzDeht8oKBH-dGh4D",
+      "drive_url": "https://drive.google.com/file/d/12B5v6YrHWT7I4ibZzDeht8oKBH-dGh4D/view?usp=drivesdk",
+      "islands_removed": 0,
+      "island_pixels": 0,
+      "speckles_removed": 9,
+      "speckle_pixels": 18,
+      "sha256": "b10aca94d84f9789828c7b7d03a85f382894f2b5696aee5060e4c656f85d221c",
+      "transparent_ratio": 0.5799
+    },
+    {
+      "file": "FFT_B04_05_FFT_VEGETARIAN_ITEMS_AND_GEAR_ICONS_4x4.png",
+      "drive_id": "1RSsYlYcY7OlADBqi6DOsR2GP3LzjYV4F",
+      "drive_url": "https://drive.google.com/file/d/1RSsYlYcY7OlADBqi6DOsR2GP3LzjYV4F/view?usp=drivesdk",
+      "islands_removed": 23,
+      "island_pixels": 5789,
+      "speckles_removed": 30,
+      "speckle_pixels": 78,
+      "sha256": "43264c6aeb64f5b9fcbb04f9ff7523d856592cfcd8149e727ec70522cbf334a0",
+      "transparent_ratio": 0.6718
+    },
+    {
+      "file": "FFT_B05_01_BOSS01_GLITCH_THORN_BRUTE_ISOMETRIC_4x4.png",
+      "drive_id": "1WGLbz6WHbxAmp0xdo5sCm1ymS4P6dj-g",
+      "drive_url": "https://drive.google.com/file/d/1WGLbz6WHbxAmp0xdo5sCm1ymS4P6dj-g/view?usp=drivesdk",
+      "islands_removed": 4,
+      "island_pixels": 75,
+      "speckles_removed": 226,
+      "speckle_pixels": 240,
+      "sha256": "e22a7500180441019a150523c2cdca38b7cd9fd725b0bb19daeb8f84a2a0360f",
+      "transparent_ratio": 0.5611
+    },
+    {
+      "file": "CG_B07_02_ARMOR_CLOAKS_AND_INSIGNIA_ACCESSORIES_4x4.png",
+      "drive_id": "1hvgWkKZ3T2vbK1kDUwhyqj7ILWRInyjH",
+      "drive_url": "https://drive.google.com/file/d/1hvgWkKZ3T2vbK1kDUwhyqj7ILWRInyjH/view?usp=drivesdk",
+      "islands_removed": 5,
+      "island_pixels": 85,
+      "speckles_removed": 2,
+      "speckle_pixels": 3,
+      "sha256": "5886efb9888ffe8705767ad48c743ea0fa136b239af54b7835b0ac56dd840a57",
+      "transparent_ratio": 0.5248
+    }
+  ]
+}

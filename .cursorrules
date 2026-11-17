@@ -1,0 +1,9 @@
+Always read AGENT.md and HANDOVER_CURRENT.md before modifying or generating any Pythonia character art or sprite sheets.
+
+Mandatory autonomous workflow:
+1. Inspect locked character DNA: python kai_engine_cli.py character-info --id <character_id>
+2. Never regenerate base characters when swapping weapons, outfits, hats, capes, or VFX: use python kai_engine_cli.py composite
+3. Never write freehand prompts from memory: use python kai_engine_cli.py compile-ticket or python kai_engine_cli.py onboard-mvc
+4. Always pass the local images in mandatory_local_reference_paths (from 02_reference_anchors/) to image generation calls.
+5. Always clean & verify outputs: python kai_engine_cli.py verify --clean-captions --strip-islands
+6. Preserve all sibling disambiguation locks (Ch.3 Blacksmith 2-horned helmet + silver beard vs Ch.9 Master Grimsby hatless + fiery forked beard; Bug King 6-limb hexapod; Kai right-hip satchel vs left-hip 3 potions + Tzu Chi buckle; ZERO Ember pet; 100% vegetarian food).

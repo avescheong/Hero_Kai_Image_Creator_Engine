@@ -1,0 +1,110 @@
+{
+  "batch": "MOD_BATCH_07",
+  "assets": [
+    {
+      "asset_id": "MOD_B07_01_PYTHON_VARIABLE_CONTAINERS_AND_LABELS_4x4",
+      "png_file": "MOD_B07_01_PYTHON_VARIABLE_CONTAINERS_AND_LABELS_4x4.png",
+      "json_file": "MOD_B07_01_PYTHON_VARIABLE_CONTAINERS_AND_LABELS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 51.8,
+      "sha256": "94e3f98b19c30c6e22ce04a6c054a20150791b4c4792b0113a77ad7965921b80",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B07_02_STRING_FUSE_AND_COMMA_WEAVE_CONNECTORS_4x4",
+      "png_file": "MOD_B07_02_STRING_FUSE_AND_COMMA_WEAVE_CONNECTORS_4x4.png",
+      "json_file": "MOD_B07_02_STRING_FUSE_AND_COMMA_WEAVE_CONNECTORS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 56.41,
+      "sha256": "5ef6ff1794a8ad75f94e7d9e33eaa0aa0015be88293059bf0316f2349fadee66",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B07_03_ARITHMETIC_FORGE_AND_DATA_TYPE_CONVERTERS_4x4",
+      "png_file": "MOD_B07_03_ARITHMETIC_FORGE_AND_DATA_TYPE_CONVERTERS_4x4.png",
+      "json_file": "MOD_B07_03_ARITHMETIC_FORGE_AND_DATA_TYPE_CONVERTERS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 65.68,
+      "sha256": "accaef63fddd2bcf2dbb0413b7d6ec8859c1e157d36d262c02e769e8317e7f7a",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B07_04_COMPARISON_SIGHT_LENS_AND_BOOLEAN_GATES_4x4",
+      "png_file": "MOD_B07_04_COMPARISON_SIGHT_LENS_AND_BOOLEAN_GATES_4x4.png",
+      "json_file": "MOD_B07_04_COMPARISON_SIGHT_LENS_AND_BOOLEAN_GATES_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 63.01,
+      "sha256": "b012866a17d284056644130b7047b995a0c7335726fd25dda6fd4b866d16ab3c",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B07_05_CONDITIONAL_INDENTATION_AND_LOOP_TRACKS_4x4",
+      "png_file": "MOD_B07_05_CONDITIONAL_INDENTATION_AND_LOOP_TRACKS_4x4.png",
+      "json_file": "MOD_B07_05_CONDITIONAL_INDENTATION_AND_LOOP_TRACKS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 43.75,
+      "sha256": "be32c115903b5ffdbaa908bb14887139e633f515abde61dbb969ad79a4beddff",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

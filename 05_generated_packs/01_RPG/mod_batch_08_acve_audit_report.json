@@ -1,0 +1,110 @@
+{
+  "batch": "MOD_BATCH_08",
+  "assets": [
+    {
+      "asset_id": "MOD_B08_01_FFT_ISOMETRIC_MODULAR_WEAPONS_AND_SHIELDS_4x4",
+      "png_file": "MOD_B08_01_FFT_ISOMETRIC_MODULAR_WEAPONS_AND_SHIELDS_4x4.png",
+      "json_file": "MOD_B08_01_FFT_ISOMETRIC_MODULAR_WEAPONS_AND_SHIELDS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 66.73,
+      "sha256": "d5efec097b0c2bdbaac3e95b0b3bc2d5962ce936872347906fc81ffa4989a770",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B08_02_FFT_ISOMETRIC_MODULAR_HEADWEAR_AND_ARMOR_4x4",
+      "png_file": "MOD_B08_02_FFT_ISOMETRIC_MODULAR_HEADWEAR_AND_ARMOR_4x4.png",
+      "json_file": "MOD_B08_02_FFT_ISOMETRIC_MODULAR_HEADWEAR_AND_ARMOR_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 59.34,
+      "sha256": "4725f09f219b2bca933804da227eb2b4aec067868e52d1a977e51ed40c59481b",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B08_03_CAPYBARA_CHIBI_MODULAR_WEAPONS_AND_SHIELDS_4x4",
+      "png_file": "MOD_B08_03_CAPYBARA_CHIBI_MODULAR_WEAPONS_AND_SHIELDS_4x4.png",
+      "json_file": "MOD_B08_03_CAPYBARA_CHIBI_MODULAR_WEAPONS_AND_SHIELDS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 60.56,
+      "sha256": "041118873cdb21cc2068abf7d8684ea992b4c52404e79854a49e6aa15afcaf3c",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B08_04_CAPYBARA_CHIBI_MODULAR_HATS_OUTFITS_AND_BAGS_4x4",
+      "png_file": "MOD_B08_04_CAPYBARA_CHIBI_MODULAR_HATS_OUTFITS_AND_BAGS_4x4.png",
+      "json_file": "MOD_B08_04_CAPYBARA_CHIBI_MODULAR_HATS_OUTFITS_AND_BAGS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 63.74,
+      "sha256": "810c61a1e08471ca07c9094cad9c3d9674b0f0c3900622367fdbcc339ec70d69",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "MOD_B08_05_MASTER_PAPERDOLL_CALIBRATION_AND_ANCHOR_CHART_4x4",
+      "png_file": "MOD_B08_05_MASTER_PAPERDOLL_CALIBRATION_AND_ANCHOR_CHART_4x4.png",
+      "json_file": "MOD_B08_05_MASTER_PAPERDOLL_CALIBRATION_AND_ANCHOR_CHART_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 71.68,
+      "sha256": "07f16f4a083acf71a592daab379c06b0a0327b44aa41facb87b13f80e6096e15",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

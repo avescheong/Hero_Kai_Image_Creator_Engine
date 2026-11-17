@@ -1,0 +1,118 @@
+{
+  "batch_id": "MOD_BATCH_05_COMPANION_AND_MENTOR_MISSING_STANCES",
+  "engine_version": "ACVE_v1.0_7Gate_BFS",
+  "total_sheets": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "asset_id": "MOD_B05_01_STRING_COMPLETE_MISSING_STANCES_4x4",
+      "character_id": "string",
+      "watermarked_ref": "watermarked_img_17509620355292931511.jpg",
+      "asset_file": "MOD_B05_01_STRING_COMPLETE_MISSING_STANCES_4x4.png",
+      "atlas_file": "MOD_B05_01_STRING_COMPLETE_MISSING_STANCES_4x4.json",
+      "sha256": "41f176b5fd019114229021b64b809997301231fde23aa1942154f31b081a1598",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 61.52,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B05_02_GREAT_WIZARD_COMPLETE_MISSING_STANCES_4x4",
+      "character_id": "wizard",
+      "watermarked_ref": "watermarked_img_4432267041637833642.jpg",
+      "asset_file": "MOD_B05_02_GREAT_WIZARD_COMPLETE_MISSING_STANCES_4x4.png",
+      "atlas_file": "MOD_B05_02_GREAT_WIZARD_COMPLETE_MISSING_STANCES_4x4.json",
+      "sha256": "08c81304b5b2a6a0fdc92d8b0f5f2d0ba19796d3241b66aabca319f616da15df",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.57,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B05_03_GRANDMA_LOOMA_COMPLETE_MISSING_STANCES_4x4",
+      "character_id": "grandma_looma",
+      "watermarked_ref": "watermarked_img_13163964743709378094.jpg",
+      "asset_file": "MOD_B05_03_GRANDMA_LOOMA_COMPLETE_MISSING_STANCES_4x4.png",
+      "atlas_file": "MOD_B05_03_GRANDMA_LOOMA_COMPLETE_MISSING_STANCES_4x4.json",
+      "sha256": "3d4b9e02a883f78c8357eca3c4dc42dbb23b7c1cdb6dfc810fe5142fab0d328f",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 61.29,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B05_04_BLACKSMITH_CH03_COMPLETE_MISSING_STANCES_4x4",
+      "character_id": "blacksmith",
+      "watermarked_ref": "watermarked_img_10762665650800290286.jpg",
+      "asset_file": "MOD_B05_04_BLACKSMITH_CH03_COMPLETE_MISSING_STANCES_4x4.png",
+      "atlas_file": "MOD_B05_04_BLACKSMITH_CH03_COMPLETE_MISSING_STANCES_4x4.json",
+      "sha256": "8be7c20611f37bc9398e2c8967afff08a40f5e29d866598a0996a653d57f5b79",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.74,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B05_05_MASTER_GRIMSBY_CH09_COMPLETE_MISSING_STANCES_4x4",
+      "character_id": "master_grimsby",
+      "watermarked_ref": "watermarked_img_9412160154812661109.jpg",
+      "asset_file": "MOD_B05_05_MASTER_GRIMSBY_CH09_COMPLETE_MISSING_STANCES_4x4.png",
+      "atlas_file": "MOD_B05_05_MASTER_GRIMSBY_CH09_COMPLETE_MISSING_STANCES_4x4.json",
+      "sha256": "3c71e54336e89c9e2abb8832ee81eb31d8a40ac35436d16acbe1d34d9d6eab03",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.81,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

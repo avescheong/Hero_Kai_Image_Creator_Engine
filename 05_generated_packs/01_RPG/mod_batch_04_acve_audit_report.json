@@ -1,0 +1,118 @@
+{
+  "batch_id": "MOD_BATCH_04_MODULAR_ACCESSORIES_HEADWEAR_AND_BAGS",
+  "engine_version": "ACVE_v1.0_7Gate_BFS",
+  "total_sheets": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "asset_id": "MOD_B04_01_SOCKET_HEADWEAR_HELMETS_HATS_AND_CROWNS_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_3464620457942266402.jpg",
+      "asset_file": "MOD_B04_01_SOCKET_HEADWEAR_HELMETS_HATS_AND_CROWNS_4x4.png",
+      "atlas_file": "MOD_B04_01_SOCKET_HEADWEAR_HELMETS_HATS_AND_CROWNS_4x4.json",
+      "sha256": "859e657a17c877b54f9cbb6e2e743f20c5cc0758c2d2d9bcb63b86cb85864897",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 67.66,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B04_02_SOCKET_EYEWEAR_GOGGLES_AND_FACE_RUNES_4x4",
+      "character_id": "grandma_looma",
+      "watermarked_ref": "watermarked_img_5641386561347957640.jpg",
+      "asset_file": "MOD_B04_02_SOCKET_EYEWEAR_GOGGLES_AND_FACE_RUNES_4x4.png",
+      "atlas_file": "MOD_B04_02_SOCKET_EYEWEAR_GOGGLES_AND_FACE_RUNES_4x4.json",
+      "sha256": "ee4e17a5e567474b58c3f6494786e059312523236ab60deeafed8b6985ed6e77",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 80.25,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B04_03_SOCKET_NECKWEAR_BROOCHES_SCARVES_AND_COLLARS_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_1430739526395020852.jpg",
+      "asset_file": "MOD_B04_03_SOCKET_NECKWEAR_BROOCHES_SCARVES_AND_COLLARS_4x4.png",
+      "atlas_file": "MOD_B04_03_SOCKET_NECKWEAR_BROOCHES_SCARVES_AND_COLLARS_4x4.json",
+      "sha256": "5160606b3a159f8099a3efa11f4fd5d0a0dafa7506d32679301dc2d0100dcc7e",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 60.56,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B04_04_SOCKET_BELTS_BUCKLES_SATCHELS_AND_POTIONS_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_14385215044091090146.jpg",
+      "asset_file": "MOD_B04_04_SOCKET_BELTS_BUCKLES_SATCHELS_AND_POTIONS_4x4.png",
+      "atlas_file": "MOD_B04_04_SOCKET_BELTS_BUCKLES_SATCHELS_AND_POTIONS_4x4.json",
+      "sha256": "9d3e93ee570aaaf1e699451017ad877b58c7f6525cb74075b6375e5b925897da",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 63.38,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B04_05_SOCKET_BACKPACKS_SCABBARDS_AND_WINGS_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_16857866069927960204.jpg",
+      "asset_file": "MOD_B04_05_SOCKET_BACKPACKS_SCABBARDS_AND_WINGS_4x4.png",
+      "atlas_file": "MOD_B04_05_SOCKET_BACKPACKS_SCABBARDS_AND_WINGS_4x4.json",
+      "sha256": "38c1137d9bdd2e02d4f0adbf9211ed396f30828b20178801e4c81fcb6bc801bd",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 56.6,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

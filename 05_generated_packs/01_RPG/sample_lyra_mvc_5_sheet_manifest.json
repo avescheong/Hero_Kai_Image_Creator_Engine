@@ -1,0 +1,105 @@
+{
+  "compiler": "new_character_onboarding_compiler.py v2.0",
+  "character_id": "lyra_syntax_archivist",
+  "canonical_name": "Lyra the Syntax Archivist",
+  "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+  "total_mvc_sheets": 5,
+  "reuses_existing_modular_cutouts": [
+    "MOD_B02_01..05 (80 Weapons, Hammers, Staves, Shields & Slash VFX)",
+    "MOD_B03_01..05 (80 Paper-Doll Outfits, Cloaks & Armor Overlays)",
+    "MOD_B04_01..05 (80 Hats, Glasses, Brooches, Belts, Satchels & Backpacks)",
+    "MOD_B08_01..04 (64 FFT Isometric & Capybara Go! Chibi Gear Cutouts)"
+  ],
+  "sheets": {
+    "MVC_01_LYRA_SYNTAX_ARCHIVIST_CANONICAL_TURNAROUND_AND_INSIGNIA_16x9": {
+      "character_id": "lyra_syntax_archivist",
+      "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+      "aspect_ratio": "16:9",
+      "grid_layout": "4x1",
+      "reference_drive_ids": [
+        "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN"
+      ],
+      "expected_hex_locks": [
+        "#2D3A6E",
+        "#F4D068",
+        "#F4EFE6",
+        "#3B8EA5",
+        "#D4A23C"
+      ],
+      "prompt": "Masterpiece 2D fantasy RPG character model turnaround sheet on a clean 4x1 horizontal layout (16:9 aspect ratio) with pure solid flat white background (#FFFFFF), Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp dark sepia-charcoal ink outlines (#3E2B23), vibrant cel-shaded gouache colors, showing 1. Front View, 2. 3/4 View, 3. Side Profile View, 4. Back View, completely text-free, no words, no numbers, no labels, no grid lines. Subject: Lyra the Syntax Archivist (12yo apprentice archivist girl, braided twilight-indigo hair (#2D3A6E) with silver-quill hairpins (#D9E4EC), warm amber-gold eyes (#F4D068) behind half-frame brass reading spectacles (#D4A23C); unbleached cream linen scholar undertunic (#F4EFE6), teal-emerald sash (#3B8EA5), right-hip scroll tube quiver, left-hip brass inkwell pouch; STRICT DISAMBIGUATION: never include tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)). 4 orthographic views from left to right: (1) Front view, (2) 3/4 view, (3) Side profile view, (4) Back view. Completely text-free.",
+      "negative_prompt": "photorealistic, 3D render, CGI, modern clothing, jeans, sneakers, sunglasses, cyberpunk, grimdark, horror, gore, extra limbs, blurry, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food, tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)"
+    },
+    "MVC_02_LYRA_SYNTAX_ARCHIVIST_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4": {
+      "character_id": "lyra_syntax_archivist",
+      "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+      "aspect_ratio": "1:1",
+      "grid_layout": "4x4",
+      "reference_drive_ids": [
+        "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN"
+      ],
+      "expected_hex_locks": [
+        "#2D3A6E",
+        "#F4D068",
+        "#F4EFE6",
+        "#3B8EA5",
+        "#D4A23C"
+      ],
+      "prompt": "High-precision 2D hand-drawn fantasy RPG modular game asset sprite sheet, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors on a solid pure flat white background (#FFFFFF), 16 evenly spaced cells arranged in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines, no watermarks. Unarmed socket-ready base mannequin of Lyra the Syntax Archivist (12yo apprentice archivist girl, braided twilight-indigo hair (#2D3A6E) with silver-quill hairpins (#D9E4EC), warm amber-gold eyes (#F4D068) behind half-frame brass reading spectacles (#D4A23C); unbleached cream linen scholar undertunic (#F4EFE6), teal-emerald sash (#3B8EA5), right-hip scroll tube quiver, left-hip brass inkwell pouch; STRICT DISAMBIGUATION: never include tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)) with empty hands for modular weapon socketing across States 01-16: Row 1: Idle 1, Idle 2 blink, Walk Left, Walk Right. Row 2: Sprint 1, Sprint 2, Jump Squat Takeoff, Rising Jump Apex. Row 3: Mid-Air Falling Descent, Landing Crouch, Rope Climb Left Hand High (back view), Rope Climb Right Hand High (back view). Row 4: F-Key Interact Reach, Lift/Carry Heavy Object Overhead, Push/Brace Block, Sit/Rest. Text-free.",
+      "negative_prompt": "photorealistic, 3D render, CGI, modern clothing, jeans, sneakers, sunglasses, cyberpunk, grimdark, horror, gore, extra limbs, blurry, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food, tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)"
+    },
+    "MVC_03_LYRA_SYNTAX_ARCHIVIST_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4": {
+      "character_id": "lyra_syntax_archivist",
+      "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+      "aspect_ratio": "1:1",
+      "grid_layout": "4x4",
+      "reference_drive_ids": [
+        "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN"
+      ],
+      "expected_hex_locks": [
+        "#2D3A6E",
+        "#F4D068",
+        "#F4EFE6",
+        "#3B8EA5",
+        "#D4A23C"
+      ],
+      "prompt": "High-precision 2D hand-drawn fantasy RPG modular game asset sprite sheet, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors on a solid pure flat white background (#FFFFFF), 16 evenly spaced cells arranged in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines, no watermarks. Unarmed socket-ready base mannequin of Lyra the Syntax Archivist (12yo apprentice archivist girl, braided twilight-indigo hair (#2D3A6E) with silver-quill hairpins (#D9E4EC), warm amber-gold eyes (#F4D068) behind half-frame brass reading spectacles (#D4A23C); unbleached cream linen scholar undertunic (#F4EFE6), teal-emerald sash (#3B8EA5), right-hip scroll tube quiver, left-hip brass inkwell pouch; STRICT DISAMBIGUATION: never include tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)) with closed right-hand socket grip (no baked-in weapon) across States 17-32: Row 1: Unarmed Combat Ready, Melee Wind-Up (0 deg), Forward Slash Swing (90 deg), Heavy Overhead Smash (135 deg). Row 2: Off-Hand Shield Brace, Throw Item, Python IDE Thinking & Typing Loop, Python Spell Chant Loop. Row 3: Spell Release Burst, SyntaxError Soot Puff Fizzle Reaction, Eat Vegetarian Honey-Bread Buff, Hit Recoil. Row 4: Glitch-Stunned, Critical Low-HP One-Knee Kneel, Prone KO Defeated, Level-Up Victory Fanfare. Completely text-free.",
+      "negative_prompt": "photorealistic, 3D render, CGI, modern clothing, jeans, sneakers, sunglasses, cyberpunk, grimdark, horror, gore, extra limbs, blurry, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food, tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)"
+    },
+    "MVC_04_LYRA_SYNTAX_ARCHIVIST_FFT_ISOMETRIC_SOCKET_MANNEQUIN_4x4": {
+      "character_id": "lyra_syntax_archivist",
+      "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+      "aspect_ratio": "1:1",
+      "grid_layout": "4x4",
+      "reference_drive_ids": [
+        "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN"
+      ],
+      "expected_hex_locks": [
+        "#2D3A6E",
+        "#F4D068",
+        "#F4EFE6",
+        "#3B8EA5",
+        "#D4A23C"
+      ],
+      "prompt": "Final Fantasy Tactics (FFT / Akihiko Yoshida) 32-bit isometric tactical SRPG unit sprite sheet on a clean 4x4 grid with pure solid flat white background (#FFFFFF), 2:1 isometric diamond projection, 3.2-head tactical proportions, crisp dark pixel outlines, rich 32-bit shading, zero gridlines, zero text, zero labels, zero numbers. Unarmed socket-ready 2:1 isometric tactical unit of Lyra the Syntax Archivist (12yo apprentice archivist girl, braided twilight-indigo hair (#2D3A6E) with silver-quill hairpins (#D9E4EC), warm amber-gold eyes (#F4D068) behind half-frame brass reading spectacles (#D4A23C); unbleached cream linen scholar undertunic (#F4EFE6), teal-emerald sash (#3B8EA5), right-hip scroll tube quiver, left-hip brass inkwell pouch; STRICT DISAMBIGUATION: never include tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)): Row 1: SE front-right idle, SW front-left idle, NE back-right idle, NW back-left idle. Row 2: SE march 1, SE march 2, NW back march, isometric tile jump. Row 3: SE empty-handed weapon swing (0 deg, 90 deg, 135 deg), off-hand shield guard. Row 4: Isometric Python spell chant, SyntaxError fizzle, critical low-HP kneel, prone KO. Text-free.",
+      "negative_prompt": "photorealistic, 3D render, CGI, modern clothing, jeans, sneakers, sunglasses, cyberpunk, grimdark, horror, gore, extra limbs, blurry, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food, tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)"
+    },
+    "MVC_05_LYRA_SYNTAX_ARCHIVIST_CAPYBARA_CHIBI_SOCKET_MANNEQUIN_AND_EMOTES_4x4": {
+      "character_id": "lyra_syntax_archivist",
+      "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+      "aspect_ratio": "1:1",
+      "grid_layout": "4x4",
+      "reference_drive_ids": [
+        "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN"
+      ],
+      "expected_hex_locks": [
+        "#2D3A6E",
+        "#F4D068",
+        "#F4EFE6",
+        "#3B8EA5",
+        "#D4A23C"
+      ],
+      "prompt": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on a solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free. Unarmed 2.2-head squishy chibi socket mannequin of Lyra the Syntax Archivist (12yo apprentice archivist girl, braided twilight-indigo hair (#2D3A6E) with silver-quill hairpins (#D9E4EC), warm amber-gold eyes (#F4D068) behind half-frame brass reading spectacles (#D4A23C); unbleached cream linen scholar undertunic (#F4EFE6), teal-emerald sash (#3B8EA5), right-hip scroll tube quiver, left-hip brass inkwell pouch; STRICT DISAMBIGUATION: never include tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)): Row 1: Bouncy squish idle, stretch idle, auto-march waddle 1, waddle 2. Row 2: Empty-handed wind-up, forward swing, jumping crit pose, 100-Rage spell chant. Row 3: Universal mount-saddle riding pose, eating vegetarian honey-bread, hit squash '><', dizzy KO. Row 4: 4 die-cut circular HUD sticker emotes (happy grin, shocked reaction, thoughtful IDE coding, victory thumbs-up). Text-free.",
+      "negative_prompt": "photorealistic, 3D render, CGI, modern clothing, jeans, sneakers, sunglasses, cyberpunk, grimdark, horror, gore, extra limbs, blurry, watermark, text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food, tall pointed wizard hat (reserved for Great Wizard), spectral translucent ghost body (reserved for Ghost Librarian), blonde tousled hair (reserved for Hero Kai)"
+    }
+  }
+}

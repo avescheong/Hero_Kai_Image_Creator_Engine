@@ -1,0 +1,186 @@
+{
+  "character_name": "Kai",
+  "full_title": "Tzu Chi Hero Kai - Guardian of Pythonia",
+  "demographics": {
+    "gender": "Male",
+    "apparent_age": 11,
+    "proportions": "4.2 to 4.5 heads tall, heroic chibi / young adventurer anime proportions",
+    "build": "Agile, athletic boy adventurer, sturdy stance, expressive posture"
+  },
+  "facial_features": {
+    "face_shape": "Round youthful face with gentle chin and soft jawline",
+    "skin_tone": "Warm fair skin with soft peachy-apricot blush on cheeks and bridge of nose",
+    "hair": {
+      "color": "Sandy golden-blonde / warm honey-wheat",
+      "style": "Tousled anime-spiky hair, layered bangs parting softly over forehead, side locks framing ears, soft volume",
+      "undertone_shadow": "Warm ochre and chestnut undertones"
+    },
+    "eyes": {
+      "color": "Vibrant cobalt / slate blue irises",
+      "shape": "Large expressive rounded anime eyes, dark upper lash line, subtle lower lash accent",
+      "highlights": "Prominent white circular catchlight in upper pupil, soft crescent reflection on lower iris"
+    },
+    "eyebrows": "Thin expressive light brown eyebrows, arched for curiosity, angled for determination",
+    "nose_and_mouth": "Small delicate button nose, expressive gentle smile or focused determined mouth"
+  },
+  "outfits": {
+    "standard_adventure": {
+      "name": "Standard Adventure Gear (Outfit A)",
+      "description": "Kai's signature iconic traveling attire for exploring Pythonia and helping communities",
+      "cloak": {
+        "color": "Deep moss / forest green (Hex: #345830)",
+        "material": "Textured woolen traveling cloak with soft painterly drape, reaching mid-calf",
+        "hood": "Voluminous hood resting comfortably behind neck and shoulders when lowered",
+        "fastener": "Golden crescent moon brooch (Hex: #D4AF37) with delicate etched botanical scrollwork at the collarbone"
+      },
+      "tunic": {
+        "color": "Off-white / warm unbleached ivory linen (Hex: #F4EFE6)",
+        "style": "Double-breasted crossover front, Mandarin standing collar",
+        "buttons": "Vertical double row of small round dark espresso-brown horn/wooden buttons",
+        "hem": "Mid-thigh length with front/side split for mobility"
+      },
+      "pants": {
+        "color": "Matching off-white / warm cream linen breeches (Hex: #EDE8DE)",
+        "fit": "Loose comfortable adventure fit, cleanly tucked into riding boots"
+      },
+      "belt_and_buckle": {
+        "belt": "Sturdy chestnut brown leather belt (Hex: #5C361E) with cross-body baldric strap across chest",
+        "signature_buckle": "The Tzu Chi Foundation Medallion: Green jade/enamel shield crest (Hex: #1F6A38) featuring the white three-sailed Dharma ship sailing over ocean waves, flanked by stylized golden/bronze lotus petals and wings (Hex: #C29B38)"
+      },
+      "pouches": {
+        "right_hip": "Sturdy rectangular saddle-leather utility satchel with rounded flap and brass peg fastener",
+        "left_hip": "Custom three-slot leather potion holster holding 3 glass phials with cork stoppers",
+        "potions": [
+          {
+            "name": "Emerald Elixir",
+            "color": "Glowing emerald green",
+            "effect": "Healing and vitality"
+          },
+          {
+            "name": "Ruby Elixir",
+            "color": "Vibrant ruby crimson",
+            "effect": "Courage, stamina, warmth"
+          },
+          {
+            "name": "Sapphire Elixir",
+            "color": "Luminous sapphire blue",
+            "effect": "Clarity, wisdom, mana"
+          }
+        ]
+      },
+      "bracers": {
+        "material": "Warm brown leather vambraces from wrist to mid-forearm",
+        "detail": "Inner forearm criss-cross leather cord lacing through eyelets"
+      },
+      "boots": {
+        "material": "Rich brown leather adventure boots",
+        "style": "Wide folded-over cuffs at mid-calf, rounded toes, sturdy low-heel travel soles"
+      },
+      "weapon": {
+        "type": "Single-handed fantasy arming sword worn across back",
+        "pommel": "Circular steel pommel with inset crescent moon / concentric ring emblem",
+        "grip": "Warm brown spiral cord-wrapped leather grip",
+        "crossguard": "Straight steel crossguard with chamfered quillons",
+        "scabbard": "Hand-carved oak and tooled leather scabbard featuring deeply embossed laurel leaf and vine motif, fitted with polished steel chape tip"
+      }
+    },
+    "stealth_rogue": {
+      "name": "Stealth & Rogue Attire (Outfit B)",
+      "description": "Tactical covert infiltration gear for silent nighttime missions",
+      "main_garment": "Dark charcoal / slate grey fitted tunic and matching trousers (Hex: #2C3038)",
+      "neck": "Forest green infinity cowl / neck wrap",
+      "armor_pieces": "Riveted brown leather pauldrons on shoulders, dark leather vambraces",
+      "belt": "Dark leather utility belt with Tzu Chi medallion buckle and dual modular pouches",
+      "boots": "Muffled dark brown leather stealth boots",
+      "sword": "Matte darkened back scabbard to prevent light reflection"
+    },
+    "reinforced_combat": {
+      "name": "Reinforced Combat Armor (Outfit C)",
+      "description": "Heavy defensive plate armor for confronting formidable monsters and protecting the innocent",
+      "cuirass": "Segmented polished silver-steel chestplate with an embossed gilded golden crescent moon on upper chest",
+      "shoulders": "Layered steel spaulders / shoulder plates with gilded gold borders",
+      "arms_and_legs": "Steel gauntlets, faulds over cream tunic, segmented steel greaves over boots",
+      "cloak": "Short deep green battle mantle pinned at neck",
+      "belt": "Heavy steel-trimmed belt holding the glowing Tzu Chi green lotus crest front and center"
+    },
+    "arctic_survival": {
+      "name": "Arctic Survival Gear (Outfit D)",
+      "description": "Heavy insulated cold-weather attire for blizzards and glacial expeditions",
+      "parka": "Heavy slate-grey wool/canvas winter parka with thick plush cream shearling fur trim on hood, collar, cuffs, and hem",
+      "mittens": "Heavy insulated brown leather mittens with fur cuffs",
+      "boots": "Fur-lined winter mukluk boots with snow-traction soles",
+      "accessories": "Golden crescent brooch over fur collar, exterior thermal holster for potion phials, Tzu Chi belt"
+    }
+  },
+  "art_style_dna": {
+    "primary_style": "High-end anime/manga storybook illustration, Studio Ghibli and Akira Toriyama / Dragon Quest inspired",
+    "line_art": "Refined warm sepia and dark charcoal ink linework with delicate, hand-drawn lineweight variation",
+    "shading_technique": "Soft painterly gouache and watercolor shading with gentle paper grain texture",
+    "color_palette": "Harmonious earthy natural tones: moss greens (#345830), warm unbleached creams (#F4EFE6), rich saddle browns (#5C361E), accented by jewel emeralds, rubies, sapphires, and warm gold (#D4AF37)",
+    "lighting": "Warm golden-hour sunlight, dappled forest canopy light, soft ambient storybook glow, luminous potion highlights",
+    "atmosphere": "Whimsical, courageous, heartwarming, adventurous, compassionate, storybook fantasy"
+  },
+  "invariants_do_and_dont": {
+    "do": [
+      "Always include the golden crescent moon clasp/brooch at the neck of the green cloak",
+      "Always include the green Tzu Chi lotus & sailing ship medallion buckle on the belt",
+      "Always render Kai's hair as sandy golden-blonde anime spikes with soft bangs",
+      "Always feature the 3 colorful glass potion phials (green, red, blue) on his left hip",
+      "Always keep his proportions consistent (around 4.2 to 4.5 heads tall, youthful heroic boy)",
+      "Maintain the warm, soft storybook watercolor/gouache illustration aesthetic with clean line art",
+      "Include the carved leafy vine pattern on his sword scabbard when visible on his back"
+    ],
+    "dont": [
+      "Do NOT turn Kai into an adult, hyper-realistic, or 3D CGI Pixar render",
+      "Do NOT remove the green cloak or replace the crescent moon brooch with generic fasteners",
+      "Do NOT forget the belt buckle or turn it into a generic blank metal buckle",
+      "Do NOT change hair color to black, brown, or platinum white",
+      "Do NOT omit the potion vials on his left hip in adventure gear",
+      "Do NOT make the tone grimdark, grotesque, or overly gritty — Kai represents hope, healing, and courage"
+    ]
+  },
+  "reference_files": [
+    "02_Source_Assets/Characters/Kai/001. Turnaround.png",
+    "02_Source_Assets/Characters/Kai/002. Turn around Running .png",
+    "02_Source_Assets/Characters/Kai/003. Equipment Callout.png",
+    "02_Source_Assets/Characters/Kai/003. Turn Around Sitting.png",
+    "02_Source_Assets/Characters/Kai/004. Expressions_Phonemes_and_Props.jpg",
+    "02_Source_Assets/Characters/Kai/Different Outfit.png",
+    "02_Source_Assets/Logos_and_Insignia/TzuChiFoundation_logo-1.jpg"
+  ],
+  "canonical_v3_progression": {
+    "story_version": "3.0",
+    "subtitle": "The Eleven Spells of Kindness",
+    "companion": "String (unnamed golden-tan terrier pup from ENV_R02; named String at ENV_R04; telepathic str bond at ENV_R07)",
+    "milestone_upgrades": [
+      {
+        "zone": "ENV_R00",
+        "item_or_trait": "Olive-green cloak, wooden sword, empty Ancient Spellbook"
+      },
+      {
+        "zone": "ENV_R03",
+        "item_or_trait": "Solid gleaming IronSword forged via print('Iron' + 'Sword')"
+      },
+      {
+        "zone": "ENV_R05",
+        "item_or_trait": "Silver Spatial Dimensional Pocket gifted by the Great Wizard"
+      },
+      {
+        "zone": "ENV_R06",
+        "item_or_trait": "Glowing silver-indigo '#' Whisper Mute Mark traced onto cheek by Ghost Librarian"
+      },
+      {
+        "zone": "ENV_R08",
+        "item_or_trait": "Master Grimsby's Dwarven Steel Armor & Balanced Wizard's Blade"
+      },
+      {
+        "zone": "ENV_R09",
+        "item_or_trait": "Glowing parallel '==' SIGHT eyes & sharpened luminous eyebrows"
+      },
+      {
+        "zone": "ENV_R10",
+        "item_or_trait": "Golden Colon ':' gate crest locking the 11th Ancient Crest onto belt"
+      }
+    ]
+  }
+}

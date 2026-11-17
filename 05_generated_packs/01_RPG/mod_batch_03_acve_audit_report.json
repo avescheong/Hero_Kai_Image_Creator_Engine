@@ -1,0 +1,118 @@
+{
+  "batch_id": "MOD_BATCH_03_MODULAR_OUTFITS_ARMOR_AND_CLOAKS_PACK",
+  "engine_version": "ACVE_v1.0_7Gate_BFS",
+  "total_sheets": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "asset_id": "MOD_B03_01_KAI_PAPERDOLL_HOODIE_AND_MOSS_CLOAK_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_3666711316826567740.jpg",
+      "asset_file": "MOD_B03_01_KAI_PAPERDOLL_HOODIE_AND_MOSS_CLOAK_4x4.png",
+      "atlas_file": "MOD_B03_01_KAI_PAPERDOLL_HOODIE_AND_MOSS_CLOAK_4x4.json",
+      "sha256": "af0f0511da50b3a27d22568bb9034b5369b4856ee0ebeeb396094caa9cf71fac",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 68.68,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B03_02_KAI_PAPERDOLL_FOREST_CAMO_AND_SCHOLAR_ROBE_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_2876466035391946020.jpg",
+      "asset_file": "MOD_B03_02_KAI_PAPERDOLL_FOREST_CAMO_AND_SCHOLAR_ROBE_4x4.png",
+      "atlas_file": "MOD_B03_02_KAI_PAPERDOLL_FOREST_CAMO_AND_SCHOLAR_ROBE_4x4.json",
+      "sha256": "6a2b8f172e3588f1405809afdb97e4ed06399c4cd776889b9783d9eab17af01b",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 59.35,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B03_03_KAI_PAPERDOLL_SMELTER_APRON_AND_DWARVEN_ARMOR_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_12866960257869149694.jpg",
+      "asset_file": "MOD_B03_03_KAI_PAPERDOLL_SMELTER_APRON_AND_DWARVEN_ARMOR_4x4.png",
+      "atlas_file": "MOD_B03_03_KAI_PAPERDOLL_SMELTER_APRON_AND_DWARVEN_ARMOR_4x4.json",
+      "sha256": "9272c1c4a46f83a61a136c9287bb187606dd8894b3b196fd8327a2e7c59b02d0",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 63.76,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B03_04_KAI_PAPERDOLL_LOTUS_PALADIN_AND_SEER_MANTLE_4x4",
+      "character_id": "kai",
+      "watermarked_ref": "watermarked_img_3348786031130144956.jpg",
+      "asset_file": "MOD_B03_04_KAI_PAPERDOLL_LOTUS_PALADIN_AND_SEER_MANTLE_4x4.png",
+      "atlas_file": "MOD_B03_04_KAI_PAPERDOLL_LOTUS_PALADIN_AND_SEER_MANTLE_4x4.json",
+      "sha256": "f49e58fb5bd2ae2e5a275564869a91242ad93677b4469930bcd8031a2987a8b4",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 54.01,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "MOD_B03_05_CAST_VARIANT_OUTFITS_STRING_BLACKSMITH_GRIMSBY_4x4",
+      "character_id": "master_grimsby",
+      "watermarked_ref": "watermarked_img_15489284991391939083.jpg",
+      "asset_file": "MOD_B03_05_CAST_VARIANT_OUTFITS_STRING_BLACKSMITH_GRIMSBY_4x4.png",
+      "atlas_file": "MOD_B03_05_CAST_VARIANT_OUTFITS_STRING_BLACKSMITH_GRIMSBY_4x4.json",
+      "sha256": "06c050434d8e6d1c89ee4db8f24f6ac3a7b374e9fcbf052161766c89792dfd68",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 48.13,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

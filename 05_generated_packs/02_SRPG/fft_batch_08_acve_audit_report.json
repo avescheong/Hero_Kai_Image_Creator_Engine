@@ -1,0 +1,110 @@
+{
+  "batch": "FFT_BATCH_08",
+  "assets": [
+    {
+      "asset_id": "FFT_B08_01_ENV_R06_DRAGONS_LIBRARY_DIORAMA_4x4",
+      "png_file": "FFT_B08_01_ENV_R06_DRAGONS_LIBRARY_DIORAMA_4x4.png",
+      "json_file": "FFT_B08_01_ENV_R06_DRAGONS_LIBRARY_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 45.29,
+      "sha256": "e9811f528140d1a9f835b2c03d481765dbbe2c34f2a805b4650c3fdfbc8f874d",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B08_02_ENV_R07_CRYSTAL_CAVE_DIORAMA_4x4",
+      "png_file": "FFT_B08_02_ENV_R07_CRYSTAL_CAVE_DIORAMA_4x4.png",
+      "json_file": "FFT_B08_02_ENV_R07_CRYSTAL_CAVE_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 48.59,
+      "sha256": "3569d2bc94a5f320460210af9fbc9f0c1a618e3409244e16e2de2d66c32dc7c3",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B08_03_ENV_R08_DEEP_DWARVEN_FORGE_DIORAMA_4x4",
+      "png_file": "FFT_B08_03_ENV_R08_DEEP_DWARVEN_FORGE_DIORAMA_4x4.png",
+      "json_file": "FFT_B08_03_ENV_R08_DEEP_DWARVEN_FORGE_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 49.15,
+      "sha256": "e112bcf02b226f646e3b4caa88c987857c562c85e6d56c613db8f387313418da",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B08_04_ENV_R09_TWIN_ILLUSION_AND_CROSSROADS_DIORAMA_4x4",
+      "png_file": "FFT_B08_04_ENV_R09_TWIN_ILLUSION_AND_CROSSROADS_DIORAMA_4x4.png",
+      "json_file": "FFT_B08_04_ENV_R09_TWIN_ILLUSION_AND_CROSSROADS_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 41.79,
+      "sha256": "b6764ba9952bd5f76547ce3c7810bb0b56db32087417ecb417d2c09d5a1f8901",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B08_05_ENV_R11_CITADEL_OF_CORE_DIORAMA_4x4",
+      "png_file": "FFT_B08_05_ENV_R11_CITADEL_OF_CORE_DIORAMA_4x4.png",
+      "json_file": "FFT_B08_05_ENV_R11_CITADEL_OF_CORE_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 48.59,
+      "sha256": "7d42a21eb5cebc7e2e1f7491bb56d8e4bee93afbc38755c0fca10321c1aacf9f",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

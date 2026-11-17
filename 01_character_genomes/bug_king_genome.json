@@ -1,0 +1,94 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "bug_king",
+  "canonical_name": "The Bug King",
+  "chinese_name": "蟲蟲魔王（Bug King）",
+  "role": "Corrupted Steward of Order & Sovereign of the Citadel of Core (ENV_R11)",
+  "zones_present": [
+    "ENV_R00",
+    "ENV_R11"
+  ],
+  "physical_proportions": {
+    "stature_cm": 230,
+    "head_ratio_storybook": "7.0 to 7.5 heads tall",
+    "limb_count_lock": "6 limbs total (2 large serrated upper mantis raptorial scythe-arms + 2 slender articulated lower arms + 2 armored digitigrade clawed legs) + elongated segmented mantis abdomen",
+    "pixel_height_in_256_cell": [
+      236,
+      248
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "visual_locks": {
+    "chitin_primary_hex": "#3A3537",
+    "chitin_bronze_hex": "#5B524E",
+    "shadow_violet_hex": "#4E4456",
+    "compound_eyes_lime_hex": "#9EE875",
+    "magic_purple_hex": "#8F58C9",
+    "magic_gold_hex": "#F3C86A",
+    "prompt_tokens": "The Bug King, towering 230cm (7.2 heads tall) anthropomorphic praying-mantis sovereign with 6 limbs total (2 large serrated upper mantis raptorial scythe-arms emerging from shoulder pauldrons + 2 slender lower articulated arms + 2 clawed digitigrade legs) and segmented mantis abdomen, angular dark chitin mantis head, sharp 5-pointed dark iron crown centered between 2 long slender backward-curving antennae, large bulging luminous lime-green compound eyes (#9EE875), obsidian chitin armor (#3A3537) with high flared collar, diamond sternum crest, front tabard, and split royal cloak, wielding a two-pronged forked crescent spear-staff and swirling amethyst-purple (#8F58C9) and golden-amber (#F3C86A) rune magic",
+    "negative_tokens": "two-armed human, missing mantis scythe arms, red eyes, black eyes, missing crown, missing antennae, generic broadsword, realistic bug slime, cybernetic robot"
+  },
+  "canonical_drive_references": {
+    "master_sheet": {
+      "title": "Bug_King_Master_Sheet.png",
+      "drive_id": "119XTtdPX2mbxRjQQ9gWxO2EiBJzrXPYn",
+      "url": "https://drive.google.com/file/d/119XTtdPX2mbxRjQQ9gWxO2EiBJzrXPYn/view?usp=drivesdk"
+    },
+    "turnaround_callout_expressions": {
+      "title": "Bug_King_Turnaround_Callout_Expressions_and_Swatch.jpg",
+      "drive_id": "1Lt55Oun57S-yoZAMJOSFX-m_3PFu1HCo",
+      "url": "https://drive.google.com/file/d/1Lt55Oun57S-yoZAMJOSFX-m_3PFu1HCo/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_E_MULTI_LIMB_COLOSSAL_BOSS",
+  "reference_drive_ids": {
+    "master_sheet": "119XTtdPX2mbxRjQQ9gWxO2EiBJzrXPYn",
+    "turnaround_callout_expressions": "1Lt55Oun57S-yoZAMJOSFX-m_3PFu1HCo",
+    "story_website_cast": "1ksjLSkt7kLz76-MPWlMJwmWzmNBT55SZ"
+  },
+  "local_reference_paths": {
+    "master_sheet": "02_reference_anchors/characters/Bug_King/Bug_King_Master_Sheet.png",
+    "turnaround_callout_expressions": "02_reference_anchors/characters/Bug_King/Bug_King_Turnaround_Callout_Expressions_and_Swatch.jpg",
+    "story_website_cast": "02_reference_anchors/story_website_cast/bug-king.webp"
+  },
+  "facial_and_hair_locks": {
+    "compound_eyes_lime_hex": "#9EE875",
+    "chitin_primary_hex": "#3A3537",
+    "summary_prompt_tokens": "The Bug King (ENV_R11), towering 230 cm (7.0-7.5 heads tall) anthropomorphic praying-mantis sovereign with STRICT 6-LIMB HEXAPOD ANATOMY (2 large serrated upper mantis raptorial scythe-arms + 2 slender lower articulated arms + 2 clawed digitigrade legs + elongated segmented mantis abdomen), angular obsidian chitin mantis head, sharp 5-pointed dark iron crown between 2 long slender backward-curving antennae, bulging luminous lime-green compound eyes (#9EE875)"
+  },
+  "asymmetric_equipment_invariants": {
+    "summary_prompt_tokens": "obsidian chitin armor (#3A3537 / #5B524E) with high flared neck collar, layered chitin pauldrons, diamond sternum crest, front vertical bordered tabard, split dark slate-olive royal cloak (#2E332B), wielding two-pronged forked crescent spear-staff with swirling amethyst-purple (#8F58C9) and golden-amber (#F3C86A) rune magic"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "two-armed human in bug armor",
+      "4 limbs only (must always have 4 arms + 2 legs = 6 limbs)",
+      "missing mantis upper scythe-arms",
+      "missing 5-pointed crown",
+      "missing antennae",
+      "generic broadsword",
+      "cybernetic robot"
+    ]
+  },
+  "palette_hex_locks": [
+    "#3A3537",
+    "#5B524E",
+    "#9EE875",
+    "#8F58C9",
+    "#F3C86A"
+  ]
+}

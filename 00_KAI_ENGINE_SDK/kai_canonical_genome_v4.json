@@ -1,0 +1,251 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "kai",
+  "canonical_name": "Hero Kai",
+  "chinese_name": "小英雄凱（Kai）",
+  "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+  "role": "11-Year-Old Boy Hero · Apprentice Wizard & Guardian of Pythonia",
+  "workspace_root_drive_id": "1ampGrS0JM8joJjLeULudV8tKjfgFzzO2",
+  "sdk_folder_drive_id": "1l6OYPCS0hk1iDTFpgzyoI1atZA0X8tS3",
+  "sealed_packs_drive_ids": {
+    "05_generated_packs": "1nG2O5g9LijALOEC7duNGyxiKbo8jJ7rU",
+    "01_RPG": "1WXqnW903U860CBARAwGqfwfEqF8RvB9Z",
+    "02_SRPG": "19JyubK9P06AVmJ9mh5wU4l6eAjd9CiPm",
+    "03_Capybara": "1HrvKxJ4-1_sYTEi8slzBU6hRinIHoOD2"
+  },
+  "reference_drive_ids": {
+    "master_turnaround_4view": "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN",
+    "storybook_portrait_gold": "1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9",
+    "equipment_callout": "11uLgREBOxwLToTChhHSeVE1AKzUxVy1k",
+    "running_turnaround": "1dVU7_XNsS3ZPAHwrjUTQI7xseRl30Asl",
+    "sitting_turnaround": "1Ds6D-RUDvRzG6o9ET8-3TluDZdCn9_Dz",
+    "expressions_phonemes": "1xPYTY0zjkNYZq0SSLj1EWzvxutsV-ScH",
+    "wardrobe_variants": "1ZIwHAyaHK2vFy3biScuimd8VeZWC_vei",
+    "tzu_chi_emblem": "16rR9tNSTWUc8mkaeMk-_C2qePIutKIGH",
+    "sealed_mannequin_hd2d_explore": "10i2liinezKbXXgBwnwWZYiaaVsiNKRav",
+    "sealed_mannequin_hd2d_combat": "1Vtv-Hb21k7IHWzLlvWAvso3OgATWKlC-",
+    "sealed_mannequin_fft_iso": "1a3HCbcez3VJLPpjNU1gWoquuCxJezo0f",
+    "sealed_mannequin_chibi": "1fw8Io8X0A9zy6stTOCWEgld2TF2ZbLHQ"
+  },
+  "physical_proportions": {
+    "age_years": 11,
+    "stature_cm": 140,
+    "head_ratios": {
+      "storybook_16x9": 4.2,
+      "track_a_hd2d": 4.0,
+      "track_b_fft": 3.2,
+      "track_c_chibi": 2.2
+    },
+    "pixel_height_in_256_cell": {
+      "track_a_hd2d": [
+        146,
+        170
+      ],
+      "track_b_fft": [
+        134,
+        154
+      ],
+      "track_c_chibi": [
+        138,
+        158
+      ]
+    },
+    "foot_pivot_baseline_y": {
+      "track_a_hd2d": 240,
+      "track_b_fft": 225,
+      "track_c_chibi": 235
+    }
+  },
+  "facial_and_hair_locks": {
+    "face_shape": "Round youthful 11yo face with soft jawline, small button nose, warm compassionate determined smile",
+    "skin_hex": "#FCE5D2",
+    "cheek_blush_hex": "#F2A68D",
+    "hair_style": "Short neat tousled sandy golden-blonde / honey-wheat hair with soft layered bangs parting gently over forehead and short side tufts framing ears (cap spike length <15% head height; NO giant oversized anime spikes)",
+    "hair_palette": {
+      "base_hex": "#D7A84B",
+      "highlight_hex": "#F2CE74",
+      "shadow_hex": "#9E6E2B"
+    },
+    "eyes_and_brows": {
+      "iris_hex": "#3B6EA8",
+      "deep_rim_hex": "#1E3F66",
+      "catchlight_hex": "#FFFFFF",
+      "eyebrows_hex": "#8A5A36",
+      "sight_spell_override": "In Spell 10 (SIGHT ==), irises flare #42D4FF / #F7C852 and eyebrows glow as parallel equals lines (==)"
+    },
+    "summary_prompt_tokens": "11-year-old boy hero Hero Kai (compact child-hero build, NEVER lanky teenager), short neat tousled sandy golden-blonde hair (#D7A84B) with soft layered forehead bangs and short ear tufts (NO giant anime spikes), large expressive cobalt-slate blue eyes (#3B6EA8) with crisp white circular catchlights, round rosy youthful cheeks (#FCE5D2)"
+  },
+  "asymmetric_equipment_invariants": {
+    "cloak_hex": "#345830",
+    "cloak_shadow_hex": "#233D20",
+    "brooch_hex": "#D4AF37",
+    "tunic_hex": "#F4EFE6",
+    "breeches_hex": "#EDE8DE",
+    "tzu_chi_shield_hex": "#1F6A38",
+    "tzu_chi_lotus_hex": "#C29B38",
+    "satchel_hex": "#7E4B2B",
+    "boots_hex": "#6E4226",
+    "potions_left_hip_hexes": [
+      "#2ECC71",
+      "#E74C3C",
+      "#3A86FF"
+    ],
+    "kai_own_right_hip": "1 plain closed rectangular saddle-brown leather satchel (#7E4B2B) with ZERO potion vials",
+    "kai_own_left_hip": "3-slot brown leather potion holster with 3 corked round glass flasks (emerald #2ECC71, ruby #E74C3C, sapphire #3A86FF)",
+    "summary_prompt_tokens": "deep moss-green woolen traveling cloak (#345830) fastened at the collarbone by a golden crescent moon brooch (#D4AF37), unbleached warm cream double-breasted linen tunic (#F4EFE6) and trousers (#EDE8DE) tucked into wide folded-cuff brown leather riding boots (#6E4226), diagonal chestnut chest baldric + belt centered with emerald-green Tzu Chi lotus and white Dharma ship medallion buckle (#1F6A38 / #C29B38), 1 plain closed brown satchel on Kai's OWN right hip (viewer left in front view), 3-slot holster with emerald/ruby/sapphire glass potion vials on Kai's OWN left hip (viewer right in front view)"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "adult proportions",
+      "older teenager proportions",
+      "tall lanky limbs",
+      "giant oversized anime spiky hair",
+      "black hair",
+      "brown hair",
+      "blue jeans",
+      "grey pants",
+      "generic belt buckle",
+      "potions inside right-hip rectangular satchel",
+      "horned Viking helmet (reserved for Ch. 3 Blacksmith)",
+      "tall pointed indigo wizard hat (reserved for Great Wizard)",
+      "fiery ginger beard (reserved for Master Grimsby)",
+      "Ember pet",
+      "non-vegetarian meat food"
+    ]
+  },
+  "palette_hex_locks": [
+    "#D7A84B",
+    "#3B6EA8",
+    "#345830",
+    "#D4AF37",
+    "#F4EFE6",
+    "#1F6A38",
+    "#6E4226"
+  ],
+  "anatomical_roi_bands": {
+    "comment": "Normalized vertical fractions [y_min, y_max] of each cell's opaque content bounding box (bbox) for ACVE v3.0 Gate 8A-8E & Gate 10",
+    "crown_hair": {
+      "y_range": [
+        0.0,
+        0.28
+      ],
+      "required_hexes": [
+        "#D7A84B"
+      ],
+      "min_pixels": 12
+    },
+    "face_eyes": {
+      "y_range": [
+        0.16,
+        0.4
+      ],
+      "required_hexes": [
+        "#FCE5D2",
+        "#3B6EA8"
+      ],
+      "min_pixels": 6
+    },
+    "collar_torso": {
+      "y_range": [
+        0.34,
+        0.68
+      ],
+      "required_hexes": [
+        "#345830",
+        "#F4EFE6",
+        "#D4AF37"
+      ],
+      "min_pixels": 8
+    },
+    "waist_hips": {
+      "y_range": [
+        0.55,
+        0.8
+      ],
+      "left_viewer_right_hip_potions": [
+        "#2ECC71",
+        "#E74C3C",
+        "#3A86FF"
+      ],
+      "right_viewer_left_hip_satchel": [
+        "#7E4B2B"
+      ]
+    },
+    "boots_baseline": {
+      "y_range": [
+        0.76,
+        1.0
+      ],
+      "required_hexes": [
+        "#6E4226"
+      ],
+      "min_pixels": 10
+    }
+  },
+  "base_anchors_track_a_256x256": {
+    "ANCHOR_FOOT_PIVOT": [
+      128,
+      240,
+      0
+    ],
+    "ANCHOR_HAND_R_MAIN": [
+      162,
+      148,
+      45
+    ],
+    "ANCHOR_HAND_L_OFF": [
+      96,
+      146,
+      0
+    ],
+    "ANCHOR_HEAD_TOP": [
+      128,
+      82,
+      0
+    ],
+    "ANCHOR_EYES_FACE": [
+      132,
+      108,
+      0
+    ],
+    "ANCHOR_NECK_CLASP": [
+      130,
+      134,
+      0
+    ],
+    "ANCHOR_CHEST_PAULDRON": [
+      128,
+      148,
+      0
+    ],
+    "ANCHOR_WAIST_HIP": [
+      128,
+      178,
+      0
+    ],
+    "ANCHOR_BACK_MOUNT": [
+      114,
+      142,
+      -35
+    ]
+  },
+  "shared_art_dna": {
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "local_reference_paths": {
+    "master_turnaround_4view": "02_reference_anchors/characters/Kai/001. Turnaround.png",
+    "storybook_portrait_gold": "02_reference_anchors/story_website_cast/hero-kai.webp",
+    "equipment_callout": "02_reference_anchors/characters/Kai/003. Equipment Callout.png",
+    "running_turnaround": "02_reference_anchors/characters/Kai/002. Turn around Running .png",
+    "sitting_turnaround": "02_reference_anchors/characters/Kai/003. Turn Around Sitting.png",
+    "expressions_phonemes": "02_reference_anchors/characters/Kai/004. Expressions_Phonemes_and_Props.jpg",
+    "wardrobe_variants": "02_reference_anchors/characters/Kai/Different Outfit.png",
+    "tzu_chi_emblem": "02_reference_anchors/shared_cast_and_insignia/TzuChiFoundation_logo-1.jpg",
+    "sealed_mannequin_hd2d_explore": "05_generated_packs/01_RPG/MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4.png",
+    "sealed_mannequin_hd2d_combat": "05_generated_packs/01_RPG/MOD_B01_02_KAI_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4.png",
+    "sealed_mannequin_fft_iso": "05_generated_packs/01_RPG/MOD_B01_03_KAI_FFT_ISOMETRIC_SOCKET_MANNEQUIN_4x4.png",
+    "sealed_mannequin_chibi": "05_generated_packs/01_RPG/MOD_B01_04_KAI_CAPYBARA_CHIBI_SOCKET_MANNEQUIN_4x4.png"
+  }
+}

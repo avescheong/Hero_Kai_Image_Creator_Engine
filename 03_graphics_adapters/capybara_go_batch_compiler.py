@@ -1,0 +1,223 @@
+#!/usr/bin/env python3
+"""
+Capybara Go! Chibi Roguelite Auto-Battler Multi-Batch Prompt Compiler (`capybara_go_batch_compiler.py`)
+Reads `01_character_genomes/*.json` and compiles deterministic, zero-drift prompts for all 8 Capybara Go!
+Batches (CG_B01 through CG_B08 — 40 sheets total) into `05_generated_packs/capybara_go_batches_01_to_08_master_prompts.json`.
+"""
+import argparse
+import json
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PACKS_DIR = REPO_ROOT / "05_generated_packs" / "03_Capybara"
+
+CG_CHIBI_UNIT_HEADER = (
+    "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, "
+    "adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, "
+    "bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A) and clean interior strokes, "
+    "vibrant soft cel-shaded vector-gouache colors with glossy pill catchlights on a solid pure flat white "
+    "background (#FFFFFF), 16 evenly spaced sprites arranged in 4 rows by 4 columns, completely text-free, "
+    "no words, no numbers, no labels, no grid lines, no watermarks."
+)
+
+CG_ICON_UI_HEADER = (
+    "High-precision Capybara Go! (Habby) style 2D chibi roguelite RPG skill icon and equipment badge sheet, "
+    "bold smooth rounded dark cocoa-espresso outer contour lines (#34221A), vibrant glossy cel-shaded "
+    "vector-gouache colors with crisp rim highlights on a solid pure flat white background (#FFFFFF), "
+    "16 evenly spaced icons arranged in 4 rows by 4 columns, completely text-free, no words, no numbers, "
+    "no labels, no grid lines, no watermarks."
+)
+
+GLOBAL_NEG = (
+    "photorealistic, 3D render, CGI, octane render, unreal engine, tall realistic 7-head human anatomy, "
+    "modern clothing, jeans, sneakers, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, "
+    "distorted anatomy, extra limbs, blurry, low resolution, screenshot artifacts, crop marks, watermark, "
+    "text, words, numbers, captions, labels, grid lines, Ember pet, non-vegetarian meat food"
+)
+
+KAI_CHIBI_LOCK = (
+    "2.2-head squishy chibi boy hero Hero Kai facing 3/4 right, fluffy sandy honey-blonde hair (#D7A84B), "
+    "big glossy cobalt-blue eyes (#3B6EA8), deep moss-green hooded cape (#345830) fastened by a chunky 1.6x "
+    "magnified golden crescent moon brooch (#D4AF37), cream linen tunic (#F4EFE6), prominent oversized emerald-green "
+    "Tzu Chi lotus and Dharma ship belt medallion (#1F6A38), plump brown satchel on his right hip, and 3 chunky "
+    "round corked glass potion bulbs (emerald #2ECC71, ruby #E74C3C, sapphire #3A86FF) on his left hip"
+)
+
+CAPYBARA_GO_BATCHES = {
+    "CG_BATCH_01_CHIBI_HERO_KAI_AUTO_BATTLER_PACK": {
+        "CG_B01_01_CHIBI_KAI_AUTO_MARCH_AND_COMBAT_4x4": {
+            "character_id": "kai",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": [
+                "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN",
+                "1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9"
+            ],
+            "prompt": (
+                f"{CG_CHIBI_UNIT_HEADER} Subject in all 16 cells is {KAI_CHIBI_LOCK}. "
+                "First row of 4 sprites (Capybara Go! Bouncy Auto-March Loop facing right): (1) squishy down-bounce idle frame, (2) stretch up-bounce idle frame, (3) happy auto-march waddle stride 1 with stubby boots up, (4) happy auto-march waddle stride 2 with moss cape bouncing. "
+                "Second row of 4 sprites (Basic Attack, Crit & Dagger Throw facing right): (5) IronSword wind-up squash, (6) fast forward IronSword slash arc, (7) jumping overhead critical hit smash with star sparks, (8) tossing a glowing golden Python rune dagger forward. "
+                "Third row of 4 sprites (100-Rage Ultimate & Defense facing right): (9) 100-Rage glowing golden aura charge-up holding open Ancient Spellbook, (10) firing a giant radiant emerald-gold Python spell beam forward, (11) crouching behind a glowing golden Sun-Aegis bubble shield, (12) happily munching a golden vegetarian honey-bread loaf with green healing hearts. "
+                "Fourth row of 4 sprites (Hit Recoil, Dizzy KO & Event Emotes): (13) squished hit recoil with tight '><' eyes, (14) knocked-out dizzy spiral-eyes plop on the ground, (15) star-eyed lucky jackpot treasure jump, (16) curious head-tilt event reaction. "
+                "Completely text-free, no labels anywhere."
+            ),
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B01_02_CHIBI_KAI_4TIER_EQUIPMENT_PROGRESSION_4x4": {
+            "character_id": "kai",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": [
+                "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN",
+                "1iOM8JakVlEd5WvAroAx30BTwlXmSV2Ae"
+            ],
+            "prompt": (
+                f"{CG_CHIBI_UNIT_HEADER} 4x4 Capybara Go! equipment progression sheet for 2.2-head Chibi Hero Kai facing right across 4 synchronized poses from left to right (Col 1: Bouncy Idle, Col 2: Auto-March Waddle, Col 3: Weapon Slash, Col 4: 100-Rage Ultimate Cast). "
+                "First row (Tier 0 Novice Coder): wearing sage-green pullover hoodie (#7E9C78) and wielding wooden training sword. "
+                "Second row (Tier 1/2 Squire of Pythonia): wearing moss-green cloak (#345830) with chunky gold crescent brooch (#D4AF37), cream tunic (#F4EFE6), oversized green Tzu Chi lotus belt buckle (#1F6A38), 3 round hip potion bulbs, wielding gleaming IronSword. "
+                "Third row (Tier 3 Dwarven Rune Knight): wearing gleaming silver Dwarven Steel chestplate and chunky pauldrons (#D9E4EC) over moss-green cloak, wielding glowing Wizard's Blade. "
+                "Fourth row (Tier 4 Mythic Grand Weaver Paladin): wearing radiant emerald-and-gold lotus battle mantle (#1F6A38 / #D4AF37) over silver plate, wielding Master Grimsby's octagonal Dwarven Rune Hammer. "
+                "Completely text-free, no labels anywhere."
+            ),
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B01_03_CHIBI_KAI_MOUNT_RIDING_PROGRESSION_4x4": {
+            "character_id": "kai",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9"],
+            "prompt": (
+                f"{CG_CHIBI_UNIT_HEADER} 4x4 Capybara Go! Mount Riding sprite sheet showing {KAI_CHIBI_LOCK} happily riding 4 adorable chibi fantasy mounts facing right (Col 1: Idle Bounce, Col 2: Auto-March Trot, Col 3: Mount Skill Leap, Col 4: Victory Cheer). "
+                "First row: riding a plump bouncy red-and-gold spotted mushroom mount. "
+                "Second row: riding the chunky mossy rune-carved 'int' boulder golem mount (#7E7872). "
+                "Third row: riding a fluffy cerulean-horned Whispering Forest cloud-stag mount. "
+                "Fourth row: riding a friendly chubby crimson-scaled library dragon mount. "
+                "Completely text-free, no labels anywhere."
+            ),
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B01_04_CHIBI_KAI_11_PYTHON_SPELL_ULTIMATES_4x4": {
+            "character_id": "kai",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9"],
+            "prompt": (
+                f"{CG_CHIBI_UNIT_HEADER} 16 chibi spell-casting and event-wheel outcome frames of {KAI_CHIBI_LOCK}: "
+                "Row 1: casting golden sunlight orb, weaving rainbow silk thread, striking forge spark with hammer, summoning glowing green forest vine. "
+                "Row 2: opening ruby heart chest, summoning triple ruby/sapphire/gold chests, wrapping in translucent lavender whisper ghost cloak, summoning 4 mini elemental spirits. "
+                "Row 3: swinging golden dwarven math hammer, flaring glowing cyan '==' truth eyes, stepping through a golden colon arch, unleashing the 11-spell rainbow Grand Weave burst. "
+                "Row 4: 4 funny Capybara Go! event outcomes (showered in gold coins, comically singed by a tiny lightning cloud, sleeping peacefully by a cozy campfire, wearing a celebratory level-up crown). "
+                "Completely text-free, no labels anywhere."
+            ),
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B01_05_CHIBI_KAI_STICKER_EMOTES_AND_AVATARS_4x4": {
+            "character_id": "kai",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 die-cut chibi sticker emotes and circular HUD profile avatars of {KAI_CHIBI_LOCK} (thumbs up, beaming laugh, sipping herbal tea, reading spellbook, hugging String puppy, shocked expression, determined battle headband, holding golden trophy).",
+            "negative_prompt": GLOBAL_NEG
+        }
+    },
+    "CG_BATCH_02_CHIBI_BEAN_PETS_AND_WIZARD_MENTOR_PACK": {
+        "CG_B02_01_CHIBI_STRING_BEAN_PET_AUTO_BATTLER_4x4": {
+            "character_id": "string",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1gfiJ7wHYfGRs_1t6ortYVeQXNBJk2iMm", "1BXXuk_rC5BFBGSLx6YJ9btBhUjSIBbZL"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 ultra-round 1.8-head plush mochi-bean chibi frames of String (scruffy golden-tan terrier puppy #D89B4C, cream muzzle #F5E6CC, moss-green neckerchief #345830, glowing cyan-teal 'str' collar crystal #3B8EA5) facing right: bouncy idle, stubby paw waddle, sonic bark wave, digging up treasure chest, telepathic aura pulse, curled nap KO, and sticker emotes.",
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B02_02_CHIBI_SPELL_GUARDIAN_MANTIS_PET_4x4": {
+            "character_id": "spell_guardian",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1zt8MH43UqReQ0NLRo6ZpH6aB2cYXW7Qw", "1zkW0vPzEDy96LYBNz3AVYIxT2NGarMzX"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 ultra-cute 1.8-head mochi chibi frames of Baby Praying Mantis Spell Guardian (spring-emerald carapace #2ECC71, huge sparkling golden-emerald eyes, pale-gold budding fairy wings #F7C852) facing right: hatching from dark obsidian shell, bouncy hover, harmony prayer heal beam, rainbow halo burst, sleepy leaf nap, and sticker emotes.",
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B02_03_CHIBI_FOUR_SHAPESHIFT_SPIRIT_PETS_4x4": {
+            "character_id": "supporting_npcs_and_spirits",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1zt8MH43UqReQ0NLRo6ZpH6aB2cYXW7Qw"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 squishy 1.8-head Capybara Go! companion pet sprites facing right for the 4 Shapeshift Spirits: Row 1 str Golden Scroll Pet (#F6C863/#3B8EA5), Row 2 int Chubby Mossy Boulder Golem Pet (#7E7872/#F4D068), Row 3 float Squishy Sky-Blue Water Droplet Pet (#4EA8DE), Row 4 bool Flashing Emerald/Ruby Prism Gem Pet (#2ECC71/#E74C3C) in Idle Bounce, Follow Trot, Pet Skill Cast, and Happy Emote.",
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B02_04_CHIBI_GREAT_WIZARD_EVENT_MENTOR_4x4": {
+            "character_id": "wizard",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1vmgAMIFU-HSW5NpkXsxv2kfLmdtjFZGB", "1wdIcGEGsdqN48H9l4R08Z7mNw8482GNM"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 squishy 2.2-head chibi frames of The Great Wizard (oversized curved indigo wizard hat #23396C with gold band, puffy cloud-like silver beard #F2F4F7, half-moon spectacles, cobalt celestial robes, chunky emerald orb staff #2BD980) facing left for roadside Day Events: greeting, presenting glowing Spellbook, casting golden blessing, dissolving into emerald starlight motes, and event busts.",
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B02_05_CHIBI_PET_EGGS_GACHAPON_AND_SYNERGY_4x4": {
+            "character_id": "string",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1gfiJ7wHYfGRs_1t6ortYVeQXNBJk2iMm", "1zt8MH43UqReQ0NLRo6ZpH6aB2cYXW7Qw"],
+            "prompt": f"{CG_ICON_UI_HEADER} 16 Capybara Go! Pet Gacha Eggs (Common, Rare, Epic, Mythic Obsidian-Emerald Egg in intact and cracking states), Pet Awakening Collar/Wing Badges, and Chibi Party Parade formation sprites.",
+            "negative_prompt": GLOBAL_NEG
+        }
+    },
+    "CG_BATCH_03_CHIBI_CRAFTSMEN_AND_EVENT_NPCS_PACK": {
+        "CG_B03_01_CHIBI_GRANDMA_LOOMA_WEAVING_EVENT_4x4": {
+            "character_id": "grandma_looma",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1czQvpJyQ3jO6sA2HrIo55BtCkMOSW252", "1mUKdoCGTrm94t43RHnANbTkxQO-BBgkp"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 squishy 2.2-head chibi frames of Grandma Looma facing left for roadside Day Events (ash-silver low nape bun #A89F8D, ochre leaf-patterned blouse #C9965B, olive vest/skirt #7B6B4F, cream apron #EDE4CE, oversized round wire glasses on neck cord, chunky wooden boat shuttle): warm wave, weaving rainbow silk thread, gifting colorful striped scarf, holding yarn basket, raising brass lantern, and chibi busts.",
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B03_02_CHIBI_BLACKSMITH_CH03_FORGE_EVENT_4x4": {
+            "character_id": "blacksmith",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1s0Fl8NRWPCc0LcyWU0hgnP__x9Noc5HN", "1_udSLS2q2t3KSmENXYAJ40ugLh3ZMqen"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 squishy 2.2-head chibi frames of Ch. 3 Iron Outpost Blacksmith facing left for roadside Day Events (MANDATORY oversized riveted steel helmet #6E7885 with 2 upward-curving ivory horns #DDD2BE, puffy silver-white 3-braid beard #C8CDD2, bare muscular chibi arms, sleeveless olive tunic #58635A, brown leather apron #8A5A36): resting hammer on shoulder, hammering glowing anvil with '+' sparks, presenting fused IronSword, hearty laugh, and chibi busts.",
+            "negative_prompt": f"{GLOBAL_NEG}, hatless, fiery orange beard, red beard"
+        },
+        "CG_B03_03_CHIBI_MASTER_GRIMSBY_CH09_DWARF_EVENT_4x4": {
+            "character_id": "master_grimsby",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["17okHXa0zAJVZnjrB_UGrSKk5WwkneNd2", "1ZCN7_0BUoV3TeEeky6hsFW1NWTXpfTke"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 squishy 2.1-head chibi frames of Ch. 9 Master Grimsby facing left for roadside Day Events (MANDATORY HATLESS head with NO horned helmet, huge blazing fiery ginger-orange twin-forked beard #C94A29-#E07A38 banded with big golden-brass rings #D4A23C, chunky steel shoulder pauldrons #D9E4EC, rolled crimson sleeves #8E3524, runic smelter apron #7E4528): crossing arms grit test, striking runic anvil with octagonal Dwarven hammer, presenting gleaming silver Dwarven Steel chestplate, presenting glowing Wizard's Blade, and chibi busts.",
+            "negative_prompt": f"{GLOBAL_NEG}, horned helmet, Viking helmet, silver beard, white beard"
+        },
+        "CG_B03_04_CHIBI_VILLAGE_AND_FOREST_EVENT_NPCS_4x4": {
+            "character_id": "supporting_npcs_and_spirits",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1czQvpJyQ3jO6sA2HrIo55BtCkMOSW252"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 squishy 2.2-head chibi roadside Event NPC sprites facing left: Row 1 Barnaby the Baker holding warm golden vegetarian honey bread loaves, Row 2 Little Girl of Silent Village in sky-blue pinafore, Row 3 Whispering Forest Dryad Spirit with mossy lantern staff, Row 4 Ghost Librarian with round spectacles and silver '#' feather quill.",
+            "negative_prompt": GLOBAL_NEG
+        },
+        "CG_B03_05_CHIBI_SUNNYBROOK_AND_CROSSROADS_NPCS_4x4": {
+            "character_id": "supporting_npcs_and_spirits",
+            "aspect_ratio": "1:1",
+            "grid_layout": "4x4",
+            "reference_drive_ids": ["1czQvpJyQ3jO6sA2HrIo55BtCkMOSW252"],
+            "prompt": f"{CG_CHIBI_UNIT_HEADER} 16 squishy 2.2-head chibi roadside Event NPC sprites facing left: Row 1 Reformed Sunnybrook Goblin happily sharing a loaf of vegetarian harvest bread, Row 2 Wise Hooded Signpost-Keeper with brass balance lantern, Row 3 Chibi Coiled Sleeping Red Dragon curling warm smoke, Row 4 Chibi Eye of Truth Stone Archway.",
+            "negative_prompt": GLOBAL_NEG
+        }
+    }
+}
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Compile Track C Capybara Go! Chibi prompts.")
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=PACKS_DIR / "capybara_go_batches_01_to_08_master_prompts.json",
+    )
+    args = parser.parse_args()
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(json.dumps(CAPYBARA_GO_BATCHES, indent=2), encoding="utf-8")
+    print(f"Wrote {args.out} ({args.out.stat().st_size / 1024:.1f} KB)")
+
+
+if __name__ == "__main__":
+    main()

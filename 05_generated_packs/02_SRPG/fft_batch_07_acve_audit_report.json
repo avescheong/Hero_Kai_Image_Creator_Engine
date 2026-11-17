@@ -1,0 +1,110 @@
+{
+  "batch": "FFT_BATCH_07",
+  "assets": [
+    {
+      "asset_id": "FFT_B07_01_ENV_R01_SILENT_VILLAGE_DIORAMA_4x4",
+      "png_file": "FFT_B07_01_ENV_R01_SILENT_VILLAGE_DIORAMA_4x4.png",
+      "json_file": "FFT_B07_01_ENV_R01_SILENT_VILLAGE_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 41.06,
+      "sha256": "729875fc2266c692b6c2ea4cf8383dbbf2c8d87b658c52074c47ff0fa0efd6e4",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B07_02_ENV_R02_LOOM_FOREST_DIORAMA_4x4",
+      "png_file": "FFT_B07_02_ENV_R02_LOOM_FOREST_DIORAMA_4x4.png",
+      "json_file": "FFT_B07_02_ENV_R02_LOOM_FOREST_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 43.51,
+      "sha256": "c67b7af04ad8acdb57c4a202af4461ccebb30aad316937c57010ab15fef82b3a",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B07_03_ENV_R03_IRON_OUTPOST_DIORAMA_4x4",
+      "png_file": "FFT_B07_03_ENV_R03_IRON_OUTPOST_DIORAMA_4x4.png",
+      "json_file": "FFT_B07_03_ENV_R03_IRON_OUTPOST_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 48.21,
+      "sha256": "3b381c44e6d3575fe55b5dbeecc8e154e7037d3d596b6e7c1a9dad2ee365ab7d",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B07_04_ENV_R04_WHISPERING_FOREST_DIORAMA_4x4",
+      "png_file": "FFT_B07_04_ENV_R04_WHISPERING_FOREST_DIORAMA_4x4.png",
+      "json_file": "FFT_B07_04_ENV_R04_WHISPERING_FOREST_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 40.24,
+      "sha256": "53dc53bcbd62d21705fbd6998e3962725709920d5ec9a11c088f758b212b3324",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B07_05_ENV_R05_CURSED_RIVERBANK_AND_CHESTS_DIORAMA_4x4",
+      "png_file": "FFT_B07_05_ENV_R05_CURSED_RIVERBANK_AND_CHESTS_DIORAMA_4x4.png",
+      "json_file": "FFT_B07_05_ENV_R05_CURSED_RIVERBANK_AND_CHESTS_DIORAMA_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 39.29,
+      "sha256": "5456c7e2870680990385538dcc1f080f42fde2c8cf00e2075b8ebb02d6314253",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

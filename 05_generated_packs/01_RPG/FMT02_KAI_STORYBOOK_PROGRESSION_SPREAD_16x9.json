@@ -1,0 +1,48 @@
+{
+  "asset_file": "FMT02_KAI_STORYBOOK_PROGRESSION_SPREAD_16x9.png",
+  "sha256": "d7adc00eb78ef18f9a5514facd9839e7e0dfbef4e3c3b3dd002e110316023bd8",
+  "dimensions": {
+    "w": 1376,
+    "h": 768
+  },
+  "grid": {
+    "columns": 1,
+    "rows": 1,
+    "cell_w": 1376,
+    "cell_h": 768
+  },
+  "occupied_cells": "1/1",
+  "transparency_pct": 0.0,
+  "acve_gates": {
+    "gate_1_rgba_format": true,
+    "gate_2_dimension_lock": true,
+    "gate_3_bfs_alpha_preserved_interior": true,
+    "gate_4_grid_occupancy": true,
+    "gate_5_bottom_center_pivot": true,
+    "gate_7_sha256_sealed": true
+  },
+  "frames": [
+    {
+      "frame_index": 0,
+      "row": 0,
+      "col": 0,
+      "cell_rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1376,
+        "h": 768
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 1376,
+        "h": 768
+      },
+      "opaque_pixels": 1056768,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    }
+  ]
+}

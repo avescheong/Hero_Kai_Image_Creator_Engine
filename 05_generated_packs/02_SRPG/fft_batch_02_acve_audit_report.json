@@ -1,0 +1,110 @@
+{
+  "batch": "FFT_BATCH_02",
+  "assets": [
+    {
+      "asset_id": "FFT_B02_01_STRING_ISOMETRIC_4DIR_LOCOMOTION_4x4",
+      "png_file": "FFT_B02_01_STRING_ISOMETRIC_4DIR_LOCOMOTION_4x4.png",
+      "json_file": "FFT_B02_01_STRING_ISOMETRIC_4DIR_LOCOMOTION_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 68.71,
+      "sha256": "518430ff70f9a5f4f4fd8bc429e124be06616907ce1fff5d9da496df5dcdb2ee",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B02_02_STRING_TELEPATHIC_STR_COMBAT_AND_KO_4x4",
+      "png_file": "FFT_B02_02_STRING_TELEPATHIC_STR_COMBAT_AND_KO_4x4.png",
+      "json_file": "FFT_B02_02_STRING_TELEPATHIC_STR_COMBAT_AND_KO_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 63.92,
+      "sha256": "60601312295d9ed939a1fd0bd14e22bfacbef05195ba7c26e0f07d4fe807aed3",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B02_03_GREAT_WIZARD_ISOMETRIC_4DIR_LOCOMOTION_4x4",
+      "png_file": "FFT_B02_03_GREAT_WIZARD_ISOMETRIC_4DIR_LOCOMOTION_4x4.png",
+      "json_file": "FFT_B02_03_GREAT_WIZARD_ISOMETRIC_4DIR_LOCOMOTION_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 69.92,
+      "sha256": "31fdc6596aef96b8d188b7639686419d1f04476d6030f79d2b5421c85ba1626b",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B02_04_GREAT_WIZARD_ISOMETRIC_CHANT_AND_STARLIGHT_4x4",
+      "png_file": "FFT_B02_04_GREAT_WIZARD_ISOMETRIC_CHANT_AND_STARLIGHT_4x4.png",
+      "json_file": "FFT_B02_04_GREAT_WIZARD_ISOMETRIC_CHANT_AND_STARLIGHT_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.89,
+      "sha256": "5b571f70c28530037357e0d23facadf078cbbf20fbcb76319e1be0e8c8b891db",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B02_05_HERO_PARTY_FFT_CUTIN_BANNERS_AND_SIGILS_4x4",
+      "png_file": "FFT_B02_05_HERO_PARTY_FFT_CUTIN_BANNERS_AND_SIGILS_4x4.png",
+      "json_file": "FFT_B02_05_HERO_PARTY_FFT_CUTIN_BANNERS_AND_SIGILS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 45.36,
+      "sha256": "2dc0722bd60793227a888b119818dfc15bce7c6ca82c423e53d6d04918de7ec7",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

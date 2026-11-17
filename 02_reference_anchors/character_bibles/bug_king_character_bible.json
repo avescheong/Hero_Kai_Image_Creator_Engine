@@ -1,0 +1,76 @@
+{
+  "character_id": "bug_king",
+  "character_name": "The Bug King",
+  "full_title": "Sovereign Overlord of the Chitin Realm",
+  "demographics": {
+    "species": "Anthropomorphic Praying Mantis / Insectoid Sovereign",
+    "proportions": "7.0 to 7.5 heads tall in upright regal posture; capable of low quadrupedal/hexapodal crouching stalk",
+    "anatomy": {
+      "limb_count": "6 limbs total (4 arms + 2 legs)",
+      "upper_arms": "2 large serrated praying-mantis raptorial scythe-arms with spiky forearms and curved talon claws emerging from shoulder pauldrons",
+      "lower_arms": "2 slender articulated humanoid-insectoid arms below the shoulders used for wielding spear-staff and casting",
+      "legs": "2 armored digitigrade insectoid legs ending in clawed feet",
+      "abdomen": "Elongated segmented dark chitin mantis abdomen extending behind hips"
+    }
+  },
+  "facial_features": {
+    "head_shape": "Angular triangular insectoid mantis head with dark chitin faceplates and segmented mandibles",
+    "eyes": {
+      "color": "Luminous toxic/chartreuse-lime green (Hex: #9EE875 to #B5F282)",
+      "shape": "Large bulging oval compound eyes that glow softly and intensify to bright yellow-green during spellcasting"
+    },
+    "antennae": "Two long, slender, curved dark antennae arching backward behind the crown",
+    "crown": "Sharp, jagged five-pointed dark iron/chitin crown centered between antennae with a small diamond crest"
+  },
+  "outfits": {
+    "obsidian_chitin_regalia": {
+      "name": "Obsidian Chitin Royal Regalia (Canonical Default)",
+      "description": "The Bug King's signature dark charcoal-bronze chitin plate armor paired with regal collar, mantle, and tabard",
+      "collar_and_pauldrons": "High flared armored neck collar and layered dark chitin shoulder pauldrons with subtle engraved trim",
+      "chestplate": "Segmented interlocking thoracic chitin armor featuring a diamond-shaped sternum crest",
+      "cloak_and_tabard": "Long vertical front loincloth/tabard with geometric dark border trim between legs, plus a split dark slate-olive royal ankle-length cloak behind",
+      "weapon": "Long slender dark metallic polearm staff/spear topped with an ornate two-pronged crescent tuning-fork tip and pointed butt ferrule",
+      "magic_signature": "Swirling amethyst-purple (#8F58C9) and luminous golden-amber (#F3C86A) arcane energy orbs and rune-filled vortex spirals"
+    },
+    "battle_stalker_carapace": {
+      "name": "Battle Stalker Carapace (Cloakless Agile Form)",
+      "description": "Unencumbered combat carapace without the long rear cloak, exposing the full segmented mantis abdomen, all four arms, and serrated scythe-blades for rapid lunges and crouching stalks"
+    },
+    "arcane_overlord_armor": {
+      "name": "Arcane Overlord Form (Empowered)",
+      "description": "Royal chitin regalia charged with glowing violet-and-gold runes pulsing between armor seams, bright glowing yellow-green eyes, swirling purple energy orb between raised mantis claws"
+    }
+  },
+  "art_style_dna": {
+    "primary_style": "Hand-drawn fantasy RPG and storybook illustration (harmonious with Hero Kai & Great Wizard), crisp ink line art with anatomical cross-hatching and watercolor/cel-shaded washes",
+    "color_palette": "Dark charcoal chitin (#3A3537), smoky bronze-taupe (#5B524E), cool slate-violet shadows (#4E4456), luminous chartreuse-green eyes (#9EE875), amethyst-purple magic (#8F58C9), golden runes (#F3C86A)",
+    "atmosphere": "Imposing, regal, ancient, formidable yet stylized in clean storybook/RPG illustration aesthetics"
+  },
+  "invariants_do_and_dont": {
+    "do": [
+      "Always preserve the 4-arm + 2-leg insectoid anatomy (2 large serrated upper mantis scythe-arms + 2 lower arms + 2 clawed legs)",
+      "Always include the sharp five-pointed dark iron crown between two long slender antennae",
+      "Always render large bulging luminous pale lime/chartreuse-green compound eyes",
+      "Always include the high flared regal armored collar, segmented chestplate with diamond crest, and front tabard",
+      "Always arm him with the distinctive two-pronged forked crescent spear-staff",
+      "Always use amethyst-purple and golden-amber magic with glowing runes when casting spells"
+    ],
+    "dont": [
+      "Do NOT render him with only 2 arms like a regular human in armor — keep his 4 arms and mantis scythe-blades",
+      "Do NOT change his eye color to red or black — keep his iconic glowing pale chartreuse-green compound eyes",
+      "Do NOT replace the two-pronged forked spearhead with a generic broadsword or axe",
+      "Do NOT use photorealistic 3D CGI, grotesque realistic bug slime/gore, or sci-fi cybernetic armor",
+      "Do NOT swap purple-and-gold arcane magic for green slime or fiery red magma"
+    ]
+  },
+  "reference_files": [
+    "02_Source_Assets/Characters/Bug_King/Bug_King_Master_Sheet.png",
+    "02_Source_Assets/Characters/Bug_King/Bug_King_Turnaround_Callout_Expressions_and_Swatch.jpg"
+  ],
+  "canonical_v3_arc": {
+    "story_version": "3.0",
+    "origin": "Formerly Pythonia's gentle Steward of Order before careless, greedy, broken code twisted around his shell and fear swallowed him whole.",
+    "zone_id": "ENV_R11",
+    "finale_transformation": "During the Citadel of Core Throne Room battle, Kai's glowing == SIGHT eyes expose the logic flaw in his obsidian shell; the outer dark carapace cracks open ('Tap. Tap. Crack.') to awaken the tiny emerald-eyed Baby Praying Mantis Spell Guardian inside."
+  }
+}

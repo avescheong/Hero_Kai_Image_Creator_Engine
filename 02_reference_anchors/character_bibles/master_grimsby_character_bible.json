@@ -1,0 +1,42 @@
+{
+  "character_id": "master_grimsby",
+  "character_name": "Master Grimsby",
+  "canonical_zone": "ENV_R08 (The Deep Dwarven Forge of Master Grimsby)",
+  "canonical_spell": "Spell 9: FORGE — hp = 100 - 20 (+ - * /)",
+  "full_title": "Fiery-Bearded Master of the Deep Dwarven Forge",
+  "demographics": {
+    "gender": "Male",
+    "apparent_age": "60-72 years old",
+    "proportions": "~142 cm tall (4.4 heads tall — stout subterranean dwarf craftsman proportions, distinct from Ch. 3 silver-bearded horned Iron Outpost Blacksmith)",
+    "build": "Ultra-broad barrel-chested, stout weathered subterraneansmith with heavy forearms"
+  },
+  "facial_features": {
+    "face_shape": "Broad square weathered dwarven face with light soot patina",
+    "skin_tone": "Warm ruddy hearth-tanned skin (#D69672)",
+    "hair": {
+      "color": "Thick auburn-copper hair (#A83D24) — NO horned helmet; wears brass forge goggles pushed up across forehead",
+      "style": "Bushy swept-back locks secured beneath a wide leather goggle strap"
+    },
+    "beard_and_mustache": {
+      "color": "Fiery copper-red and burnt-orange (#C94A29 to #E07A38)",
+      "style": "Massive booming wide braided fiery beard secured with small brass ring clasps beneath a thick sweeping copper mustache"
+    },
+    "eyes": "Warm intense amber-brown eyes (#7A421D) under thick fiery eyebrows"
+  },
+  "outfits": {
+    "deep_dwarven_forge_apron": {
+      "name": "Deep Dwarven Forge Apron (Canonical Default)",
+      "description": "No horned helmet; brass forge goggles pushed onto forehead, fiery copper braided beard, charcoal quilted forge jerkin (#3A3D42) with rolled sleeves and leather wrist wraps, oil-tanned russet leather apron (#7E4528) with brass rivets and caliper pockets, steel-toed forge boots (#6E747C), holding an octagonal bronze-steel Dwarven Rune-Hammer etched with + - * / math symbols."
+    },
+    "master_vault_smith": {
+      "name": "Armor Vault Ceremonial Coat",
+      "description": "Brushed clean of soot in deep slate dwarfsmith coat with bronze trim and steel shoulder clasps while unlocking the Dwarven Steel Armor vault."
+    }
+  },
+  "art_style_dna": {
+    "primary_style": "Hand-drawn fantasy storybook illustration, Studio Ghibli meets Akira Toriyama Dragon Quest art style",
+    "line_art": "Clean warm-sepia and dark charcoal ink linework (#3E2B23)",
+    "shading_technique": "Warm watercolor & gouache with subterranean lava-amber lighting (#E07A38) and gleaming steel specular highlights (#D9E4EC)",
+    "color_palette": "Fiery copper beard (#C94A29), lava amber (#E07A38), russet leather (#7E4528), charcoal jerkin (#3A3D42), gleaming steel (#D9E4EC), operator gold (#D4A23C)"
+  }
+}

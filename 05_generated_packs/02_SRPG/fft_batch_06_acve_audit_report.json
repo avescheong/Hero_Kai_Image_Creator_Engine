@@ -1,0 +1,110 @@
+{
+  "batch": "FFT_BATCH_06",
+  "assets": [
+    {
+      "asset_id": "FFT_B06_01_BOSS08_MAGMA_CINDER_GOLEM_ISOMETRIC_4x4",
+      "png_file": "FFT_B06_01_BOSS08_MAGMA_CINDER_GOLEM_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B06_01_BOSS08_MAGMA_CINDER_GOLEM_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 56.36,
+      "sha256": "490d36b021e4b6f5230fbe437d12d77bc8a35c0790dafd867c47871803fe0977",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B06_02_BOSS10_HIGHLAND_MIRAGE_DOPPELGANGER_ISOMETRIC_4x4",
+      "png_file": "FFT_B06_02_BOSS10_HIGHLAND_MIRAGE_DOPPELGANGER_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B06_02_BOSS10_HIGHLAND_MIRAGE_DOPPELGANGER_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 61.78,
+      "sha256": "9f60fac8a53fd870af969a1483889fe1589cf54e44f9cf2a11b2cfd514ef505e",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B06_03_BOSS11_CROSSROADS_STONE_ARBITER_ISOMETRIC_4x4",
+      "png_file": "FFT_B06_03_BOSS11_CROSSROADS_STONE_ARBITER_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B06_03_BOSS11_CROSSROADS_STONE_ARBITER_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 55.83,
+      "sha256": "764308b6bd9276f077b5ae0d88f306ecd2d8f39127160da6ab4d4f6e338b8eb9",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B06_04_BUG_KING_PHASE1_IMPERIAL_ISOMETRIC_4x4",
+      "png_file": "FFT_B06_04_BUG_KING_PHASE1_IMPERIAL_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B06_04_BUG_KING_PHASE1_IMPERIAL_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 70.22,
+      "sha256": "95ef7e426566e7944b0bcf04ee015ad1dced1aeee4c87f91dce888dc4c8ad251",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B06_05_BUG_KING_PHASE2_OVERLORD_AND_COCOON_4x4",
+      "png_file": "FFT_B06_05_BUG_KING_PHASE2_OVERLORD_AND_COCOON_4x4.png",
+      "json_file": "FFT_B06_05_BUG_KING_PHASE2_OVERLORD_AND_COCOON_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 68.98,
+      "sha256": "8165929f3270ab05736bfe7a4fb00036b7b181f34729637022a61b9aed44d210",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "batch_id": "BATCH_04_BOSS_MONSTERS_AND_ENVIRONMENT_PROPS",
+  "engine_version": "ACVE_v1.0_7Gate_BFS",
+  "total_sheets": 5,
+  "all_gates_passed": true,
+  "assets": [
+    {
+      "asset_id": "B04_01_REGIONAL_BOSSES_ACT1_CH01_TO_CH06_4x4",
+      "category": "regional_bosses_act1",
+      "watermarked_ref": "watermarked_img_7591827067688095888.jpg",
+      "asset_file": "B04_01_REGIONAL_BOSSES_ACT1_CH01_TO_CH06_4x4.png",
+      "atlas_file": "B04_01_REGIONAL_BOSSES_ACT1_CH01_TO_CH06_4x4.json",
+      "sha256": "e7df1da6041fdae2c9196c2881c499e00f8444da21aa1fbf0e8e6f03cfc65c4b",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 65.16,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B04_02_REGIONAL_BOSSES_ACT2_AND_MINIONS_CH07_TO_CH11_4x4",
+      "category": "regional_bosses_act2_and_minions",
+      "watermarked_ref": "watermarked_img_759643008953114474.jpg",
+      "asset_file": "B04_02_REGIONAL_BOSSES_ACT2_AND_MINIONS_CH07_TO_CH11_4x4.png",
+      "atlas_file": "B04_02_REGIONAL_BOSSES_ACT2_AND_MINIONS_CH07_TO_CH11_4x4.json",
+      "sha256": "f39e4a527052337df4eb703ce85258fd0a2862e65bc273fcc0b641fc313f4310",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 63.29,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B04_03_INTERACTIVE_QUEST_CHESTS_ALTARS_AND_GATES_4x4",
+      "category": "interactive_quest_props",
+      "watermarked_ref": "watermarked_img_8018391520777928007.jpg",
+      "asset_file": "B04_03_INTERACTIVE_QUEST_CHESTS_ALTARS_AND_GATES_4x4.png",
+      "atlas_file": "B04_03_INTERACTIVE_QUEST_CHESTS_ALTARS_AND_GATES_4x4.json",
+      "sha256": "9502362de521c4dd2d1909587781fe376dacdebda36467f1c16fdcb3ec68dc76",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.75,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B04_04_VILLAGE_FORGE_AND_CRAFTING_WORKSTATIONS_4x4",
+      "category": "village_forge_and_workstations",
+      "watermarked_ref": "watermarked_img_8072050969626626921.jpg",
+      "asset_file": "B04_04_VILLAGE_FORGE_AND_CRAFTING_WORKSTATIONS_4x4.png",
+      "atlas_file": "B04_04_VILLAGE_FORGE_AND_CRAFTING_WORKSTATIONS_4x4.json",
+      "sha256": "b597e93bcc250d83e94b60c8697450132689129abe0c40e53f86a8c9c0d37af5",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 49.81,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    },
+    {
+      "asset_id": "B04_05_BIOME_TREES_TRAVERSAL_AND_SRPG_TILES_4x4",
+      "category": "biome_trees_traversal_and_tiles",
+      "watermarked_ref": "watermarked_img_11733203452460493685.jpg",
+      "asset_file": "B04_05_BIOME_TREES_TRAVERSAL_AND_SRPG_TILES_4x4.png",
+      "atlas_file": "B04_05_BIOME_TREES_TRAVERSAL_AND_SRPG_TILES_4x4.json",
+      "sha256": "d3f59baa2365e8f5694365d2119bb879b3d1363a29e1670fcfb0cd4b2823bb3d",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.59,
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      }
+    }
+  ]
+}

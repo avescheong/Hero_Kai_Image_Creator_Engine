@@ -1,0 +1,116 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "master_grimsby",
+  "canonical_name": "Master Grimsby",
+  "chinese_name": "格里姆斯比大師",
+  "role": "Ch. 9 Fiery-Bearded Deep Dwarven Forge Master (ENV_R08, Spell 9 FORGE + - * /)",
+  "zones_present": [
+    "ENV_R08",
+    "ENV_R11"
+  ],
+  "physical_proportions": {
+    "age_years": 65,
+    "stature_cm": 144,
+    "head_ratio_storybook": "4.4 heads tall (ultra-broad subterranean dwarf forge-master build)",
+    "pixel_height_in_256_cell": [
+      156,
+      168
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "visual_locks": {
+    "hair_beard_copper_hex": "#C94A29",
+    "beard_highlight_orange_hex": "#E07A38",
+    "brass_runes_hex": "#D4A23C",
+    "jerkin_basalt_hex": "#6E655F",
+    "apron_russet_hex": "#7E4528",
+    "steel_pauldrons_hex": "#D9E4EC",
+    "sleeves_crimson_hex": "#8E3524",
+    "prompt_tokens": "Master Grimsby (ENV_R08), hatless stout subterranean Deep Dwarven Forge Master (~144 cm, 4.4 heads tall, NO horned helmet), blazing fiery ginger-orange bushy hair and long twin-forked flame-copper beard (#C94A29 to #E07A38) banded with engraved golden-brass dwarven rings (#D4A23C), warm amber-gold eyes (#7A421D) under thick fiery brows, dark basalt-slate quilted leather smithing jerkin (#6E655F) with steel shoulder pauldrons (#D9E4EC) and rolled crimson-rust sleeves (#8E3524) under a scorched charcoal-russet fireproof apron (#7E4528) studded with golden-brass arithmetic runes (#D4A23C), brass-riveted leather gauntlets, steel-toed boots, gripping brass-inlaid Dwarven rune smithing hammer",
+    "negative_tokens": "horned Viking helmet, silver-white beard, tall slender elf build, clean shaven, modern visor"
+  },
+  "canonical_drive_references": {
+    "turnaround_4view": {
+      "title": "01_Turnaround_4View.png",
+      "drive_id": "17okHXa0zAJVZnjrB_UGrSKk5WwkneNd2",
+      "url": "https://drive.google.com/file/d/17okHXa0zAJVZnjrB_UGrSKk5WwkneNd2/view?usp=drivesdk"
+    },
+    "equipment_callout": {
+      "title": "02_Equipment_and_Props_Callout.png",
+      "drive_id": "1-pgir0uKcS73wlp9HuC35yfcywPz73_u",
+      "url": "https://drive.google.com/file/d/1-pgir0uKcS73wlp9HuC35yfcywPz73_u/view?usp=drivesdk"
+    },
+    "action_poses": {
+      "title": "03_Action_Poses_Sheet.png",
+      "drive_id": "1ApvJL5Y5-8KbyRfB54uN4_SHen3e_EUR",
+      "url": "https://drive.google.com/file/d/1ApvJL5Y5-8KbyRfB54uN4_SHen3e_EUR/view?usp=drivesdk"
+    },
+    "expressions_phonemes": {
+      "title": "04_Expressions_and_Phonemes.png",
+      "drive_id": "128hAveMZXPjtYSGnMulM2b2YW1mhvvzA",
+      "url": "https://drive.google.com/file/d/128hAveMZXPjtYSGnMulM2b2YW1mhvvzA/view?usp=drivesdk"
+    },
+    "wardrobe_color_key": {
+      "title": "05_Wardrobe_and_Color_Key.png",
+      "drive_id": "1ZCN7_0BUoV3TeEeky6hsFW1NWTXpfTke",
+      "url": "https://drive.google.com/file/d/1ZCN7_0BUoV3TeEeky6hsFW1NWTXpfTke/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_B_STOUT_ARTISAN_ELDER",
+  "reference_drive_ids": {
+    "turnaround_4view": "17okHXa0zAJVZnjrB_UGrSKk5WwkneNd2",
+    "equipment_callout": "1-pgir0uKcS73wlp9HuC35yfcywPz73_u",
+    "action_poses": "1ApvJL5Y5-8KbyRfB54uN4_SHen3e_EUR",
+    "expressions_phonemes": "128hAveMZXPjtYSGnMulM2b2YW1mhvvzA",
+    "wardrobe_color_key": "1ZCN7_0BUoV3TeEeky6hsFW1NWTXpfTke",
+    "story_website_cast": "1CcaCPTBOUpQCUCsrVSMgy0AiMcBQzd38"
+  },
+  "local_reference_paths": {
+    "turnaround_4view": "02_reference_anchors/characters/Master_Grimsby/01_Turnaround_4View.png",
+    "equipment_callout": "02_reference_anchors/characters/Master_Grimsby/02_Equipment_and_Props_Callout.png",
+    "action_poses": "02_reference_anchors/characters/Master_Grimsby/03_Action_Poses_Sheet.png",
+    "expressions_phonemes": "02_reference_anchors/characters/Master_Grimsby/04_Expressions_and_Phonemes.png",
+    "wardrobe_color_key": "02_reference_anchors/characters/Master_Grimsby/05_Wardrobe_and_Color_Key.png",
+    "story_website_cast": "02_reference_anchors/story_website_cast/master-grimsby.webp"
+  },
+  "facial_and_hair_locks": {
+    "hair_beard_copper_hex": "#C94A29",
+    "beard_highlight_orange_hex": "#E07A38",
+    "brass_runes_hex": "#D4A23C",
+    "summary_prompt_tokens": "Master Grimsby (Ch. 9, ENV_R08), strictly HATLESS stout subterranean Deep Dwarven Forge Master (~144 cm, 4.4 heads tall), blazing fiery ginger-orange bushy swept-back hair and long twin-forked flame-copper beard (#C94A29 to #E07A38) banded with engraved golden-brass dwarven rings (#D4A23C), warm amber-gold eyes (#7A421D)"
+  },
+  "asymmetric_equipment_invariants": {
+    "summary_prompt_tokens": "dark basalt-slate quilted leather smithing jerkin (#6E655F) with burnished steel shoulder pauldrons (#D9E4EC), rolled crimson-rust sleeves (#8E3524), scorched charcoal-russet fireproof apron (#7E4528) studded with engraved golden-brass arithmetic runes (#D4A23C), brass-riveted leather gauntlets, steel-toed boots, gripping Dwarven rune smithing hammer"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "horned Viking helmet (reserved for Ch. 3 Blacksmith)",
+      "silver-white triple-braided beard (reserved for Ch. 3 Blacksmith)",
+      "bare sleeveless arms (reserved for Ch. 3 Blacksmith)",
+      "tall slender elf build",
+      "clean shaven"
+    ]
+  },
+  "palette_hex_locks": [
+    "#C94A29",
+    "#E07A38",
+    "#D4A23C",
+    "#D9E4EC",
+    "#8E3524",
+    "#7E4528"
+  ]
+}

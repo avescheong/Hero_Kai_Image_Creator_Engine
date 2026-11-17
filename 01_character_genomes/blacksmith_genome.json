@@ -1,0 +1,119 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "blacksmith",
+  "canonical_name": "Iron Outpost Blacksmith",
+  "chinese_name": "前哨鐵匠",
+  "role": "Ch. 3 Village Master Forgeman of Iron Outpost (ENV_R03, Spell 3 FUSE +)",
+  "zones_present": [
+    "ENV_R03",
+    "ENV_R11"
+  ],
+  "physical_proportions": {
+    "age_years": 60,
+    "stature_cm": 150,
+    "head_ratio_storybook": "4.5 heads tall (stout barrel-chested muscular build)",
+    "pixel_height_in_256_cell": [
+      168,
+      180
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "visual_locks": {
+    "helmet_steel_hex": "#6E7885",
+    "horns_ivory_hex": "#DDD2BE",
+    "beard_silver_hex": "#C8CDD2",
+    "tunic_olive_hex": "#58635A",
+    "apron_brown_hex": "#8A5A36",
+    "gauntlets_hex": "#6E482C",
+    "hammer_steel_hex": "#6D747E",
+    "ember_orange_hex": "#FF7A29",
+    "prompt_tokens": "Iron Outpost Blacksmith (ENV_R03), stout barrel-chested ~60yo village forgeman (~150 cm, 4.5 heads tall) with heavily muscled scarred bare forearms, domed riveted steel helmet (#6E7885) with two upward-curving ivory horns (#DDD2BE), silver-grey hair flowing out back, bushy white eyebrows, massive silver-white triple-braided beard (#C8CDD2, 1 long center braid + 2 side braids with leather cuffs) beneath sweeping walrus mustache, sleeveless jagged-frayed olive-slate tunic (#58635A), heavy soot-stained saddle-brown leather bib apron (#8A5A36) with chest pocket, cuffed leather gauntlets (#6E482C), olive-khaki trousers (#666852) in dark-brown cuffed boots, holding heavy rectangular steel forging hammer (#6D747E) and iron tongs",
+    "negative_tokens": "skinny youth, clean shaven, unbraided beard, fiery red/orange beard, hatless, missing horned helmet, welder goggles"
+  },
+  "canonical_drive_references": {
+    "master_reference": {
+      "title": "Blacksmith_Master_Reference.jpg",
+      "drive_id": "1s0Fl8NRWPCc0LcyWU0hgnP__x9Noc5HN",
+      "url": "https://drive.google.com/file/d/1s0Fl8NRWPCc0LcyWU0hgnP__x9Noc5HN/view?usp=drivesdk"
+    },
+    "turnaround_4view": {
+      "title": "01_Turnaround_4View.jpg",
+      "drive_id": "1_udSLS2q2t3KSmENXYAJ40ugLh3ZMqen",
+      "url": "https://drive.google.com/file/d/1_udSLS2q2t3KSmENXYAJ40ugLh3ZMqen/view?usp=drivesdk"
+    },
+    "equipment_callout": {
+      "title": "02_Equipment_and_Props_Callout.jpg",
+      "drive_id": "1hmEA0vLXZTILMjJFFm5RwvLzsfTYHZK4",
+      "url": "https://drive.google.com/file/d/1hmEA0vLXZTILMjJFFm5RwvLzsfTYHZK4/view?usp=drivesdk"
+    },
+    "action_poses_wardrobe": {
+      "title": "03_Action_Poses_and_Wardrobe.jpg",
+      "drive_id": "1ZEMoI3dWMl731xj6fGIEOS_pQXxR-Hs6",
+      "url": "https://drive.google.com/file/d/1ZEMoI3dWMl731xj6fGIEOS_pQXxR-Hs6/view?usp=drivesdk"
+    },
+    "expressions_phonemes_color_key": {
+      "title": "04_Expressions_Phonemes_and_Color_Key.jpg",
+      "drive_id": "1njyWYbZk9MuqoXvzSr-Bpeb4MQa5Y-bW",
+      "url": "https://drive.google.com/file/d/1njyWYbZk9MuqoXvzSr-Bpeb4MQa5Y-bW/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_C_TALL_MENTOR_BRAWLER",
+  "reference_drive_ids": {
+    "master_reference": "1s0Fl8NRWPCc0LcyWU0hgnP__x9Noc5HN",
+    "turnaround_4view": "1_udSLS2q2t3KSmENXYAJ40ugLh3ZMqen",
+    "equipment_callout": "1hmEA0vLXZTILMjJFFm5RwvLzsfTYHZK4",
+    "action_poses_wardrobe": "1ZEMoI3dWMl731xj6fGIEOS_pQXxR-Hs6",
+    "expressions_phonemes_color_key": "1njyWYbZk9MuqoXvzSr-Bpeb4MQa5Y-bW",
+    "story_website_cast": "1QFfaZMK8fGSAZyGcmPMeg4nW_UvAiY8N"
+  },
+  "local_reference_paths": {
+    "master_reference": "02_reference_anchors/characters/Blacksmith/Blacksmith_Master_Reference.jpg",
+    "turnaround_4view": "02_reference_anchors/characters/Blacksmith/01_Turnaround_4View.jpg",
+    "equipment_callout": "02_reference_anchors/characters/Blacksmith/02_Equipment_and_Props_Callout.jpg",
+    "action_poses_wardrobe": "02_reference_anchors/characters/Blacksmith/03_Action_Poses_and_Wardrobe.jpg",
+    "expressions_phonemes_color_key": "02_reference_anchors/characters/Blacksmith/04_Expressions_Phonemes_and_Color_Key.jpg",
+    "story_website_cast": "02_reference_anchors/story_website_cast/blacksmith.webp"
+  },
+  "facial_and_hair_locks": {
+    "helmet_steel_hex": "#6E7885",
+    "horns_ivory_hex": "#DDD2BE",
+    "beard_silver_hex": "#C8CDD2",
+    "summary_prompt_tokens": "Iron Outpost Blacksmith (Ch. 3, ENV_R03), stout barrel-chested ~60yo village forgeman (~150 cm, 4.5 heads tall) with heavily muscled scarred bare forearms, mandatory domed riveted steel helmet (#6E7885) with two upward-curving ivory horns (#DDD2BE), silver-grey hair, bushy white eyebrows, and massive silver-white triple-braided beard (#C8CDD2)"
+  },
+  "asymmetric_equipment_invariants": {
+    "summary_prompt_tokens": "sleeveless jagged-frayed olive-slate tunic (#58635A) showing bare muscular arms, heavy soot-stained saddle-brown leather bib apron (#8A5A36) with chest pocket, cuffed leather gauntlets (#6E482C), olive-khaki trousers in dark-brown cuffed boots, holding heavy rectangular steel smithing hammer (#6D747E)"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "hatless head (reserved for Ch. 9 Master Grimsby)",
+      "missing 2-horned riveted steel helmet",
+      "fiery ginger-orange beard (reserved for Ch. 9 Master Grimsby)",
+      "rolled crimson sleeves (reserved for Master Grimsby)",
+      "skinny youth",
+      "clean shaven",
+      "welder goggles"
+    ]
+  },
+  "palette_hex_locks": [
+    "#6E7885",
+    "#DDD2BE",
+    "#C8CDD2",
+    "#58635A",
+    "#8A5A36",
+    "#6D747E"
+  ]
+}

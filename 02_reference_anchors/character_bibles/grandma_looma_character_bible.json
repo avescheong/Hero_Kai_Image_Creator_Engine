@@ -1,0 +1,86 @@
+{
+  "character_id": "grandma_looma",
+  "deprecated_aliases": ["grandma_loom"],
+  "character_name": "Grandma Looma",
+  "canonical_zone": "ENV_R02 (Loom Forest & Weaver's Cottage)",
+  "canonical_spell": "Spell 2: WEAVE — print(\"Hello\", \"Pythonia!\")",
+  "full_title": "Master Weaver & Kind-Hearted Village Elder of Pythonia",
+  "demographics": {
+    "gender": "Female",
+    "apparent_age": "62-70 years old",
+    "proportions": "~156 cm tall (4.9 heads tall — taller than Hero Kai at ~142 cm and Iron Outpost Blacksmith at ~150 cm, reaching Great Wizard's shoulder height at ~180 cm)",
+    "build": "Warm, sturdy, kind grandmotherly frame with gentle rounded shoulders"
+  },
+  "facial_features": {
+    "face_shape": "Round, warm friendly face with soft rosy blush across cheeks, gentle brow lines, and warm smile lines around eyes",
+    "skin_tone": "Warm fair peach skin with soft rosy coral cheeks",
+    "hair": {
+      "color": "Dusty ash-silver / warm grey-blonde (Hex: #A89F8D to #C4B9A5)",
+      "style": "Soft wavy hair parted near center, swept gently back and coiled into a neat low bun at the nape of her neck"
+    },
+    "eyes": {
+      "color": "Bright expressive sky-blue / slate-blue eyes (Hex: #4F7FA8)",
+      "shape": "Wide open friendly rounded eyes with warm arched dusty-grey eyebrows",
+      "highlights": "Crisp white storybook catchlights conveying warmth and curiosity"
+    },
+    "nose_mouth_and_ears": "Cozy rounded nose, warm open grandmotherly smile, small round copper-brown wooden stud earrings (#8E5B3E)"
+  },
+  "outfits": {
+    "weaver_workshop_apron": {
+      "name": "Weaver Workshop Apron Dress (Canonical Default)",
+      "description": "Grandma Looma's cozy everyday artisan outfit worn at her wooden loom in Loom Forest",
+      "blouse": {
+        "color": "Warm ochre-gold / honey amber long-sleeved tunic blouse (Hex: #C9965B)",
+        "pattern": "Scattered folk botanical leaf and petal prints in terracotta red (#9B4A38), sage green (#5A7A58), and slate teal (#4C6B6E)",
+        "collar": "Small V-notch neckline framed by an embroidered sage-green geometric zigzag border"
+      },
+      "bodice_and_skirt": {
+        "color": "Muted olive-brown / earth-taupe sleeveless vest over matching gathered ankle-length skirt (Hex: #7B6B4F)"
+      },
+      "apron": {
+        "color": "Clean warm cream / off-white linen bib apron (Hex: #EDE4CE)",
+        "detail": "Wide front bib tying neatly with fabric straps in a bow behind her waist"
+      },
+      "eyewear": {
+        "style": "Small round thin wire-framed reading glasses (Hex: #555A5E)",
+        "detail": "Suspended on a thin tan leather cord around her neck resting against the upper chest of her apron (worn perched on nose when inspecting fine weave drafts)"
+      },
+      "footwear": "Sturdy dark brown leather buttoned village shoes (#4E3728) with cream wool socks",
+      "props": {
+        "primary_tool": "Smooth oval carved hardwood boat-shaped weaving shuttle (#8D5C34) wound with colorful yarn bobbin",
+        "textile": "Vibrant striped & geometric handwoven Pythonia cloth (coral red, teal, cream, sage green, mustard gold)",
+        "workshop_lantern": "Hanging rustic bronze/copper oil lantern casting warm amber light (#F6B74B)"
+      }
+    },
+    "village_market_shawl": {
+      "name": "Village Market Shawl & Basket Attire",
+      "description": "Outdoor travel variant layering a cozy terracotta-and-olive handwoven fringed wool shoulder shawl fastened with a brass pin over her ochre floral blouse and cream apron, carrying a wicker yarn basket"
+    },
+    "winter_tea_cardigan": {
+      "name": "Storytelling Winter Cardigan & Tea Attire",
+      "description": "Evening indoors variant layering a chunky knitted sage-green shawl cardigan over her patterned blouse with spectacles perched on her nose while holding a warm teacup"
+    }
+  },
+  "art_style_dna": {
+    "primary_style": "Hand-drawn fantasy storybook illustration, Studio Ghibli meets Akira Toriyama Dragon Quest art style (harmonious with Hero Kai & Great Wizard)",
+    "line_art": "Clean warm-sepia and dark charcoal ink linework (#3E2B23) with organic hand-drawn lineweight variation",
+    "shading_technique": "Soft watercolor and painterly gouache washes on subtle antique parchment texture (#FAF4E8)",
+    "color_palette": "Ochre honey-gold (#C9965B), olive-brown (#7B6B4F), cream linen (#EDE4CE), dusty ash-silver (#A89F8D), terracotta leaf (#9B4A38), sage green (#5A7A58), hardwood brown (#8D5C34), warm lantern amber (#F6B74B)",
+    "atmosphere": "Cozy, nurturing, wise, tactile artisanal craft, heartwarming"
+  },
+  "invariants_do_and_dont": {
+    "do": [
+      "Always include her wavy dusty silver-ash hair parted in center and pulled into a low bun at the nape of her neck",
+      "Always render the small round reading glasses hanging on a tan cord necklace over her cream apron chest (or worn on her nose when crafting)",
+      "Always feature her ochre botanical leaf-printed blouse with the sage-green zigzag V-neck border under her olive-brown vest and cream bib apron",
+      "Always include her carved hardwood boat-shaped weaving shuttle or handwoven colorful striped Pythonia textiles when in workshop/story scenes",
+      "Maintain exact Studio Ghibli x Dragon Quest sepia-ink and watercolor style matching Hero Kai and Great Wizard"
+    ],
+    "dont": [
+      "Do NOT render her in modern glasses, modern aprons, or photorealistic 3D CGI",
+      "Do NOT change her dusty ash-silver hair bun into loose waist-length hair or bright neon dye",
+      "Do NOT omit the reading glasses on a neck cord or the sage zigzag embroidery on her blouse neckline",
+      "Do NOT replace her carved wooden boat shuttle with glowing futuristic sci-fi gadgets"
+    ]
+  }
+}

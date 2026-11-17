@@ -1,0 +1,100 @@
+{
+  "schema_version": "4.0.0",
+  "workspace_name": "Hero_Kai_Image_Engine",
+  "source_drive_workspace_id": "1ampGrS0JM8joJjLeULudV8tKjfgFzzO2",
+  "shared_cast_scale_chart_local_path": "02_reference_anchors/shared_cast_and_insignia/Pythonia_Size_Comparison_and_Color_Key_v3.png",
+  "shared_cast_scale_chart_drive_id": "1cLi6Yjaj9IpPUyGl5svSbhz9C7RSZTaz",
+  "total_genome_files": 10,
+  "genomes": [
+    {
+      "filename": "kai_genome.json",
+      "character_id": "kai",
+      "canonical_name": "Hero Kai",
+      "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+      "schema_version": "4.0.0",
+      "bytes": 22039,
+      "sha256": "d04c1e25c2e5e7d73a0d6b1906bf2d03961d927aed1dd347167f6794ee7ef363"
+    },
+    {
+      "filename": "string_genome.json",
+      "character_id": "string",
+      "canonical_name": "String",
+      "archetype_class": "ARCHETYPE_D_QUADRUPED_OR_SPRITE_PET",
+      "schema_version": "4.0.0",
+      "bytes": 9149,
+      "sha256": "50e02ac26afcd1dbf76e7c6cd61fef18218cfc8b73b398eb5a9196215bbf1f5d"
+    },
+    {
+      "filename": "wizard_genome.json",
+      "character_id": "wizard",
+      "canonical_name": "The Great Wizard",
+      "archetype_class": "ARCHETYPE_C_TALL_MENTOR_BRAWLER",
+      "schema_version": "4.0.0",
+      "bytes": 7887,
+      "sha256": "ce4215f51a6ef1a46fbb0ad381fd1f7823cc0abcb37f64670d80db620cc72bd2"
+    },
+    {
+      "filename": "grandma_looma_genome.json",
+      "character_id": "grandma_looma",
+      "canonical_name": "Grandma Looma",
+      "archetype_class": "ARCHETYPE_B_STOUT_ARTISAN_ELDER",
+      "schema_version": "4.0.0",
+      "bytes": 7828,
+      "sha256": "cc25409636b68775838e521630f94ea930b4777173097d2c8aad35c3e4e4300c"
+    },
+    {
+      "filename": "blacksmith_genome.json",
+      "character_id": "blacksmith",
+      "canonical_name": "Iron Outpost Blacksmith",
+      "archetype_class": "ARCHETYPE_C_TALL_MENTOR_BRAWLER",
+      "schema_version": "4.0.0",
+      "bytes": 8056,
+      "sha256": "7748726d1e4fba7ad7d093f12d472e3a45e112c59bb637e973d5f09cca993593"
+    },
+    {
+      "filename": "master_grimsby_genome.json",
+      "character_id": "master_grimsby",
+      "canonical_name": "Master Grimsby",
+      "archetype_class": "ARCHETYPE_B_STOUT_ARTISAN_ELDER",
+      "schema_version": "4.0.0",
+      "bytes": 7935,
+      "sha256": "c8a56cd7f2a51571cfc5da6a1f37e89a7245ca80c8b1be216283fd2bd6dec7dd"
+    },
+    {
+      "filename": "bug_king_genome.json",
+      "character_id": "bug_king",
+      "canonical_name": "The Bug King",
+      "archetype_class": "ARCHETYPE_E_MULTI_LIMB_COLOSSAL_BOSS",
+      "schema_version": "4.0.0",
+      "bytes": 6994,
+      "sha256": "3071eac441001b100541ad4971fe972bf580049f4a126c7b1cc8ccab12cff419"
+    },
+    {
+      "filename": "spell_guardian_genome.json",
+      "character_id": "spell_guardian",
+      "canonical_name": "Baby Praying Mantis (Spell Guardian)",
+      "archetype_class": "ARCHETYPE_D_QUADRUPED_OR_SPRITE_PET",
+      "schema_version": "4.0.0",
+      "bytes": 7397,
+      "sha256": "22f6dbc7bd61ecc7a0ea267f4586f677a2337270c9d844b57c9f79f67ccc22ac"
+    },
+    {
+      "filename": "supporting_npcs_genome.json",
+      "character_id": "supporting_npcs_and_spirits",
+      "canonical_name": "Supporting NPCs & Shapeshift Data-Type Spirits",
+      "archetype_class": "ARCHETYPE_B_STOUT_ARTISAN_ELDER",
+      "schema_version": "4.0.0",
+      "bytes": 9063,
+      "sha256": "acc3815b034b184770afaf2e6068e40ac95dfce8161449698590b0a8b0913a66"
+    },
+    {
+      "filename": "lyra_syntax_archivist_genome.json",
+      "character_id": "lyra_syntax_archivist",
+      "canonical_name": "Lyra the Syntax Archivist",
+      "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+      "schema_version": "4.0.0",
+      "bytes": 4035,
+      "sha256": "28ebb9e853fee9ef646e58513551a37fbf3c117e653447d535c436d09d0ddf93"
+    }
+  ]
+}

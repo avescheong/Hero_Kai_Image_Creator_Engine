@@ -1,0 +1,78 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "lyra_syntax_archivist",
+  "canonical_name": "Lyra the Syntax Archivist",
+  "chinese_name": "語法檔案員萊拉（Lyra）",
+  "role": "Ch. 14 Guild of Blueprints Function Apprentice & Pilot v2.0 5-Sheet MVC Character",
+  "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+  "reference_drive_ids": {
+    "scale_anchor_kai_turnaround": "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN",
+    "shared_cast_scale_chart": "1cLi6Yjaj9IpPUyGl5svSbhz9C7RSZTaz"
+  },
+  "local_reference_paths": {
+    "scale_anchor_kai_turnaround": "02_reference_anchors/characters/Kai/001. Turnaround.png",
+    "shared_cast_scale_chart": "02_reference_anchors/shared_cast_and_insignia/Pythonia_Size_Comparison_and_Color_Key_v3.png"
+  },
+  "physical_proportions": {
+    "age_years": 12,
+    "stature_cm": 142,
+    "head_ratios": {
+      "storybook_16x9": 4.2,
+      "track_a_hd2d": 4.0,
+      "track_b_fft": 3.2,
+      "track_c_chibi": 2.2
+    },
+    "pixel_height_in_256_cell": {
+      "track_a_hd2d": [
+        146,
+        170
+      ],
+      "track_b_fft": [
+        134,
+        154
+      ],
+      "track_c_chibi": [
+        138,
+        158
+      ]
+    },
+    "foot_pivot": [
+      0.5,
+      1.0
+    ]
+  },
+  "facial_and_hair_locks": {
+    "hair_hex": "#2D3A6E",
+    "eyes_hex": "#F4D068",
+    "glasses_hex": "#D4A23C",
+    "summary_prompt_tokens": "12yo apprentice archivist girl Lyra the Syntax Archivist (4.0H compact child-hero build matching Hero Kai scale), braided twilight-indigo hair (#2D3A6E) with silver-quill hairpins (#D9E4EC), warm amber-gold eyes (#F4D068) behind half-frame brass reading spectacles (#D4A23C)"
+  },
+  "asymmetric_equipment_invariants": {
+    "tunic_hex": "#F4EFE6",
+    "sash_hex": "#3B8EA5",
+    "summary_prompt_tokens": "unbleached cream linen scholar undertunic (#F4EFE6), teal-emerald sash (#3B8EA5), right-hip scroll tube quiver, left-hip brass inkwell pouch, empty unarmed hands ready for modular gear socketing"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "tall pointed indigo wizard hat (reserved for Great Wizard)",
+      "spectral translucent ghost body (reserved for Ghost Librarian)",
+      "blonde tousled hair (reserved for Hero Kai)",
+      "moss-green cloak or 3 hip potion vials (reserved for Hero Kai)",
+      "horned helmet (reserved for Ch. 3 Blacksmith)",
+      "Ember pet",
+      "non-vegetarian meat food"
+    ]
+  },
+  "palette_hex_locks": [
+    "#2D3A6E",
+    "#F4D068",
+    "#F4EFE6",
+    "#3B8EA5",
+    "#D4A23C"
+  ],
+  "shared_art_dna": {
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  }
+}

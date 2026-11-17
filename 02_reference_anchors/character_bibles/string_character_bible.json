@@ -1,0 +1,15 @@
+{
+  "character_id": "string",
+  "character_name": "String",
+  "canonical_zones": "ENV_R02 to ENV_R11 (44 of 52 Scenes)",
+  "canonical_spells": "Named Ch. 04 LISTEN (input) · Telepathic Link Ch. 07 TYPE (str)",
+  "full_title": "Loyal Golden-Tan Pup Companion & Telepathic Scout",
+  "proportions_and_height": "~45-50 cm tall at shoulder (reaches Hero Kai's lower-thigh / knee height), sturdy scruffy terrier-retriever puppy frame",
+  "facial_features": "Round warm expressive dark mahogany-amber eyes (#3B2416), damp dark button nose, scruffy cream-tan muzzle tufts, soft floppy triangular ears that perk up when alert",
+  "coat_and_colors": "Warm sandy golden-tan / wheat-ochre scruffy coat (#D8A657) with cream chest tuft, muzzle, and paw tips (#F4E4C1)",
+  "accessories": {
+    "ch04_plus": "Emerald-moss woven collar ribbon (#2ECC71) gifted upon naming him String",
+    "ch07_plus": "Glowing golden-emerald telepathic str thread linking his collar to Kai's Ancient Spellbook"
+  },
+  "visual_anchor": "02_Source_Assets/Characters/Blacksmith/Blacksmith_Master_Reference.jpg (sleeping golden pup cameo)"
+}

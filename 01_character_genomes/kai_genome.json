@@ -1,0 +1,433 @@
+{
+  "schema_version": "4.0.0",
+  "character_id": "kai",
+  "canonical_name": "Hero Kai",
+  "chinese_name": "小英雄凱（Kai）",
+  "role": "11-Year-Old Boy Hero · Apprentice Wizard & Guardian of Pythonia",
+  "zones_present": [
+    "ENV_R00",
+    "ENV_R01",
+    "ENV_R02",
+    "ENV_R03",
+    "ENV_R04",
+    "ENV_R05",
+    "ENV_R05A",
+    "ENV_R06",
+    "ENV_R07",
+    "ENV_R08",
+    "ENV_R09",
+    "ENV_R10",
+    "ENV_R11"
+  ],
+  "physical_proportions": {
+    "age_years": 11,
+    "stature_cm": 140,
+    "head_ratio_storybook": "4.2 to 4.5 heads tall",
+    "head_ratio_hd2d_sprite": "3.8 to 4.2 heads tall",
+    "head_ratio_srpg_tactical": "3.2 to 3.5 heads tall",
+    "head_ratio_zep_topdown": "2.5 to 3.0 heads tall",
+    "silhouette_notes": "Compact child-hero chibi-boy build with shorter rounded childlike limbs and compact rounded head contour (NEVER lanky teenager or adult proportions)",
+    "pixel_height_in_256_cell": [
+      150,
+      164
+    ],
+    "foot_pivot": [
+      0.5,
+      1.0
+    ],
+    "head_ratios": {
+      "storybook_16x9": 4.2,
+      "track_a_hd2d": 4.0,
+      "track_b_fft": 3.2,
+      "track_c_chibi": 2.2
+    },
+    "foot_pivot_baseline_y": {
+      "track_a_hd2d": 240,
+      "track_b_fft": 225,
+      "track_c_chibi": 235
+    }
+  },
+  "facial_and_hair_locks": {
+    "face_shape": "Round youthful 11yo face with soft jawline, small button nose, warm compassionate determined smile",
+    "skin_hex": "#FCE5D2",
+    "cheek_blush_hex": "#F2A68D",
+    "hair_style": "Short neat tousled sandy golden-blonde / honey-wheat hair with soft layered bangs parting gently over forehead and short side tufts framing ears (cap spike length <15% head height; NO giant oversized anime spikes)",
+    "hair_palette": {
+      "base_hex": "#D7A84B",
+      "highlight_hex": "#F2CE74",
+      "shadow_hex": "#9E6E2B"
+    },
+    "eyes_and_brows": {
+      "iris_hex": "#3B6EA8",
+      "deep_rim_hex": "#1E3F66",
+      "catchlight_hex": "#FFFFFF",
+      "shape": "Large rounded expressive cobalt/slate-blue anime eyes with crisp dark upper lash line, prominent upper circular white catchlight, and soft lower crescent reflection",
+      "eyebrows": "Thin expressive light-brown brows (#8A5A36)",
+      "sight_spell_override": "In Spell 10 (SIGHT, ENV_R09 & ENV_R11), irises flare radiant cyan-gold (#42D4FF / #F7C852) and eyebrows sharpen into glowing parallel equals lines (==)"
+    },
+    "summary_prompt_tokens": "11-year-old boy hero Hero Kai (compact child-hero build, NEVER lanky teenager), short neat tousled sandy golden-blonde hair (#D7A84B) with soft layered forehead bangs and short ear tufts (NO giant anime spikes), large expressive cobalt-slate blue eyes (#3B6EA8) with crisp white circular catchlights, round rosy youthful cheeks (#FCE5D2)"
+  },
+  "asymmetric_equipment_invariants": {
+    "cloak_and_brooch": {
+      "cloak_color_hex": "#345830",
+      "cloak_shadow_hex": "#233D20",
+      "brooch_hex": "#D4AF37",
+      "description": "Deep moss/forest-green woolen traveling cloak reaching mid-calf with generous lowered cowl hood, fastened at collarbone by an etched golden crescent moon clasp (crescent opens toward viewer's right / Kai's left)"
+    },
+    "tunic_and_breeches": {
+      "tunic_hex": "#F4EFE6",
+      "breeches_hex": "#EDE8DE",
+      "buttons_hex": "#382417",
+      "description": "Unbleached warm cream linen double-breasted crossover tunic with Mandarin collar and vertical double-row of small dark espresso-brown wooden buttons, paired with matching cream linen trousers tucked into wide folded-cuff brown riding boots"
+    },
+    "baldric_and_belt": {
+      "leather_hex": "#5C361E",
+      "tzu_chi_shield_hex": "#1F6A38",
+      "tzu_chi_lotus_wings_hex": "#C29B38",
+      "dharma_ship_hex": "#FFFFFF",
+      "description": "Chestnut leather belt + diagonal leather chest baldric slanting from Kai's right shoulder down to his left hip; centered with the iconic green Tzu Chi Foundation Medallion buckle (emerald shield with white 3-sailed Dharma ship over waves flanked by gilded bronze lotus petals)"
+    },
+    "kai_own_right_hip_lock": {
+      "viewer_side_in_front_view": "viewer_left",
+      "item": "1 plain closed rectangular saddle-brown leather utility satchel with rounded flap and brass peg fastener (#7E4B2B)",
+      "strict_negative_rule": "ZERO potion bottles inside or attached to the right-hip satchel"
+    },
+    "kai_own_left_hip_lock": {
+      "viewer_side_in_front_view": "viewer_right",
+      "item": "Separate 3-slot brown leather potion holster carrying 3 corked round-bottom glass flasks",
+      "potions": [
+        {
+          "slot": 1,
+          "name": "Emerald Elixir (Healing/Vitality)",
+          "hex": "#2ECC71"
+        },
+        {
+          "slot": 2,
+          "name": "Ruby Elixir (Courage/Stamina)",
+          "hex": "#E74C3C"
+        },
+        {
+          "slot": 3,
+          "name": "Sapphire Elixir (Clarity/Mana)",
+          "hex": "#3A86FF"
+        }
+      ]
+    },
+    "bracers_and_boots": {
+      "leather_hex": "#6E4226",
+      "sole_hex": "#3D2314",
+      "description": "Warm brown leather forearm vambraces with inner criss-cross cord lacing; mid-calf brown leather riding boots with wide folded-over cuffs (upgraded with steel cuff & toe trim #D9E4EC in Stage 3)"
+    },
+    "back_scabbard_lock": {
+      "scabbard_hex": "#6E472B",
+      "chape_hex": "#B8C4CE",
+      "orientation": "Hilt over Kai's right shoulder, scabbard slanting diagonally across back toward lower-left cloak hem; carved oak and embossed leather with laurel-vine motif"
+    },
+    "summary_prompt_tokens": "deep moss-green woolen traveling cloak (#345830) fastened at the collarbone by a golden crescent moon brooch (#D4AF37), unbleached warm cream double-breasted linen tunic (#F4EFE6) and trousers (#EDE8DE) tucked into wide folded-cuff brown leather riding boots (#6E4226), diagonal chestnut chest baldric + belt centered with emerald-green Tzu Chi lotus and white Dharma ship medallion buckle (#1F6A38 / #C29B38), 1 plain closed brown satchel on Kai's OWN right hip (viewer left in front view), 3-slot holster with emerald/ruby/sapphire glass potion vials on Kai's OWN left hip (viewer right in front view)"
+  },
+  "outfits_and_progression_stages": {
+    "modern_bedroom_casual": {
+      "stage_index": 0,
+      "story_scenes": [
+        "PRO_S01"
+      ],
+      "studio_armor_id": "blue_hoodie",
+      "prompt_tokens": "comfortable everyday 11yo kid attire: soft sage-green long-sleeve pullover sweater (#7E9C78) over cream tee, relaxed dark olive cotton trousers (#4E5848), indoor socks, NO cloak, NO sword, NO belt potions, NO spellbook",
+      "stage_negative_tokens": "green cloak, medieval armor, wooden sword, iron sword, steel blade, potion bottles, leather belt buckle"
+    },
+    "apprentice_wooden_sword": {
+      "stage_index": 1,
+      "story_scenes": [
+        "PRO_S02",
+        "PRO_S03",
+        "PRO_S04",
+        "CH01_S01..CH03_S02"
+      ],
+      "studio_armor_id": "moss_cloak",
+      "studio_weapon_id": "wooden_sword",
+      "prompt_tokens": "moss-green woolen cloak (#345830) with golden crescent moon clasp (#D4AF37), cream double-breasted linen tunic (#F4EFE6) with dark wooden buttons, matching cream trousers (#EDE8DE) tucked into cuffed brown riding boots (#6E4226), laced brown leather arm bracers, diagonal chest baldric, brown leather belt with green Tzu Chi lotus ship medallion buckle (#1F6A38), plain closed rectangular brown satchel on Kai's right hip, separate 3-slot holster with emerald/ruby/sapphire glass potion vials on Kai's left hip, plain all-wooden beginner training sword strapped diagonally across back, carrying glowing gold-edged Ancient Spellbook",
+      "stage_negative_tokens": "metal steel sword, steel blade, metal crossguard, dwarven steel chestplate, shoulder pauldrons"
+    },
+    "adventure_ironsword": {
+      "stage_index": 2,
+      "story_scenes": [
+        "CH03_S03..CH08_S02"
+      ],
+      "studio_armor_id": "moss_cloak",
+      "studio_weapon_id": "iron_sword",
+      "prompt_tokens": "moss-green woolen cloak (#345830) with golden crescent moon clasp (#D4AF37), cream double-breasted linen tunic (#F4EFE6) with dark wooden buttons, matching cream trousers (#EDE8DE) tucked into cuffed brown riding boots (#6E4226), laced brown leather arm bracers, diagonal chest baldric, brown leather belt with green Tzu Chi lotus ship medallion buckle (#1F6A38), plain closed rectangular brown satchel on Kai's right hip, separate 3-slot holster with emerald/ruby/sapphire glass potion vials on Kai's left hip, gleaming solid forged steel IronSword in laurel-vine carved back scabbard over right shoulder",
+      "stage_negative_tokens": "dwarven steel chestplate, metal shoulder pauldrons, wooden training sword"
+    },
+    "dwarven_steel_armor": {
+      "stage_index": 3,
+      "story_scenes": [
+        "CH08_S03..CH11_S04"
+      ],
+      "studio_armor_id": "steel_plate",
+      "studio_weapon_id": "spellblade",
+      "prompt_tokens": "burnished silver-grey segmented Dwarven Steel chestplate and articulated shoulder pauldrons (#D9E4EC) crafted by Master Grimsby worn over moss-green woolen cloak (#345830) with golden crescent moon clasp (#D4AF37) and cream tunic (#F4EFE6), matching cream trousers (#EDE8DE) tucked into steel-trimmed cuffed brown riding boots, laced leather bracers, green Tzu Chi lotus ship medallion belt buckle (#1F6A38), plain closed brown satchel on Kai's right hip, 3-potion holster (emerald, ruby, sapphire) on Kai's left hip, shimmering silver Spatial Dimensional Pocket pouch, and finely balanced glowing steel Wizard's Blade",
+      "stage_negative_tokens": "full face helmet, visor covering face, missing green cloak, missing Tzu Chi buckle, missing hip potions"
+    },
+    "stealth_rogue": {
+      "stage_index": 4,
+      "story_scenes": [
+        "Game_Variant_Outfit_B"
+      ],
+      "studio_armor_id": "teal_tunic",
+      "studio_weapon_id": "twin_blades",
+      "prompt_tokens": "dark charcoal slate-grey fitted tactical adventure tunic and trousers (#2C3038), forest-green infinity cowl neck wrap (#345830), riveted brown leather shoulder pauldrons, laced leather forearm vambraces, dark leather belt with green Tzu Chi lotus medallion buckle (#1F6A38) and dual stealth pouches, muffled dark brown stealth boots, matte darkened back scabbard",
+      "stage_negative_tokens": "bright white tunic, heavy plate armor"
+    },
+    "lotus_cape": {
+      "stage_index": 5,
+      "story_scenes": [
+        "Game_Variant_Tier_4"
+      ],
+      "studio_armor_id": "lotus_cape",
+      "studio_weapon_id": "spellblade",
+      "prompt_tokens": "radiant emerald-and-gold lotus embroidered mantle (#1F6A38 / #D4AF37) over segmented silver-steel cuirass (#D9E4EC) and cream linen tunic (#F4EFE6), golden crescent brooch, glowing green Tzu Chi lotus ship belt buckle, right-hip leather satchel, left-hip 3-potion holster, gleaming Wizard's Blade",
+      "stage_negative_tokens": "missing cloak, missing Tzu Chi buckle"
+    }
+  },
+  "character_negative_Lock": "adult proportions, older teenager proportions, tall lanky limbs, giant oversized anime spiky hair, grey pants, blue jeans, distorted sword, missing cloak (except PRO_S01), black hair, brown hair, generic belt buckle, potions inside right-hip rectangular satchel, potions on Wizard belt",
+  "canonical_drive_references": {
+    "master_turnaround_4view": {
+      "title": "001. Turnaround.png",
+      "drive_id": "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN",
+      "url": "https://drive.google.com/file/d/1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN/view?usp=drivesdk"
+    },
+    "storybook_portrait_gold": {
+      "title": "hero-kai.webp",
+      "drive_id": "1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9",
+      "url": "https://drive.google.com/file/d/1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9/view?usp=drivesdk"
+    },
+    "storybook_casual_pro_s01": {
+      "title": "01_PRO_S01.webp",
+      "drive_id": "1qY5r7R9G8Sox65CXmgWD_EbvJhQWTuTv",
+      "url": "https://drive.google.com/file/d/1qY5r7R9G8Sox65CXmgWD_EbvJhQWTuTv/view?usp=drivesdk"
+    },
+    "storybook_cloak_ch03_s02": {
+      "title": "14_CH03_S02.webp",
+      "drive_id": "1sVun5VQnKvsRJw4kzSH4ZwLmwEor6VQb",
+      "url": "https://drive.google.com/file/d/1sVun5VQnKvsRJw4kzSH4ZwLmwEor6VQb/view?usp=drivesdk"
+    },
+    "storybook_armor_ch11_s04": {
+      "title": "52_CH11_S04.webp",
+      "drive_id": "1iOM8JakVlEd5WvAroAx30BTwlXmSV2Ae",
+      "url": "https://drive.google.com/file/d/1iOM8JakVlEd5WvAroAx30BTwlXmSV2Ae/view?usp=drivesdk"
+    },
+    "running_turnaround": {
+      "title": "002. Turn around Running .png",
+      "drive_id": "1dVU7_XNsS3ZPAHwrjUTQI7xseRl30Asl",
+      "url": "https://drive.google.com/file/d/1dVU7_XNsS3ZPAHwrjUTQI7xseRl30Asl/view?usp=drivesdk"
+    },
+    "equipment_callout": {
+      "title": "003. Equipment Callout.png",
+      "drive_id": "11uLgREBOxwLToTChhHSeVE1AKzUxVy1k",
+      "url": "https://drive.google.com/file/d/11uLgREBOxwLToTChhHSeVE1AKzUxVy1k/view?usp=drivesdk"
+    },
+    "sitting_turnaround": {
+      "title": "003. Turn Around Sitting.png",
+      "drive_id": "1Ds6D-RUDvRzG6o9ET8-3TluDZdCn9_Dz",
+      "url": "https://drive.google.com/file/d/1Ds6D-RUDvRzG6o9ET8-3TluDZdCn9_Dz/view?usp=drivesdk"
+    },
+    "expressions_phonemes_props": {
+      "title": "004. Expressions_Phonemes_and_Props.jpg",
+      "drive_id": "1xPYTY0zjkNYZq0SSLj1EWzvxutsV-ScH",
+      "url": "https://drive.google.com/file/d/1xPYTY0zjkNYZq0SSLj1EWzvxutsV-ScH/view?usp=drivesdk"
+    },
+    "wardrobe_variants": {
+      "title": "Different Outfit.png",
+      "drive_id": "1ZIwHAyaHK2vFy3biScuimd8VeZWC_vei",
+      "url": "https://drive.google.com/file/d/1ZIwHAyaHK2vFy3biScuimd8VeZWC_vei/view?usp=drivesdk"
+    },
+    "tzu_chi_emblem": {
+      "title": "TzuChiFoundation_logo-1.jpg",
+      "drive_id": "16rR9tNSTWUc8mkaeMk-_C2qePIutKIGH",
+      "url": "https://drive.google.com/file/d/16rR9tNSTWUc8mkaeMk-_C2qePIutKIGH/view?usp=drivesdk"
+    }
+  },
+  "shared_art_dna": {
+    "style_core_storybook": "masterpiece children's fantasy storybook illustration, inspired by Studio Ghibli and Akira Toriyama Dragon Quest art style, clean warm-sepia and dark-charcoal ink line art (#3E2B23) with organic lineweight, hand-drawn aesthetic, soft watercolor and painterly gouache shading, subtle vintage cream cotton paper grain texture (#FAF4E8), warm vibrant natural color palette, whimsical heartwarming atmosphere, clean composition, text-free, no labels, no watermarks",
+    "style_core_game_asset": "high-precision 2D hand-drawn fantasy RPG game asset illustration, Studio Ghibli and Akira Toriyama Dragon Quest storybook aesthetic, crisp clean dark sepia-charcoal ink outlines (#3E2B23), vibrant soft watercolor and cel-shaded gouache colors, consistent studio lighting, game-ready silhouette on solid pure flat white background (#FFFFFF), clean composition, text-free, no labels, no watermarks",
+    "global_negative_prompt": "photorealistic, 3D render, CGI, octane render, unreal engine, jeans, sunglasses, cyberpunk, grimdark, horror, bloody, gore, grotesque, distorted anatomy, extra limbs, extra fingers, missing fingers, fused fingers, blurry, low resolution, bad hands, deformed face, plastic skin, horizontal dashed line, screenshot artifacts, crop marks, watermark, text, signature, Ember pet, non-vegetarian meat food",
+    "pivot_standard": [
+      0.5,
+      1.0
+    ],
+    "style_core_chibi": "High-precision Capybara Go! (Habby) style 2D chibi roguelite auto-battler RPG game asset sprite sheet, adorable squishy 2.2-head mochi-bean chibi proportions with big expressive glossy eyes, rosy cheek blushes, bold smooth rounded dark cocoa-espresso outer ink contour lines (#34221A), vibrant soft cel-shaded vector-gouache colors on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free, no words, no numbers, no labels, no grid lines",
+    "style_core_fft": "High-precision Final Fantasy Tactics (FFT) 2:1 dimetric isometric tactical RPG unit sprite sheet (30-degree elevated top-down pitch, 45-degree diagonal yaw rotation), Akihiko Yoshida and Dragon Quest hand-inked sepia-charcoal outlines (#3B271E) with rich cel-shaded gouache colors, compact 3.2-head isometric proportions on solid pure flat white background (#FFFFFF), 16 evenly spaced sprites in 4 rows by 4 columns, completely text-free"
+  },
+  "archetype_class": "ARCHETYPE_A_CHILD_HERO",
+  "reference_drive_ids": {
+    "master_turnaround_4view": "1A04-hA0n5mlEKk1QZzvj0pxD-BEMFsZN",
+    "storybook_portrait_gold": "1w79QHXpZnVN4U04FNIylZp_TWF0cZMz9",
+    "storybook_casual_pro_s01": "1qY5r7R9G8Sox65CXmgWD_EbvJhQWTuTv",
+    "storybook_cloak_ch03_s02": "1sVun5VQnKvsRJw4kzSH4ZwLmwEor6VQb",
+    "storybook_armor_ch11_s04": "1iOM8JakVlEd5WvAroAx30BTwlXmSV2Ae",
+    "running_turnaround": "1dVU7_XNsS3ZPAHwrjUTQI7xseRl30Asl",
+    "equipment_callout": "11uLgREBOxwLToTChhHSeVE1AKzUxVy1k",
+    "sitting_turnaround": "1Ds6D-RUDvRzG6o9ET8-3TluDZdCn9_Dz",
+    "expressions_phonemes_props": "1xPYTY0zjkNYZq0SSLj1EWzvxutsV-ScH",
+    "wardrobe_variants": "1ZIwHAyaHK2vFy3biScuimd8VeZWC_vei",
+    "tzu_chi_emblem": "16rR9tNSTWUc8mkaeMk-_C2qePIutKIGH",
+    "expressions_phonemes": "1xPYTY0zjkNYZq0SSLj1EWzvxutsV-ScH",
+    "sealed_mannequin_hd2d_explore": "10i2liinezKbXXgBwnwWZYiaaVsiNKRav",
+    "sealed_mannequin_hd2d_combat": "1Vtv-Hb21k7IHWzLlvWAvso3OgATWKlC-",
+    "sealed_mannequin_fft_iso": "1a3HCbcez3VJLPpjNU1gWoquuCxJezo0f",
+    "sealed_mannequin_chibi": "1fw8Io8X0A9zy6stTOCWEgld2TF2ZbLHQ"
+  },
+  "local_reference_paths": {
+    "master_turnaround_4view": "02_reference_anchors/characters/Kai/001. Turnaround.png",
+    "storybook_portrait_gold": "02_reference_anchors/story_website_cast/hero-kai.webp",
+    "storybook_casual_pro_s01": "02_reference_anchors/story_website_cast/01_PRO_S01.webp",
+    "storybook_cloak_ch03_s02": "02_reference_anchors/story_website_cast/14_CH03_S02.webp",
+    "storybook_armor_ch11_s04": "02_reference_anchors/story_website_cast/52_CH11_S04.webp",
+    "running_turnaround": "02_reference_anchors/characters/Kai/002. Turn around Running .png",
+    "equipment_callout": "02_reference_anchors/characters/Kai/003. Equipment Callout.png",
+    "sitting_turnaround": "02_reference_anchors/characters/Kai/003. Turn Around Sitting.png",
+    "expressions_phonemes_props": "02_reference_anchors/characters/Kai/004. Expressions_Phonemes_and_Props.jpg",
+    "wardrobe_variants": "02_reference_anchors/characters/Kai/Different Outfit.png",
+    "tzu_chi_emblem": "02_reference_anchors/shared_cast_and_insignia/TzuChiFoundation_logo-1.jpg",
+    "expressions_phonemes": "02_reference_anchors/characters/Kai/004. Expressions_Phonemes_and_Props.jpg",
+    "sealed_mannequin_hd2d_explore": "05_generated_packs/01_RPG/MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4.png",
+    "sealed_mannequin_hd2d_combat": "05_generated_packs/01_RPG/MOD_B01_02_KAI_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4.png",
+    "sealed_mannequin_fft_iso": "05_generated_packs/01_RPG/MOD_B01_03_KAI_FFT_ISOMETRIC_SOCKET_MANNEQUIN_4x4.png",
+    "sealed_mannequin_chibi": "05_generated_packs/01_RPG/MOD_B01_04_KAI_CAPYBARA_CHIBI_SOCKET_MANNEQUIN_4x4.png"
+  },
+  "negative_disambiguation_locks": {
+    "must_never_have": [
+      "adult proportions",
+      "older teenager proportions",
+      "tall lanky limbs",
+      "giant oversized anime spiky hair",
+      "black hair",
+      "brown hair",
+      "blue jeans",
+      "grey pants",
+      "generic belt buckle",
+      "potions inside right-hip rectangular satchel",
+      "horned Viking helmet (reserved for Ch. 3 Blacksmith)",
+      "tall pointed indigo wizard hat (reserved for Great Wizard)",
+      "fiery ginger beard (reserved for Master Grimsby)",
+      "Ember pet",
+      "non-vegetarian meat food"
+    ]
+  },
+  "palette_hex_locks": [
+    "#D7A84B",
+    "#3B6EA8",
+    "#345830",
+    "#D4AF37",
+    "#F4EFE6",
+    "#1F6A38",
+    "#6E4226"
+  ],
+  "anatomical_roi_bands": {
+    "comment": "Normalized vertical fractions [y_min, y_max] of each cell's opaque content bounding box (bbox) for ACVE v3.0 Gate 8A-8E & Gate 10",
+    "crown_hair": {
+      "y_range": [
+        0.0,
+        0.28
+      ],
+      "required_hexes": [
+        "#D7A84B"
+      ],
+      "min_pixels": 12
+    },
+    "face_eyes": {
+      "y_range": [
+        0.16,
+        0.4
+      ],
+      "required_hexes": [
+        "#FCE5D2",
+        "#3B6EA8"
+      ],
+      "min_pixels": 6
+    },
+    "collar_torso": {
+      "y_range": [
+        0.34,
+        0.68
+      ],
+      "required_hexes": [
+        "#345830",
+        "#F4EFE6",
+        "#D4AF37"
+      ],
+      "min_pixels": 8
+    },
+    "waist_hips": {
+      "y_range": [
+        0.55,
+        0.8
+      ],
+      "left_viewer_right_hip_potions": [
+        "#2ECC71",
+        "#E74C3C",
+        "#3A86FF"
+      ],
+      "right_viewer_left_hip_satchel": [
+        "#7E4B2B"
+      ]
+    },
+    "boots_baseline": {
+      "y_range": [
+        0.76,
+        1.0
+      ],
+      "required_hexes": [
+        "#6E4226"
+      ],
+      "min_pixels": 10
+    }
+  },
+  "base_anchors_track_a_256x256": {
+    "ANCHOR_FOOT_PIVOT": [
+      128,
+      240,
+      0
+    ],
+    "ANCHOR_HAND_R_MAIN": [
+      162,
+      148,
+      45
+    ],
+    "ANCHOR_HAND_L_OFF": [
+      96,
+      146,
+      0
+    ],
+    "ANCHOR_HEAD_TOP": [
+      128,
+      82,
+      0
+    ],
+    "ANCHOR_EYES_FACE": [
+      132,
+      108,
+      0
+    ],
+    "ANCHOR_NECK_CLASP": [
+      130,
+      134,
+      0
+    ],
+    "ANCHOR_CHEST_PAULDRON": [
+      128,
+      148,
+      0
+    ],
+    "ANCHOR_WAIST_HIP": [
+      128,
+      178,
+      0
+    ],
+    "ANCHOR_BACK_MOUNT": [
+      114,
+      142,
+      -35
+    ]
+  }
+}

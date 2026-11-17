@@ -1,0 +1,218 @@
+[
+  {
+    "file": "B02_02_WIZARD_TURNAROUND_AND_CELESTIAL_ROBES_16x9.png",
+    "islands_removed": 5,
+    "pixels_removed": 6479,
+    "alpha_pct": 50.81,
+    "occupied": "1/1",
+    "acve_pass": true,
+    "sha256": "2e325703bd7149c21ff5572b0bc622b6cb09ecd7898d2856c4728442c07605b5"
+  },
+  {
+    "file": "B02_04_BUG_KING_TURNAROUND_AND_HEXAPOD_LOCK_16x9.png",
+    "islands_removed": 25,
+    "pixels_removed": 79546,
+    "alpha_pct": 56.88,
+    "occupied": "1/1",
+    "acve_pass": true,
+    "sha256": "5bb522cd295c24064d4e4a512e4a6b1f0947345b750b5e35048fb31306298cee"
+  },
+  {
+    "file": "B02_05_BUG_KING_BOSS_COMBAT_AND_SRPG_4x4.png",
+    "islands_removed": 56,
+    "pixels_removed": 24141,
+    "alpha_pct": 66.88,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "3e21c37acf0685e90893f5ca854d318739319953a97a4253fb91b70575916b38"
+  },
+  {
+    "file": "B03_05_FOUR_SHAPESHIFT_SPIRITS_AND_VILLAGE_NPCS_4x4.png",
+    "islands_removed": 7,
+    "pixels_removed": 3761,
+    "alpha_pct": 59.01,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "cf0c2ea55f183ff297974b8d0f9562726822d78333e69e6a16e3c74c4caf6cd4"
+  },
+  {
+    "file": "B04_01_REGIONAL_BOSSES_ACT1_CH01_TO_CH06_4x4.png",
+    "islands_removed": 21,
+    "pixels_removed": 4919,
+    "alpha_pct": 65.63,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "e60ff487b5a03efc01c8f1bc7378c18bd444c8fa03463796c88dc653acb812bb"
+  },
+  {
+    "file": "B04_02_REGIONAL_BOSSES_ACT2_AND_MINIONS_CH07_TO_CH11_4x4.png",
+    "islands_removed": 25,
+    "pixels_removed": 10331,
+    "alpha_pct": 64.28,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "0a86a540a49f6111fd9bac66c5c77cdcb3dd4b42b8aeddbc65fa49da8a9caa4a"
+  },
+  {
+    "file": "B04_05_BIOME_TREES_TRAVERSAL_AND_SRPG_TILES_4x4.png",
+    "islands_removed": 18,
+    "pixels_removed": 6234,
+    "alpha_pct": 59.18,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "87d21197aa043e8affe5e6f5ee7e3437f4cb2fc25b61cff315d2227c26af460b"
+  },
+  {
+    "file": "CG_B07_02_ARMOR_CLOAKS_AND_INSIGNIA_ACCESSORIES_4x4.png",
+    "islands_removed": 26,
+    "pixels_removed": 10465,
+    "alpha_pct": 52.47,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "6389e1800ccc332ac710ac140353d4ca25960231bfa1683aed2a6f6f49cb7abb"
+  },
+  {
+    "file": "CG_B08_02_TOP_SCREEN_BIOME_BANNERS_ACT2_CH07_TO_CH11_4x4.png",
+    "islands_removed": 16,
+    "pixels_removed": 19677,
+    "alpha_pct": 42.19,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "b7ceae2232382759ed551d386a316f2a9c546d6914a40e070c2c45e9b7268a52"
+  },
+  {
+    "file": "CG_B08_03_ROADSIDE_DAY_EVENT_ENCOUNTER_PROPS_4x4.png",
+    "islands_removed": 23,
+    "pixels_removed": 8065,
+    "alpha_pct": 59.22,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "5a5626b3a8dbcc11e401b82ad259033b83dc4c5bf4ccb5b5d3167c26f2156d73"
+  },
+  {
+    "file": "FFT_B03_01_GRANDMA_LOOMA_ISOMETRIC_WEAVER_BARD_4x4.png",
+    "islands_removed": 8,
+    "pixels_removed": 8122,
+    "alpha_pct": 57.98,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "67b91142f2529fbc59bf107056a5941f75e8b75f1d557ab662022b4eac5fba94"
+  },
+  {
+    "file": "FFT_B05_01_BOSS01_GLITCH_THORN_BRUTE_ISOMETRIC_4x4.png",
+    "islands_removed": 12,
+    "pixels_removed": 2947,
+    "alpha_pct": 56.08,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "1f22f0425d5cc978d47db96c5de88951c4370780fb33b7cf0bf999ea764b9b1f"
+  },
+  {
+    "file": "FFT_B05_03_BOSS04_SHADOW_BRAMBLE_STAG_ISOMETRIC_4x4.png",
+    "islands_removed": 22,
+    "pixels_removed": 4943,
+    "alpha_pct": 68.16,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "3e4c033c7166456753ee4fe8ef7e596e9002f0fa46d6de4632fcfa2fb0525061"
+  },
+  {
+    "file": "FFT_B06_04_BUG_KING_PHASE1_IMPERIAL_ISOMETRIC_4x4.png",
+    "islands_removed": 26,
+    "pixels_removed": 8223,
+    "alpha_pct": 71.01,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "3ad25e2132768b7a04cb22d0ef3056011ae57858ae49a2c2be4f5ebece158fe8"
+  },
+  {
+    "file": "FFT_B06_05_BUG_KING_PHASE2_OVERLORD_AND_COCOON_4x4.png",
+    "islands_removed": 38,
+    "pixels_removed": 7423,
+    "alpha_pct": 69.68,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "8c18f51de281376af1863d65c87f67be029653abf183b473d2f1bf38095ab829"
+  },
+  {
+    "file": "MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4.png",
+    "islands_removed": 20,
+    "pixels_removed": 12559,
+    "alpha_pct": 70.54,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "0bac31bf9efb711ffd745c362d68a75644b146e4f68f0508ffb279c46cb2d158"
+  },
+  {
+    "file": "MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4.png",
+    "islands_removed": 10,
+    "pixels_removed": 2296,
+    "alpha_pct": 81.1,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "e935023d5103b8d5a65efbd1aa5510ee35470b0e4cf034f099d644c218ec786c"
+  },
+  {
+    "file": "MOD_B02_05_MODULAR_SLASH_ARCS_AND_SPELL_PROJECTILES_4x4.png",
+    "islands_removed": 24,
+    "pixels_removed": 7076,
+    "alpha_pct": 67.23,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "bdb2c9030e3e9bb4a054a2f00663044d48c2593f7d0cfb1e51b20eb660defb30"
+  },
+  {
+    "file": "MOD_B04_02_SOCKET_EYEWEAR_GOGGLES_AND_FACE_RUNES_4x4.png",
+    "islands_removed": 34,
+    "pixels_removed": 45974,
+    "alpha_pct": 84.63,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "c32e0c7ce72d867e8ab007795978e5378c66896a2a33c03d874efb21c9ff215b"
+  },
+  {
+    "file": "MOD_B04_03_SOCKET_NECKWEAR_BROOCHES_SCARVES_AND_COLLARS_4x4.png",
+    "islands_removed": 15,
+    "pixels_removed": 59920,
+    "alpha_pct": 66.28,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "afdf53cb9eed532c62daacad82b5a64ba7b3d4152a95db0cbab09d0d85f722da"
+  },
+  {
+    "file": "MOD_B05_03_GRANDMA_LOOMA_COMPLETE_MISSING_STANCES_4x4.png",
+    "islands_removed": 28,
+    "pixels_removed": 9967,
+    "alpha_pct": 62.24,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "3a462afcf7d7b2b534bb10f264cb6741db8d86bff5b906ea963d9a6fb2274a02"
+  },
+  {
+    "file": "MOD_B06_01_ACT1_BOSSES_SPAWN_PHASE2_AND_PURIFIED_4x4.png",
+    "islands_removed": 43,
+    "pixels_removed": 10314,
+    "alpha_pct": 56.69,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "2f49c4c7b696d0e078206cf2e4dc0fa3b5ddd92f51b2fa3c06217e77498cf767"
+  },
+  {
+    "file": "MOD_B06_02_ACT2_BOSSES_SPAWN_PHASE2_AND_PURIFIED_4x4.png",
+    "islands_removed": 60,
+    "pixels_removed": 14894,
+    "alpha_pct": 57.62,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "164728712bdaddedd5935d07da9f74b0aa173c69cc09cae7b90db90d2445258c"
+  },
+  {
+    "file": "MOD_B06_03_BUG_KING_COMPLETE_MISSING_STANCES_4x4.png",
+    "islands_removed": 21,
+    "pixels_removed": 6272,
+    "alpha_pct": 62.85,
+    "occupied": "16/16",
+    "acve_pass": true,
+    "sha256": "acb80eb939576d651d18c9b002715d2c7faae325a5496ced37b8ca6645a55633"
+  }
+]

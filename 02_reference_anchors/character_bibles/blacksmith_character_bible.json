@@ -1,0 +1,105 @@
+{
+  "character_id": "blacksmith",
+  "character_name": "Iron Outpost Blacksmith",
+  "full_title": "Iron Outpost Blacksmith — Ch. 3 Forgeman & Armorer (ENV_R03)",
+  "demographics": {
+    "gender": "Male",
+    "apparent_age": "55-68 years old",
+    "proportions": "~150 cm tall (4.5 heads tall — slightly taller than Hero Kai at ~142 cm, shorter than Grandma Looma at ~156 cm, with ultra-wide stocky dwarf-craftsman shoulders)",
+    "build": "Heavyset, barrel-chested, heavily muscled bare forearms and biceps dusted with forge soot and minor forge/battle scars"
+  },
+  "facial_features": {
+    "face_shape": "Broad rugged square elder craftsman face weathered by forge heat",
+    "skin_tone": "Warm ruddy tanned skin (#D99B78) with warm blush across nose and cheeks",
+    "hair": {
+      "color": "Silver-white / ash grey (#C8CDD2)",
+      "style": "Thick silver-grey locks flowing behind ears beneath helmet rim, paired with bushy white eyebrows"
+    },
+    "beard_and_mustache": {
+      "color": "Thick silver-white to pale ash-grey",
+      "style": "Massive triple-braided beard: wide sweeping walrus mustache flowing into one long central braid flanked by two shorter side braids bound near tips with brown leather/brass bands"
+    },
+    "eyes": {
+      "color": "Alert steel-grey / amber-brown eyes (#5C5248)",
+      "shape": "Focused intense eyes under heavy bushy silver eyebrows"
+    },
+    "nose": "Broad ruddy rounded nose"
+  },
+  "outfits": {
+    "forge_leather_apron": {
+      "name": "Forge Leather Apron Gear (Canonical Default)",
+      "description": "Iconic horned iron helmet, frayed sleeveless tunic, and heavy soot-smudged leather smithing apron",
+      "helmet": {
+        "style": "Domed riveted iron skullcap helmet (#6E7885) with central vertical and brow metal reinforcement straps",
+        "horns": "Two short stout upward-curving ivory/bone horns (#DDD2BE) anchored in dark iron socket rings"
+      },
+      "tunic_and_trousers": {
+        "tunic": "Sleeveless jagged-frayed olive-slate rough linen undershirt (#58635A) exposing huge scarred arms",
+        "trousers": "Loose rugged olive-khaki breeches (#666852)"
+      },
+      "apron": {
+        "color": "Heavy thick saddle-brown leather smithing apron (#8A5A36) with dark forge soot smudges along lower hem",
+        "details": "Wide leather shoulder straps, chest bib tool pocket, and small brown hip belt pouch"
+      },
+      "gauntlets_and_boots": {
+        "gloves": "Thick cuffed brown leather smithing gauntlets (#6E482C)",
+        "boots": "Sturdy wide-cuffed dark brown leather calf boots (#5C3B24)"
+      },
+      "tools": {
+        "hammer": "Heavy rectangular forged steel smithing hammerhead (#6D747E) on sturdy hardwood shaft (#8A623E)",
+        "tongs_and_anvil": "Long articulated iron tongs gripping glowing white-orange blade blank over a horn-tipped iron anvil on an oak stump"
+      }
+    },
+    "ceremonial_guild_mail": {
+      "name": "Master Guild Chainmail & Tunic (Formal)",
+      "description": "Retaining the horned steel helmet and triple-braided beard, wearing burnished steel chainmail hauberk over a forest-olive tunic with bronze buckle belt, leather gauntlets, and sheathed masterwork sword"
+    },
+    "mountain_travel_fur": {
+      "name": "Mountain Forge Travel Cloak (Outdoor)",
+      "description": "Horned helmet, triple-braided beard, thick fur-lined brown bear-pelt shoulder cape fastened with iron brooches over sleeveless tunic and leather trousers, carrying war-smith hammer across shoulder"
+    }
+  },
+  "art_style_dna": {
+    "primary_style": "Hand-drawn fantasy storybook illustration, Studio Ghibli meets Akira Toriyama Dragon Quest art style",
+    "line_art": "Clean bold warm-sepia / charcoal ink outlines with natural organic lineweight",
+    "shading_technique": "Rich watercolor and painterly gouache washes with warm forge-ember highlights",
+    "color_palette": "Steel iron grey (#6E7885), ivory horn (#DDD2BE), silver-white beard (#C8CDD2), olive-slate tunic (#58635A), saddle-brown apron (#8A5A36), ember orange (#FF7A29), tan skin (#D99B78)",
+    "atmosphere": "Sturdy, warm, artisan pride, roaring hearth energy, dependable elder protector"
+  },
+  "invariants_do_and_dont": {
+    "do": [
+      "Always include the riveted iron helmet with two upward-curving ivory horns and flowing grey hair out the back",
+      "Always render his thick triple-braided silver-white beard (one center braid + two side braids with leather cuffs) and sweeping mustache",
+      "Always keep his barrel-chested ~4.5 heads stocky proportions and heavily muscled scarred arms in a sleeveless frayed tunic + heavy brown leather apron",
+      "Always use Studio Ghibli x Dragon Quest clean ink and watercolor styling matching Hero Kai, Great Wizard, and Grandma Looma"
+    ],
+    "dont": [
+      "Do NOT draw him as a tall skinny youth or clean-shaven",
+      "Do NOT replace his triple-braided beard with an unbraided short goatee",
+      "Do NOT drop the horned riveted helmet or give him modern welder goggles/synthetic clothes",
+      "Do NOT render in photorealistic 3D CGI"
+    ]
+  },
+  "aliases": [
+    "Master Blacksmith",
+    "Blacksmith",
+    "Ch. 3 Iron Outpost Forgeman"
+  ],
+  "canonical_v3_arc": {
+    "story_version": "3.0",
+    "zone_id": "ENV_R03",
+    "spell_taught": "Spell 3: FUSE (+)",
+    "distinct_from": "Master Grimsby (ENV_R08 Deep Dwarven Forge, fiery red-orange beard, no horned helmet)",
+    "key_events": [
+      "ENV_R03: Welcomes Hero Kai and the unnamed golden-tan pup at the Iron Outpost forge.",
+      "Demonstrates why comma weaving (print('Iron', 'Sword')) leaves a weak air gap and teaches the Plus Sign + fusion spell: print('Iron' + 'Sword') to meld two shattered blade halves into a gleaming solid IronSword."
+    ]
+  },
+  "reference_files": [
+    "02_Source_Assets/Characters/Blacksmith/Blacksmith_Master_Reference.jpg",
+    "02_Source_Assets/Characters/Blacksmith/01_Turnaround_4View.jpg",
+    "02_Source_Assets/Characters/Blacksmith/02_Equipment_and_Props_Callout.jpg",
+    "02_Source_Assets/Characters/Blacksmith/03_Action_Poses_and_Wardrobe.jpg",
+    "02_Source_Assets/Characters/Blacksmith/04_Expressions_Phonemes_and_Color_Key.jpg"
+  ]
+}

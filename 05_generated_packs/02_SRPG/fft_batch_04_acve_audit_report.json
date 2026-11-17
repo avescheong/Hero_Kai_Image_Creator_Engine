@@ -1,0 +1,110 @@
+{
+  "batch": "FFT_BATCH_04",
+  "assets": [
+    {
+      "asset_id": "FFT_B04_01_VILLAGE_AND_FOREST_NPCS_ISOMETRIC_4x4",
+      "png_file": "FFT_B04_01_VILLAGE_AND_FOREST_NPCS_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B04_01_VILLAGE_AND_FOREST_NPCS_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 73.59,
+      "sha256": "374237da849ba183d86cae52540511ef943b2ec19a8ee2d5518d9d43eb15f33e",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B04_02_SUNNYBROOK_AND_CROSSROADS_NPCS_ISOMETRIC_4x4",
+      "png_file": "FFT_B04_02_SUNNYBROOK_AND_CROSSROADS_NPCS_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B04_02_SUNNYBROOK_AND_CROSSROADS_NPCS_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 70.65,
+      "sha256": "66362f815ceba2cb20b2f10f30c81a0e22af4e1001958de3faf6843fb86de8db",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B04_03_LARGE_GUARDIANS_AND_DRAGON_ISOMETRIC_4x4",
+      "png_file": "FFT_B04_03_LARGE_GUARDIANS_AND_DRAGON_ISOMETRIC_4x4.png",
+      "json_file": "FFT_B04_03_LARGE_GUARDIANS_AND_DRAGON_ISOMETRIC_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 57.92,
+      "sha256": "b7c74b9556ebbabf79df8cd93d3e3164d587ad7a67459bb47467934d19d62ab7",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B04_04_SUPPORTING_CAST_YOSHIDA_PORTRAITS_4x4",
+      "png_file": "FFT_B04_04_SUPPORTING_CAST_YOSHIDA_PORTRAITS_4x4.png",
+      "json_file": "FFT_B04_04_SUPPORTING_CAST_YOSHIDA_PORTRAITS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 13.44,
+      "sha256": "3e2420f0861cec7e10c86df24e614612875d6c799aad268e93b751460b122e83",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "FFT_B04_05_FFT_VEGETARIAN_ITEMS_AND_GEAR_ICONS_4x4",
+      "png_file": "FFT_B04_05_FFT_VEGETARIAN_ITEMS_AND_GEAR_ICONS_4x4.png",
+      "json_file": "FFT_B04_05_FFT_VEGETARIAN_ITEMS_AND_GEAR_ICONS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 66.62,
+      "sha256": "3c5af2487fc7fd035a500edd6884fa747c72fd8a2c4ed93ed841fbceedb82b7a",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

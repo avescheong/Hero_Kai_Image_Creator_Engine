@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Kai: Scrolls of Pythonia — Full Animated Assets Dashboard</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --panel: #111827;
+      --panel-2: #0f172a;
+      --border: #1e293b;
+      --border-hi: #334155;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --emerald: #10b981;
+      --emerald-dim: rgba(16, 185, 129, 0.14);
+      --sky: #38bdf8;
+      --amber: #f59e0b;
+      --rose: #f43f5e;
+      --violet: #a78bfa;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg); color: var(--text);
+      font-family: var(--sans); min-height: 100vh;
+    }
+    .mono { font-family: var(--mono); }
+    .hidden { display: none !important; }
+
+    /* Backdrops */
+    .bg-checker {
+      background-color: #0f172a;
+      background-image:
+        linear-gradient(45deg, #1e293b 25%, transparent 25%),
+        linear-gradient(-45deg, #1e293b 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #1e293b 75%),
+        linear-gradient(-45deg, transparent 75%, #1e293b 75%);
+      background-size: 20px 20px;
+      background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+    }
+    .bg-white { background: #ffffff; }
+    .bg-cream { background: #faf4e8; }
+    .bg-forest { background: #10241b; }
+
+    /* Header */
+    header {
+      position: sticky; top: 0; z-index: 40;
+      background: rgba(9, 13, 22, 0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 18px;
+    }
+    .wrap { max-width: 1640px; margin: 0 auto; }
+    .topbar {
+      display: flex; flex-wrap: wrap; align-items: center;
+      justify-content: space-between; gap: 12px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo {
+      width: 38px; height: 38px; border-radius: 10px;
+      background: linear-gradient(135deg, #10b981, #0d9488);
+      color: #042f2e; font-weight: 900; font-size: 14px;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.28);
+    }
+    .brand h1 { margin: 0; font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
+    .brand-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .pill-ok {
+      display: inline-block; font-size: 11px; font-weight: 600;
+      padding: 2px 8px; border-radius: 999px;
+      background: var(--emerald-dim); color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      margin-left: 8px;
+    }
+
+    /* Nav Tabs */
+    .tabs {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      background: var(--panel-2); padding: 4px;
+      border-radius: 10px; border: 1px solid var(--border);
+    }
+    .tab-btn {
+      border: 0; cursor: pointer; border-radius: 7px;
+      padding: 7px 13px; font-size: 12px; font-weight: 600;
+      background: transparent; color: var(--muted);
+      transition: all 0.15s ease;
+    }
+    .tab-btn:hover { color: var(--text); background: rgba(255, 255, 255, 0.04); }
+    .tab-btn.active { background: var(--emerald); color: #022c22; }
+
+    /* Controls Bar */
+    .controls-bar {
+      margin-top: 10px; padding-top: 10px;
+      border-top: 1px solid rgba(30, 41, 59, 0.8);
+      display: flex; flex-wrap: wrap; align-items: center;
+      justify-content: space-between; gap: 10px;
+    }
+    .track-pills, .anim-controls, .filter-group {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+    }
+    .btn {
+      border: 1px solid var(--border-hi); background: var(--panel);
+      color: var(--text); border-radius: 7px; padding: 6px 11px;
+      font-size: 12px; font-weight: 600; cursor: pointer;
+      transition: all 0.12s ease;
+    }
+    .btn:hover { border-color: #64748b; background: #1e293b; }
+    .btn.active { background: #f8fafc; color: #0f172a; border-color: #f8fafc; }
+    .btn-emerald { background: #059669; border-color: #10b981; color: #fff; }
+    .btn-emerald:hover { background: #10b981; }
+    .btn-amber { background: #b45309; border-color: #f59e0b; color: #fff; }
+    select, input[type="text"] {
+      background: var(--panel-2); color: var(--text);
+      border: 1px solid var(--border-hi); border-radius: 7px;
+      padding: 6px 10px; font-size: 12px; outline: none;
+    }
+    select:focus, input[type="text"]:focus { border-color: var(--emerald); }
+    input[type="range"] { accent-color: var(--emerald); cursor: pointer; }
+    label.ctrl-lbl { font-size: 11px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+
+    /* Main Containers */
+    main { padding: 16px 18px 40px; }
+    .status-strip {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      gap: 8px; margin-bottom: 14px; font-size: 12px; color: var(--muted);
+    }
+
+    /* Gallery Grid */
+    .gallery-grid {
+      display: grid; gap: 14px;
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    }
+    .gallery-grid.compact {
+      grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+    }
+    .gallery-grid.large {
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    }
+    .card {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden; cursor: pointer;
+      display: flex; flex-direction: column;
+      transition: transform 0.14s ease, border-color 0.14s ease, box-shadow 0.14s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(16, 185, 129, 0.6);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+    }
+    .card-stage {
+      position: relative; width: 100%; aspect-ratio: 1 / 1;
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden; border-bottom: 1px solid var(--border);
+    }
+    .card-stage.wide { aspect-ratio: 16 / 10; }
+    .sprite-box {
+      width: 88%; height: 88%;
+      background-repeat: no-repeat;
+      image-rendering: auto;
+      transition: transform 0.08s linear;
+    }
+    .sprite-box.pixelated { image-rendering: pixelated; }
+    .sprite-box.flipped { transform: scaleX(-1); }
+    .fullsheet-img {
+      width: 94%; height: 94%; object-fit: contain;
+    }
+    .badge-tl {
+      position: absolute; top: 8px; left: 8px;
+      background: rgba(9, 13, 22, 0.82); color: #cbd5e1;
+      border: 1px solid rgba(51, 65, 85, 0.8);
+      font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 5px;
+    }
+    .badge-tr {
+      position: absolute; top: 8px; right: 8px;
+      background: rgba(6, 78, 59, 0.85); color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.45);
+      font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 5px;
+      font-family: var(--mono);
+    }
+    .badge-br {
+      position: absolute; bottom: 8px; right: 8px;
+      background: rgba(9, 13, 22, 0.82); color: #94a3b8;
+      border: 1px solid rgba(51, 65, 85, 0.7);
+      font-size: 10px; padding: 2px 6px; border-radius: 5px;
+      font-family: var(--mono);
+    }
+    .card-body { padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; }
+    .card-title {
+      font-family: var(--mono); font-size: 11px; font-weight: 700;
+      color: #f8fafc; word-break: break-word; line-height: 1.35;
+    }
+    .card-meta {
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 10px; color: var(--muted);
+    }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 4px; }
+    .tag {
+      font-size: 10px; padding: 1px 6px; border-radius: 4px;
+      background: rgba(56, 189, 248, 0.12); color: #7dd3fc;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed; inset: 0; z-index: 60;
+      background: rgba(2, 6, 23, 0.84); backdrop-filter: blur(6px);
+      display: flex; align-items: center; justify-content: center; padding: 16px;
+    }
+    .modal {
+      background: var(--panel); border: 1px solid var(--border-hi);
+      border-radius: 16px; max-width: 1180px; width: 100%;
+      max-height: 94vh; overflow-y: auto; padding: 18px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.7);
+    }
+    .modal-head {
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+      align-items: flex-start; gap: 10px; margin-bottom: 14px;
+    }
+    .modal-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+    }
+    @media (max-width: 880px) { .modal-grid { grid-template-columns: 1fr; } }
+    .panel-box {
+      background: var(--panel-2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 12px;
+    }
+    .atlas-wrap {
+      position: relative; width: 100%; aspect-ratio: 1 / 1;
+      border-radius: 8px; overflow: hidden; border: 1px solid var(--border);
+    }
+    .atlas-wrap.wide { aspect-ratio: 16 / 9; }
+    .atlas-wrap img { width: 100%; height: 100%; object-fit: contain; display: block; }
+    .atlas-cells {
+      position: absolute; inset: 0; display: grid;
+    }
+    .atlas-cell {
+      border: 1px dashed rgba(148, 163, 184, 0.25);
+      position: relative; cursor: pointer;
+    }
+    .atlas-cell:hover { background: rgba(16, 185, 129, 0.14); }
+    .atlas-cell.active { border: 2px solid var(--emerald); background: rgba(16, 185, 129, 0.18); }
+    .atlas-cell-num {
+      position: absolute; top: 2px; left: 4px;
+      font-family: var(--mono); font-size: 10px; font-weight: 700;
+      color: rgba(248, 250, 252, 0.85);
+      text-shadow: 0 1px 2px #000;
+    }
+    .stage-canvas-box {
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 10px; border: 1px solid var(--border);
+      min-height: 360px; position: relative; overflow: hidden;
+    }
+
+    /* Simulator & DNA Layouts */
+    .two-col { display: grid; grid-template-columns: 1.25fr 1fr; gap: 16px; }
+    @media (max-width: 960px) { .two-col { grid-template-columns: 1fr; } }
+    .char-grid {
+      display: grid; gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    }
+    .char-card {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 10px;
+    }
+    .swatch-btn {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: var(--panel-2); border: 1px solid var(--border-hi);
+      border-radius: 6px; padding: 3px 7px; font-size: 11px;
+      font-family: var(--mono); color: var(--text); cursor: pointer;
+    }
+    .swatch-dot { width: 12px; height: 12px; border-radius: 3px; border: 1px solid rgba(255,255,255,0.25); }
+    .ref-thumb-row { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+    .ref-thumb {
+      height: 84px; border-radius: 7px; border: 1px solid var(--border-hi);
+      background: #fff; cursor: pointer; object-fit: contain;
+    }
+    .toast {
+      position: fixed; bottom: 18px; right: 18px; z-index: 80;
+      background: #059669; color: #fff; font-size: 12px; font-weight: 600;
+      padding: 9px 14px; border-radius: 9px; box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">
+          <div class="logo">KAI</div>
+          <div>
+            <h1>
+              Hero Kai: Scrolls of Pythonia &mdash; Full Animated Assets Dashboard
+              <span class="pill-ok" id="headerBadge">140 / 140 Sealed Sheets</span>
+            </h1>
+            <div class="brand-sub">
+              Full-Resolution Live Sprite Player &bull; 32-Stance Paper-Doll Rig &bull; 10 Genome v4.0 Character Locks &bull; Playable RPG Stage
+            </div>
+          </div>
+        </div>
+        <nav class="tabs">
+          <button class="tab-btn active" data-tab="gallery">1. Animated Gallery (140)</button>
+          <button class="tab-btn" data-tab="simulator">2. 32-Stance Paper-Doll Rig</button>
+          <button class="tab-btn" data-tab="dna">3. Character DNA &amp; Anchors (10)</button>
+          <button class="tab-btn" data-tab="stage">4. Playable Sprite Stage</button>
+        </nav>
+      </div>
+
+      <!-- Gallery Controls -->
+      <div id="galleryControls" class="controls-bar">
+        <div class="track-pills" id="trackPills">
+          <button class="btn active" data-track="ALL">All (140)</button>
+          <button class="btn" data-track="Track A (HD-2D Core RPG)">Track A: HD-2D (20)</button>
+          <button class="btn" data-track="Track D (Modular Paper-Doll & Socket Rig)">Track D: Modular (40)</button>
+          <button class="btn" data-track="Track B (FFT Isometric SRPG)">Track B: FFT (40)</button>
+          <button class="btn" data-track="Track C (Capybara Go! Chibi)">Track C: Capybara (40)</button>
+        </div>
+        <div class="filter-group">
+          <select id="tagFilter" title="Filter by Character or Category">
+            <option value="ALL">All Characters &amp; Categories</option>
+          </select>
+          <input id="searchInput" type="text" placeholder="Search sheet (e.g. KAI, WIZARD, BUG_KING, MOD_B02)..." style="width: 240px;" />
+        </div>
+        <div class="anim-controls">
+          <button id="btnGlobalPlay" class="btn btn-emerald">Pause All</button>
+          <select id="globalRowMode" title="Frame loop">
+            <option value="all">Loop: All 16 Cells</option>
+            <option value="0">Loop: Row 1 (0-3)</option>
+            <option value="1">Loop: Row 2 (4-7)</option>
+            <option value="2">Loop: Row 3 (8-11)</option>
+            <option value="3">Loop: Row 4 (12-15)</option>
+            <option value="sheet">Static Full Sheet</option>
+          </select>
+          <label class="ctrl-lbl">
+            FPS <input id="globalFps" type="range" min="1" max="20" value="6" style="width:82px;" />
+            <span id="globalFpsLabel" class="mono" style="color:#6ee7b7;">6</span>
+          </label>
+          <button id="btnGlobalFlip" class="btn" title="Mirror horizontally">Flip X</button>
+          <select id="backdropSelect" title="Stage backdrop">
+            <option value="bg-checker">Backdrop: Checker</option>
+            <option value="bg-white">Backdrop: White #FFF</option>
+            <option value="bg-cream">Backdrop: Cream #FAF4E8</option>
+            <option value="bg-forest">Backdrop: Forest #10241B</option>
+          </select>
+          <select id="cardSizeSelect" title="Card size">
+            <option value="">Size: Standard</option>
+            <option value="compact">Size: Compact</option>
+            <option value="large">Size: Large</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TAB 1: ANIMATED GALLERY -->
+  <main id="tab-gallery" class="wrap">
+    <div class="status-strip">
+      <span id="visibleCount">Showing 140 of 140 sheets</span>
+      <span>Click any card to open the Full-Resolution Cell Inspector, BBox overlay &amp; Row Animator</span>
+    </div>
+    <div id="galleryGrid" class="gallery-grid"></div>
+  </main>
+
+  <!-- TAB 2: 32-STANCE PAPER-DOLL SIMULATOR -->
+  <main id="tab-simulator" class="wrap hidden">
+    <div class="two-col">
+      <div class="panel-box">
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:10px; flex-wrap:wrap;">
+          <div>
+            <strong style="font-size:14px;">Full-Res 32-Stance Paper-Doll Rig</strong>
+            <div style="font-size:11px; color:var(--muted);">Live Z-compositing onto <span class="mono">MOD_B01_01</span> &amp; <span class="mono">MOD_B01_02</span></div>
+          </div>
+          <div style="display:flex; gap:8px; align-items:center;">
+            <button id="btnSimPlay" class="btn btn-emerald">Play 32-Stance Loop</button>
+            <label class="ctrl-lbl"><input id="chkSimSockets" type="checkbox" checked /> 9 Sockets</label>
+          </div>
+        </div>
+        <div class="stage-canvas-box bg-checker">
+          <canvas id="simCanvas" width="384" height="384"></canvas>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:10px; font-size:11px;" class="mono">
+          <div class="panel-box" style="padding:8px;">Stance: <span id="simReadStance" style="color:#6ee7b7;">01_idle_breath_1</span></div>
+          <div class="panel-box" style="padding:8px;">Hand R &Delta;: <span id="simReadHand" style="color:#fcd34d;">[0, 0, 0&deg;]</span></div>
+          <div class="panel-box" style="padding:8px;">Scale: <span id="simReadScale" style="color:#7dd3fc;">1.00x</span></div>
+        </div>
+      </div>
+
+      <div class="panel-box" style="display:flex; flex-direction:column; gap:12px;">
+        <div>
+          <label class="ctrl-lbl" style="margin-bottom:4px;">1. Body Archetype (v2.0 Schema)</label>
+          <select id="simArchetype" style="width:100%;"></select>
+        </div>
+        <div>
+          <label class="ctrl-lbl" style="margin-bottom:4px;">2. Stance (01-16 Exploration / 17-32 Combat &amp; Coding)</label>
+          <select id="simStance" style="width:100%;"></select>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;">
+          <div>
+            <label class="ctrl-lbl" style="margin-bottom:4px;">Weapon Pack &amp; Cell</label>
+            <select id="simWeaponSheet" style="width:100%; margin-bottom:6px;">
+              <option value="MOD_B02_01_MODULAR_SWORDS_AND_BLADES_ARSENAL_4x4">Swords &amp; Blades (MOD_B02_01)</option>
+              <option value="MOD_B02_02_MODULAR_HAMMERS_AND_FORGE_TOOLS_4x4">Hammers &amp; Tools (MOD_B02_02)</option>
+              <option value="MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4">Staves &amp; Shuttles (MOD_B02_03)</option>
+            </select>
+            <select id="simWeaponCell" style="width:100%;"></select>
+          </div>
+          <div>
+            <label class="ctrl-lbl" style="margin-bottom:4px;">Headwear (MOD_B04_01)</label>
+            <select id="simHatCell" style="width:100%;"></select>
+          </div>
+          <div>
+            <label class="ctrl-lbl" style="margin-bottom:4px;">Back / Scabbard / Wings (MOD_B04_05)</label>
+            <select id="simBackCell" style="width:100%;"></select>
+          </div>
+          <div>
+            <label class="ctrl-lbl" style="margin-bottom:4px;">Neck / Brooch (MOD_B04_03)</label>
+            <select id="simNeckCell" style="width:100%;"></select>
+          </div>
+        </div>
+        <div>
+          <label class="ctrl-lbl">Animation FPS: <span id="simFpsVal" class="mono" style="color:#6ee7b7;">6</span></label>
+          <input id="simFps" type="range" min="1" max="16" value="6" style="width:100%; margin-top:4px;" />
+        </div>
+        <div style="font-size:12px; color:var(--muted); line-height:1.5; background:var(--bg); padding:10px; border-radius:8px; border:1px solid var(--border);">
+          <strong style="color:var(--text);">Zero-Regeneration Socket Binding:</strong> Every weapon, hat, neck clasp, and scabbard/wing cutout moves deterministically across all 32 stances using <span class="mono">ArchetypeBaseAnchor + KinematicLUT[stance]</span> without re-generating base character sprites.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- TAB 3: CHARACTER DNA & REFERENCE ANCHORS -->
+  <main id="tab-dna" class="wrap hidden">
+    <div class="status-strip">
+      <span>10 Canonical Character Genomes (<span class="mono">01_character_genomes/*.json</span>) &amp; Local Visual Anchors (<span class="mono">02_reference_anchors/</span>)</span>
+      <span>Click any hex swatch to copy &bull; Click any thumbnail to preview full size</span>
+    </div>
+    <div id="dnaGrid" class="char-grid"></div>
+  </main>
+
+  <!-- TAB 4: PLAYABLE 16x8 SPRITE STAGE -->
+  <main id="tab-stage" class="wrap hidden">
+    <div class="panel-box">
+      <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; margin-bottom:12px;">
+        <div>
+          <strong style="font-size:14px;">Interactive 16&times;8 RPG Test Stage</strong>
+          <div style="font-size:11px; color:var(--muted);">Controls: <span class="mono">A/D</span> or <span class="mono">&larr;/&rarr;</span> Move &bull; <span class="mono">Space</span> Jump &bull; <span class="mono">P</span> Melee (Row 3) &bull; <span class="mono">E</span> Cast Spell (Row 4)</div>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
+          <select id="stageSheetSelect"></select>
+          <button class="btn" id="btnStageLeft">&larr;</button>
+          <button class="btn" id="btnStageRight">&rarr;</button>
+          <button class="btn" id="btnStageJump">Jump</button>
+          <button class="btn btn-amber" id="btnStageMelee">Melee (P)</button>
+          <button class="btn btn-emerald" id="btnStageCast">Cast (E)</button>
+        </div>
+      </div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid var(--border);">
+        <canvas id="playCanvas" width="1024" height="440" style="width:100%; height:auto; display:block;"></canvas>
+      </div>
+    </div>
+  </main>
+
+  <!-- FULL-RES CELL INSPECTOR MODAL -->
+  <div id="inspectModal" class="modal-backdrop hidden">
+    <div class="modal">
+      <div class="modal-head">
+        <div>
+          <div id="modalTitle" class="mono" style="font-size:15px; font-weight:700;"></div>
+          <div id="modalMeta" style="font-size:12px; color:var(--muted); margin-top:3px;"></div>
+        </div>
+        <button id="btnCloseModal" class="btn">Close (Esc)</button>
+      </div>
+      <div class="modal-grid">
+        <div class="panel-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <span style="font-size:12px; font-weight:600;">Full Sheet Grid (Click any cell)</span>
+            <label class="ctrl-lbl"><input id="chkModalBbox" type="checkbox" checked /> ACVE BBox &amp; Pivot</label>
+          </div>
+          <div id="modalAtlasWrap" class="atlas-wrap bg-checker">
+            <img id="modalFullImg" alt="Full Sheet" />
+            <canvas id="modalBboxCanvas" style="position:absolute; inset:0; width:100%; height:100%; pointer-events:none;"></canvas>
+            <div id="modalAtlasCells" class="atlas-cells"></div>
+          </div>
+        </div>
+        <div class="panel-box" style="display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">
+            <span style="font-size:12px; font-weight:600;">Animated Cell Stage</span>
+            <div style="display:flex; gap:6px; align-items:center;">
+              <button id="btnModalPrev" class="btn">&larr;</button>
+              <button id="btnModalPlay" class="btn btn-emerald">Pause</button>
+              <button id="btnModalNext" class="btn">&rarr;</button>
+              <button id="btnModalFlip" class="btn">Flip X</button>
+            </div>
+          </div>
+          <div id="modalStageBox" class="stage-canvas-box bg-checker">
+            <canvas id="modalAnimCanvas" width="320" height="320"></canvas>
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px; align-items:center; justify-content:space-between;">
+            <div style="display:flex; gap:4px; flex-wrap:wrap;" id="modalRowBtns">
+              <button class="btn active" data-row="all">All</button>
+              <button class="btn" data-row="0">R1</button>
+              <button class="btn" data-row="1">R2</button>
+              <button class="btn" data-row="2">R3</button>
+              <button class="btn" data-row="3">R4</button>
+            </div>
+            <label class="ctrl-lbl">
+              FPS <input id="modalFps" type="range" min="1" max="24" value="6" style="width:86px;" />
+              <span id="modalFpsVal" class="mono" style="color:#6ee7b7;">6</span>
+            </label>
+            <label class="ctrl-lbl">
+              Zoom <input id="modalZoom" type="range" min="1" max="2.5" step="0.25" value="1.25" style="width:76px;" />
+              <span id="modalZoomVal" class="mono">1.25x</span>
+            </label>
+            <label class="ctrl-lbl"><input id="chkModalPixel" type="checkbox" /> Pixelated</label>
+          </div>
+          <div id="modalFrameStats" class="mono" style="font-size:11px; color:var(--muted); background:var(--bg); padding:8px 10px; border-radius:8px; border:1px solid var(--border); word-break:break-all;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Zoom Lightbox for DNA Tab -->
+  <div id="refLightbox" class="modal-backdrop hidden">
+    <div class="modal" style="max-width:960px;">
+      <div class="modal-head">
+        <div id="refLightboxTitle" class="mono" style="font-size:13px;"></div>
+        <button id="btnCloseLightbox" class="btn">Close</button>
+      </div>
+      <div class="bg-white" style="border-radius:10px; padding:12px; display:flex; justify-content:center;">
+        <img id="refLightboxImg" style="max-width:100%; max-height:76vh; object-fit:contain;" alt="Reference Anchor" />
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="assets_catalog.js"></script>
+  <script>
+    const CAT = window.PYTHONIA_ASSETS_CATALOG;
+    if (!CAT || !CAT.sheets) {
+      document.body.innerHTML = '<div style="padding:40px;color:#fda4af;font-family:monospace;">Failed to load assets_catalog.js. Run: python 02_inspector_and_tools/build_dashboard_catalog.py</div>';
+      throw new Error('Missing catalog');
+    }
+
+    const SHEETS = CAT.sheets;
+    const SHEET_BY_ID = Object.fromEntries(SHEETS.map(s => [s.id, s]));
+
+    // State
+    let activeTrack = 'ALL';
+    let activeTag = 'ALL';
+    let searchQuery = '';
+    let globalPlaying = true;
+    let globalRowMode = 'all'; // 'all' | '0' | '1' | '2' | '3' | 'sheet'
+    let globalFps = 6;
+    let globalFlip = false;
+    let globalBackdrop = 'bg-checker';
+    let globalTick = 0;
+    let lastFrameTime = performance.now();
+
+    const visibleCards = new Set();
+    const cardEls = new Map(); // id -> { stage, sprite, frameBadge }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.remove('hidden');
+      clearTimeout(t._tid);
+      t._tid = setTimeout(() => t.classList.add('hidden'), 2200);
+    }
+
+    // Populate Category Filter
+    const tagSet = new Set();
+    SHEETS.forEach(s => (s.tags || []).forEach(t => tagSet.add(t)));
+    const tagSel = document.getElementById('tagFilter');
+    Array.from(tagSet).sort().forEach(t => {
+      const opt = document.createElement('option');
+      opt.value = t; opt.textContent = t;
+      tagSel.appendChild(opt);
+    });
+
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const target = btn.dataset.tab;
+        ['gallery', 'simulator', 'dna', 'stage'].forEach(t => {
+          document.getElementById(`tab-${t}`).classList.toggle('hidden', t !== target);
+        });
+        document.getElementById('galleryControls').classList.toggle('hidden', target !== 'gallery');
+        if (target === 'simulator') drawSim();
+        if (target === 'stage') startPlayStage();
+      });
+    });
+
+    // IntersectionObserver so only visible gallery cards animate
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        const id = e.target.dataset.id;
+        if (e.isIntersecting) visibleCards.add(id);
+        else visibleCards.delete(id);
+      });
+    }, { rootMargin: '120px' });
+
+    function getFilteredSheets() {
+      const q = searchQuery.trim().toLowerCase();
+      return SHEETS.filter(s => {
+        if (activeTrack !== 'ALL' && s.track !== activeTrack) return false;
+        if (activeTag !== 'ALL' && !(s.tags || []).includes(activeTag)) return false;
+        if (q && !s.id.toLowerCase().includes(q) && !s.track.toLowerCase().includes(q)) return false;
+        return true;
+      });
+    }
+
+    function applyCellPosition(el, sheet, frameIdx) {
+      const cols = sheet.cols || 1;
+      const rows = sheet.rows || 1;
+      const total = cols * rows;
+      const idx = frameIdx % total;
+      const c = idx % cols;
+      const r = Math.floor(idx / cols);
+      const xPct = cols > 1 ? (c / (cols - 1)) * 100 : 50;
+      const yPct = rows > 1 ? (r / (rows - 1)) * 100 : 50;
+      el.style.backgroundSize = `${cols * 100}% ${rows * 100}%`;
+      el.style.backgroundPosition = `${xPct}% ${yPct}%`;
+    }
+
+    function currentFrameForSheet(sheet) {
+      const cols = sheet.cols || 1;
+      const rows = sheet.rows || 1;
+      const total = cols * rows;
+      if (total <= 1) return 0;
+      if (globalRowMode !== 'all' && globalRowMode !== 'sheet' && rows >= 4) {
+        const row = parseInt(globalRowMode, 10) % rows;
+        return row * cols + (globalTick % cols);
+      }
+      return globalTick % total;
+    }
+
+    function renderGallery() {
+      const grid = document.getElementById('galleryGrid');
+      grid.innerHTML = '';
+      cardEls.clear();
+      visibleCards.clear();
+
+      const list = getFilteredSheets();
+      document.getElementById('visibleCount').textContent = `Showing ${list.length} of ${SHEETS.length} full-resolution sheets`;
+
+      const frag = document.createDocumentFragment();
+      list.forEach(s => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.dataset.id = s.id;
+
+        const isStaticWide = (s.cols * s.rows === 1) || globalRowMode === 'sheet';
+        const stage = document.createElement('div');
+        stage.className = `card-stage ${globalBackdrop} ${(s.w > s.h && isStaticWide) ? 'wide' : ''}`;
+
+        if (isStaticWide) {
+          const img = document.createElement('img');
+          img.className = 'fullsheet-img';
+          img.loading = 'lazy';
+          img.src = s.src;
+          img.alt = s.id;
+          stage.appendChild(img);
+        } else {
+          const box = document.createElement('div');
+          box.className = `sprite-box ${globalFlip ? 'flipped' : ''}`;
+          box.style.backgroundImage = `url("${s.src}")`;
+          applyCellPosition(box, s, currentFrameForSheet(s));
+          stage.appendChild(box);
+          const fBadge = document.createElement('span');
+          fBadge.className = 'badge-br';
+          fBadge.textContent = `F${currentFrameForSheet(s) + 1}/${s.cols * s.rows}`;
+          stage.appendChild(fBadge);
+          cardEls.set(s.id, { stage, box, fBadge, sheet: s });
+        }
+
+        const tl = document.createElement('span');
+        tl.className = 'badge-tl';
+        tl.textContent = `${s.folder} \u00B7 ${s.cols}x${s.rows}`;
+        stage.appendChild(tl);
+
+        const tr = document.createElement('span');
+        tr.className = 'badge-tr';
+        tr.textContent = s.alpha_pct != null ? `${s.alpha_pct}% \u03B1` : `${s.w}x${s.h}`;
+        stage.appendChild(tr);
+
+        const body = document.createElement('div');
+        body.className = 'card-body';
+        body.innerHTML = `
+          <div class="card-title">${s.id}</div>
+          <div class="card-meta"><span>${s.track.split('(')[0].trim()}</span><span class="mono">${s.w}&times;${s.h} &middot; ${s.kb} KB</span></div>
+          <div class="tag-row">${(s.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+        `;
+
+        card.appendChild(stage);
+        card.appendChild(body);
+        card.addEventListener('click', () => openModal(s.id));
+        frag.appendChild(card);
+        io.observe(card);
+      });
+      grid.appendChild(frag);
+    }
+
+    // Main animation loop for visible gallery cards
+    function galleryLoop(now) {
+      if (globalPlaying && globalRowMode !== 'sheet') {
+        const interval = 1000 / Math.max(1, globalFps);
+        if (now - lastFrameTime >= interval) {
+          lastFrameTime = now;
+          globalTick++;
+          visibleCards.forEach(id => {
+            const item = cardEls.get(id);
+            if (!item) return;
+            const f = currentFrameForSheet(item.sheet);
+            applyCellPosition(item.box, item.sheet, f);
+            item.fBadge.textContent = `F${f + 1}/${item.sheet.cols * item.sheet.rows}`;
+          });
+        }
+      }
+      requestAnimationFrame(galleryLoop);
+    }
+    requestAnimationFrame(galleryLoop);
+
+    // Gallery control bindings
+    document.querySelectorAll('#trackPills .btn').forEach(b => {
+      b.addEventListener('click', () => {
+        document.querySelectorAll('#trackPills .btn').forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        activeTrack = b.dataset.track;
+        renderGallery();
+      });
+    });
+    tagSel.addEventListener('change', e => { activeTag = e.target.value; renderGallery(); });
+    document.getElementById('searchInput').addEventListener('input', e => { searchQuery = e.target.value; renderGallery(); });
+    document.getElementById('btnGlobalPlay').addEventListener('click', e => {
+      globalPlaying = !globalPlaying;
+      e.target.textContent = globalPlaying ? 'Pause All' : 'Play All';
+    });
+    document.getElementById('globalRowMode').addEventListener('change', e => {
+      globalRowMode = e.target.value;
+      renderGallery();
+    });
+    document.getElementById('globalFps').addEventListener('input', e => {
+      globalFps = parseInt(e.target.value, 10) || 6;
+      document.getElementById('globalFpsLabel').textContent = globalFps;
+    });
+    document.getElementById('btnGlobalFlip').addEventListener('click', e => {
+      globalFlip = !globalFlip;
+      e.target.classList.toggle('active', globalFlip);
+      cardEls.forEach(v => v.box.classList.toggle('flipped', globalFlip));
+    });
+    document.getElementById('backdropSelect').addEventListener('change', e => {
+      globalBackdrop = e.target.value;
+      document.querySelectorAll('.card-stage, #modalAtlasWrap, #modalStageBox').forEach(el => {
+        el.classList.remove('bg-checker', 'bg-white', 'bg-cream', 'bg-forest');
+        el.classList.add(globalBackdrop);
+      });
+    });
+    document.getElementById('cardSizeSelect').addEventListener('change', e => {
+      const g = document.getElementById('galleryGrid');
+      g.classList.remove('compact', 'large');
+      if (e.target.value) g.classList.add(e.target.value);
+    });
+
+    // ==================== MODAL CELL INSPECTOR ====================
+    let modalSheet = null;
+    let modalImg = null;
+    let modalFrame = 0;
+    let modalPlaying = true;
+    let modalRow = 'all';
+    let modalFps = 6;
+    let modalFlip = false;
+    let modalZoom = 1.25;
+    let modalTimer = null;
+
+    function openModal(id) {
+      modalSheet = SHEET_BY_ID[id];
+      if (!modalSheet) return;
+      modalFrame = 0;
+      modalPlaying = modalSheet.cols * modalSheet.rows > 1;
+      modalRow = 'all';
+      document.querySelectorAll('#modalRowBtns .btn').forEach(b => b.classList.toggle('active', b.dataset.row === 'all'));
+      document.getElementById('btnModalPlay').textContent = modalPlaying ? 'Pause' : 'Play';
+
+      document.getElementById('modalTitle').textContent = modalSheet.id;
+      document.getElementById('modalMeta').textContent = `${modalSheet.track} \u00B7 ${modalSheet.w}\u00D7${modalSheet.h}px (${modalSheet.cols}\u00D7${modalSheet.rows}) \u00B7 ${modalSheet.kb} KB \u00B7 SHA-256: ${modalSheet.sha256.slice(0, 16)}...`;
+
+      const fullImg = document.getElementById('modalFullImg');
+      fullImg.src = modalSheet.src;
+      const wrap = document.getElementById('modalAtlasWrap');
+      wrap.classList.toggle('wide', modalSheet.w > modalSheet.h);
+
+      const cellsGrid = document.getElementById('modalAtlasCells');
+      cellsGrid.style.gridTemplateColumns = `repeat(${modalSheet.cols}, 1fr)`;
+      cellsGrid.style.gridTemplateRows = `repeat(${modalSheet.rows}, 1fr)`;
+      cellsGrid.innerHTML = '';
+      const total = modalSheet.cols * modalSheet.rows;
+      for (let i = 0; i < total; i++) {
+        const cell = document.createElement('div');
+        cell.className = 'atlas-cell';
+        cell.dataset.idx = i;
+        cell.innerHTML = `<span class="atlas-cell-num">${i + 1}</span>`;
+        cell.addEventListener('click', () => {
+          modalPlaying = false;
+          document.getElementById('btnModalPlay').textContent = 'Play';
+          modalFrame = i;
+          drawModal();
+        });
+        cellsGrid.appendChild(cell);
+      }
+
+      modalImg = new Image();
+      modalImg.onload = () => { drawModalBboxes(); drawModal(); };
+      modalImg.src = modalSheet.src;
+
+      document.getElementById('inspectModal').classList.remove('hidden');
+      restartModalTimer();
+    }
+
+    function drawModalBboxes() {
+      const cvs = document.getElementById('modalBboxCanvas');
+      const wrap = document.getElementById('modalAtlasWrap');
+      cvs.width = wrap.clientWidth || 480;
+      cvs.height = wrap.clientHeight || 480;
+      const ctx = cvs.getContext('2d');
+      ctx.clearRect(0, 0, cvs.width, cvs.height);
+      if (!document.getElementById('chkModalBbox').checked || !modalSheet) return;
+
+      const sx = cvs.width / modalSheet.w;
+      const sy = cvs.height / modalSheet.h;
+      const cw = modalSheet.w / modalSheet.cols;
+      const ch = modalSheet.h / modalSheet.rows;
+
+      (modalSheet.frames || []).forEach(f => {
+        const [bx, by, bw, bh] = f.b;
+        const ox = f.c * cw;
+        const oy = f.r * ch;
+        if (bw > 0 && bh > 0) {
+          ctx.strokeStyle = 'rgba(56, 189, 248, 0.85)';
+          ctx.lineWidth = 1.25;
+          ctx.strokeRect((ox + bx) * sx, (oy + by) * sy, bw * sx, bh * sy);
+        }
+        // Foot pivot (0.5, 1.0)
+        const px = (ox + cw * 0.5) * sx;
+        const py = (oy + ch * 0.94) * sy;
+        ctx.fillStyle = '#10b981';
+        ctx.beginPath();
+        ctx.arc(px, py, 3, 0, Math.PI * 2);
+        ctx.fill();
+      });
+    }
+
+    function drawModal() {
+      if (!modalSheet || !modalImg || !modalImg.complete) return;
+      const cvs = document.getElementById('modalAnimCanvas');
+      const ctx = cvs.getContext('2d');
+      ctx.clearRect(0, 0, cvs.width, cvs.height);
+      ctx.imageSmoothingEnabled = !document.getElementById('chkModalPixel').checked;
+
+      const cols = modalSheet.cols;
+      const rows = modalSheet.rows;
+      const total = cols * rows;
+      const idx = modalFrame % total;
+      const c = idx % cols;
+      const r = Math.floor(idx / cols);
+      const cw = modalImg.width / cols;
+      const ch = modalImg.height / rows;
+
+      const maxFit = Math.min(cvs.width, cvs.height) * 0.78 * (modalZoom / 1.25);
+      const aspect = cw / ch;
+      let dw = maxFit, dh = maxFit;
+      if (aspect > 1) dh = maxFit / aspect;
+      else dw = maxFit * aspect;
+
+      ctx.save();
+      ctx.translate(cvs.width / 2, cvs.height / 2);
+      if (modalFlip) ctx.scale(-1, 1);
+      ctx.drawImage(modalImg, c * cw, r * ch, cw, ch, -dw / 2, -dh / 2, dw, dh);
+      ctx.restore();
+
+      // Ground line & pivot marker
+      ctx.strokeStyle = 'rgba(16, 185, 129, 0.45)';
+      ctx.setLineDash([4, 4]);
+      ctx.beginPath();
+      ctx.moveTo(20, cvs.height / 2 + dh / 2 - 4);
+      ctx.lineTo(cvs.width - 20, cvs.height / 2 + dh / 2 - 4);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      document.querySelectorAll('#modalAtlasCells .atlas-cell').forEach(el => {
+        el.classList.toggle('active', parseInt(el.dataset.idx, 10) === idx);
+      });
+
+      const fMeta = (modalSheet.frames || [])[idx];
+      const bboxTxt = fMeta ? `BBox [x:${fMeta.b[0]}, y:${fMeta.b[1]}, w:${fMeta.b[2]}, h:${fMeta.b[3]}] | Opaque: ${fMeta.px} px` : '';
+      document.getElementById('modalFrameStats').textContent = `Frame ${idx + 1}/${total} (Row ${r + 1}, Col ${c + 1}) | ${bboxTxt} | SHA-256: ${modalSheet.sha256}`;
+    }
+
+    function restartModalTimer() {
+      if (modalTimer) clearInterval(modalTimer);
+      if (!modalPlaying || !modalSheet) return;
+      modalTimer = setInterval(() => {
+        const cols = modalSheet.cols;
+        const rows = modalSheet.rows;
+        if (modalRow !== 'all' && rows >= 4) {
+          const r = parseInt(modalRow, 10) % rows;
+          const col = (modalFrame + 1) % cols;
+          modalFrame = r * cols + col;
+        } else {
+          modalFrame = (modalFrame + 1) % (cols * rows);
+        }
+        drawModal();
+      }, 1000 / Math.max(1, modalFps));
+    }
+
+    document.getElementById('btnCloseModal').addEventListener('click', () => {
+      document.getElementById('inspectModal').classList.add('hidden');
+      if (modalTimer) clearInterval(modalTimer);
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        document.getElementById('inspectModal').classList.add('hidden');
+        document.getElementById('refLightbox').classList.add('hidden');
+        if (modalTimer) clearInterval(modalTimer);
+      }
+    });
+    document.getElementById('chkModalBbox').addEventListener('change', drawModalBboxes);
+    document.getElementById('chkModalPixel').addEventListener('change', drawModal);
+    document.getElementById('btnModalPlay').addEventListener('click', e => {
+      modalPlaying = !modalPlaying;
+      e.target.textContent = modalPlaying ? 'Pause' : 'Play';
+      restartModalTimer();
+    });
+    document.getElementById('btnModalPrev').addEventListener('click', () => {
+      if (!modalSheet) return;
+      const tot = modalSheet.cols * modalSheet.rows;
+      modalFrame = (modalFrame - 1 + tot) % tot;
+      drawModal();
+    });
+    document.getElementById('btnModalNext').addEventListener('click', () => {
+      if (!modalSheet) return;
+      const tot = modalSheet.cols * modalSheet.rows;
+      modalFrame = (modalFrame + 1) % tot;
+      drawModal();
+    });
+    document.getElementById('btnModalFlip').addEventListener('click', e => {
+      modalFlip = !modalFlip;
+      e.target.classList.toggle('active', modalFlip);
+      drawModal();
+    });
+    document.querySelectorAll('#modalRowBtns .btn').forEach(b => {
+      b.addEventListener('click', () => {
+        document.querySelectorAll('#modalRowBtns .btn').forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        modalRow = b.dataset.row;
+        if (modalRow !== 'all' && modalSheet) {
+          modalFrame = (parseInt(modalRow, 10) % modalSheet.rows) * modalSheet.cols;
+        }
+        drawModal();
+      });
+    });
+    document.getElementById('modalFps').addEventListener('input', e => {
+      modalFps = parseInt(e.target.value, 10) || 6;
+      document.getElementById('modalFpsVal').textContent = modalFps;
+      restartModalTimer();
+    });
+    document.getElementById('modalZoom').addEventListener('input', e => {
+      modalZoom = parseFloat(e.target.value) || 1.25;
+      document.getElementById('modalZoomVal').textContent = `${modalZoom.toFixed(2)}x`;
+      drawModal();
+    });
+
+    // ==================== 32-STANCE PAPER-DOLL SIMULATOR ====================
+    const simImgs = {};
+    function loadSimImage(key, src) {
+      const im = new Image();
+      im.onload = () => drawSim();
+      im.src = src;
+      simImgs[key] = im;
+    }
+    loadSimImage('man_explore', '../05_generated_packs/01_RPG/MOD_B01_01_KAI_SOCKET_MANNEQUIN_EXPLORATION_STANCES_4x4.png');
+    loadSimImage('man_combat', '../05_generated_packs/01_RPG/MOD_B01_02_KAI_SOCKET_MANNEQUIN_COMBAT_AND_CODING_4x4.png');
+    loadSimImage('MOD_B02_01_MODULAR_SWORDS_AND_BLADES_ARSENAL_4x4', '../05_generated_packs/01_RPG/MOD_B02_01_MODULAR_SWORDS_AND_BLADES_ARSENAL_4x4.png');
+    loadSimImage('MOD_B02_02_MODULAR_HAMMERS_AND_FORGE_TOOLS_4x4', '../05_generated_packs/01_RPG/MOD_B02_02_MODULAR_HAMMERS_AND_FORGE_TOOLS_4x4.png');
+    loadSimImage('MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4', '../05_generated_packs/01_RPG/MOD_B02_03_MODULAR_STAVES_SHUTTLES_AND_WANDS_4x4.png');
+    loadSimImage('hats', '../05_generated_packs/01_RPG/MOD_B04_01_SOCKET_HEADWEAR_HELMETS_HATS_AND_CROWNS_4x4.png');
+    loadSimImage('neck', '../05_generated_packs/01_RPG/MOD_B04_03_SOCKET_NECKWEAR_BROOCHES_SCARVES_AND_COLLARS_4x4.png');
+    loadSimImage('back', '../05_generated_packs/01_RPG/MOD_B04_05_SOCKET_BACKPACKS_SCABBARDS_AND_WINGS_4x4.png');
+
+    const archSel = document.getElementById('simArchetype');
+    Object.keys(CAT.archetypes || {}).forEach(k => {
+      const opt = document.createElement('option');
+      opt.value = k; opt.textContent = k;
+      archSel.appendChild(opt);
+    });
+    const stanceSel = document.getElementById('simStance');
+    const STANCE_KEYS = CAT.stance_names || [];
+    STANCE_KEYS.forEach((name, idx) => {
+      const opt = document.createElement('option');
+      opt.value = idx; opt.textContent = name;
+      stanceSel.appendChild(opt);
+    });
+    function fill16(selId, label, defVal) {
+      const sel = document.getElementById(selId);
+      const none = document.createElement('option');
+      none.value = -1; none.textContent = 'None';
+      sel.appendChild(none);
+      for (let i = 0; i < 16; i++) {
+        const opt = document.createElement('option');
+        opt.value = i; opt.textContent = `${label} Cell #${i + 1}`;
+        sel.appendChild(opt);
+      }
+      sel.value = defVal;
+    }
+    fill16('simWeaponCell', 'Weapon', 9);
+    fill16('simHatCell', 'Headwear', -1);
+    fill16('simBackCell', 'Back', 0);
+    fill16('simNeckCell', 'Neck', 0);
+
+    let simPlaying = false;
+    let simTimer = null;
+
+    function normAnchor(arch, key) {
+      const ba = arch.base_anchors_track_a || {};
+      const pt = ba[key] || [128, 128, 0];
+      return [pt[0] / 256, pt[1] / 256, pt[2] || 0];
+    }
+
+    function drawSim() {
+      const cvs = document.getElementById('simCanvas');
+      const ctx = cvs.getContext('2d');
+      ctx.clearRect(0, 0, cvs.width, cvs.height);
+
+      const archKey = archSel.value;
+      const arch = (CAT.archetypes || {})[archKey] || {};
+      const stIdx = parseInt(stanceSel.value, 10) || 0;
+      const stKey = STANCE_KEYS[stIdx] || '01_idle_breath_1';
+      const deltas = (CAT.lut_32 || {})[stKey] || { hand_r: [0,0,0], hand_l: [0,0,0], head: [0,0,0], torso: [0,0,0] };
+      const pxH = (arch.pixel_height_in_256_cell && arch.pixel_height_in_256_cell.track_a) || 158;
+      const scale = pxH / 158.0;
+
+      document.getElementById('simReadStance').textContent = stKey;
+      const hr = deltas.hand_r || [0, 0, 0];
+      document.getElementById('simReadHand').textContent = `[${hr[0]}, ${hr[1]}, ${hr[2]}\u00B0]`;
+      document.getElementById('simReadScale').textContent = `${scale.toFixed(2)}x`;
+
+      const isCombat = stIdx >= 16;
+      const mImg = isCombat ? simImgs.man_combat : simImgs.man_explore;
+      const cellIdx = isCombat ? stIdx - 16 : stIdx;
+      const mr = Math.floor(cellIdx / 4), mc = cellIdx % 4;
+
+      function drawOverlay(img, cell, anchorKey, d, itemScale) {
+        if (!img || !img.complete || cell < 0) return;
+        const [nx, ny, baseDeg] = normAnchor(arch, anchorKey);
+        const ax = nx * cvs.width + (d[0] || 0) * 1.1;
+        const ay = ny * cvs.height + (d[1] || 0) * 1.1;
+        const cw = img.width / 4, ch = img.height / 4;
+        const cr = Math.floor(cell / 4), cc = cell % 4;
+        const sz = 112 * scale * itemScale;
+        ctx.save();
+        ctx.translate(ax, ay);
+        ctx.rotate(((baseDeg + (d[2] || 0)) * Math.PI) / 180);
+        ctx.drawImage(img, cc * cw, cr * ch, cw, ch, -sz / 2, -sz / 2, sz, sz);
+        ctx.restore();
+      }
+
+      // Z0: Back scabbard / wings
+      drawOverlay(simImgs.back, parseInt(document.getElementById('simBackCell').value, 10), 'ANCHOR_BACK_MOUNT', deltas.torso || [0,0,0], 1.05);
+
+      // Z2: Base Mannequin
+      if (mImg && mImg.complete) {
+        const cw = mImg.width / 4, ch = mImg.height / 4;
+        const mSz = 320 * (0.85 + 0.15 * scale);
+        ctx.drawImage(mImg, mc * cw, mr * ch, cw, ch, (cvs.width - mSz) / 2, cvs.height - mSz - 24, mSz, mSz);
+      }
+
+      // Z5: Neckwear & Headwear
+      drawOverlay(simImgs.neck, parseInt(document.getElementById('simNeckCell').value, 10), 'ANCHOR_NECK_CLASP', deltas.torso || [0,0,0], 0.55);
+      drawOverlay(simImgs.hats, parseInt(document.getElementById('simHatCell').value, 10), 'ANCHOR_HEAD_TOP', deltas.head || [0,0,0], 0.85);
+
+      // Z6: Mainhand Weapon
+      const wepImg = simImgs[document.getElementById('simWeaponSheet').value];
+      drawOverlay(wepImg, parseInt(document.getElementById('simWeaponCell').value, 10), 'ANCHOR_HAND_R_MAIN', hr, 0.95);
+
+      // Debug 9 Sockets
+      if (document.getElementById('chkSimSockets').checked && arch.base_anchors_track_a) {
+        Object.entries(arch.base_anchors_track_a).forEach(([k, pt]) => {
+          const d = k.includes('HAND_R') ? (deltas.hand_r || [0,0,0]) : k.includes('HEAD') || k.includes('EYE') ? (deltas.head || [0,0,0]) : (deltas.torso || [0,0,0]);
+          const x = (pt[0] / 256) * cvs.width + d[0] * 1.1;
+          const y = (pt[1] / 256) * cvs.height + d[1] * 1.1;
+          ctx.beginPath();
+          ctx.arc(x, y, 4.5, 0, Math.PI * 2);
+          ctx.fillStyle = '#10b981';
+          ctx.fill();
+          ctx.strokeStyle = '#090d16';
+          ctx.lineWidth = 1.5;
+          ctx.stroke();
+        });
+      }
+    }
+
+    ['simArchetype', 'simStance', 'simWeaponSheet', 'simWeaponCell', 'simHatCell', 'simBackCell', 'simNeckCell', 'chkSimSockets'].forEach(id => {
+      document.getElementById(id).addEventListener('change', drawSim);
+    });
+    document.getElementById('simFps').addEventListener('input', e => {
+      document.getElementById('simFpsVal').textContent = e.target.value;
+      if (simPlaying) restartSimTimer();
+    });
+    function restartSimTimer() {
+      if (simTimer) clearInterval(simTimer);
+      if (!simPlaying) return;
+      const fps = parseInt(document.getElementById('simFps').value, 10) || 6;
+      simTimer = setInterval(() => {
+        stanceSel.value = (parseInt(stanceSel.value, 10) + 1) % Math.max(1, STANCE_KEYS.length);
+        drawSim();
+      }, 1000 / fps);
+    }
+    document.getElementById('btnSimPlay').addEventListener('click', e => {
+      simPlaying = !simPlaying;
+      e.target.textContent = simPlaying ? 'Pause Loop' : 'Play 32-Stance Loop';
+      restartSimTimer();
+    });
+
+    // ==================== CHARACTER DNA TAB ====================
+    function renderDnaTab() {
+      const grid = document.getElementById('dnaGrid');
+      const frag = document.createDocumentFragment();
+      (CAT.characters || []).forEach(c => {
+        const card = document.createElement('div');
+        card.className = 'char-card';
+        const thumbs = (c.refs || []).slice(0, 4).map(r => {
+          if (!r.match(/\.(png|jpg|jpeg|webp)$/i)) return '';
+          return `<img class="ref-thumb" loading="lazy" src="${r}" title="${r}" onclick="openLightbox('${c.name.replace(/'/g, "\\'")}', '${r}')" />`;
+        }).join('');
+        const swatches = (c.palette || []).map(hx =>
+          `<button class="swatch-btn" onclick="copyHex('${hx}')"><span class="swatch-dot" style="background:${hx}"></span>${hx}</button>`
+        ).join('');
+        card.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+            <div>
+              <div style="font-size:15px; font-weight:700;">${c.name} <span style="font-size:12px; color:var(--muted);">${c.chinese_name || ''}</span></div>
+              <div class="mono" style="font-size:11px; color:#6ee7b7; margin-top:2px;">${c.id} &middot; ${c.archetype}</div>
+            </div>
+          </div>
+          <div style="font-size:12px; color:var(--muted);">${c.role || ''}</div>
+          <div class="ref-thumb-row">${thumbs || '<span style="font-size:11px;color:var(--muted);">See character_bibles/</span>'}</div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px;">${swatches}</div>
+          <div style="font-size:11px; line-height:1.5; color:#cbd5e1;"><strong>Face &amp; Hair:</strong> ${c.face_hair}</div>
+          <div style="font-size:11px; line-height:1.5; color:#cbd5e1;"><strong>Equipment Lock:</strong> ${c.equipment}</div>
+          <div style="font-size:11px; line-height:1.5; color:#fda4af;"><strong>Must Never Have:</strong> ${(c.must_never_have || []).join('; ')}</div>
+        `;
+        frag.appendChild(card);
+      });
+      grid.appendChild(frag);
+    }
+
+    window.copyHex = function(hx) {
+      if (navigator.clipboard) navigator.clipboard.writeText(hx).catch(() => {});
+      showToast(`Copied ${hx}`);
+    };
+    window.openLightbox = function(title, src) {
+      document.getElementById('refLightboxTitle').textContent = `${title} — ${src}`;
+      document.getElementById('refLightboxImg').src = src;
+      document.getElementById('refLightbox').classList.remove('hidden');
+    };
+    document.getElementById('btnCloseLightbox').addEventListener('click', () => {
+      document.getElementById('refLightbox').classList.add('hidden');
+    });
+
+    // ==================== TAB 4: PLAYABLE 16x8 STAGE ====================
+    const stageSel = document.getElementById('stageSheetSelect');
+    SHEETS.filter(s => s.cols === 4 && s.rows === 4).forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s.id; opt.textContent = s.id;
+      stageSel.appendChild(opt);
+    });
+    if (SHEET_BY_ID['FMT03_KAI_HD2D_LOCOMOTION_AND_COMBAT_4x4']) {
+      stageSel.value = 'FMT03_KAI_HD2D_LOCOMOTION_AND_COMBAT_4x4';
+    }
+
+    let playImg = new Image();
+    function loadPlaySheet() {
+      const s = SHEET_BY_ID[stageSel.value];
+      if (!s) return;
+      playImg = new Image();
+      playImg.src = s.src;
+    }
+    stageSel.addEventListener('change', loadPlaySheet);
+    loadPlaySheet();
+
+    const pState = { x: 460, y: 340, vy: 0, vx: 0, dir: 1, action: 'idle', actionTimer: 0, tick: 0 };
+    const keys = {};
+    window.addEventListener('keydown', e => {
+      keys[e.code] = true;
+      if (e.code === 'KeyP' || e.code === 'KeyJ') { pState.action = 'melee'; pState.actionTimer = 28; }
+      if (e.code === 'KeyE' || e.code === 'KeyK') { pState.action = 'cast'; pState.actionTimer = 32; }
+    });
+    window.addEventListener('keyup', e => { keys[e.code] = false; });
+
+    document.getElementById('btnStageLeft').onmousedown = () => keys['ArrowLeft'] = true;
+    document.getElementById('btnStageLeft').onmouseup = () => keys['ArrowLeft'] = false;
+    document.getElementById('btnStageRight').onmousedown = () => keys['ArrowRight'] = true;
+    document.getElementById('btnStageRight').onmouseup = () => keys['ArrowRight'] = false;
+    document.getElementById('btnStageJump').onclick = () => { if (pState.y >= 340) pState.vy = -12; };
+    document.getElementById('btnStageMelee').onclick = () => { pState.action = 'melee'; pState.actionTimer = 28; };
+    document.getElementById('btnStageCast').onclick = () => { pState.action = 'cast'; pState.actionTimer = 32; };
+
+    let playLoopStarted = false;
+    function startPlayStage() {
+      if (playLoopStarted) return;
+      playLoopStarted = true;
+      const cvs = document.getElementById('playCanvas');
+      const ctx = cvs.getContext('2d');
+      const groundY = 340;
+
+      function step() {
+        pState.tick++;
+        pState.vx = 0;
+        if (keys['ArrowLeft'] || keys['KeyA']) { pState.vx = -4.5; pState.dir = -1; }
+        if (keys['ArrowRight'] || keys['KeyD']) { pState.vx = 4.5; pState.dir = 1; }
+        if ((keys['Space'] || keys['ArrowUp'] || keys['KeyW']) && pState.y >= groundY) {
+          pState.vy = -12;
+        }
+        pState.x = Math.max(80, Math.min(cvs.width - 80, pState.x + pState.vx));
+        pState.y += pState.vy;
+        pState.vy += 0.65;
+        if (pState.y >= groundY) { pState.y = groundY; pState.vy = 0; }
+        if (pState.actionTimer > 0) {
+          pState.actionTimer--;
+          if (pState.actionTimer === 0) pState.action = 'idle';
+        }
+
+        // Draw stage backdrop
+        const grad = ctx.createLinearGradient(0, 0, 0, cvs.height);
+        grad.addColorStop(0, '#0f172a');
+        grad.addColorStop(0.68, '#1e3a34');
+        grad.addColorStop(1, '#14261c');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, cvs.width, cvs.height);
+
+        // Soft parallax hills & grid floor
+        ctx.fillStyle = 'rgba(16, 185, 129, 0.08)';
+        for (let i = 0; i < 6; i++) {
+          ctx.beginPath();
+          ctx.arc(i * 210 + 90, groundY, 130, Math.PI, 0);
+          ctx.fill();
+        }
+        ctx.fillStyle = '#253c2f';
+        ctx.fillRect(0, groundY, cvs.width, cvs.height - groundY);
+        ctx.strokeStyle = 'rgba(110, 231, 183, 0.25)';
+        ctx.lineWidth = 2;
+        ctx.beginPath(); ctx.moveTo(0, groundY); ctx.lineTo(cvs.width, groundY); ctx.stroke();
+
+        // Pick row & frame
+        let row = 0;
+        let col = Math.floor(pState.tick / 10) % 4;
+        if (pState.action === 'melee') { row = 2; col = Math.min(3, Math.floor((28 - pState.actionTimer) / 7)); }
+        else if (pState.action === 'cast') { row = 3; col = Math.min(3, Math.floor((32 - pState.actionTimer) / 8)); }
+        else if (pState.y < groundY) { row = 1; col = 1; }
+        else if (Math.abs(pState.vx) > 0.1) { row = 0; col = 2 + (Math.floor(pState.tick / 8) % 2); }
+
+        if (playImg && playImg.complete) {
+          const cw = playImg.width / 4, ch = playImg.height / 4;
+          const sz = 192;
+          ctx.save();
+          ctx.translate(pState.x, pState.y);
+          ctx.scale(pState.dir, 1);
+          ctx.drawImage(playImg, col * cw, row * ch, cw, ch, -sz / 2, -sz + 14, sz, sz);
+          ctx.restore();
+        }
+        requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    // Init
+    renderGallery();
+    renderDnaTab();
+  </script>
+</body>
+</html>

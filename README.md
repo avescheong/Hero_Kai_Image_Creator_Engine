@@ -82,7 +82,11 @@ python kai_engine_cli.py verify \
 
 ## Interactive Visual Tools (`02_inspector_and_tools/`)
 
-Open directly in any modern browser:
+Launch the live server with one command (or double-click the HTML files directly):
+```bash
+python kai_engine_cli.py dashboard
+```
+- [`02_inspector_and_tools/ANIMATED_ASSET_DASHBOARD.html`](02_inspector_and_tools/ANIMATED_ASSET_DASHBOARD.html) — Full-Resolution Live Animated Gallery (`140/140` sheets), Row/FPS Loop Inspector with ACVE BBox overlay, 32-Stance Paper-Doll Rig, 10 Character DNA cards, and Playable 16×8 RPG Stage.
 - [`02_inspector_and_tools/PYTHONIA_ASSET_DASHBOARD_V2.html`](02_inspector_and_tools/PYTHONIA_ASSET_DASHBOARD_V2.html) — 140-Sheet Approval Gallery, Live 32-Stance Kinematic Socket Rig Simulator, and Gap Audit.
 - [`02_inspector_and_tools/PYTHONIA_SPRITE_AND_ANIMATION_INSPECTOR.html`](02_inspector_and_tools/PYTHONIA_SPRITE_AND_ANIMATION_INSPECTOR.html) — Interactive Sprite Atlas Player & 16×8 RPG Test Stage.
 

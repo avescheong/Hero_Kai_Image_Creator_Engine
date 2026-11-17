@@ -239,6 +239,27 @@ def cmd_verify(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_dashboard(args: argparse.Namespace) -> int:
+    import functools
+    import http.server
+    import webbrowser
+
+    handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(REPO_ROOT))
+    server = http.server.ThreadingHTTPServer(("127.0.0.1", args.port), handler)
+    url = f"http://127.0.0.1:{args.port}/02_inspector_and_tools/ANIMATED_ASSET_DASHBOARD.html"
+    print(f"Serving Hero_Kai_Image_Engine Animated Dashboard at: {url}")
+    print("Press Ctrl+C to stop.")
+    if not args.no_open:
+        webbrowser.open(url)
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        print("\nStopped dashboard server.")
+    finally:
+        server.server_close()
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="kai_engine_cli.py",
@@ -290,6 +311,11 @@ def build_parser() -> argparse.ArgumentParser:
     p_ver.add_argument("--strip-islands", action="store_true")
     p_ver.add_argument("--clamp-palette", action="store_true")
     p_ver.set_defaults(func=cmd_verify)
+
+    p_dash = sub.add_parser("dashboard", help="Serve and open the Full Animated Assets Dashboard in browser.")
+    p_dash.add_argument("--port", type=int, default=8765)
+    p_dash.add_argument("--no-open", action="store_true")
+    p_dash.set_defaults(func=cmd_dashboard)
 
     return parser
 

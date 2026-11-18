@@ -8,7 +8,7 @@
 ## 1. Completed Deliverables in 05_Kai_Wikipedia (19Jcq4Zku3OrD9a6nv_CBKrP-oWtl0zL8)
 - **Archived Legacy `.docx` Export:** Moved superseded `KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.docx` non-destructively to `99_Archive/docx_originals/05_Kai_Wikipedia__KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.docx`.
 - **100% Zero Third-Party Affiliation:** Purged all external third-party database references and outbound links across `AGENT.md`, `00_MASTER_PLAN_KAI_WIKIPEDIA_COMMUNITY_DB.md`, `HANDOVER_CURRENT.md`, and the live portal HTML.
-- **Built & Shipped `KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.html` & `index.html`** (3.62 MB, SHA-256: `0e2bef87204a339580227266b6676d28345804a02c787bc31b268a5d675d225c`):
+- **Built & Shipped `KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.html` & `index.html`** (3.62 MB, SHA-256: `7def2877c3d79ba6ab343e7f3d7ab4f47235a31017b49bab9bd8550755ef5f64`):
   - **8 Tough-Customer Fixes:**
     1. Replaced static `.docx` export with live interactive HTML5/Canvas app (`KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.html` + `index.html`).
     2. Removed 100% of external third-party site branding and links; established first-party PythoniaDB v4.3 identity.

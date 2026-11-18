@@ -2,7 +2,7 @@
 Canonical Institutional Memory & Governance Compass (ACGF v1.0) Status: ACTIVE CONSTITUTIONAL STANDARD Governing Authority: Human Architect Level 5 (HA-L5-CHL) — Cheong Hon Loong
 
 ## 1. Project Identity, Mission & Core Values
-- Objective: Official MeowDB-inspired Community Wiki, Game Database, Skill Tree Calculator, and 16-FPS Cute Animation Showcase for Hero Kai: Scrolls of Pythonia — Capybara Go! Edition and Pythonia Game Maker Studio.
+- Objective: Official First-Party PythoniaDB Community Wiki, Interactive Loadout & Skill Tree Calculator, Live Boss Duel Sandbox, Neural Game-Sync Portal, and 226-Asset 16-FPS Cute Animation Showcase for Hero Kai: Scrolls of Pythonia — Capybara Go! Edition (v4.3) and Pythonia Game Maker Studio (v5.0).
 - SSOT Workspace Location: 05_Kai_Wikipedia (19Jcq4Zku3OrD9a6nv_CBKrP-oWtl0zL8) inside Kai_Capybara_GO (1a7u7CiM1Bjo8XEY1iOIyFkRC9H6z_qi0).
 - Read-Only Reference Root: 001_Kai_Assets (1vLC13sHopidqHhvoQZFQxuNWXLDC8gjg).
 - Core Creative & Pedagogical Locks:

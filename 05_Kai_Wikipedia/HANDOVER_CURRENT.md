@@ -1,21 +1,26 @@
 # HANDOVER_CURRENT.md — Single Source of Operational Truth (05_Kai_Wikipedia)
 - Active Workspace Folder (Strict Scope Lock): 05_Kai_Wikipedia (19Jcq4Zku3OrD9a6nv_CBKrP-oWtl0zL8)
 - Read-Only Reference Root: 001_Kai_Assets (1vLC13sHopidqHhvoQZFQxuNWXLDC8gjg)
-- Checkpoint ID: CHK-KAI-WIKIPEDIA-COMMUNITY-DB-V1-20261118
-- Timestamp: 2026-11-18T13:56:00+08:00
-- Status: MASTER PLAN & DYNAMIC MEOWDB-STYLE COMMUNITY WIKI PORTAL BUILT, LINT-VERIFIED & DEPLOYED
+- Checkpoint ID: CHK-KAI-WIKIPEDIA-V4-3-TOUGH-CUSTOMER-OVERHAUL-20261118
+- Timestamp: 2026-11-18T23:15:00+08:00
+- Status: FIRST-PARTY PYTHONIADB v4.3 LIVE HTML PORTAL SHIPPED, ZERO-AFFILIATION VERIFIED & SYNCED WITH 04_MODULAR_GAME_BUILD
 
 ## 1. Completed Deliverables in 05_Kai_Wikipedia (19Jcq4Zku3OrD9a6nv_CBKrP-oWtl0zL8)
-- AGENT.md — Tier 1 Constitutional Governance & Workspace Boundary Lock (05_Kai_Wikipedia).
-- 00_MASTER_PLAN_KAI_WIKIPEDIA_COMMUNITY_DB.md — Comprehensive Master Plan mapping all 5 sub-repositories in 001_Kai_Assets (Kai_Capybara_GO, Kai_Hero_Portable_Image_Engine, Kai Asset For RPG, Kai_Game_Design_Project, Kai_RPG) to the 6-module NiaMeowDB Capybara Go! (meowdb.com/db/capybara-go) community wiki architecture.
-- KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.html (1.90 MB, SHA-256: 1f27e3d2c2faa8a4e0152db1ffc5cdd00dd9cd48839f9b12c6f957fdfea8e8fa, check_web_app.py: OK: no issues found) — Self-contained interactive frontend portal featuring:
-  - 14 Embedded Sealed Sprite Sheets & Widescreen Biome (KAI_ACT_01, KAI_CMB_01, KAI_MAG_01, KAI_MAG_16, EXP_LINK_01, EXP_LINK_07, EXP_LINK_31, EXP_LINK_33, ENM_BOSS_01, ENM_BOSS_31, ENM_BOSS_43, ENM_BOSS_49, VFX_MISC_21, BIOME_01).
-  - MeowDB-Inspired 12-Category Directory & "String's New Stuff Corner" with global instant search across skills, bosses, and sheets.
-  - Interactive Character Stats, Loadout & 8-Layer Split-Sandwich Z-Order Calculator (Z=1.5 Back Aura, Z=2.5 Pets, Z=3.0 Kai, Z=4.5 Gate 3C Hollow-Rim Shield with 0% center alpha over Kai's face, Z=5.5 Crown Halo, plus 6-Axis Chart.js Radar and 1-Click Combat Turn Simulator).
-  - 4-Branch Pythonic Inheritance Skill Tree & 24-Skill Hidden Coefficients Table (replacing vague ↑ arrows with exact numeric multipliers, plus live Python build code export).
-  - Live 16-FPS Cute Animation Studio & Frame Scrubber (F01–F16) with 3 Kid-Pacing Modes (🐢 0.75x Story & Learn, ⚔️ 1.0x Sakuga 1,460 ms + 180 ms F10 Hit-Stop, ⚡ 1.4x Turbo Arcade) and Onion-Skin toggle.
-  - 12-Chapter × 60-Day Atlas, 62-Sheet Bestiary & 100% Vegetarian Campfire Menu (enforcing Zero-Ember, 100% Plant-Based, and Ch. 3 Horned-Helm Blacksmith vs Ch. 9 Hatless Master Grimsby disambiguation).
-  - Kid Builder Playbooks & Interactive Python Boss Gate Quiz with collectible Adventure Passport Stickers (EXP_LINK_44) persisted in localStorage.
+- **Archived Legacy `.docx` Export:** Moved superseded `KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.docx` non-destructively to `99_Archive/docx_originals/05_Kai_Wikipedia__KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.docx`.
+- **100% Zero Third-Party Affiliation:** Purged all external third-party database references and outbound links across `AGENT.md`, `00_MASTER_PLAN_KAI_WIKIPEDIA_COMMUNITY_DB.md`, `HANDOVER_CURRENT.md`, and the live portal HTML.
+- **Built & Shipped `KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.html` & `index.html`** (3.62 MB, SHA-256: `0e2bef87204a339580227266b6676d28345804a02c787bc31b268a5d675d225c`):
+  - **8 Tough-Customer Fixes:**
+    1. Replaced static `.docx` export with live interactive HTML5/Canvas app (`KAI_CAPYBARA_GO_COMMUNITY_WIKI_DB.html` + `index.html`).
+    2. Removed 100% of external third-party site branding and links; established first-party PythoniaDB v4.3 identity.
+    3. Upgraded stale v4.0 data to full v4.2/v4.3 parity (`04_Modular_Game_Build/config_and_manifests_v4_2.js`: 226 assets, 12 Status/Expression sheets, Stagger Pips, 12 Roguelite Draft Perks, 12 Jing Si Scrolls).
+    4. Replaced dead Drive links with direct local links (`../04_Modular_Game_Build/index.html`) and exact `kai_capybara_go_v4_2_save` + `applyWikiImport()` build export.
+    5. Expanded 14-sheet viewer to all **226 production assets** (`../04_Modular_Game_Build/assets/...` + 37 embedded base64 WebP fallbacks) with 16-cell (`F01–F16`) scrubber and Sakuga timing modes.
+    6. Added live 16-FPS `<canvas>` previews across Skill Cards, Bestiary, Armor Paper-Dolls, and all 6 v4.2 status afflictions (`Bleed`, `Poison`, `Confuse`, `Waist-Freeze`, `Burn`, `# Silence`) on the 8-Layer Z-Sandwich stage.
+    7. Replaced 3-question quiz with **Pythonia Live Spell-Forge IDE** (all 18 gates), **12-Scroll Bilingual Jing Si Codex**, and **Empty-Void `16×8` (`A1–P8`) Clickable Grid Builder**.
+    8. Replaced disconnected tabs with persistent **Neural Game-Sync Dock** + **Smart Next-Boss Tactical Coach**.
+  - **Bold Conversion & UX Innovation:**
+    - **Neural Game-Sync Dock + Slide-Over Playable Game Arcade Drawer:** Two-way `localStorage["kai_capybara_go_v4_2_save"]` Pull/Beam sync plus instant slide-over iframe embedding `../04_Modular_Game_Build/index.html`.
+    - **Live 16-FPS Boss Duel & Golden Colon `:` Rhythm Parry Sandbox:** Interactive arena against all 42 Bestiary opponents with real `EXP_LINK_27` Parry (`Space`), `EXP_LINK_28` Tap 3× Cure, 3-Pip Boss Stagger (`EXP_LINK_36, 40`), Comic Callouts (`VFX_MISC_01–04`), and `100% Rage Grand Ouroboros Seal` (`KAI_MAG_16`).
 
 ## 2. Immediate Next Steps for Future Sessions
-- Add dedicated per-weapon deep-dive guide pages or additional embedded EXP_LINK / ENM_BOSS preview packs inside 05_Kai_Wikipedia as Modular Build v4.1 expands.
+- Add Pythonia Game Maker Studio v5.0 live stage preview iframe integration once `Kai_Game_Design_Project` local build is placed alongside `04_Modular_Game_Build`.

@@ -1,15 +1,15 @@
 // Hero Kai: Scrolls of Pythonia — Capybara Go! Edition
 // config_and_manifests_v4_1.js (Phase 1: 212 Assets = 202 16-FPS Sheets [3,232 Frames] + 10 Biomes + Skill/Gear Parity)
 window.CAPYBARA_CONFIG = {
-  VERSION: "4.1.0",
+  VERSION: "4.3.0",
   FPS: 16,
   CELL_SIZE: 256,
   GRID_COLS: 4,
   GRID_ROWS: 4,
-  TOTAL_SHEETS: 202,
+  TOTAL_SHEETS: 204,
   TOTAL_BIOMES: 10,
-  TOTAL_ASSETS: 212,
-  TOTAL_FRAMES: 3232,
+  TOTAL_ASSETS: 226,
+  TOTAL_FRAMES: 3264,
   SAKUGA_TIMING: {
     kid_paced_sakuga_ms: [85, 85, 85, 85, 50, 50, 50, 50, 110, 290, 110, 110, 75, 75, 75, 75],
     kid_paced_total_ms: 1460,
@@ -61,7 +61,9 @@ window.CAPYBARA_CONFIG = {
     "KAI_MAG_13": "assets/characters/KAI_MAG_13_RAGE_100_OVERDRIVE_TRANSFORMATION_16F_4x4.png",
     "KAI_MAG_14": "assets/characters/KAI_MAG_14_ELEMENTAL_SWORD_INFUSION_SWINGS_16F_4x4.png",
     "KAI_MAG_15": "assets/characters/KAI_MAG_15_NATURE_WIND_STARLIGHT_LOTUS_BLADE_SWINGS_16F_4x4.png",
-    "KAI_MAG_16": "assets/characters/KAI_MAG_16_ULTIMATE_SCROLLS_OF_PYTHONIA_GRAND_SEAL_16F_4x4.png"
+    "KAI_MAG_16": "assets/characters/KAI_MAG_16_ULTIMATE_SCROLLS_OF_PYTHONIA_GRAND_SEAL_16F_4x4.png",
+    "MOD_B08_04": "assets/characters/MOD_B08_04_CAPYBARA_CHIBI_MODULAR_HATS_OUTFITS_AND_BAGS_4x4.png",
+    "CG_B01_02": "assets/characters/CG_B01_02_CHIBI_KAI_4TIER_EQUIPMENT_PROGRESSION_4x4.png"
   },
   VFX_MISC_SHEETS_16F: {
     "VFX_MISC_01": "assets/vfx_misc/VFX_MISC_01_COMIC_CRITICAL_AND_SUPER_CRIT_BURST_16F_4x4.png",
@@ -248,13 +250,13 @@ window.CAPYBARA_CONFIG = {
     forge_hammer: { id: "forge_hammer", name: "Heavy Forge Hammer", sheet: "KAI_CMB_02", atk: 70, crit: 10, combo: 10, counter: 32, skillDmg: 20, dr: 22, desc: "Earthquake Slam grants +120 Hollow-Rim Shield & 25% Stun." },
     twin_blade: { id: "twin_blade", name: "Twin-Blade Omnislash", sheet: "KAI_CMB_03", atk: 55, crit: 22, combo: 42, counter: 12, skillDmg: 22, dr: 12, desc: "4-hit Whirlwind Combo & +15 Rage per turn." },
     flying_dagger: { id: "flying_dagger", name: "Flying Dagger & Light Spear", sheet: "KAI_CMB_04", atk: 50, crit: 38, combo: 30, counter: 10, skillDmg: 35, dr: 10, desc: "Fires 3 curved Bezier Daggers + Falling Light Spear on Crit." },
-    starlight_staff: { id: "starlight_staff", name: "Great Wizard Starlight Staff", sheet: "KAI_MAG_05", atk: 65, crit: 25, combo: 18, counter: 14, skillDmg: 55, dr: 16, desc: "Amplifies all 12 Pythonic Magic Schools by +45% DMG." }
+    starlight_staff: { id: "starlight_staff", name: "Great Wizard Starlight Staff", sheet: "KAI_MAG_07", atk: 65, crit: 25, combo: 18, counter: 14, skillDmg: 55, dr: 16, desc: "Amplifies all 12 Pythonic Magic Schools by +45% DMG." }
   },
   ARMORS_DB: {
-    hoodie: { id: "hoodie", name: "Tier 1: Casual Sage Hoodie", hp: 150, shield: 40, dr: 8 },
-    moss_cloak: { id: "moss_cloak", name: "Tier 2: Moss-Green Cloak (#345830)", hp: 350, shield: 90, dr: 15 },
-    dwarven_plate: { id: "dwarven_plate", name: "Tier 3: Master Grimsby Dwarven Plate", hp: 750, shield: 180, dr: 28 },
-    lotus_paladin: { id: "lotus_paladin", name: "Tier 4: Tzu Chi Lotus Paladin Mantle", hp: 1200, shield: 280, dr: 35 }
+    hoodie: { id: "hoodie", name: "Tier 1: Casual Sage Hoodie", hp: 150, shield: 40, dr: 8, armorRow: 0, paperDollCell: 0, auraColor: "#38bdf8" },
+    moss_cloak: { id: "moss_cloak", name: "Tier 2: Moss-Green Cloak (#345830)", hp: 350, shield: 90, dr: 15, armorRow: 1, paperDollCell: 5, auraColor: "#4ade80" },
+    dwarven_plate: { id: "dwarven_plate", name: "Tier 3: Master Grimsby Dwarven Plate", hp: 750, shield: 180, dr: 28, armorRow: 2, paperDollCell: 10, auraColor: "#f59e0b" },
+    lotus_paladin: { id: "lotus_paladin", name: "Tier 4: Tzu Chi Lotus Paladin Mantle", hp: 1200, shield: 280, dr: 35, armorRow: 3, paperDollCell: 14, auraColor: "#f472b6" }
   },
   SKILL_TREES_DB: [
     {
@@ -388,16 +390,16 @@ window.CAPYBARA_CONFIG = {
     "ENM_BOSS_62": "Universal Tzu Chi Lotus Soul Purification & Loot Pinata"
   },
   MAGIC_SCHOOLS: [
-    { id: "water", name: "Water (Hydro Stream)", py: "stream.read()", kaiSheet: "KAI_MAG_08", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_17", color: "#00B4D8", atkPct: 1.85, rageGain: 22, shieldGain: 80, statusEffect: "cleanse_burn", desc: "185% ATK + Cleanses Burn + +80 Hollow Shield" },
-    { id: "fire", name: "Fire (Solar Forge)", py: "int * int", kaiSheet: "KAI_MAG_01", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_15", color: "#FF4500", atkPct: 2.10, rageGain: 25, shieldGain: 0, statusEffect: "burn", desc: "210% ATK + 35% Burn DoT (3 turns)" },
-    { id: "ice", name: "Ice (Glacial Cryo)", py: "tuple()", kaiSheet: "KAI_MAG_02", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_16", color: "#48CAE4", atkPct: 1.75, rageGain: 20, shieldGain: 40, statusEffect: "freeze", desc: "175% ATK + 40% Waist-Down Freeze" },
-    { id: "lightning", name: "Lightning (Volt Surge)", py: "async/await", kaiSheet: "KAI_MAG_03", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_14", color: "#FEE440", atkPct: 1.95, rageGain: 25, critBonus: 15, statusEffect: "none", desc: "195% ATK + +15% Crit Rate" },
-    { id: "wind", name: "Wind (Gale Zephyr)", py: "range()", kaiSheet: "KAI_MAG_15", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_18", color: "#52B788", atkPct: 1.65, rageGain: 20, statusEffect: "dodge_up", desc: "165% ATK + +20% Dodge Rate" },
-    { id: "nature", name: "Nature (Botanical Vine)", py: "list.append()", kaiSheet: "KAI_MAG_04", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_44", color: "#2D6A4F", atkPct: 1.60, rageGain: 20, healPct: 0.15, statusEffect: "none", desc: "160% ATK + Heals 15% Max HP" },
-    { id: "starlight", name: "Starlight (Celestial)", py: "print()", kaiSheet: "KAI_MAG_05", circle: "VFX_MISC_11", overlay: "VFX_MISC_13", vfx: "VFX_MISC_06", color: "#FFD166", atkPct: 2.20, rageGain: 28, statusEffect: "cleanse_silence", desc: "220% ATK + +28 Rage + Shatters Silence" },
+    { id: "water", name: "Water (Hydro Stream)", py: "stream.read()", kaiSheet: "KAI_MAG_01", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_17", color: "#00B4D8", atkPct: 1.85, rageGain: 22, shieldGain: 80, statusEffect: "cleanse_burn", desc: "185% ATK + Cleanses Burn + +80 Hollow Shield" },
+    { id: "fire", name: "Fire (Solar Forge)", py: "int * int", kaiSheet: "KAI_MAG_02", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_15", color: "#FF4500", atkPct: 2.10, rageGain: 25, shieldGain: 0, statusEffect: "burn", desc: "210% ATK + 35% Burn DoT (3 turns)" },
+    { id: "ice", name: "Ice (Glacial Cryo)", py: "tuple()", kaiSheet: "KAI_MAG_03", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_16", color: "#48CAE4", atkPct: 1.75, rageGain: 20, shieldGain: 40, statusEffect: "freeze", desc: "175% ATK + 40% Waist-Down Freeze" },
+    { id: "lightning", name: "Lightning (Volt Surge)", py: "async/await", kaiSheet: "KAI_MAG_04", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_14", color: "#FEE440", atkPct: 1.95, rageGain: 25, critBonus: 15, statusEffect: "none", desc: "195% ATK + +15% Crit Rate" },
+    { id: "wind", name: "Wind (Gale Zephyr)", py: "range()", kaiSheet: "KAI_MAG_05", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_18", color: "#52B788", atkPct: 1.65, rageGain: 20, statusEffect: "dodge_up", desc: "165% ATK + +20% Dodge Rate" },
+    { id: "nature", name: "Nature (Botanical Vine)", py: "list.append()", kaiSheet: "KAI_MAG_06", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_44", color: "#2D6A4F", atkPct: 1.60, rageGain: 20, healPct: 0.15, statusEffect: "none", desc: "160% ATK + Heals 15% Max HP" },
+    { id: "starlight", name: "Starlight (Celestial)", py: "print()", kaiSheet: "KAI_MAG_07", circle: "VFX_MISC_11", overlay: "VFX_MISC_13", vfx: "VFX_MISC_06", color: "#FFD166", atkPct: 2.20, rageGain: 28, statusEffect: "cleanse_silence", desc: "220% ATK + +28 Rage + Shatters Silence" },
     { id: "special", name: "Special (Python Overdrive)", py: "def ultimate():", kaiSheet: "KAI_MAG_16", circle: "VFX_MISC_11", overlay: "VFX_MISC_20", vfx: "VFX_MISC_04", color: "#F4C430", atkPct: 3.20, rageGain: 0, statusEffect: "trio_assist", desc: "320% ATK + Trio Assist Cut-In" },
-    { id: "earth", name: "Earth / Geo (Wall)", py: "int()", kaiSheet: "KAI_MAG_06", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_07", color: "#B08968", atkPct: 1.70, rageGain: 20, shieldGain: 180, statusEffect: "none", desc: "170% ATK + +180 Golden Hollow Shield" },
-    { id: "lotus", name: "Light / Lotus Purify", py: "bool == True", kaiSheet: "KAI_MAG_07", circle: "VFX_MISC_11", overlay: "VFX_MISC_19", vfx: "EXP_LINK_20", color: "#FFCAD4", atkPct: 1.90, rageGain: 24, shieldGain: 220, statusEffect: "cleanse_all", desc: "190% ATK + Cleanse All Debuffs + +220 Shield" },
+    { id: "earth", name: "Earth / Geo (Wall)", py: "int()", kaiSheet: "KAI_MAG_08", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_07", color: "#B08968", atkPct: 1.70, rageGain: 20, shieldGain: 180, statusEffect: "none", desc: "170% ATK + +180 Golden Hollow Shield" },
+    { id: "lotus", name: "Light / Lotus Purify", py: "bool == True", kaiSheet: "KAI_MAG_09", circle: "VFX_MISC_11", overlay: "VFX_MISC_19", vfx: "EXP_LINK_20", color: "#FFCAD4", atkPct: 1.90, rageGain: 24, shieldGain: 220, statusEffect: "cleanse_all", desc: "190% ATK + Cleanse All Debuffs + +220 Shield" },
     { id: "chrono", name: "Chrono / Loop Time", py: "for / while", kaiSheet: "KAI_MAG_10", circle: "VFX_MISC_11", overlay: "VFX_MISC_13", vfx: "VFX_MISC_41", color: "#00BBF9", atkPct: 2.00, rageGain: 25, statusEffect: "echo_clone", desc: "200% ATK + 50% Echo Double Cast" },
     { id: "shadow", name: "Shadow / # Mute", py: "# comment", kaiSheet: "KAI_MAG_11", circle: "VFX_MISC_11", overlay: "VFX_MISC_45", vfx: "VFX_MISC_03", color: "#4361EE", atkPct: 1.80, rageGain: 22, statusEffect: "silence", desc: "180% ATK + Mutes Boss Spell for 1 Turn" }
   ],
@@ -408,9 +410,40 @@ window.CAPYBARA_CONFIG = {
     { id: "ginseng_tea", name: "Grandma Looma Herbal Tea", hpPct: 0.30, rage: 30, shield: 80, desc: "+30% HP & +80 Golden Shield." }
   ],
   PYTHON_GATES: [
-    { day: 10, ch: 1, prompt: "Unlock the Silent Village Gate! Complete the Python print statement:", code: "gate_signal = _______(\"LIGHT\")", options: ["print", "echo", "say", "write"], answer: "print", reward: "+25% ATK & +100 Gold" },
-    { day: 30, ch: 3, prompt: "Iron Outpost Gate! How do you define a function in Python?", code: "___ forge_blade(iron):\n    return iron * 2", options: ["def", "func", "fn", "function"], answer: "def", reward: "+40% Crit DMG & +200 Gold" },
-    { day: 50, ch: 10, prompt: "Citadel Logic Check! Which keyword exits a while loop early?", code: "if real_target:\n    _____", options: ["break", "stop", "exit", "halt"], answer: "break", reward: "+200 Max HP & +50 Rage" }
+    { day: 10, ch: 1, prompt: "Unlock the Silent Village Gate! Complete the Python print statement:", code: "gate_signal = _______(\"LIGHT\")", options: ["print", "echo", "say", "write"], answer: "print", hint: "Python uses print() to output text.", lessonRing: "EXP_LINK_41", reward: "+25% ATK & +100 Gold" },
+    { day: 25, ch: 2, prompt: "Weave the Loom Forest Variable! Bind the golden thread:", code: "thread_color = \"Gold\"\n_______ == \"Gold\"", options: ["thread_color", "123", "if", "for"], answer: "thread_color", hint: "Reference the variable name you just assigned.", lessonRing: "EXP_LINK_41", reward: "+120 Max HP & +80 Gold" },
+    { day: 30, ch: 3, prompt: "Iron Outpost Gate! How do you define a function in Python?", code: "___ forge_blade(iron):\n    return iron * 2", options: ["def", "func", "fn", "function"], answer: "def", hint: "Functions in Python always start with the 3-letter keyword def.", lessonRing: "EXP_LINK_44", reward: "+40% Crit DMG & +200 Gold" },
+    { day: 45, ch: 6, prompt: "Archive Logic Fork! Choose the keyword for a second condition:", code: "if scroll == 'Fire':\n    cast()\n____ scroll == 'Lotus':\n    purify()", options: ["elif", "else if", "when", "case"], answer: "elif", hint: "Python shortens 'else if' to a single 4-letter keyword.", lessonRing: "EXP_LINK_43", reward: "+150 Shield & +10 Star Gems" },
+    { day: 50, ch: 10, prompt: "Citadel Logic Check! Which keyword exits a while loop early?", code: "if real_target:\n    _____", options: ["break", "stop", "exit", "halt"], answer: "break", hint: "Use break to break out of a loop immediately.", lessonRing: "EXP_LINK_42", reward: "+200 Max HP & +50 Rage" },
+    { day: 55, ch: 11, prompt: "Sort the Rune Backpack List in ascending order:", code: "runes = [9, 3, 7]\nrunes.____()", options: ["sort", "order", "rank", "fix"], answer: "sort", hint: "Lists have a built-in .sort() method.", lessonRing: "EXP_LINK_45", reward: "+30% Skill DMG & +150 Gold" }
+  ],
+  ROGUELITE_SKILLS_DB: [
+    { id: "rg_dagger", name: "Recursive Dagger Volley", rarity: "epic", py: "for d in range(3): throw()", sheet: "KAI_CMB_04", atk: 18, combo: 8, desc: "+18 ATK & +8% Combo Chance" },
+    { id: "rg_reflect", name: "Decorator Shield Reflection", rarity: "epic", py: "@hollow_rim(alpha=0.0)", sheet: "EXP_LINK_11", shield: 95, dr: 5, desc: "+95 Hollow Shield & +5% DR" },
+    { id: "rg_crit_matrix", name: "List Comprehension Crit", rarity: "legendary", py: "[hit*1.8 for hit in crits]", sheet: "VFX_MISC_01", crit: 12, skillDmg: 18, desc: "+12% Crit Rate & +18% Spell DMG" },
+    { id: "rg_lotus_regen", name: "Compassionate Lotus Aura", rarity: "legendary", py: "while hp < max: heal()", sheet: "EXP_LINK_20", hp: 220, shield: 70, desc: "+220 Max HP & +70 Shield" },
+    { id: "rg_chrono_echo", name: "Chrono Generator Yield", rarity: "mythic", py: "yield echo_strike()", sheet: "KAI_MAG_10", atk: 24, skillDmg: 25, combo: 10, desc: "+24 ATK, +25% Spell DMG & +10% Combo" },
+    { id: "rg_solar_forge", name: "1200°C Solar Smelter", rarity: "epic", py: "temp = 300 * 4", sheet: "KAI_MAG_01", atk: 25, crit: 5, desc: "+25 ATK & +5% Crit Rate" },
+    { id: "rg_string_bond", name: "String Terrier Synergy", rarity: "epic", py: "pet_name = 'String'", sheet: "EXP_LINK_31", atk: 14, crit: 10, hp: 120, desc: "+14 ATK, +10% Crit & +120 HP" },
+    { id: "rg_mantis_cleanse", name: "Mantis Dew Purification", rarity: "epic", py: "if debuff: cleanse()", sheet: "EXP_LINK_33", hp: 160, dr: 6, desc: "+160 Max HP & +6% DR" },
+    { id: "rg_parry_colon", name: "Golden Colon : Mastery", rarity: "legendary", py: "if timing == ':': counter()", sheet: "EXP_LINK_27", atk: 20, crit: 9, shield: 80, desc: "+20 ATK, +9% Crit & +80 Shield" },
+    { id: "rg_starlight_amp", name: "f-String Starlight Prism", rarity: "legendary", py: "f'{spell} * OVERDRIVE'", sheet: "KAI_MAG_05", skillDmg: 30, crit: 6, desc: "+30% Spell DMG & +6% Crit Rate" },
+    { id: "rg_void_mute", name: "# Comment Silence Ward", rarity: "epic", py: "# boss.cast_ultimate()", sheet: "KAI_MAG_11", dr: 8, shield: 110, desc: "+8% DR & +110 Hollow Shield" },
+    { id: "rg_ouroboros", name: "Grand Ouroboros Seal", rarity: "mythic", py: "def ultimate(): return True", sheet: "KAI_MAG_16", atk: 32, hp: 250, crit: 10, skillDmg: 28, desc: "+32 ATK, +250 HP, +10% Crit & +28% Spell DMG" }
+  ],
+  JING_SI_SCROLLS_DB: [
+    { ch: 1, zh: "人生最大的成就，是從失敗中站立起來。", en: "Life's truest masterpiece is the courage to rise gracefully after every fall." },
+    { ch: 2, zh: "有心就有福，有願就有力。", en: "A mindful heart invites profound blessings; a pure vow awakens boundless strength." },
+    { ch: 3, zh: "信心、毅力、勇氣三者具備，則天下沒有做不成的事。", en: "Anchor yourself in faith, walk with endurance, and breathe in courage—no mountain is too high." },
+    { ch: 4, zh: "水滴雖微，漸盈大氣。", en: "A single drop of water whispers of the ocean; gather enough, and they fill the deepest chalice." },
+    { ch: 5, zh: "真正的愛心，是照顧好自己的這顆心。", en: "The most profound act of love begins with tending gently to your own heart." },
+    { ch: 6, zh: "知識要用心體會，才能變成自己的智慧。", en: "Words remain but echoes until embraced by the heart, where they blossom into wisdom." },
+    { ch: 7, zh: "願要大，志要堅，氣要柔，心要細。", en: "Let your vision be vast and resolve unyielding, yet keep your spirit gentle and mind clear." },
+    { ch: 8, zh: "自己害自己，莫過於亂發脾氣。", en: "The fiercest storm we face is the one we unleash upon ourselves in anger." },
+    { ch: 9, zh: "盡多少本分，就得多少本事。", en: "With every duty gracefully carried, the shoulders of your soul grow stronger." },
+    { ch: 10, zh: "我們最強的對手不一定是別人，而可能是我們自己。", en: "The grandest battles we fight are rarely with the world, but with the shadows within our own minds." },
+    { ch: 11, zh: "小事不做，大事難成。", en: "The grandest tapestry is woven from the humblest threads; never dismiss small steps." },
+    { ch: 12, zh: "要用心、細心，不要操心、煩心。", en: "Walk through life with a heart full of care and a mind fully present." }
   ],
   CHAPTER_BOSS_GATES: {
     1: { prompt: "Shatter the Chime Golem's silence! Cast Starlight output:", code: "_______(\"LIGHT\")", options: ["print", "input", "str", "break"], answer: "print" },
@@ -430,7 +463,7 @@ window.CAPYBARA_CONFIG = {
 
 
 // --- v4.2 Additions: Status Recovery Sheets, Hit Callouts, Stage-Locked Props, Pickups & Chapter Status Matrix ---
-window.CAPYBARA_CONFIG.VERSION = "4.2.0";
+window.CAPYBARA_CONFIG.VERSION = "4.3.0";
 window.GameConfig = window.CAPYBARA_CONFIG;
 window.CAPYBARA_CONFIG.STATUS_SHEETS_V4_2 = {
   KAI_STATUS_BLEED:   "assets/status/KAI_STATUS_BLEED.png",

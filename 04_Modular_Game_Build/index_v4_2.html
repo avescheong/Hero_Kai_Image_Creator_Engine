@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hero Kai: Scrolls of Pythonia — Capybara Go! Edition (v4.2 Final)</title>
+  <title>Hero Kai: Scrolls of Pythonia — Capybara Go! Edition (v4.3 Spell-Forge)</title>
   <link rel="stylesheet" href="capybara_studio_v4_2.css" />
 </head>
 <body>
   <div id="loader-overlay" class="loader-overlay">
     <div class="loader-box">
-      <div class="loader-title">Loading 202 16-FPS Atlases &amp; 10 Biomes (v4.2 Final)...</div>
+      <div class="loader-title">Loading 204 16-FPS Atlases &amp; 10 Biomes (v4.3 Spell-Forge)...</div>
       <div class="loader-bar"><div id="loader-bar-fill"></div></div>
       <div id="loader-pct">0%</div>
     </div>
@@ -20,11 +20,13 @@
       <div class="hud-left">
         <span class="pill" id="hud-biome">Ch. 1: The Silent Village</span>
         <span class="pill badge-day" id="hud-day">Day 1 / 60</span>
+        <span class="pill overclock-pill hidden" id="hud-overclock-badge">⚡ Overclock 5d</span>
       </div>
       <div class="hud-right">
         <span class="pill" id="hud-atk-badge">⚔️ 105 ATK · 🎯 27% Crit · 🛡️ 25% DR</span>
-        <span class="pill badge-gold" id="hud-gold">🪙 120 Gold</span>
+        <span class="pill badge-gold" id="hud-gold">🪙 120G · 💎 25</span>
         <span class="pill badge-stamina" id="hud-stamina">🥬 Stamina 20/20</span>
+        <button id="btn-save-reset" class="pill btn-hud-reset" title="Save or Reset Run">💾 Reset</button>
       </div>
     </header>
 
@@ -69,8 +71,11 @@
 
     <footer class="action-toolbar">
       <button id="btn-next-day" class="btn-primary">NEXT DAY (Space)</button>
+      <button id="btn-auto" class="btn-tool">▶️ Auto: OFF</button>
       <button id="btn-parry" class="btn-tool">🛡️ Parry</button>
       <button id="btn-cure-status" class="btn-tool hidden">🌸 Cure 3×</button>
+      <button id="btn-code-forge" class="btn-tool btn-forge-glow">💻 Spell-Forge IDE</button>
+      <button id="btn-gacha" class="btn-tool">🎰 Gacha &amp; Draft</button>
       <button id="btn-pacing" class="btn-tool">⚔️ 1.0x Sakuga</button>
       <button id="btn-chapter" class="btn-tool">🗺️ Ch. 1</button>
       <button id="btn-gear" class="btn-tool">⚔️ Gear</button>
@@ -79,7 +84,7 @@
       <button id="btn-pets" class="btn-tool">🐾 Pets &amp; Mount</button>
       <button id="btn-bestiary" class="btn-tool">👾 62 Bestiary</button>
       <button id="btn-wiki-import" class="btn-tool">📥 Wiki Import</button>
-      <button id="btn-atlas" class="btn-tool">📦 212 Assets</button>
+      <button id="btn-atlas" class="btn-tool">📦 226 Assets</button>
     </footer>
   </div>
 

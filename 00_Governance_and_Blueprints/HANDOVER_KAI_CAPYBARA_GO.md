@@ -784,3 +784,21 @@
 - Verification Proof:
   - Verified all 7 `v4.2` CSS/JS script targets exist, all `getElementById()` references resolve in `index_v4_2.html`, and 224/224 PNG paths in `config_and_manifests_v4_2.js` exist on disk (0 missing).
 - Next Unblocked Step: Serve `04_Modular_Game_Build/` via `python -m http.server 8080` for live browser playtest (remaining backlog: `CHK-4.4` unwired pools `KAI_ACT_01/03–18`, Track D Paper-Doll `MOD_B08_04`, Gacha 3-Card Draft `VFX_MISC_31–34`, and Boss 3-Pip Stagger `EXP_LINK_36`).
+## 48. Handover Log Entry — CHK-KAI-CAPYBARA-GO-V4_3-UX-OVERHAUL-AND-SPELL-FORGE-20261118
+- Checkpoint ID: CHK-KAI-CAPYBARA-GO-V4_3-UX-OVERHAUL-AND-SPELL-FORGE-20261118
+- Timestamp: 2026-11-18T23:18:00+08:00
+- Completed Tasks:
+  - Fixed all 8 tough-customer weaknesses & completed `CHK-4.4` in `04_Modular_Game_Build/`:
+    1. Sanitized `SaveManager.loadFromLocal()` transient locks + added `💾 Reset` button in `main_v4_2.js` and `index_v4_2.html`.
+    2. Wired full `KAI_ACT_01–18` & `KAI_CMB_05/06` action state machine (`setHeroAction` + verified sprite-index mappings after inspecting `02_New_Combat_and_Magic_VFX/` PNGs) and restored accurate `MAGIC_SCHOOLS` / `starlight_staff` `kaiSheet` indices in `config_and_manifests_v4_2.js`.
+    3. Replaced invisible street pickups with visible bobbing `st.activeStreetPickup` entities (`Z=4.0`), `Z=1.0` stage-locked roadside props, and interactive left-stage String/Mantis petting (`KAI_ACT_12` + `EXP_LINK_39`).
+    4. Added dynamic-width Enemy/Boss Tactical HUD plate (`boxY = 10`), HP bar, **3-Pip Boss Stagger Gauge** (`EXP_LINK_36` + `EXP_LINK_40`, `1.75×` Armor Break DMG), floating combat text popups, and balanced Bestiary/Boss HP scaling.
+    5. Added `▶️ Auto: OFF` Auto-March loop and pulsing `.parry-active` (`🛡️ PARRY NOW! (Space)`) UX + shrinking canvas parry ring.
+    6. Wired Gold/Gem economy sinks via **🎰 Gacha & Draft** (`VFX_MISC_31–34`: Mythic Chest, Pet Egg Ascension, Lucky 777 Slots, and 3-Card Roguelite Skill Draft with 12 `ROGUELITE_SKILLS_DB` cards) triggered on Level-Up, Boss defeat, or Sanctum spend.
+    7. Copied `MOD_B08_04` & `CG_B01_02` into `assets/characters/` (`226` total assets), wired Track D Paper-Doll 4-Tier Armor medallion + stage aura + immediate Shield sync in `recalcHeroStats()`, and added live animated 16-FPS `<canvas>` thumbnails (`attachPreviewCanvases`) across Magic, Gear, Pets & Mounts, Bestiary, Gacha, and Skill Draft modals.
+    8. Shipped **Bold Innovation: Pythonia Live Spell-Forge IDE & Jing Si Wisdom Codex** (`openCodeForgeModal` + `triggerCodeTrace` + `JING_SI_SCROLLS_DB` 12 bilingual scrolls + 5-Day Pythonic Overclock buff `+35% Spell DMG & +15% Crit`).
+  - UI Polish from Live Browser QA: Removed `object-fit: cover` canvas clipping (`syncCanvasSize()`), wrapped bottom toolbar cleanly onto 2 centered rows with 0 horizontal overflow, and added seamless ping-pong mirrored biome parallax scrolling.
+- Verification Proof:
+  - Asset/DOM script: 7/7 CSS/JS files verified, all DOM IDs verified, `226/226` PNG paths present on disk (`0` missing).
+  - Live Browser QA (`http://localhost:8080/`, 3 passes at `1280x800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`). Confirmed unclipped Kai-Cam + Armor medallion, 2-row toolbar, seamless Ch. 1 biome, immediate Tier 4 Shield sync (`150 -> 340`), String petting (`KAI_ACT_12`), Boss HUD plate + 3-Pip Stagger Gauge + Parry (`KAI_CMB_05`) + Armor Break, Spell-Forge IDE (`SyntaxError` hint + compile/trace + Overclock + Jing Si Codex), Gacha Slots, and 3-Card Skill Draft.
+- Next Unblocked Step: Ready for playtesting (`python -m http.server 8080` inside `04_Modular_Game_Build/`) and synced to `origin/Kai_Capybara_GO`.

@@ -802,3 +802,13 @@
   - Asset/DOM script: 7/7 CSS/JS files verified, all DOM IDs verified, `226/226` PNG paths present on disk (`0` missing).
   - Live Browser QA (`http://localhost:8080/`, 3 passes at `1280x800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`). Confirmed unclipped Kai-Cam + Armor medallion, 2-row toolbar, seamless Ch. 1 biome, immediate Tier 4 Shield sync (`150 -> 340`), String petting (`KAI_ACT_12`), Boss HUD plate + 3-Pip Stagger Gauge + Parry (`KAI_CMB_05`) + Armor Break, Spell-Forge IDE (`SyntaxError` hint + compile/trace + Overclock + Jing Si Codex), Gacha Slots, and 3-Card Skill Draft.
 - Next Unblocked Step: Ready for playtesting (`python -m http.server 8080` inside `04_Modular_Game_Build/`) and synced to `origin/Kai_Capybara_GO`.
+## 49. Handover Log Entry — CHK-KAI-CAPYBARA-GO-V4_3_1-PROP-DISAPPEAR-AND-NO-LEAVES-20261119
+- Checkpoint ID: CHK-KAI-CAPYBARA-GO-V4_3_1-PROP-DISAPPEAR-AND-NO-LEAVES-20261119
+- Timestamp: 2026-11-19T06:28:00+08:00
+- Completed Tasks:
+  - Removed ambient `Z=0.5` weather/leaves overlay (`VFX_MISC_43` sakura/leaves) from `sprite_16fps_engine_v4_2.js`.
+  - Added `st.propCollected` state lifecycle across `combat_event_chain_v4_2.js`, `equipment_and_pets_drawer_v4_2.js`, `sprite_16fps_engine_v4_2.js`, and `main_v4_2.js` so roadside props disappear immediately after clicking (awarding `+10 Gold` & `+10 Rage` with a `VFX_MISC_49` sparkle burst).
+  - Added `?v=4.3.1` cache-busting query strings in `index_v4_2.html` and `index.html`.
+- Verification Proof:
+  - Verified live on `http://localhost:8080/index.html?v=4.3.1` (`0` console errors, `0` failed requests across `50` requests): leaves overlay is gone, clicking the Lotus Shrine removes it from the stage, increments Gold `120G -> 130G` and Rage `0 -> 10`, and logs the inspection reward.
+- Next Unblocked Step: Live on `http://localhost:8080/` and synced to `origin/Kai_Capybara_GO`.

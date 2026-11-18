@@ -8,7 +8,7 @@ window.GameState = {
   activePet: "string", activeMount: "none", activeActionSheet: null,
   heroActionState: "KAI_ACT_01", heroActionUntil: 0,
   unlockedNodes: ["st_1"], draftedSkills: [], petLevel: 1, overclockDays: 0,
-  collectedScrolls: [1], activeStreetPickup: null, petBondedToday: false,
+  collectedScrolls: [1], activeStreetPickup: null, propCollected: false, petBondedToday: false,
   heroStatus: "none", cureTaps: 0,
   hero: { hp: 850, maxHp: 850, atk: 105, shield: 90, rage: 0, crit: 27, combo: 20, dr: 25, skillDmg: 125 },
   enemy: null, roadsideNpc: null, defeatedIds: []
@@ -101,6 +101,7 @@ window.StoryEngine = {
     if (st.inCombat || st.awaitingChoice) return;
     st.roadsideNpc = null;
     st.activeActionSheet = null;
+    st.propCollected = false;
     st.petBondedToday = false;
 
     if ((st.overclockDays || 0) > 0) {

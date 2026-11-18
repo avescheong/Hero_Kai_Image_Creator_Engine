@@ -220,17 +220,14 @@ window.Sprite16FPSEngine = {
       }
     }
 
-    // Z=0.5: Ambient Biome Weather Overlay
-    this.drawCell(ctx, chObj.weatherVfx, this.frameTick, w * 0.50, h * 0.45, 185, 185, 0.85);
-
     const kaiX = w * 0.28;
     const kaiY = h * 0.70;
     const bob = Math.sin(Date.now() * 0.007) * 2.5;
     const status = st.heroStatus || "none";
 
-    // Z=1.0: Stage-Locked Roadside Prop (when exploring & not overridden by NPC)
+    // Z=1.0: Stage-Locked Roadside Prop (when exploring & not collected or overridden by NPC)
     const stageProps = (cfg.STAGE_LOCKED_PROPS_V4_2 || {})[st.chapter] || ["VFX_MISC_25"];
-    if (!st.inCombat && !st.roadsideNpc) {
+    if (!st.inCombat && !st.roadsideNpc && !st.propCollected) {
       const propSheet = stageProps[st.day % stageProps.length];
       this.drawCell(ctx, propSheet, this.frameTick, w * 0.52, h * 0.68, 114, 114, 0.92);
     }

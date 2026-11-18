@@ -524,7 +524,7 @@ window.DrawerUI = {
 
   selectChapter(ch) {
     const st = window.GameState;
-    st.chapter = ch; st.day = 1; st.inCombat = false; st.awaitingChoice = false; st.enemy = null; st.roadsideNpc = null; st.activeStreetPickup = null;
+    st.chapter = ch; st.day = 1; st.inCombat = false; st.awaitingChoice = false; st.enemy = null; st.roadsideNpc = null; st.activeStreetPickup = null; st.propCollected = false;
     window.Sprite16FPSEngine.setHeroAction("KAI_ACT_18", 1500);
     window.AppUI.closeModal();
     window.AppUI.refreshVitals();

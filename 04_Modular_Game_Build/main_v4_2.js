@@ -33,6 +33,7 @@ window.SaveManager = {
     if (!Array.isArray(st.collectedScrolls)) st.collectedScrolls = [1];
     if (!st.petLevel) st.petLevel = 1;
     if (st.overclockDays === undefined) st.overclockDays = 0;
+    if (st.propCollected === undefined) st.propCollected = false;
   },
   resetSave() {
     try {
@@ -236,15 +237,19 @@ window.AppUI = {
       }
     }
 
-    // 3. Stage-Locked Roadside Prop Hitbox (center stage)
+    // 3. Stage-Locked Roadside Prop Hitbox (center stage) — disappears after clicking
     const propX = canvas.width * 0.52;
     const propY = canvas.height * 0.68;
-    if (!st.roadsideNpc && Math.hypot(cx - propX, cy - propY) <= 68) {
-      const props = (window.CAPYBARA_CONFIG.STAGE_LOCKED_PROPS_V4_2 || {})[st.chapter] || ["VFX_MISC_25"];
-      const propKey = props[st.day % props.length];
+    if (!st.roadsideNpc && !st.propCollected && Math.hypot(cx - propX, cy - propY) <= 68) {
+      st.propCollected = true;
+      st.gold += 10;
+      st.hero.rage = Math.min(100, st.hero.rage + 10);
       window.Sprite16FPSEngine.setHeroAction("KAI_ACT_09", 1200);
-      window.VfxRenderer.triggerProp(propKey, "INSPECTED!");
-      window.Sprite16FPSEngine.spawnFloatingText("✨ STAGE PROP!", propX, propY - 35, "#38bdf8", 1.0);
+      window.Sprite16FPSEngine.spawnOneShot("VFX_MISC_49", propX, propY, 0.72, "", 7);
+      window.Sprite16FPSEngine.spawnFloatingText("✨ +10G  +10 RAGE", propX, propY - 35, "#38bdf8", 1.05);
+      window.AppUI.log("✨ Inspected roadside shrine/prop! +10 Gold &amp; +10 Rage.", "event");
+      window.AppUI.refreshVitals();
+      window.SaveManager.saveToLocal();
     }
   });
 })();

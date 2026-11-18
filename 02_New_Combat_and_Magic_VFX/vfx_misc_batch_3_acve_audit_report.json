@@ -1,0 +1,2888 @@
+{
+  "batch_id": "VFX_MISC_BATCH_3",
+  "total_sheets": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "VFX_MISC_21_LUCKY_WHEEL_OF_FORTUNE_SPIN_AND_JACKPOT_16F_4x4",
+      "title": "Lucky Wheel of Fortune Spin & Jackpot (16F)",
+      "subtitle": "Upgrades CG_B08_03 R1C1 \u2014 Spin Blur, Flapper Tick & Confetti",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "ac09b6c621faf7523023926b53c0e7a4368eb8bc6a4ff7c49b2f421abf6b8c58",
+      "overall_transparency_pct": 44.94,
+      "enclosed_white_islands_stripped": 48,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.69
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.09
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.57
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.29
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 42.22
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.18
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 42.92
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.04
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.18
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.24
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.89
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.34
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.85
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 42.27
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 41.29
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 43.97
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_22_ROADSIDE_CAMPFIRE_AND_BAMBOO_VEGGIE_STEAMER_16F_4x4",
+      "title": "Roadside Campfire & Veggie Bao Steamer (16F)",
+      "subtitle": "Upgrades CG_B08_03 R1C2 \u2014 100% Vegetarian Steamer & Tea",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "ad0ad656d747b342860cd34d5501e50dd6a2a07c48103157332dbc2089e9ffe5",
+      "overall_transparency_pct": 47.42,
+      "enclosed_white_islands_stripped": 50,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.31
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.02
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 50.94
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.23
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.44
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.46
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.77
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.98
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.79
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.28
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.25
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.08
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.7
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.73
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.12
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.55
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_23_BLACKSMITH_FORGE_ANVIL_BELLOWS_AND_SMELTER_16F_4x4",
+      "title": "Blacksmith Forge Anvil & Smelter (16F)",
+      "subtitle": "Upgrades CG_B08_03 R1C3-C4 \u2014 Bellows, Sparks & Quench",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "1656799b2035703633f9503805d29b25287a2d6b915f4a90fb683212551f3c2f",
+      "overall_transparency_pct": 47.36,
+      "enclosed_white_islands_stripped": 2,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.32
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 50.74
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 50.22
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.6
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 49.3
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.87
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.39
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.78
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 53.68
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 53.66
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 52.72
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.14
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 37.46
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.46
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 38.35
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 42.03
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_24_GRANDMA_LOOMA_MAGICAL_OAK_WEAVING_LOOM_16F_4x4",
+      "title": "Grandma Looma Oak Weaving Loom (16F)",
+      "subtitle": "Upgrades CG_B08_03 R2C1 \u2014 Flying Shuttle & Silk Ribbon",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "1afe1bf0709df4a1d200f38112c6234881b9cc6384fea3cc3941ce2da005cd08",
+      "overall_transparency_pct": 43.71,
+      "enclosed_white_islands_stripped": 83,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.68
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.01
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.29
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 43.98
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 40.98
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 40.65
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 45.41
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.14
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.66
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 43.87
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.07
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.22
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.27
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 41.63
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 43.49
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.06
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_25_STARLIGHT_WISHING_WELL_BUCKET_AND_FOUNTAIN_16F_4x4",
+      "title": "Starlight Wishing Well & Fountain (16F)",
+      "subtitle": "Upgrades CG_B08_03 R2C2 \u2014 Coin Toss, Pulley & Geyser",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "9dec8a22dfcaeda753a4303fea25ed3fdcba615a5a3486351b475f6e7d94d30d",
+      "overall_transparency_pct": 45.16,
+      "enclosed_white_islands_stripped": 43,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.75
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.08
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.62
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.61
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.07
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.02
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.28
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.84
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.54
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 38.0
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 39.3
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 37.54
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.73
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.96
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 36.66
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.63
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_26_TZU_CHI_LOTUS_SHRINE_AND_JING_SI_SCROLL_16F_4x4",
+      "title": "Tzu Chi Lotus Shrine & Jing Si Scroll (16F)",
+      "subtitle": "Upgrades CG_B08_03 R2C3 \u2014 Lanterns, Lotus & Unfurling Scroll",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "d93589e1838191b67208498873a3922df119fc85b9de83f680628cd7d629c74c",
+      "overall_transparency_pct": 43.99,
+      "enclosed_white_islands_stripped": 17,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.78
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.75
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.75
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.72
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.61
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.6
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.6
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.58
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.66
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.46
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.22
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.44
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 37.2
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 30.91
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 27.93
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 26.67
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_27_GOLDEN_COLON_GATE_AND_EYE_OF_TRUTH_ARCH_16F_4x4",
+      "title": "Golden Colon Gate & Eye of Truth Arch (16F)",
+      "subtitle": "Upgrades CG_B08_03 R3C1-C2 \u2014 Scan, Gears & Starlight Portal",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "4ab3f515b23b17db5734cb5fa8eda895293bdaf49c90aa51b37cc55a45261219",
+      "overall_transparency_pct": 35.7,
+      "enclosed_white_islands_stripped": 0,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.34
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.1
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.19
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.28
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.27
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 34.51
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 34.06
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.25
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 38.09
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.84
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 36.32
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 35.32
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 36.63
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 36.41
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 36.58
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 36.05
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_28_CROSSROADS_SIGNPOST_AND_SWAYING_LANTERN_16F_4x4",
+      "title": "Crossroads Signpost & Swaying Lantern (16F)",
+      "subtitle": "Upgrades CG_B08_03 R2C4 \u2014 360\u00b0 Arrow Spin & Fireflies",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "05de850c81f1410b566e212066cb6516db32f70ba6b7551b42dd22737f910dae",
+      "overall_transparency_pct": 66.48,
+      "enclosed_white_islands_stripped": 59,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 70.51
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 73.06
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 70.43
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 70.47
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 70.44
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 59.25
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 59.5
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 69.74
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 59.4
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 57.55
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 57.87
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 62.03
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 69.78
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 70.19
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 70.52
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 72.91
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_29_BOUNCE_SPRING_PRESSURE_PLATE_AND_LEVER_16F_4x4",
+      "title": "Bounce Spring Pad & Recoil (16F)",
+      "subtitle": "Frame 01 Ready/Coiled Lock \u2014 Squash, BOING & Recoil",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "65cfd617248aeee8e8938975dbf2b05365f566306b118fba0c70e248b44c4477",
+      "overall_transparency_pct": 53.14,
+      "enclosed_white_islands_stripped": 9,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 52.4
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 55.34
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 58.45
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 60.85
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 50.19
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 46.82
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 53.38
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 55.58
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 50.13
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 51.28
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 50.81
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 52.42
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 54.87
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 52.12
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 52.97
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 52.68
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_30_DESTRUCTIBLE_CRATE_BARREL_AND_CRYSTAL_NODE_16F_4x4",
+      "title": "Destructible Crate & Crystal Node (16F)",
+      "subtitle": "Roadside Breakable \u2014 Cracks, Splinters & Coin Pop",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "64593b3b22d91f5f0c0ba8d41748940377136ed79a0e27c45e42b02a09f798f6",
+      "overall_transparency_pct": 57.17,
+      "enclosed_white_islands_stripped": 3,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 54.74
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 55.62
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 48.32
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 49.81
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 50.78
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 49.92
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 47.36
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.75
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 44.16
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 49.78
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 55.01
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 60.72
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 64.37
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 70.19
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 78.14
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.92
+          ],
+          "occupied": true,
+          "transparency_pct": 91.11
+        }
+      ]
+    }
+  ]
+}

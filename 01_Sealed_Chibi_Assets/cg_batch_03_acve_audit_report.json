@@ -1,0 +1,110 @@
+{
+  "batch": "CG_BATCH_03",
+  "assets": [
+    {
+      "asset_id": "CG_B03_01_CHIBI_GRANDMA_LOOMA_WEAVING_EVENT_4x4",
+      "png_file": "CG_B03_01_CHIBI_GRANDMA_LOOMA_WEAVING_EVENT_4x4.png",
+      "json_file": "CG_B03_01_CHIBI_GRANDMA_LOOMA_WEAVING_EVENT_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 51.24,
+      "sha256": "177b19ab99eb6675b23a2c5cb2071ecedcef33f534d043a59aa8714bb8e9e2fe",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B03_02_CHIBI_BLACKSMITH_CH03_FORGE_EVENT_4x4",
+      "png_file": "CG_B03_02_CHIBI_BLACKSMITH_CH03_FORGE_EVENT_4x4.png",
+      "json_file": "CG_B03_02_CHIBI_BLACKSMITH_CH03_FORGE_EVENT_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 48.52,
+      "sha256": "889740962c026fafdf14d3c6ebf18429fac93d8c8428bfcaea07e177a0146b07",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B03_03_CHIBI_MASTER_GRIMSBY_CH09_DWARF_EVENT_4x4",
+      "png_file": "CG_B03_03_CHIBI_MASTER_GRIMSBY_CH09_DWARF_EVENT_4x4.png",
+      "json_file": "CG_B03_03_CHIBI_MASTER_GRIMSBY_CH09_DWARF_EVENT_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 47.7,
+      "sha256": "ad9eb4f5ddf4ea3aa447be33747ed47d3e39f51617afb47b66cc0462073fc11b",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B03_04_CHIBI_VILLAGE_AND_FOREST_EVENT_NPCS_4x4",
+      "png_file": "CG_B03_04_CHIBI_VILLAGE_AND_FOREST_EVENT_NPCS_4x4.png",
+      "json_file": "CG_B03_04_CHIBI_VILLAGE_AND_FOREST_EVENT_NPCS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 57.91,
+      "sha256": "3da611fe763f4e870c31d8f33112d2bef9abb49629b29c1bf94e9026dd10eccb",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B03_05_CHIBI_SUNNYBROOK_AND_CROSSROADS_NPCS_4x4",
+      "png_file": "CG_B03_05_CHIBI_SUNNYBROOK_AND_CROSSROADS_NPCS_4x4.png",
+      "json_file": "CG_B03_05_CHIBI_SUNNYBROOK_AND_CROSSROADS_NPCS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 52.11,
+      "sha256": "628b8fcafc3aab79d915e27905198023d2daf16831d41fc32cbb6beaff832e46",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

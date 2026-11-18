@@ -1,0 +1,78 @@
+{
+  "batch_id": "ANIM_BATCH_3_TRACK_C",
+  "total_sheets": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "KAI_CMB_03_TWINBLADE_WHIRLWIND_AND_OMNISLASH_16F_4x4",
+      "title": "Twinblade Whirlwind & Omnislash (16F)",
+      "overall_transparency_pct": 57.55,
+      "sha256": "3718b795a58b94b41e7aad3240ddee4b2106ce0e78638220f22bc6dd37d4d708",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_CMB_04_FLYING_DAGGER_AND_LIGHT_SPEAR_VOLLEY_16F_4x4",
+      "title": "Flying Dagger & Light Spear (16F)",
+      "overall_transparency_pct": 63.47,
+      "sha256": "232d975cdb88d59d808e7da7188b1d3c33540815ac27e6a4038c11e811a7d493",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_CMB_05_SUN_AEGIS_SHIELD_PARRY_AND_COUNTER_16F_4x4",
+      "title": "Sun-Aegis Parry & Counter (16F)",
+      "overall_transparency_pct": 53.23,
+      "sha256": "1104e3119c09cf0a2bc0c2249a9704b30903693facd8888041bd379b5f8b9167",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_CMB_06_ACROBATIC_DODGE_MIRAGE_AND_BACKFLIP_16F_4x4",
+      "title": "Mirage Dodge & Backflip (16F)",
+      "overall_transparency_pct": 66.0,
+      "sha256": "e20e1d9e9dc166650ae6bb5ed8f26f7b8b7dbb7f410301ec62e3325e34febc0a",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_MAG_01_WATER_HYDRO_STREAM_AND_TIDAL_GEYSER_16F_4x4",
+      "title": "Water: Hydro Stream & Geyser (16F)",
+      "overall_transparency_pct": 55.6,
+      "sha256": "1fe070f1b9a3a2eec251057b41eca7765b1ed2283a2c39c7b5cec6b484dd9d63",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_MAG_02_FIRE_SOLAR_FORGE_AND_METEOR_PILLAR_16F_4x4",
+      "title": "Fire: Solar Forge & Meteor Pillar (16F)",
+      "overall_transparency_pct": 63.78,
+      "sha256": "07cf5e24fe1743438981540073205b1c216dc41517d4bcc966511393ba42f507",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_MAG_03_ICE_GLACIAL_CRYO_AND_BLIZZARD_SPIRES_16F_4x4",
+      "title": "Ice: Glacial Cryo & Spires (16F)",
+      "overall_transparency_pct": 53.14,
+      "sha256": "30efdd52d189b7ab6dbb84d8beadec343fbe60fd3019cb22a9c8d079a1dc0f46",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_MAG_04_THUNDER_LIGHTNING_VOLT_SURGE_16F_4x4",
+      "title": "Thunder: Volt Surge & Strike (16F)",
+      "overall_transparency_pct": 60.94,
+      "sha256": "3ea7c3d1d635341adbf10f5c3bd7f704ff974eefdfa70a703d7a99ef581da5ec",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_MAG_05_WIND_GALE_ZEPHYR_AND_CYCLONE_16F_4x4",
+      "title": "Wind: Gale Zephyr & Cyclone (16F)",
+      "overall_transparency_pct": 58.93,
+      "sha256": "a0607fadd23f13c49e931e4486f8b4ab4291fc8af0da297cbc3f3108f09e0271",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_MAG_06_NATURE_BOTANICAL_VINE_AND_BLOOM_16F_4x4",
+      "title": "Nature: Botanical Vine & Bloom (16F)",
+      "overall_transparency_pct": 53.74,
+      "sha256": "45614d4743218e869970976897ef41bf67a278d073c1632391843570e01da8f1",
+      "acve_status": "PASS"
+    }
+  ]
+}

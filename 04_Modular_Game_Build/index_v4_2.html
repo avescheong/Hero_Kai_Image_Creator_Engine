@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Kai: Scrolls of Pythonia — Capybara Go! Edition (v4.2 Final)</title>
+  <link rel="stylesheet" href="capybara_studio_v4_2.css" />
+</head>
+<body>
+  <div id="loader-overlay" class="loader-overlay">
+    <div class="loader-box">
+      <div class="loader-title">Loading 202 16-FPS Atlases &amp; 10 Biomes (v4.2 Final)...</div>
+      <div class="loader-bar"><div id="loader-bar-fill"></div></div>
+      <div id="loader-pct">0%</div>
+    </div>
+  </div>
+
+  <div class="studio-shell">
+    <header class="top-hud">
+      <div class="hud-left">
+        <span class="pill" id="hud-biome">Ch. 1: The Silent Village</span>
+        <span class="pill badge-day" id="hud-day">Day 1 / 60</span>
+      </div>
+      <div class="hud-right">
+        <span class="pill" id="hud-atk-badge">⚔️ 105 ATK · 🎯 27% Crit · 🛡️ 25% DR</span>
+        <span class="pill badge-gold" id="hud-gold">🪙 120 Gold</span>
+        <span class="pill badge-stamina" id="hud-stamina">🥬 Stamina 20/20</span>
+      </div>
+    </header>
+
+    <section class="stage-viewport">
+      <canvas id="game-canvas" width="960" height="360"></canvas>
+    </section>
+
+    <section class="vitals-strip">
+      <div class="vital-col">
+        <div class="vital-label"><span>❤️ HP</span><span id="txt-hp">850 / 850</span></div>
+        <div class="vital-track"><div id="bar-hp" class="vital-fill fill-hp"></div></div>
+      </div>
+      <div class="vital-col">
+        <div class="vital-label"><span>🛡️ SHIELD</span><span id="txt-shield">90</span></div>
+        <div class="vital-track"><div id="bar-shield" class="vital-fill fill-shield"></div></div>
+      </div>
+      <div class="vital-col">
+        <div class="vital-label"><span>🔥 RAGE</span><span id="txt-rage">0 / 100</span></div>
+        <div class="vital-track"><div id="bar-rage" class="vital-fill fill-rage"></div></div>
+      </div>
+      <div class="vital-col">
+        <div class="vital-label"><span>⭐ LVL <strong id="txt-lvl">1</strong></span><span id="txt-xp">0 / 100 XP</span></div>
+        <div class="vital-track"><div id="bar-xp" class="vital-fill fill-xp"></div></div>
+      </div>
+    </section>
+
+    <div class="timeline-strip">
+      <div id="timeline-fill"></div>
+      <div class="timeline-markers">
+        <span>D10</span>
+        <span>D20</span>
+        <span>D30</span>
+        <span>D40</span>
+        <span>D50</span>
+        <span>D60 BOSS</span>
+      </div>
+    </div>
+
+    <main id="log-container" class="adventure-log"></main>
+
+    <div id="choice-chips-bar" class="choice-chips-bar"></div>
+
+    <footer class="action-toolbar">
+      <button id="btn-next-day" class="btn-primary">NEXT DAY (Space)</button>
+      <button id="btn-parry" class="btn-tool">🛡️ Parry</button>
+      <button id="btn-cure-status" class="btn-tool hidden">🌸 Cure 3×</button>
+      <button id="btn-pacing" class="btn-tool">⚔️ 1.0x Sakuga</button>
+      <button id="btn-chapter" class="btn-tool">🗺️ Ch. 1</button>
+      <button id="btn-gear" class="btn-tool">⚔️ Gear</button>
+      <button id="btn-skill-tree" class="btn-tool">🌳 Skill Tree</button>
+      <button id="btn-magic" class="btn-tool">✨ 12 Magic</button>
+      <button id="btn-pets" class="btn-tool">🐾 Pets &amp; Mount</button>
+      <button id="btn-bestiary" class="btn-tool">👾 62 Bestiary</button>
+      <button id="btn-wiki-import" class="btn-tool">📥 Wiki Import</button>
+      <button id="btn-atlas" class="btn-tool">📦 212 Assets</button>
+    </footer>
+  </div>
+
+  <div id="modal-backdrop" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">Modal</h3>
+        <button id="btn-modal-close" class="btn-close">✕</button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="config_and_manifests_v4_2.js"></script>
+  <script src="sprite_16fps_engine_v4_2.js"></script>
+  <script src="vfx_particle_renderer_v4_2.js"></script>
+  <script src="combat_event_chain_v4_2.js"></script>
+  <script src="equipment_and_pets_drawer_v4_2.js"></script>
+  <script src="main_v4_2.js"></script>
+</body>
+</html>

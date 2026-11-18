@@ -1,0 +1,110 @@
+{
+  "batch": "CG_BATCH_07",
+  "assets": [
+    {
+      "asset_id": "CG_B07_01_WEAPONS_AND_SHIELDS_LOADOUT_ICONS_4x4",
+      "png_file": "CG_B07_01_WEAPONS_AND_SHIELDS_LOADOUT_ICONS_4x4.png",
+      "json_file": "CG_B07_01_WEAPONS_AND_SHIELDS_LOADOUT_ICONS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 55.87,
+      "sha256": "f69f07e2a4b6fc98db490ba32ca87b429c8032021ce7482633feffed138c1cb4",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B07_02_ARMOR_CLOAKS_AND_INSIGNIA_ACCESSORIES_4x4",
+      "png_file": "CG_B07_02_ARMOR_CLOAKS_AND_INSIGNIA_ACCESSORIES_4x4.png",
+      "json_file": "CG_B07_02_ARMOR_CLOAKS_AND_INSIGNIA_ACCESSORIES_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 51.47,
+      "sha256": "88592e129457d6d530f61de60600a28b128a09dac6b96a04e36f3cd446e6563e",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B07_03_VEGETARIAN_STAMINA_FOOD_AND_POTIONS_4x4",
+      "png_file": "CG_B07_03_VEGETARIAN_STAMINA_FOOD_AND_POTIONS_4x4.png",
+      "json_file": "CG_B07_03_VEGETARIAN_STAMINA_FOOD_AND_POTIONS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.39,
+      "sha256": "a9458ab545ef48c0c49ba68cd4c131d18331f41267dc46830b1db50e5572e179",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B07_04_TREASURE_CHEST_GACHA_TIERS_AND_CURRENCIES_4x4",
+      "png_file": "CG_B07_04_TREASURE_CHEST_GACHA_TIERS_AND_CURRENCIES_4x4.png",
+      "json_file": "CG_B07_04_TREASURE_CHEST_GACHA_TIERS_AND_CURRENCIES_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 55.55,
+      "sha256": "bd6759fb75732f21d793907bfb3580b3c0a6e17bb39010f96e809e7967bd6a40",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B07_05_MOUNT_TOKENS_AND_ARTIFACT_RELICS_4x4",
+      "png_file": "CG_B07_05_MOUNT_TOKENS_AND_ARTIFACT_RELICS_4x4.png",
+      "json_file": "CG_B07_05_MOUNT_TOKENS_AND_ARTIFACT_RELICS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 60.32,
+      "sha256": "c53d4cb5d7a81839955331b302bef2c02d64fc8a892e7d01d507e2df6a5e5bfa",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_19_TZU_CHI_LOTUS_SANCTUARY_AND_HEALING_RAIN_16F_4x4",
+  "title": "Tzu Chi Lotus Sanctuary & Healing Rain (16F)",
+  "subtitle": "Upgrades MAGIC_B03_05 R2 \u2014 8-Petal Lotus Dome",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "2a4311071ee14f00a3aa9943e39f9f55bc5dc97eb8c3a428c7e3024c5b84723a",
+  "overall_transparency_pct": 54.49,
+  "enclosed_white_islands_stripped": 0,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 75.2
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 75.33
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 74.06
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 63.83
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 62.0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 58.5
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 52.18
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 43.69
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 50.79
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 44.95
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 36.35
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 34.96
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 39.82
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 46.35
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 61.88
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 51.91
+    }
+  ]
+}

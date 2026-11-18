@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_03_COMIC_BANG_AND_ZAP_PROJECTILE_POP_16F_4x4",
+  "title": "Comic BANG! & ZAP! Projectile Pop (16F)",
+  "subtitle": "16 FPS One-Shot \u2014 Flying Dagger, Arrow & Lightning Dart",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "df3945b5d5cd7b629133de4e8bcbe0fded2584b44d737459ab0148360c713908",
+  "overall_transparency_pct": 72.97,
+  "enclosed_white_islands_stripped": 73,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 94.07
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 82.07
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 74.95
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 60.98
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 63.74
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 52.82
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 56.88
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 59.67
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 47.96
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 79.84
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 78.57
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 60.46
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 80.45
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 83.55
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 93.88
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 97.72
+    }
+  ]
+}

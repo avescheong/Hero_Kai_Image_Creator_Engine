@@ -1,0 +1,378 @@
+{
+  "asset_file": "CG_B06_05_ROGUELITE_SKILL_CARD_FRAMES_AND_RARITY_BORDERS_4x4.png",
+  "sha256": "b6f0c0afe2986f2696aa18c361740f5aaf8329da9e7e5553af071e37687984b3",
+  "dimensions": {
+    "w": 1024,
+    "h": 1024
+  },
+  "grid": {
+    "columns": 4,
+    "rows": 4,
+    "cell_w": 256,
+    "cell_h": 256
+  },
+  "occupied_cells": "16/16",
+  "transparency_pct": 43.64,
+  "acve_gates": {
+    "gate_1_rgba_format": true,
+    "gate_2_dimension_lock": true,
+    "gate_3_bfs_alpha_preserved_interior": true,
+    "gate_4_grid_occupancy": true,
+    "gate_5_bottom_center_pivot": true,
+    "gate_7_sha256_sealed": true
+  },
+  "frames": [
+    {
+      "frame_index": 0,
+      "row": 0,
+      "col": 0,
+      "cell_rect": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 46,
+        "y": 49,
+        "w": 196,
+        "h": 207
+      },
+      "opaque_pixels": 40441,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 1,
+      "row": 0,
+      "col": 1,
+      "cell_rect": {
+        "x": 256,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 33,
+        "y": 39,
+        "w": 203,
+        "h": 217
+      },
+      "opaque_pixels": 40832,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 2,
+      "row": 0,
+      "col": 2,
+      "cell_rect": {
+        "x": 512,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 25,
+        "y": 34,
+        "w": 231,
+        "h": 222
+      },
+      "opaque_pixels": 41498,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 3,
+      "row": 0,
+      "col": 3,
+      "cell_rect": {
+        "x": 768,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 16,
+        "w": 237,
+        "h": 240
+      },
+      "opaque_pixels": 46227,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 4,
+      "row": 1,
+      "col": 0,
+      "cell_rect": {
+        "x": 0,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 46,
+        "y": 0,
+        "w": 197,
+        "h": 256
+      },
+      "opaque_pixels": 42380,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 5,
+      "row": 1,
+      "col": 1,
+      "cell_rect": {
+        "x": 256,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 24,
+        "y": 0,
+        "w": 217,
+        "h": 256
+      },
+      "opaque_pixels": 43694,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 6,
+      "row": 1,
+      "col": 2,
+      "cell_rect": {
+        "x": 512,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 4,
+        "y": 0,
+        "w": 252,
+        "h": 256
+      },
+      "opaque_pixels": 45860,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 7,
+      "row": 1,
+      "col": 3,
+      "cell_rect": {
+        "x": 768,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 229,
+        "h": 256
+      },
+      "opaque_pixels": 44503,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 8,
+      "row": 2,
+      "col": 0,
+      "cell_rect": {
+        "x": 0,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 46,
+        "y": 0,
+        "w": 197,
+        "h": 256
+      },
+      "opaque_pixels": 33458,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 9,
+      "row": 2,
+      "col": 1,
+      "cell_rect": {
+        "x": 256,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 13,
+        "y": 0,
+        "w": 243,
+        "h": 256
+      },
+      "opaque_pixels": 35592,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 10,
+      "row": 2,
+      "col": 2,
+      "cell_rect": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 4,
+        "y": 0,
+        "w": 252,
+        "h": 256
+      },
+      "opaque_pixels": 37340,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 11,
+      "row": 2,
+      "col": 3,
+      "cell_rect": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 235,
+        "h": 256
+      },
+      "opaque_pixels": 37679,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 12,
+      "row": 3,
+      "col": 0,
+      "cell_rect": {
+        "x": 0,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 22,
+        "y": 0,
+        "w": 234,
+        "h": 191
+      },
+      "opaque_pixels": 19173,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 13,
+      "row": 3,
+      "col": 1,
+      "cell_rect": {
+        "x": 256,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 224
+      },
+      "opaque_pixels": 18684,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 14,
+      "row": 3,
+      "col": 2,
+      "cell_rect": {
+        "x": 512,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 18,
+        "y": 0,
+        "w": 215,
+        "h": 231
+      },
+      "opaque_pixels": 31938,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "frame_index": 15,
+      "row": 3,
+      "col": 3,
+      "cell_rect": {
+        "x": 768,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "content_bbox": {
+        "x": 8,
+        "y": 0,
+        "w": 213,
+        "h": 225
+      },
+      "opaque_pixels": 31637,
+      "pivot": [
+        0.5,
+        1.0
+      ]
+    }
+  ]
+}

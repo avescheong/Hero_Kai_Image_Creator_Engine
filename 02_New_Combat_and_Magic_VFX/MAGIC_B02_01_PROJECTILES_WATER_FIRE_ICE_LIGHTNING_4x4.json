@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B02_01_PROJECTILES_WATER_FIRE_ICE_LIGHTNING_4x4",
+  "title": "Elemental Projectiles \u2014 Water, Fire, Ice, Lightning (4-Frame Flight & Impact)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "39404ad313cbac699432c86d85ccdea38b1334a8342f75693b5c046732b4a223",
+  "overall_transparency_pct": 66.79,
+  "enclosed_white_islands_stripped": 40,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Water (Bubble Launch)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 63.48,
+      "islands_stripped": 1
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Water (Spiral Lance)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 71.36,
+      "islands_stripped": 4
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Water (Tidal Bolt)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 63.64,
+      "islands_stripped": 10
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Water (Foam Splash Burst)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 64.71,
+      "islands_stripped": 12
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Fire (Ember Launch)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 73.09,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Fire (Fireball Comet)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 63.4,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Fire (Twin Dragon Flame)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 58.82,
+      "islands_stripped": 3
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Fire (Magma Burst)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 54.29,
+      "islands_stripped": 2
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Ice (Frost Shard Launch)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 63.46,
+      "islands_stripped": 3
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Ice (Triple Icicles)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 78.09,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Ice (Icy Bubble Orb)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 40.78,
+      "islands_stripped": 1
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Ice (Crystal Shatter)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 66.44,
+      "islands_stripped": 4
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Lightning (Arc Launch)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 87.61,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Lightning (Chain Bolt)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 82.87,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Lightning (Bolt Dart)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 70.08,
+      "islands_stripped": 0
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Lightning (Ion Spark Burst)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 66.47,
+      "islands_stripped": 0
+    }
+  ]
+}

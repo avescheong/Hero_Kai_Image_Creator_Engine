@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B02_03_PROJECTILES_EARTH_LOTUS_CHRONO_COMMENT_4x4",
+  "title": "Pythonic Projectiles \u2014 Earth (int), Lotus (True), Chrono (for/while), Shadow (#)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "012df8aafa5a701dd26eb82b1a84900df7b2a0fd96fdacdce9b24935a55b7316",
+  "overall_transparency_pct": 67.35,
+  "enclosed_white_islands_stripped": 15,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Earth (Rock Shard)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 75.23,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Earth (Hurling Boulder)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 59.4,
+      "islands_stripped": 2
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Earth (Topaz Lance)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 78.5,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Earth (Seismic Shatter)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 58.98,
+      "islands_stripped": 1
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Lotus (Warm Light Bud)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 69.64,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Lotus (Petal Beam)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 74.6,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Lotus (8-Petal Orb)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 50.77,
+      "islands_stripped": 1
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Lotus (Halo Burst)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 48.26,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Chrono (Clockwork Spark)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 78.87,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Chrono (Boomerang Gear)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 64.34,
+      "islands_stripped": 3
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Chrono (Echo Dart)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 71.71,
+      "islands_stripped": 4
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Chrono (Temporal Burst)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 66.2,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Shadow (# Rune Launch)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 73.93,
+      "islands_stripped": 1
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Shadow (# Shuriken)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 71.55,
+      "islands_stripped": 1
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Shadow (Tether Dart)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 81.72,
+      "islands_stripped": 1
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Shadow (Null Mute Burst)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 53.91,
+      "islands_stripped": 0
+    }
+  ]
+}

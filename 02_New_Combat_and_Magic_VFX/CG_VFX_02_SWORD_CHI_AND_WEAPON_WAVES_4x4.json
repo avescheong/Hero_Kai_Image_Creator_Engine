@@ -1,0 +1,237 @@
+{
+  "sheet_id": "CG_VFX_02_SWORD_CHI_AND_WEAPON_WAVES_4x4",
+  "title": "Sword Chi & Weapon Waves (Basic Chi, Rage Chi, Falling Sword Rain, Hammer Quake)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "d73f579f45b5fdaae3596619d18eca8631a12e862347ae5505835b6b0257200b",
+  "overall_transparency_pct": 70.12,
+  "enclosed_white_islands_stripped": 22,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Basic Cyan Sword Chi (Launch)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 90.01,
+      "islands_stripped": 2
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Basic Cyan Sword Chi (Ground Skim)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 76.96,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Basic Cyan Sword Chi (Wide Surge)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 68.05,
+      "islands_stripped": 9
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Basic Cyan Sword Chi (Dissipate)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 78.08,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Rage Crimson-Gold Chi (Charge)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 66.71,
+      "islands_stripped": 1
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Rage Crimson-Gold Chi (Giant Wave)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 57.96,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Rage Crimson-Gold Chi (Sonic Slash)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 60.76,
+      "islands_stripped": 0
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Rage Crimson-Gold Chi (Explosion)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 67.04,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Falling Sword Rain (Sky Portal)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 64.42,
+      "islands_stripped": 1
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Falling Sword Rain (3 Greatswords)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 68.61,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Falling Sword Rain (Ground Pierce)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 60.81,
+      "islands_stripped": 1
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Falling Sword Rain (Light Shatter)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 77.3,
+      "islands_stripped": 2
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Hammer Earthquake (Anvil Impact)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 72.44,
+      "islands_stripped": 5
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Hammer Earthquake (Ground Fissure)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 88.34,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Hammer Earthquake (Rock Spires)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 54.19,
+      "islands_stripped": 0
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Hammer Earthquake (Seismic Dust)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 70.17,
+      "islands_stripped": 1
+    }
+  ]
+}

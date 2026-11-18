@@ -1,0 +1,282 @@
+[
+  {
+    "file": "EXP_LINK_07_KAI_EXPRESSION_THINK_EUREKA_AND_JOY_SPARKLE_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "439505056630",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_08_KAI_EXPRESSION_OVERDRIVE_FIERCE_SIGHT_EYES_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "05b13413de10",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_15_CROWN_SOCKET_CONFUSE_STUN_SILENCE_HALOS_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "c7fbea0508d2",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_16_CHEEK_SOCKET_BANDAID_BLEED_HEART_DROPS_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "d29608208a71",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_18_GROUND_POOL_POISON_BUBBLES_AND_MIASMA_Z12_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "13af5679fe92",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_19_BACK_LAYER_RAGE_100_SOLAR_FLAME_WING_CLOAK_Z15_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "d0fd0bce61bf",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_20_TZU_CHI_LOTUS_STATUS_CLEANSE_RING_SWEEP_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "fc6f3c066b37",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_21_HUD_KAICAM_PORTRAIT_HEALTHY_JOY_THINK_SHIELD_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "560df3524669",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_23_OVERHEAD_COMIC_SPEECH_BUBBLE_EMOTE_POPS_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "a5779f21d817",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_27_INTERACTIVE_RHYTHM_PARRY_COLON_TIMING_RING_16F_4x4.png",
+    "batch": "batch1_clean",
+    "returncode": 0,
+    "sha256": "51599398c4eb",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_28_INTERACTIVE_TAP_AND_SHAKE_STATUS_CURE_WIDGET_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "711b8fe5922a",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_30_KID_PACING_MODE_TOGGLE_MASCOTS_TURTLE_SWORD_BOLT_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "4fd1758a0997",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_32_STRING_TERRIER_EMPATHY_HURT_DIZZY_POISON_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "95e612b0a8c6",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_33_BABY_MANTIS_EMPATHY_JOY_FOCUS_SCYTHE_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "34d11f242eb9",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_35_ENEMY_SWARM_DEBUFF_FACES_BURN_FREEZE_CONFUSE_BLEED_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "bb1eefe21850",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_37_PYTHON_BUG_TELL_HEART_AND_LOGIC_SPARKLE_AURA_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "bd31da29dc31",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_38_CODE_TRACE_TETHER_BEAM_KAI_TO_TARGET_SPELL_LINK_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "41bd2f386993",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_39_COMPANION_SYNERGY_BUFF_TETHER_AND_HEART_LINK_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "c2a38b3bc503",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_40_ENEMY_STAGGER_AND_DIZZY_STAR_BURST_COUNTER_WINDOW_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "7054492310d1",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_46_LEVEL_UP_GOLDEN_CROWN_AND_STAT_BOOST_PILLAR_RISE_16F_4x4.png",
+    "batch": "batch2_clean",
+    "returncode": 0,
+    "sha256": "91f2c0d6b293",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_36_BOSS06_FALSEHOOD_SPHINX_OF_THE_ARCHIVE_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "53e201cd0973",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_37_BOSS07_PRISMATIC_ORACLE_COLOSSUS_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "dc815d8e075d",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_50_NPC08_GHOST_LIBRARIAN_AND_FOREST_DRYAD_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "f3b322c8b88a",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_53_PETS_STR_SCROLL_DRAGONET_AND_INT_BOULDER_GOLEM_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "dad46a0b310c",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_47_STAGE_CLEAR_CONFETTI_RIBBON_AND_STARLIGHT_SHOWER_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "6605362ea17a",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_48_BOSS_DEFEAT_GRAND_TREASURE_CHEST_POP_GEM_FOUNTAIN_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "bf756371cb40",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_49_HERO_KAI_AND_COMPANIONS_HIGH_FIVE_VICTORY_EMBLEM_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "6ebc3705f858",
+    "stdout": " true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": true\n  }\n}"
+  },
+  {
+    "file": "EXP_LINK_50_TZU_CHI_LOTUS_GRATITUDE_HALO_AND_KINDNESS_STAR_BURST_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "3929bac01384",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "KAI_CMB_02_HEAVY_FORGE_HAMMER_EARTHQUAKE_SLAM_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "7cb84faae7b7",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "VFX_MISC_14_THUNDERSTORM_SKY_PILLARS_AND_ION_TEMPEST_16F_4x4.png",
+    "batch": "batch3_clean",
+    "returncode": 0,
+    "sha256": "420c6131235d",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "CG_VFX_01_BASIC_AND_CRIT_SLASH_IMPACTS_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "2ba528e3c617",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "CG_VFX_02_ELEMENTAL_SPELL_HITS_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "1c3951edf8af",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "CG_VFX_03_DEFENSE_SHIELDS_COUNTER_AND_DODGE_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "6b0f676621f5",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "CG_VFX_04_STATUS_EFFECTS_POISON_CONFUSE_CC_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "a24cfce6b7ac",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "CG_VFX_05_CHIBI_ELEMENTAL_STRIKES_AND_COMBO_POPUPS_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "820eb95799fd",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_54_PETS_FLOAT_RIVER_OTTER_AND_BOOL_PRISM_OWL_16F_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "7765253d52f5",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_57_MISC_CORRUPTED_BUG_HIVE_TO_CRITTER_SANCTUARY_16F_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "1c3ed482d18d",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_59_MISC_ENEMY_AND_BOSS_PROJECTILE_ARSENAL_16F_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "debb4fc88878",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_60_MISC_ROADSIDE_CODING_HAZARD_TRAPS_16F_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "69488db2636e",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  },
+  {
+    "file": "ENM_BOSS_61_MISC_TOWN_TRAINING_DUMMY_AND_BOUNTY_BOARD_16F_4x4.png",
+    "batch": "batch5_clean",
+    "returncode": 0,
+    "sha256": "439baeeeff8e",
+    "stdout": "true,\n    \"gate_3_bfs_alpha\": true,\n    \"gate_3b_white_islands_stripped\": true,\n    \"gate_4_grid_occupancy\": true,\n    \"gate_7_sha256_sealed\": true,\n    \"gate_8_to_10_anatomical_roi_pass\": false\n  }\n}"
+  }
+]

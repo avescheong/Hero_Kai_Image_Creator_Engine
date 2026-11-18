@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_12_HAND_SOCKET_MANA_CHARGE_ORB_AND_VORTEX_Z7_16F_4x4",
+  "title": "Hand-Socket Mana Charge Vortex Z=7 (16F)",
+  "subtitle": "Character-Free Foreground Overlay \u2014 Charge & Launch",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "eac21669078f8137eeec645a0f2611281c6e592546abf9943997d752ccda130e",
+  "overall_transparency_pct": 65.2,
+  "enclosed_white_islands_stripped": 70,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 61.58
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 40.41
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 27.09
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 16.33
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 22.26
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 68.02
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 66.08
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 66.8
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 71.09
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 75.61
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 72.46
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 81.87
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 86.47
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 91.31
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 95.86
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "occupied": true,
+      "transparency_pct": 99.92
+    }
+  ]
+}

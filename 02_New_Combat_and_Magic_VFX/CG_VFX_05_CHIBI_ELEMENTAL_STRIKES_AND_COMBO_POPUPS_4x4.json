@@ -1,0 +1,237 @@
+{
+  "sheet_id": "CG_VFX_05_CHIBI_ELEMENTAL_STRIKES_AND_COMBO_POPUPS_4x4",
+  "title": "Chibi Elemental Strikes & Combo Callouts (Bolt, Flame, Ice, Water, Wind, Lotus, Popups)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "6332b38337b8c89551f9a922d876f1c05cbcf15b8358a5a0228856ca01418bad",
+  "overall_transparency_pct": 61.31,
+  "enclosed_white_islands_stripped": 24,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Sky Lightning Bolt (Strike)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 84.36,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Sky Lightning Bolt (Ground Arcs)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 73.71,
+      "islands_stripped": 1
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Dragon Flame Pillar (Eruption)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 54.69,
+      "islands_stripped": 1
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Dragon Flame Pillar (Fire Ring)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 71.82,
+      "islands_stripped": 2
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Icy Spike (Crystal Eruption)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 64.06,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Icy Spike (Frost Shatter)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 52.33,
+      "islands_stripped": 1
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Tidal Water (Swirling Geyser)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 56.59,
+      "islands_stripped": 4
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Tidal Water (Foam Splash Ring)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 74.24,
+      "islands_stripped": 10
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Wind Cyclone (Emerald Tornado)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 56.11,
+      "islands_stripped": 3
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Wind Cyclone (Razor Leaf Burst)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 73.45,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Lotus Heal (Rising Pink-Gold Wave)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 57.84,
+      "islands_stripped": 1
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Lotus Heal (Petal Blessing Aura)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 45.68,
+      "islands_stripped": 0
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Callout (COMBO x2!)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 53.65,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Callout (COMBO x3!)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 53.73,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Callout (SUPER CRIT!)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 54.6,
+      "islands_stripped": 0
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Callout (PURIFIED!)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 54.03,
+      "islands_stripped": 1
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_38_VEGETARIAN_FEAST_TRAY_AND_HEALING_STEAM_16F_4x4",
+  "title": "100% Vegetarian Feast Tray & Healing Steam (16F)",
+  "subtitle": "Baozi, Tofu Skewers, Lotus Soup & Matcha Tea",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "e3082651a773fe26eeb3a8af468696e517d369c1dde5d9704f45e61e517e8439",
+  "overall_transparency_pct": 51.87,
+  "enclosed_white_islands_stripped": 2,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.2
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 57.94
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.23
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 58.07
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 57.04
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 54.87
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 54.04
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 50.81
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.7
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 39.76
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 38.22
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 38.66
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 53.66
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 52.77
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 52.86
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 58.07
+    }
+  ]
+}

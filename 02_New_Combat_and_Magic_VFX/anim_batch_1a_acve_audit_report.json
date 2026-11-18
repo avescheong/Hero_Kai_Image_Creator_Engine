@@ -1,0 +1,43 @@
+{
+  "batch_id": "ANIM_BATCH_1A_TRACK_C",
+  "total_sheets": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "KAI_ACT_01_IDLE_BREATHING_AND_BLINK_16F_4x4",
+      "title": "Idle Breathing & Blink (16F)",
+      "overall_transparency_pct": 54.95,
+      "sha256": "f489a4421bc238dc4b706ab8bfa2cafb05d34456d4402af5dab3ff8c19b27a5e",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_02_WALK_CYCLE_SMOOTH_16F_4x4",
+      "title": "Smooth Double-Stride Walk (16F)",
+      "overall_transparency_pct": 54.31,
+      "sha256": "eba1429f964790de7ac8f4092826488aa7d633911bf210e2993bef6e03ad28ff",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_03_RUN_SPRINT_CYCLE_16F_4x4",
+      "title": "Energetic Run / Sprint Cycle (16F)",
+      "overall_transparency_pct": 61.91,
+      "sha256": "e9e5e575a0ef1548425fd67302bd8853694a51f77b5a79e226eb2f60df9b1d83",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_04_JUMP_TAKEOFF_APEX_FALL_LAND_16F_4x4",
+      "title": "Parabolic Jump Arc (16F)",
+      "overall_transparency_pct": 67.2,
+      "sha256": "5df560c974f37b416bdf44c0df381dabfdd055ddd2d5416b8ac7650f144ca475",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_05_SIT_DOWN_CAMPFIRE_REST_STAND_16F_4x4",
+      "title": "Sit & Campfire Rest (16F)",
+      "overall_transparency_pct": 58.3,
+      "sha256": "1718c97137baccdbc9b062646ef2ef1a3b7d653f567f9143d620366d01635297",
+      "acve_status": "PASS"
+    }
+  ]
+}

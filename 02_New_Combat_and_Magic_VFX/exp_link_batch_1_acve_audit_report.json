@@ -1,0 +1,86 @@
+{
+  "batch": "EXP-LINK-1",
+  "total": 10,
+  "results": [
+    {
+      "filename": "EXP_LINK_01_KAI_STATUS_BLEED_SCRATCH_BANDAID_WINCE_16F_4x4.png",
+      "alpha_pct": 49.88,
+      "cells_occupied": "16/16",
+      "sha256": "b7bf93309e6bb9d9a0921cb802162496e5b7180dae5003471718f800dc107964",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_01_KAI_STATUS_BLEED_SCRATCH_BANDAID_WINCE_16F_4x4.png\",\n  \"sha256\": \"b7bf93309e6bb9d9a0921cb802162496e5b7180dae5003471718f800dc107964\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"2/16\""
+    },
+    {
+      "filename": "EXP_LINK_02_KAI_STATUS_POISON_GREEN_QUEASY_NAUSEA_16F_4x4.png",
+      "alpha_pct": 57.46,
+      "cells_occupied": "16/16",
+      "sha256": "ecb99aba713466d6c1fe5398edca3cfdfd542223e07cd0997c339e6012a46a86",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_02_KAI_STATUS_POISON_GREEN_QUEASY_NAUSEA_16F_4x4.png\",\n  \"sha256\": \"ecb99aba713466d6c1fe5398edca3cfdfd542223e07cd0997c339e6012a46a86\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"0/16\","
+    },
+    {
+      "filename": "EXP_LINK_03_KAI_STATUS_CONFUSE_DIZZY_SPIRAL_EYES_16F_4x4.png",
+      "alpha_pct": 63.14,
+      "cells_occupied": "16/16",
+      "sha256": "f382687e4cbab7e7414dac4494cfe3c55736b8ee39bdeae1ad78200898dfce45",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_03_KAI_STATUS_CONFUSE_DIZZY_SPIRAL_EYES_16F_4x4.png\",\n  \"sha256\": \"f382687e4cbab7e7414dac4494cfe3c55736b8ee39bdeae1ad78200898dfce45\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"9/16\",\n"
+    },
+    {
+      "filename": "EXP_LINK_04_KAI_STATUS_FREEZE_SHIVER_CHATTER_BREATH_16F_4x4.png",
+      "alpha_pct": 63.65,
+      "cells_occupied": "16/16",
+      "sha256": "dadf04fb722bd6ff0bda2458e6500593ac6c25bf1184919fb8b214217758e5be",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_04_KAI_STATUS_FREEZE_SHIVER_CHATTER_BREATH_16F_4x4.png\",\n  \"sha256\": \"dadf04fb722bd6ff0bda2458e6500593ac6c25bf1184919fb8b214217758e5be\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"0/16"
+    },
+    {
+      "filename": "EXP_LINK_05_KAI_STATUS_STUN_STARS_AND_BURN_SOOT_COUGH_16F_4x4.png",
+      "alpha_pct": 63.98,
+      "cells_occupied": "16/16",
+      "sha256": "485bef40cc151c40cc99a812820d8f1564de6671d039885c15d0a1e870f99535",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_05_KAI_STATUS_STUN_STARS_AND_BURN_SOOT_COUGH_16F_4x4.png\",\n  \"sha256\": \"485bef40cc151c40cc99a812820d8f1564de6671d039885c15d0a1e870f99535\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"0/"
+    },
+    {
+      "filename": "EXP_LINK_06_KAI_STATUS_SILENCE_HASH_ZIPPER_MUTE_16F_4x4.png",
+      "alpha_pct": 55.05,
+      "cells_occupied": "16/16",
+      "sha256": "37040d31be3de66614bb886cb006acf48113ee0c487e91cc1ef8489f5e28faa2",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_06_KAI_STATUS_SILENCE_HASH_ZIPPER_MUTE_16F_4x4.png\",\n  \"sha256\": \"37040d31be3de66614bb886cb006acf48113ee0c487e91cc1ef8489f5e28faa2\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"15/16\",\n"
+    },
+    {
+      "filename": "EXP_LINK_07_KAI_EXPRESSION_THINK_EUREKA_AND_JOY_SPARKLE_16F_4x4.png",
+      "alpha_pct": 45.75,
+      "cells_occupied": "16/16",
+      "sha256": "05baa134ab929e63556c288e59adddd0920351beff6684af301f268d198f9451",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_07_KAI_EXPRESSION_THINK_EUREKA_AND_JOY_SPARKLE_16F_4x4.png\",\n  \"sha256\": \"05baa134ab929e63556c288e59adddd0920351beff6684af301f268d198f9451\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \""
+    },
+    {
+      "filename": "EXP_LINK_08_KAI_EXPRESSION_OVERDRIVE_FIERCE_SIGHT_EYES_16F_4x4.png",
+      "alpha_pct": 52.07,
+      "cells_occupied": "16/16",
+      "sha256": "ee428debd5072a5aaf3541bb9753fdedf63650a1dfcfe14eabef764acbac7c2d",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_08_KAI_EXPRESSION_OVERDRIVE_FIERCE_SIGHT_EYES_16F_4x4.png\",\n  \"sha256\": \"ee428debd5072a5aaf3541bb9753fdedf63650a1dfcfe14eabef764acbac7c2d\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"2"
+    },
+    {
+      "filename": "EXP_LINK_09_KAI_EXPRESSION_SHIELD_BRACE_AND_PARRY_SMIRK_16F_4x4.png",
+      "alpha_pct": 44.24,
+      "cells_occupied": "16/16",
+      "sha256": "fe47c4cfb4f2461617a4c0c53f35e0efdfc976ceae90915dbcccb14af6dd7100",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_09_KAI_EXPRESSION_SHIELD_BRACE_AND_PARRY_SMIRK_16F_4x4.png\",\n  \"sha256\": \"fe47c4cfb4f2461617a4c0c53f35e0efdfc976ceae90915dbcccb14af6dd7100\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \""
+    },
+    {
+      "filename": "EXP_LINK_10_KAI_EXPRESSION_LOW_HP_GRIT_AND_LOTUS_HOPE_16F_4x4.png",
+      "alpha_pct": 56.96,
+      "cells_occupied": "16/16",
+      "sha256": "1d77df807c3bc42f7d3b2b8806d47a8c4731b08a11618ed370a25d6a11a72740",
+      "exit_code": 0,
+      "verifier_stdout": "{\n  \"acve_version\": \"3.0.0\",\n  \"asset_file\": \"EXP_LINK_10_KAI_EXPRESSION_LOW_HP_GRIT_AND_LOTUS_HOPE_16F_4x4.png\",\n  \"sha256\": \"1d77df807c3bc42f7d3b2b8806d47a8c4731b08a11618ed370a25d6a11a72740\",\n  \"dimensions\": {\n    \"w\": 1024,\n    \"h\": 1024\n  },\n  \"occupied_cells\": \"16/16\",\n  \"roi_passed_cells\": \"11"
+    }
+  ]
+}

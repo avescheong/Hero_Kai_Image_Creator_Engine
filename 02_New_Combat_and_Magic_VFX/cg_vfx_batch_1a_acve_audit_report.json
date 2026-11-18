@@ -1,0 +1,43 @@
+{
+  "batch_id": "CG_VFX_BATCH_1A",
+  "total_sheets": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "CG_VFX_01_DAGGER_AND_SPEAR_ARSENAL_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 66.36,
+      "enclosed_white_islands_stripped": 22,
+      "sha256": "267b72506ac3a2ecf8766c5e81d6d05e5a9500fe32261005bcdaa7017bf69e53"
+    },
+    {
+      "sheet_id": "CG_VFX_02_SWORD_CHI_AND_WEAPON_WAVES_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 70.12,
+      "enclosed_white_islands_stripped": 22,
+      "sha256": "d73f579f45b5fdaae3596619d18eca8631a12e862347ae5505835b6b0257200b"
+    },
+    {
+      "sheet_id": "CG_VFX_03_DEFENSE_SHIELDS_COUNTER_AND_DODGE_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 57.77,
+      "enclosed_white_islands_stripped": 19,
+      "sha256": "cc0716f3c19db4306b9db669dd7c73a045b780103964189dcf3f22df6234347b"
+    },
+    {
+      "sheet_id": "CG_VFX_04_STATUS_EFFECTS_POISON_CONFUSE_CC_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 56.36,
+      "enclosed_white_islands_stripped": 24,
+      "sha256": "88d10c571b703e07f6f16fde33efd194e467e548aa23fb4b77812dfbfd0c3013"
+    },
+    {
+      "sheet_id": "CG_VFX_05_CHIBI_ELEMENTAL_STRIKES_AND_COMBO_POPUPS_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 61.31,
+      "enclosed_white_islands_stripped": 24,
+      "sha256": "6332b38337b8c89551f9a922d876f1c05cbcf15b8358a5a0228856ca01418bad"
+    }
+  ]
+}

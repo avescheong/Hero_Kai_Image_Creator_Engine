@@ -1,0 +1,98 @@
+{
+  "batch": "ENM-6 (FINALE)",
+  "total_sheets": 10,
+  "total_frames": 160,
+  "passed": 10,
+  "results": [
+    {
+      "id": "ENM_BOSS_53",
+      "filename": "ENM_BOSS_53_PETS_STR_SCROLL_DRAGONET_AND_INT_BOULDER_GOLEM_16F_4x4.png",
+      "alpha_pct": 62.31,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "9bda1a476d53c90b2d1561526724ac4c1fb6ee7340ff8c2fff0dc6805cbdd169",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_54",
+      "filename": "ENM_BOSS_54_PETS_FLOAT_RIVER_OTTER_AND_BOOL_PRISM_OWL_16F_4x4.png",
+      "alpha_pct": 68.76,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "d912eba33e890fad3bc329577d3828b4a77aa5754f6f1c49410b64260875700b",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_55",
+      "filename": "ENM_BOSS_55_MOUNTS_BOUNCY_MUSHROOM_AND_RUNIC_BOAR_16F_4x4.png",
+      "alpha_pct": 63.83,
+      "islands_stripped": 1,
+      "occupied_cells": 16,
+      "sha256": "39ecefa9de4f4ac8a34e610848bd907e6129fa704042ab9f7702e6ff62dd6eb0",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_56",
+      "filename": "ENM_BOSS_56_MOUNTS_CRYSTAL_TURTLE_AND_STARLIGHT_CLOUD_STAG_16F_4x4.png",
+      "alpha_pct": 63.31,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "b51c46d1c37fb5746ed317dca32aef2e6edc3d87f60b52e353d0bf45d94bf125",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_57",
+      "filename": "ENM_BOSS_57_MISC_CORRUPTED_BUG_HIVE_TO_CRITTER_SANCTUARY_16F_4x4.png",
+      "alpha_pct": 50.36,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "b1249f0b39f96f628f582bbf99c3a68bf5b65ccd368827a10c7aa072424a3b2c",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_58",
+      "filename": "ENM_BOSS_58_MISC_DISGUISED_TREASURE_CHEST_MIMIC_SURPRISE_16F_4x4.png",
+      "alpha_pct": 60.1,
+      "islands_stripped": 2,
+      "occupied_cells": 16,
+      "sha256": "0755e64d6834eb6dba096bf3f9fe990462bc02b77943307a9e1b87e0f24ed939",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_59",
+      "filename": "ENM_BOSS_59_MISC_ENEMY_AND_BOSS_PROJECTILE_ARSENAL_16F_4x4.png",
+      "alpha_pct": 71.47,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "ad0afabbdc8a4978842a32c6fae38e1be540181d55db03d05728bbafbb80f642",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_60",
+      "filename": "ENM_BOSS_60_MISC_ROADSIDE_CODING_HAZARD_TRAPS_16F_4x4.png",
+      "alpha_pct": 65.88,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "e39056c1434f2403268e61809eb37ea7a8330ced1da37d9d6fe191d87fb83021",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_61",
+      "filename": "ENM_BOSS_61_MISC_TOWN_TRAINING_DUMMY_AND_BOUNTY_BOARD_16F_4x4.png",
+      "alpha_pct": 58.15,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "29e45fc2299a36a648bf3203add7fcab2fd7554550e533381be0be2004870e8a",
+      "status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_62",
+      "filename": "ENM_BOSS_62_MISC_PURIFIED_SOUL_LOTUS_RELEASE_AND_LOOT_PINATA_16F_4x4.png",
+      "alpha_pct": 65.03,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "sha256": "8f711daf08393c492d27b49260835e81e4ba0e3db827c449c2df5a7e8893506e",
+      "status": "PASS"
+    }
+  ]
+}

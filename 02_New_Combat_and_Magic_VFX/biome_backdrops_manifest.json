@@ -1,0 +1,76 @@
+{
+  "batch": "BIOME_PANORAMA_1",
+  "count": 10,
+  "biomes": [
+    {
+      "id": "BIOME_01_SILENT_VILLAGE_16x9",
+      "title": "Ch. 1: The Silent Village",
+      "desc": "Rolling Green Hills, Thatched Cottages & Cobblestone Lane",
+      "size": "1280x720",
+      "sha256": "84d3e028dd4f407c218c5fd8558ffe8a95cc6b4fbb5cf64d865eea9f485d2906"
+    },
+    {
+      "id": "BIOME_02_LOOM_FOREST_16x9",
+      "title": "Ch. 2: The Loom Forest",
+      "desc": "Ancient Weaving-Loom Trees & Golden Silk Bridges",
+      "size": "1280x720",
+      "sha256": "0423d6dc1635b28e326b00af0176db5b6e45048b599f3606689624ea03828947"
+    },
+    {
+      "id": "BIOME_03_IRON_OUTPOST_16x9",
+      "title": "Ch. 3: The Iron Outpost",
+      "desc": "Terracotta Ramparts, Waterwheel Bellows & Forge Chimneys",
+      "size": "1280x720",
+      "sha256": "722dcc8a7b1f995d5f8dc90f9bb52b643f849b4b401709d074c00c0aad41eee1"
+    },
+    {
+      "id": "BIOME_04_WHISPERING_WOODS_16x9",
+      "title": "Ch. 4: The Whispering Woods",
+      "desc": "Blue-Green Pines, Glowing Cyan Rune Stones & Mist",
+      "size": "1280x720",
+      "sha256": "1c16a70e80eb0ad6ef7f1d80ad3a74aee29b1603417cccfc235e924f930c76a1"
+    },
+    {
+      "id": "BIOME_05_CURSED_RIVERBANK_16x9",
+      "title": "Ch. 5: The Riverbank Rapids",
+      "desc": "Turquoise Waterfalls, Wooden Docks & Pebble Shoreline",
+      "size": "1280x720",
+      "sha256": "fea6b15744fee54217059513a7b3c2031adce20383f5b8f5655f1b8beb3e79cf"
+    },
+    {
+      "id": "BIOME_06_DRAGONS_LIBRARY_16x9",
+      "title": "Ch. 6: The Dragon's Library",
+      "desc": "Mahogany Bookshelves, Floating Scrolls & Starlight Glass",
+      "size": "1280x720",
+      "sha256": "b0fd7875acac01aeafb7061d15dd2902e8ff90db23a52340ea8d4e07372c3483"
+    },
+    {
+      "id": "BIOME_07_CRYSTAL_CAVE_16x9",
+      "title": "Ch. 7: The Crystal Cave",
+      "desc": "Cyan-Amethyst Quartz Stalactites & Mirror Cavern Lake",
+      "size": "1280x720",
+      "sha256": "b0f9b01385721034031a6733137e0eb15625b6a5060a5f6898b8e81f9201671f"
+    },
+    {
+      "id": "BIOME_08_MAGMA_CALDERA_16x9",
+      "title": "Ch. 8: The Magma Caldera",
+      "desc": "Basalt Cliffs, Lava Waterfalls & Obsidian Road",
+      "size": "1280x720",
+      "sha256": "8203c5034a3dbd0fe8ac554c747e3e894af7b686e9407fcdda8c584d4a55185e"
+    },
+    {
+      "id": "BIOME_09_DEEP_DWARVEN_FORGE_16x9",
+      "title": "Ch. 9: The Deep Dwarven Forge",
+      "desc": "Anvil Pillars, Molten Gold Channels & Brass Gears",
+      "size": "1280x720",
+      "sha256": "d12750e2c1ac123816f4247791c54a14e28e37a08f70db2ddef643f9a282fd98"
+    },
+    {
+      "id": "BIOME_10_CITADEL_OF_THE_CORE_16x9",
+      "title": "Ch. 10-11: Starlight Lotus Sanctuary",
+      "desc": "Celestial Emerald-Gold Pagodas, Lotus Lanterns & Aurora",
+      "size": "1280x720",
+      "sha256": "50675695cb672fa953ddb6ade696e7cc27d5b435f900027d5e4db482794c08d7"
+    }
+  ]
+}

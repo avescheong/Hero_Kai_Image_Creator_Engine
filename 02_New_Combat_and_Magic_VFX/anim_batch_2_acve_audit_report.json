@@ -1,0 +1,78 @@
+{
+  "batch_id": "ANIM_BATCH_2_TRACK_C",
+  "total_sheets": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "KAI_ACT_11_EAT_VEGETARIAN_FOOD_AND_DRINK_POTION_16F_4x4",
+      "title": "Eat Veggie Bao & Drink Potion (16F)",
+      "overall_transparency_pct": 57.77,
+      "sha256": "d9587bf470a34a6ff9a1139bbc995675495e8e08c7b58d08e9b96a2a0d5dd57c",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_12_PET_AND_BOND_WITH_STRING_16F_4x4",
+      "title": "Pet & High-Five String (16F)",
+      "overall_transparency_pct": 56.28,
+      "sha256": "2796a45d438f848ce53785a417aa962ae9e2ebcacc8b65064130a29ce8a00703",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_13_PYTHON_IDE_CODING_AND_SCROLL_READ_16F_4x4",
+      "title": "Python IDE Coding & Spellbook (16F)",
+      "overall_transparency_pct": 55.05,
+      "sha256": "6b87888ad80a3b4619baf4b285ae5705d6b086fd2c11c08019319abe1f55b052",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_14_SYNTAX_ERROR_FIZZLE_AND_DEBUG_16F_4x4",
+      "title": "SyntaxError Fizzle & Debug (16F)",
+      "overall_transparency_pct": 60.08,
+      "sha256": "95efcc11d93ba2500103ba695a417a06c352682319c439313bcd3717adb6f902",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_15_MOUNT_SADDLE_RIDE_AND_GALLOP_16F_4x4",
+      "title": "Mount Saddle Ride & Gallop (16F)",
+      "overall_transparency_pct": 67.84,
+      "sha256": "94da2eab9c7784aa4ed417a697244633590e557839ff68b8e369a96aaea2cdca",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_16_EMOTE_CELEBRATE_WAVE_LAUGH_BOW_16F_4x4",
+      "title": "Cutscene Emotes: Wave, Laugh, Bow (16F)",
+      "overall_transparency_pct": 56.03,
+      "sha256": "a15cc3411665bf91cf0fd9e6cbfc18be198bc30701d36757b52636f1423583f1",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_17_HIT_STAGGER_LOW_HP_KO_REVIVE_16F_4x4",
+      "title": "Hit, Low-HP, KO & Lotus Revive (16F)",
+      "overall_transparency_pct": 63.03,
+      "sha256": "14eb3e44c6b54f4c771c094b0a2658e8d2d0d002770bc33f35a816a142dd412a",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_18_VICTORY_FANFARE_AND_LEVEL_UP_16F_4x4",
+      "title": "Victory Fanfare & Level Up (16F)",
+      "overall_transparency_pct": 65.32,
+      "sha256": "be44a5c9bafd0b376155202416e0f36c99f51daa0ee366faaac06aba4670b81d",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_CMB_01_SWORD_3HIT_COMBO_AND_SWORD_CHI_16F_4x4",
+      "title": "3-Hit IronSword Combo & Sword Chi (16F)",
+      "overall_transparency_pct": 58.56,
+      "sha256": "76adb5b336e9f7d3d63e450d16967563c9ec88333cbdb761357aea6931c76871",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_CMB_02_HEAVY_FORGE_HAMMER_EARTHQUAKE_SLAM_16F_4x4",
+      "title": "Dwarven Forge Hammer Quake Slam (16F)",
+      "overall_transparency_pct": 63.15,
+      "sha256": "e2c6f860c9f0690e300a8c7d7df45fc056cfa74fc76a4a42e2a348b78980ca11",
+      "acve_status": "PASS"
+    }
+  ]
+}

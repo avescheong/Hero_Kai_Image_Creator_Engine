@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B03_02_AOE_ZONES_ICE_BLIZZARD_AND_LIGHTNING_STORM_4x4",
+  "title": "Multi-Tile AoE Zones \u2014 Ice (Frost Ring + Glacial Spires) & Lightning (Ion Cage + Sky Bolts)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "2d09142c3083d7a21c152564a0a8ece474bdabd43879ff1990232892d88822bb",
+  "overall_transparency_pct": 70.13,
+  "enclosed_white_islands_stripped": 96,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Ice (Snowflake Rune)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 78.93,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Ice (Frost Hexagon Ring)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 70.01,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Ice (Frozen Ground Sigil)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 66.55,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Ice (Frost Mist Fade)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 68.1,
+      "islands_stripped": 5
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Ice (Crystal Sprout)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 81.57,
+      "islands_stripped": 3
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Ice (Glacial Spire Cluster)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 65.06,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Ice (Blizzard Snow Dome)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 40.41,
+      "islands_stripped": 5
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Ice (Ice Shard Shatter)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 67.11,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Lightning (Static Circle)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 79.76,
+      "islands_stripped": 2
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Lightning (Ion Cage Grid)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 75.16,
+      "islands_stripped": 27
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Lightning (Electrified Arcs)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 72.98,
+      "islands_stripped": 29
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Lightning (Spark Fade)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 81.91,
+      "islands_stripped": 5
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Lightning (Storm Cloud Target)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 60.59,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Lightning (3 Sky Pillars)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 63.68,
+      "islands_stripped": 3
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Lightning (Ground Shockwave)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 67.76,
+      "islands_stripped": 16
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Lightning (Plasma Arcs)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 82.57,
+      "islands_stripped": 1
+    }
+  ]
+}

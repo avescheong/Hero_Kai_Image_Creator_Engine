@@ -1,0 +1,76 @@
+{
+  "batch": "EXP-LINK-4",
+  "total": 10,
+  "results": [
+    {
+      "filename": "EXP_LINK_31_STRING_TERRIER_EMPATHY_JOY_ALERT_SHIELD_16F_4x4.png",
+      "alpha_pct": 63.97,
+      "cells_occupied": "16/16",
+      "sha256": "fda9f946d0aa3553f828a98d754f4ea46ed03512b6e52808d67cdd064f226002",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_32_STRING_TERRIER_EMPATHY_HURT_DIZZY_POISON_16F_4x4.png",
+      "alpha_pct": 54.25,
+      "cells_occupied": "16/16",
+      "sha256": "ee6cd201e87b2a3bb7555fe03ff04c97803192d3b016c8c8c9e8753a79063083",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_33_BABY_MANTIS_EMPATHY_JOY_FOCUS_SCYTHE_16F_4x4.png",
+      "alpha_pct": 68.18,
+      "cells_occupied": "16/16",
+      "sha256": "d43186c2d77bc57af327ad4f7b8e8aa71a412f83245fb85fdb9623e41ddd6655",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_34_BABY_MANTIS_EMPATHY_SHOCK_FREEZE_CLEANSE_16F_4x4.png",
+      "alpha_pct": 62.66,
+      "cells_occupied": "16/16",
+      "sha256": "ea67f64cd5aae0633532a197c56ed7392832742c27a9ba9512889ad24760ec93",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_35_ENEMY_SWARM_DEBUFF_FACES_BURN_FREEZE_CONFUSE_BLEED_16F_4x4.png",
+      "alpha_pct": 64.69,
+      "cells_occupied": "16/16",
+      "sha256": "776dd588235e5da4b912cf227a896088af0777f148af42dd05c93954cff202f5",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_36_ENEMY_BOSS_VULNERABILITY_ARMOR_BREAK_TELEGRAPH_16F_4x4.png",
+      "alpha_pct": 60.67,
+      "cells_occupied": "16/16",
+      "sha256": "b881b0c122f21cd8e0efb1387c5120ecd54aa2946ed326550be1838ff74bdb22",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_37_PYTHON_BUG_TELL_HEART_AND_LOGIC_SPARKLE_AURA_16F_4x4.png",
+      "alpha_pct": 65.69,
+      "cells_occupied": "16/16",
+      "sha256": "647658ca38eaee8e5b1d249a84e8e13fa6c9100a7d03e10d50595b41b6663457",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_38_CODE_TRACE_TETHER_BEAM_KAI_TO_TARGET_SPELL_LINK_16F_4x4.png",
+      "alpha_pct": 87.53,
+      "cells_occupied": "16/16",
+      "sha256": "114d23e43796de6405c77bee6bdffbf01cee00873f11df29e283ed61037ec0c4",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_39_COMPANION_SYNERGY_BUFF_TETHER_AND_HEART_LINK_16F_4x4.png",
+      "alpha_pct": 88.32,
+      "cells_occupied": "15/16",
+      "sha256": "fb4a63c8af78cc41c5d66d09a0cf0e1a115c21450650fa036bbcbe3dce620eb7",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_40_ENEMY_STAGGER_AND_DIZZY_STAR_BURST_COUNTER_WINDOW_16F_4x4.png",
+      "alpha_pct": 82.28,
+      "cells_occupied": "16/16",
+      "sha256": "904963a54ff09b320b44531189c1f314f04ad6f072f5848b5687436a5ffc76f1",
+      "exit_code": 0
+    }
+  ]
+}

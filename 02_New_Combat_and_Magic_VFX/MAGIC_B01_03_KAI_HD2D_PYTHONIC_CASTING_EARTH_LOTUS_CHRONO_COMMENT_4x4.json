@@ -1,0 +1,245 @@
+{
+  "sheet_id": "MAGIC_B01_03_KAI_HD2D_PYTHONIC_CASTING_EARTH_LOTUS_CHRONO_COMMENT_4x4",
+  "title": "HD-2D Hero Kai Pythonic Casting \u2014 Earth, Lotus, Chrono, Shadow # (Image-Ref Locked V3)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "4076e255accc897aed550059a3f1cee7c96fd5c67f8d54e952d103e92cd9ae3e",
+  "overall_transparency_pct": 63.21,
+  "enclosed_white_islands_stripped": 14,
+  "gate_8_genome_hex_audit": {
+    "#D7A84B": true,
+    "#345830": true,
+    "#F4EFE6": true,
+    "#1F6A38": true,
+    "#D4AF37": true,
+    "#6E4226": true
+  },
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Earth (Boot Stomp)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 67.41,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Earth (Tectonic Uppercut)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 54.68,
+      "islands_stripped": 2
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Earth (Boulder Hurl)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 65.88,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Earth (Bulwark Stance)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 61.05,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Lotus (Palms-Together Bow)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 71.62,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Lotus (8-Petal Bloom)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 63.73,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Lotus (Purifying Wave)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 58.71,
+      "islands_stripped": 1
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Lotus (Halo Stance)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 60.83,
+      "islands_stripped": 2
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Chrono (Clock Face Trace)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 61.49,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Chrono (Echo Clone Spawn)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 69.91,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Chrono (Clockwork Double-Cast)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 36.09,
+      "islands_stripped": 8
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Chrono (Temporal Fade)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 66.04,
+      "islands_stripped": 0
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Shadow (# Hash Draw)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 66.03,
+      "islands_stripped": 1
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Shadow (Indigo Ghost)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 73.67,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Shadow (Blink # Strike)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 65.92,
+      "islands_stripped": 0
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Shadow (Stealth Reappear)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 68.26,
+      "islands_stripped": 0
+    }
+  ]
+}

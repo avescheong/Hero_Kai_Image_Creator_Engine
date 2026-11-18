@@ -1,0 +1,238 @@
+{
+  "sheet_id": "MAGIC_B02_05_ELEMENTAL_WEAPON_SLASH_ARCS_PART2_4x4",
+  "title": "Elemental Weapon Slash Arcs Part 2 \u2014 Wind, Nature, Starlight, Special Limit Break",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "dc950ff5250a41e067d6a65c5090d50a90fae777d8045f9e8411ff0cacf7a1c5",
+  "overall_transparency_pct": 72.82,
+  "caption_glyphs_stripped": 0,
+  "enclosed_white_islands_stripped": 15,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Wind Aero-Mint Slash",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 79.14,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Emerald Cyclone Arc",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 65.36,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Razor-Leaf Trail",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 72.91,
+      "islands_stripped": 4
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Wind-Whisp Fade",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 85.38,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Nature Vine Slash",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 79.77,
+      "islands_stripped": 5
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Blooming Golden Crescent",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 66.4,
+      "islands_stripped": 1
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Flower-Petal Trail",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 89.86,
+      "islands_stripped": 0
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Gentle Sprout Fade",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 94.88,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Starlight Astral Slash",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 69.21,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Radiant Starlight Crescent",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 54.14,
+      "islands_stripped": 2
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Constellation Dust Trail",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 68.91,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Stardust Fade",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 96.76,
+      "islands_stripped": 0
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Special Twin-Blade X-Slash",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 65.11,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Sun Aegis Overdrive Arc",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 61.34,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Omnidirectional Rune Wheel",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 54.2,
+      "islands_stripped": 2
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Golden Shockwave Burst",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 61.83,
+      "islands_stripped": 1
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_35_COIN_AND_STAR_GEM_SHOWER_FOUNTAIN_16F_4x4",
+  "title": "Coin & Star-Gem Shower Fountain (16F)",
+  "subtitle": "Upgrades CG_VFX_04 R4C1 \u2014 Gold, Ruby & Diamond Arc",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "91a92d31f7f8bb4cbcd3ecb1fc80edc9587bb3dfc9da0f85c7d567c01e45f13a",
+  "overall_transparency_pct": 82.06,
+  "enclosed_white_islands_stripped": 2,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 84.28
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 79.05
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 78.09
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 73.24
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 75.97
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 75.96
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 75.39
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 75.22
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 76.48
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 79.93
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 79.1
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 82.27
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 89.22
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 92.73
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 97.03
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 99.04
+    }
+  ]
+}

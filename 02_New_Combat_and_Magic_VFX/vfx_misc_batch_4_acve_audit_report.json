@@ -1,0 +1,2888 @@
+{
+  "batch_id": "VFX_MISC_BATCH_4",
+  "total_sheets": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "VFX_MISC_31_GACHA_MYTHIC_CHEST_BOUNCE_AND_OPEN_16F_4x4",
+      "title": "Gacha Mythic Chest Bounce & Open (16F)",
+      "subtitle": "Upgrades CG_B08_02 R3-R4 \u2014 Lock Burst & Rainbow Pillar",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "dfb69c0ca432a0505a53de3212b3f33aa1157a19b336f7c8832a6f1cc8cf523a",
+      "overall_transparency_pct": 49.75,
+      "enclosed_white_islands_stripped": 1,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 56.95
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 56.74
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.87
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.48
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.42
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.31
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 48.68
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.45
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 38.23
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 37.96
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 37.97
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.55
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.52
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.35
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 54.2
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 55.28
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_32_PET_EGG_WOBBLE_CRACK_AND_RAINBOW_HATCH_16F_4x4",
+      "title": "Pet Egg Wobble, Crack & Rainbow Hatch (16F)",
+      "subtitle": "Wobble, Cyan Cracks & Rainbow Heart Hatch",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "a2b53982cd44eebd5a9bef8d4feb9c5e9e88c9ec275d1dccf867a06a568d80d9",
+      "overall_transparency_pct": 53.7,
+      "enclosed_white_islands_stripped": 8,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.82
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 56.56
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 56.52
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 55.77
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.8
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 49.08
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 49.7
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 41.26
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 43.57
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.35
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 40.24
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 49.2
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 62.33
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 63.62
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 65.75
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 67.71
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_33_LUCKY_3_REEL_SLOT_MACHINE_SPIN_AND_777_16F_4x4",
+      "title": "Lucky 3-Reel Slot Machine & 777 Jackpot (16F)",
+      "subtitle": "Lever Pull, Reel Blur, 7-7-7 Lock & Coin Fountain",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "525e063edf26eeed04b51d259f02b6ea0c7c9871e8ec7b457a876c23e382b9a7",
+      "overall_transparency_pct": 40.71,
+      "enclosed_white_islands_stripped": 5,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.81
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.39
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 43.02
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 41.67
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.59
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.9
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.47
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.42
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.91
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 41.84
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 36.74
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 40.56
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 39.03
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 33.97
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 40.6
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 35.37
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_34_ROGUE_SKILL_CARD_3D_FLIP_AND_RARITY_GLOW_16F_4x4",
+      "title": "Rogue Skill Card 3D Flip & Foil Glow (16F)",
+      "subtitle": "3D Y-Axis Spin, Edge Flash & Prismatic Foil",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "c54bfd074f9a7ab1c38dcad5ff03a32f11f29f23255808320233dad7eac9b4cb",
+      "overall_transparency_pct": 49.2,
+      "enclosed_white_islands_stripped": 9,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 45.59
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.0
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.92
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 69.73
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 65.92
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 80.59
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 65.86
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 58.38
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 44.85
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 44.33
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 43.64
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 28.55
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 27.39
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 33.15
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 31.06
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 45.18
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_35_COIN_AND_STAR_GEM_SHOWER_FOUNTAIN_16F_4x4",
+      "title": "Coin & Star-Gem Shower Fountain (16F)",
+      "subtitle": "Upgrades CG_VFX_04 R4C1 \u2014 Gold, Ruby & Diamond Arc",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "91a92d31f7f8bb4cbcd3ecb1fc80edc9587bb3dfc9da0f85c7d567c01e45f13a",
+      "overall_transparency_pct": 82.06,
+      "enclosed_white_islands_stripped": 2,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 84.28
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 79.05
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 78.09
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 73.24
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 75.97
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 75.96
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 75.39
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 75.22
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 76.48
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 79.93
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 79.1
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 82.27
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 89.22
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 92.73
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 97.03
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 99.04
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_36_HERO_RANK_UP_AND_LEVEL_UP_CREST_BANNER_16F_4x4",
+      "title": "Hero Rank Up & LEVEL UP! Crest Banner (16F)",
+      "subtitle": "Upgrades CG_VFX_05 R1-R2 \u2014 Wings, Sunburst & Stars",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "3872b303a38588a989d61f2aabe7acee73ece94c22900e10f8ec81777efb3d4c",
+      "overall_transparency_pct": 59.25,
+      "enclosed_white_islands_stripped": 11,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 75.46
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 72.6
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 64.44
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 54.43
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 62.23
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.43
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 25.55
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.12
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 51.51
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 54.36
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.74
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 49.28
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.07
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 54.32
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 77.46
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 97.02
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_37_QUEST_SCROLL_SEAL_AND_STAMP_COMPLETE_16F_4x4",
+      "title": "Quest Scroll Seal & Checkmark Stamp (16F)",
+      "subtitle": "Brass Wax Seal Slam & Golden Laurel Complete",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "09e3f1805b9d1ce5f610c35edc4aa0c546ca51e066969e5a17c3a43415e80e29",
+      "overall_transparency_pct": 55.46,
+      "enclosed_white_islands_stripped": 4,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.64
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.71
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.14
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.76
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 58.94
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 45.22
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.54
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.14
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.35
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.21
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 44.8
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 39.62
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 55.2
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 56.44
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.2
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.49
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_38_VEGETARIAN_FEAST_TRAY_AND_HEALING_STEAM_16F_4x4",
+      "title": "100% Vegetarian Feast Tray & Healing Steam (16F)",
+      "subtitle": "Baozi, Tofu Skewers, Lotus Soup & Matcha Tea",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "e3082651a773fe26eeb3a8af468696e517d369c1dde5d9704f45e61e517e8439",
+      "overall_transparency_pct": 51.87,
+      "enclosed_white_islands_stripped": 2,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.2
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.94
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 60.23
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 58.07
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.04
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 54.87
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 54.04
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 50.81
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.7
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 39.76
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 38.22
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 38.66
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 53.66
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.77
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.86
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 58.07
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_39_GOLDEN_MERCHANT_PIGGY_BANK_AND_LOOT_BAG_16F_4x4",
+      "title": "Golden Merchant Piggy Bank & Loot Bag (16F)",
+      "subtitle": "Coin Jiggle, Cork Pop & Ruby/Gold Spill",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "fd87effa4fe044d658db25af1813a13b56fdd8d87e425540a82017a30ca13d73",
+      "overall_transparency_pct": 54.29,
+      "enclosed_white_islands_stripped": 7,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 65.79
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 62.73
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 58.96
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 53.57
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 61.54
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 56.83
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.2
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 51.64
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 58.92
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.69
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.99
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 51.17
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 49.22
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 49.92
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.97
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 47.54
+        }
+      ]
+    },
+    {
+      "sheet_id": "VFX_MISC_40_MYSTERY_CARD_PACK_TEAR_OPEN_AND_FOIL_BURST_16F_4x4",
+      "title": "Mystery Card Pack Tear Open & Foil Burst (16F)",
+      "subtitle": "Crimp Tear, Rainbow Beam & 3 Fanned Foil Cards",
+      "dimensions": "1024x1024",
+      "grid": "4x4",
+      "cell_size": "256x256",
+      "fps": 16,
+      "sha256": "6b0dc3e098e67305954f02124c4f3390f4ffa65490b298b1542f0b63f6cb2b76",
+      "overall_transparency_pct": 53.37,
+      "enclosed_white_islands_stripped": 6,
+      "occupied_cells": "16/16",
+      "acve_status": "PASS",
+      "cells": [
+        {
+          "index": 0,
+          "row": 1,
+          "col": 1,
+          "bbox": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 64.56
+        },
+        {
+          "index": 1,
+          "row": 1,
+          "col": 2,
+          "bbox": [
+            256,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 62.85
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "col": 3,
+          "bbox": [
+            512,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.99
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 4,
+          "bbox": [
+            768,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 57.51
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "col": 1,
+          "bbox": [
+            0,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 62.99
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "col": 2,
+          "bbox": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 59.63
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 3,
+          "bbox": [
+            512,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 52.4
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 4,
+          "bbox": [
+            768,
+            256,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 49.61
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "col": 1,
+          "bbox": [
+            0,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 54.76
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "col": 2,
+          "bbox": [
+            256,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 48.07
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "col": 3,
+          "bbox": [
+            512,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 46.71
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "col": 4,
+          "bbox": [
+            768,
+            512,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 45.13
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "col": 1,
+          "bbox": [
+            0,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 42.49
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "col": 2,
+          "bbox": [
+            256,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 51.63
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "col": 3,
+          "bbox": [
+            512,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 56.82
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "col": 4,
+          "bbox": [
+            768,
+            768,
+            256,
+            256
+          ],
+          "pivot": [
+            0.5,
+            0.85
+          ],
+          "occupied": true,
+          "transparency_pct": 40.69
+        }
+      ]
+    }
+  ]
+}

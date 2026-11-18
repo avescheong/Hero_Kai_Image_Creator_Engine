@@ -1,0 +1,199 @@
+{
+  "batch_id": "ENM-1",
+  "checkpoint": "CHK-KAI-CAPYBARA-GO-ENM-BATCH-1-20261118",
+  "total_sheets": 10,
+  "total_frames": 160,
+  "passed": 10,
+  "records": [
+    {
+      "id": "ENM_BOSS_01",
+      "src": "watermarked_img_10979352343325297722.jpg",
+      "filename": "ENM_BOSS_01_CH01_GLITCH_SLIME_AND_SYNTAX_IMP_16F_4x4.png",
+      "title": "Glitch Slime & Syntax Imp",
+      "chapter": "Ch. 1 \u2014 Silent Village",
+      "role": "Tier-1 Field Minion (SyntaxError)",
+      "rows": [
+        "F01\u201304: Squish Hop Idle",
+        "F05\u201308: Jelly Whip Lunge",
+        "F09\u201312: SyntaxError Glitch Splash",
+        "F13\u201316: Hit Squash & Lotus Bunny Purification"
+      ],
+      "sha256": "ab0b7ddb0e8337a262e491290136f542583147168a50a7135f4893ec99716dba",
+      "alpha_pct": 68.15,
+      "islands_stripped": 2,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_02",
+      "src": "watermarked_img_652638508998918748.jpg",
+      "filename": "ENM_BOSS_02_CH01_MUTED_SCARECROW_AND_WHISPER_CROW_16F_4x4.png",
+      "title": "Muted Scarecrow & Whisper Crow",
+      "chapter": "Ch. 1 \u2014 Silent Village",
+      "role": "Day-20 Mini-Boss (print() Gate)",
+      "rows": [
+        "F01\u201304: Swaying Idle",
+        "F05\u201308: 360\u00b0 Garden Rake Spin",
+        "F09\u201312: Crow Silent Soundwave",
+        "F13\u201316: Zipper Smile & Polite Bow"
+      ],
+      "sha256": "ccc8d054e10abf0ee8266dc04f18cafc4a7387cd3f7fb1be915f4e421d80db2b",
+      "alpha_pct": 70.58,
+      "islands_stripped": 3,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_03",
+      "src": "watermarked_img_3868630380219065381.jpg",
+      "filename": "ENM_BOSS_03_CH02_TANGLED_SILK_SPIDER_AND_KNOT_LARVA_16F_4x4.png",
+      "title": "Tangled Silk Spider & Knot Larva",
+      "chapter": "Ch. 2 \u2014 Loom Forest",
+      "role": "Tier-1 Field Minion (Unbound Variable)",
+      "rows": [
+        "F01\u201304: Bobbing Yarn Juggle",
+        "F05\u201308: Sticky Silk Bola Shot",
+        "F09\u201312: Rainbow Thread Whirlwind",
+        "F13\u201316: Golden Spool & Happy Caterpillar"
+      ],
+      "sha256": "fc3d9b807ea9d836c0863032681502382daae4d2a8754cc48d80a55f04ea499d",
+      "alpha_pct": 64.95,
+      "islands_stripped": 40,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_04",
+      "src": "watermarked_img_7554503818709150237.jpg",
+      "filename": "ENM_BOSS_04_CH02_BRAMBLE_THORN_IMP_AND_SPORELING_16F_4x4.png",
+      "title": "Bramble Thorn-Imp & Sporeling",
+      "chapter": "Ch. 2 \u2014 Loom Forest",
+      "role": "Day-20 Mini-Boss (Upgrades CG_B04_05 R1)",
+      "rows": [
+        "F01\u201304: Grumpy Waddle Idle",
+        "F05\u201308: Flying Mushroom Headbutt",
+        "F09\u201312: Sleepy Spore Cloud",
+        "F13\u201316: Chamomile Flower Bloom Cheer"
+      ],
+      "sha256": "17ec0e973cb1508351c4a2e8e2dae81101b4b612e7cc96180c8974aacdf7e060",
+      "alpha_pct": 59.44,
+      "islands_stripped": 1,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_05",
+      "src": "watermarked_img_3803436848098256727.jpg",
+      "filename": "ENM_BOSS_05_CH03_SCRAP_GEAR_GOLEM_AND_CLANK_CRAB_16F_4x4.png",
+      "title": "Scrap Gear-Golem & Clank Crab",
+      "chapter": "Ch. 3 \u2014 Iron Outpost",
+      "role": "Tier-1 Field Minion (OverflowError)",
+      "rows": [
+        "F01\u201304: Clanking Steam Idle",
+        "F05\u201308: Spring-Arm Wrench Smash",
+        "F09\u201312: Brass Cog Shrapnel Pop",
+        "F13\u201316: Musical Whistle & Salute"
+      ],
+      "sha256": "0097db4e6e8e76e9cffb82777e57521f7afecf0c489011ded04b7393be864fbc",
+      "alpha_pct": 60.56,
+      "islands_stripped": 10,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_06",
+      "src": "watermarked_img_15753987748876244098.jpg",
+      "filename": "ENM_BOSS_06_CH03_CINDER_HOUND_AND_SOOT_SPRITE_PACK_16F_4x4.png",
+      "title": "Cinder Hound & Soot-Sprite Pack",
+      "chapter": "Ch. 3 \u2014 Iron Outpost",
+      "role": "Day-20 Mini-Boss (Upgrades CG_B04_05 R3)",
+      "rows": [
+        "F01\u201304: Bouncy Panting Idle",
+        "F05\u201308: Fiery Paw Pounce & Coal Toss",
+        "F09\u201312: Smelter Bark Flame Cone",
+        "F13\u201316: Soot Shake-Off -> Dalmatian Pup"
+      ],
+      "sha256": "0bb780c6eef5e89b675ca7beafd88b16fc1f6b0358fe9b55560059c4b355dc6f",
+      "alpha_pct": 65.36,
+      "islands_stripped": 19,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_07",
+      "src": "watermarked_img_953645051078975498.jpg",
+      "filename": "ENM_BOSS_07_CH04_WHISPER_BAT_SWARM_AND_MIST_WOLF_16F_4x4.png",
+      "title": "Whisper Bat & Mist Wolf",
+      "chapter": "Ch. 4 \u2014 Whispering Woods",
+      "role": "Tier-1 Field Minion (Upgrades CG_B04_05 R2)",
+      "rows": [
+        "F01\u201304: Bat Flutter & Wolf Prowl",
+        "F05\u201308: Figure-8 Swoop & Mist Dash",
+        "F09\u201312: Purple Echo Howl Waves",
+        "F13\u201316: Sunbeam Clear & Peaceful Bow"
+      ],
+      "sha256": "f42c22741cc2d6e7eb8aff7ccb169537438403131a8981b6d4bc03b13a17374b",
+      "alpha_pct": 64.36,
+      "islands_stripped": 14,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_08",
+      "src": "watermarked_img_13993936213901557860.jpg",
+      "filename": "ENM_BOSS_08_CH04_HOLLOW_STUMP_TREANT_AND_ACORN_SNIPER_16F_4x4.png",
+      "title": "Hollow Stump Treant & Acorn Sniper",
+      "chapter": "Ch. 4 \u2014 Whispering Woods",
+      "role": "Day-20 Mini-Boss (len() Counter)",
+      "rows": [
+        "F01\u201304: Creaking Leafy Sway",
+        "F05\u201308: Root Uppercut & Acorn Toss",
+        "F09\u201312: Thorny Briar Shield Wall",
+        "F13\u201316: Spring Blossoms & Chestnut Basket"
+      ],
+      "sha256": "b30bb628a4573fd00249ec3185f2efbfb9b18f6f5b74d8423d3b23c110715c5a",
+      "alpha_pct": 46.48,
+      "islands_stripped": 2,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_09",
+      "src": "watermarked_img_2807126944083250777.jpg",
+      "filename": "ENM_BOSS_09_CH05_VENOM_BUBBLE_TOAD_AND_REED_KAPPA_16F_4x4.png",
+      "title": "Venom Bubble-Toad & Reed Kappa",
+      "chapter": "Ch. 5 \u2014 Cursed Riverbank",
+      "role": "Tier-1 Field Minion (input() Poison)",
+      "rows": [
+        "F01\u201304: Throat-Swell Ribbit Idle",
+        "F05\u201308: Elastic Pink Tongue Zap",
+        "F09\u201312: 4x Venom Bubble Barrage",
+        "F13\u201316: Rainbow Bubble & Smiling Tree-Frog"
+      ],
+      "sha256": "49294f075619f8639c8969cb125d72e78d447a89e005881e1f05883c00284d4a",
+      "alpha_pct": 51.84,
+      "islands_stripped": 7,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_10",
+      "src": "watermarked_img_9274975383590086935.jpg",
+      "filename": "ENM_BOSS_10_CH05_WHIRLPOOL_HERMIT_CRAB_AND_TYPE_EEL_16F_4x4.png",
+      "title": "Whirlpool Hermit-Crab & Type Eel",
+      "chapter": "Ch. 5 \u2014 Cursed Riverbank",
+      "role": "Day-20 Mini-Boss (TypeError Clash)",
+      "rows": [
+        "F01\u201304: Bouncy Sidestep Idle",
+        "F05\u201308: Brass Pincer Snap & Eel Zap",
+        "F09\u201312: Electrified Whirlpool Vortex",
+        "F13\u201316: Polished Shell & White Truce Flag"
+      ],
+      "sha256": "f0bcf46d86a9cb767f3efe6592721dc89ce7e0a55c4535d1750904fa33b9fee2",
+      "alpha_pct": 61.32,
+      "islands_stripped": 16,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    }
+  ]
+}

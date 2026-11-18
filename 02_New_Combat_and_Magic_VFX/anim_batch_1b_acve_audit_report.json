@@ -1,0 +1,43 @@
+{
+  "batch_id": "ANIM_BATCH_1B_TRACK_C",
+  "total_sheets": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "KAI_ACT_06_SLEEP_DROWSY_CURL_DREAM_WAKE_16F_4x4",
+      "title": "Sleep, Dream zZz & Wake (16F)",
+      "overall_transparency_pct": 57.32,
+      "sha256": "25661c50cbc1c065fa57704832753feb4a8e6ba0c5768e4ccbace41da04e39eb",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_07_CROUCH_STEALTH_AND_CRAWL_16F_4x4",
+      "title": "Crouch & Stealth Crawl (16F)",
+      "overall_transparency_pct": 60.65,
+      "sha256": "88921a30dbe44342ba6641ace15ea27cd5b005aee809dcc68c9fd87c019ab3dc",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_08_LADDER_AND_ROPE_CLIMB_16F_4x4",
+      "title": "Ladder & Rope Climb (16F)",
+      "overall_transparency_pct": 56.74,
+      "sha256": "3710168415d5dd025cd864f8dc9a756dbac9f0da638882edaa6d20ba15509e32",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_09_INTERACT_CHEST_LEVER_NPC_16F_4x4",
+      "title": "Chest Open & Interact (16F)",
+      "overall_transparency_pct": 58.74,
+      "sha256": "89ff5974057d1b1b09501f70c1c7594d043ab6b36086d45fe76bb98723dfec7d",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_10_LIFT_CARRY_PUSH_HEAVY_16F_4x4",
+      "title": "Lift Crate, Carry & Push Block (16F)",
+      "overall_transparency_pct": 56.54,
+      "sha256": "812cf7f202f794c75a8f370fcf2949b1691a86aa05fd5ab8893e4e09ee5d0130",
+      "acve_status": "PASS"
+    }
+  ]
+}

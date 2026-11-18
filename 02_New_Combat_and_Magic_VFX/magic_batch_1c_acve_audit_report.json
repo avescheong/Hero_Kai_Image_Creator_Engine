@@ -1,0 +1,43 @@
+{
+  "batch_id": "MAGIC_BATCH_1C",
+  "total_sheets": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "MAGIC_B02_01_PROJECTILES_WATER_FIRE_ICE_LIGHTNING_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 66.79,
+      "enclosed_white_islands_stripped": 40,
+      "sha256": "39404ad313cbac699432c86d85ccdea38b1334a8342f75693b5c046732b4a223"
+    },
+    {
+      "sheet_id": "MAGIC_B02_02_PROJECTILES_WIND_NATURE_STARLIGHT_SPECIAL_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 73.35,
+      "enclosed_white_islands_stripped": 33,
+      "sha256": "1538e7271381f38c703af32f944a2c0b10e12c22aadf1242e91fe8ae0837c272"
+    },
+    {
+      "sheet_id": "MAGIC_B02_03_PROJECTILES_EARTH_LOTUS_CHRONO_COMMENT_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 67.35,
+      "enclosed_white_islands_stripped": 15,
+      "sha256": "012df8aafa5a701dd26eb82b1a84900df7b2a0fd96fdacdce9b24935a55b7316"
+    },
+    {
+      "sheet_id": "MAGIC_B02_04_ELEMENTAL_WEAPON_SLASH_ARCS_PART1_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 72.93,
+      "enclosed_white_islands_stripped": 26,
+      "sha256": "d7b9f897358852bdd0955265e775b49016f7848688558da89be0903eb34eb66d"
+    },
+    {
+      "sheet_id": "MAGIC_B02_05_ELEMENTAL_WEAPON_SLASH_ARCS_PART2_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 71.25,
+      "enclosed_white_islands_stripped": 11,
+      "sha256": "c13c08bd09661419548f60f3feeff7e6f36004785e6d1588cfa2a1a79c0045e0"
+    }
+  ]
+}

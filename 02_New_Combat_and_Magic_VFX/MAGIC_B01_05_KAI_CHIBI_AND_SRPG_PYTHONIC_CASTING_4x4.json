@@ -1,0 +1,245 @@
+{
+  "sheet_id": "MAGIC_B01_05_KAI_CHIBI_AND_SRPG_PYTHONIC_CASTING_4x4",
+  "title": "Chibi Pythonic Casting & FFT Isometric SRPG Casting (Image-Ref Locked V3)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "3bfcdc7c49470998f553595e688b27111de005f61ff6748154502660b7e05cfb",
+  "overall_transparency_pct": 57.57,
+  "enclosed_white_islands_stripped": 14,
+  "gate_8_genome_hex_audit": {
+    "#D7A84B": true,
+    "#345830": true,
+    "#F4EFE6": true,
+    "#1F6A38": true,
+    "#D4AF37": true,
+    "#6E4226": true
+  },
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Chibi Earth (Rock Lift)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 43.88,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Chibi Earth (Boulder Throw)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 59.41,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Chibi Lotus (Prayer)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 52.06,
+      "islands_stripped": 5
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Chibi Lotus (Heal Wave)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 48.54,
+      "islands_stripped": 2
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Chibi Chrono (Gear Chant)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 33.49,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Chibi Chrono (Double Echo)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 49.58,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Chibi Shadow (# Chant)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 55.82,
+      "islands_stripped": 2
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Chibi Shadow (# Slash)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 56.75,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "SRPG Kai (SW Chant)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 68.48,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "SRPG Kai (SE Chant)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 66.76,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "SRPG Kai (NW Staff Raise)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 66.64,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "SRPG Kai (NE Staff Raise)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 68.69,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "SRPG Kai (Starlight Cast)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 47.67,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "SRPG Kai (Twin-Blade)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 67.67,
+      "islands_stripped": 3
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "SRPG Kai (Lotus Prayer)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 70.25,
+      "islands_stripped": 1
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "SRPG Kai (Chrono Double)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 65.48,
+      "islands_stripped": 0
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "sheet_id": "MAGIC_B01_04_KAI_CHIBI_ELEMENTAL_CASTING_ALL_8_CORE_SCHOOLS_4x4",
+  "title": "Capybara Go! Chibi Kai \u2014 8 Core Elemental & Special Casting Poses (Image-Ref Locked V3)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "c6f9f0e129167fde2a523bfed639044832d4725e3c40b53088868eaca96a3a82",
+  "overall_transparency_pct": 49.32,
+  "enclosed_white_islands_stripped": 22,
+  "gate_8_genome_hex_audit": {
+    "#D7A84B": true,
+    "#345830": true,
+    "#F4EFE6": true,
+    "#1F6A38": true,
+    "#D4AF37": true,
+    "#6E4226": true
+  },
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Chibi Water (Orb Chant)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 53.31,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Chibi Water (Surge Release)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 43.91,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Chibi Fire (Ember Fists)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 56.51,
+      "islands_stripped": 1
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Chibi Fire (Flame Blast)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 49.48,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Chibi Ice (Frost Breath)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 59.44,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Chibi Ice (Crystal Snap)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 48.46,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Chibi Lightning (Static Chant)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 55.75,
+      "islands_stripped": 2
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Chibi Lightning (Sky Bolt)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 39.97,
+      "islands_stripped": 1
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Chibi Wind (Leaf Swirl)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 45.93,
+      "islands_stripped": 8
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Chibi Wind (Air-Blade)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 53.88,
+      "islands_stripped": 4
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Chibi Nature (Earth Touch)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 58.81,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Chibi Nature (Bloom Release)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 44.72,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Chibi Starlight (Halo Float)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 47.47,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Chibi Starlight (Cosmic Beam)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 52.74,
+      "islands_stripped": 2
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Chibi Special (Twin-Blade)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 28.82,
+      "islands_stripped": 2
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Chibi Special (Sun Aegis Slash)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 49.89,
+      "islands_stripped": 1
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "batch": "CG_BATCH_06",
+  "assets": [
+    {
+      "asset_id": "CG_B06_01_PYTHON_SPELL_SKILL_ICONS_CH01_TO_CH06_4x4",
+      "png_file": "CG_B06_01_PYTHON_SPELL_SKILL_ICONS_CH01_TO_CH06_4x4.png",
+      "json_file": "CG_B06_01_PYTHON_SPELL_SKILL_ICONS_CH01_TO_CH06_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 31.33,
+      "sha256": "4c394514da678eb140c7c6ceec1275986deae3f7b9cbb8e3bcf9fa90a840817a",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B06_02_PYTHON_SPELL_SKILL_ICONS_CH07_TO_CH11_4x4",
+      "png_file": "CG_B06_02_PYTHON_SPELL_SKILL_ICONS_CH07_TO_CH11_4x4.png",
+      "json_file": "CG_B06_02_PYTHON_SPELL_SKILL_ICONS_CH07_TO_CH11_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 31.6,
+      "sha256": "37418ace87d89ba3c7cbaf597b97daea5baca3bc1d92d9720ad868cbb9b58b52",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B06_03_CAPYBARA_COMBAT_TECH_ICONS_SWORD_DAGGER_RAGE_4x4",
+      "png_file": "CG_B06_03_CAPYBARA_COMBAT_TECH_ICONS_SWORD_DAGGER_RAGE_4x4.png",
+      "json_file": "CG_B06_03_CAPYBARA_COMBAT_TECH_ICONS_SWORD_DAGGER_RAGE_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 22.35,
+      "sha256": "5371aa1a2ae3ba4f88204eaf3d19c8c58de711f50053a956b9079993c57da970",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B06_04_PET_AND_MOUNT_PASSIVE_SKILL_ICONS_4x4",
+      "png_file": "CG_B06_04_PET_AND_MOUNT_PASSIVE_SKILL_ICONS_4x4.png",
+      "json_file": "CG_B06_04_PET_AND_MOUNT_PASSIVE_SKILL_ICONS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 28.27,
+      "sha256": "ef51c25ecc1b017f621bf1aa0dfa82afa4029a7ea0940a4fb984358835e76106",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B06_05_ROGUELITE_SKILL_CARD_FRAMES_AND_RARITY_BORDERS_4x4",
+      "png_file": "CG_B06_05_ROGUELITE_SKILL_CARD_FRAMES_AND_RARITY_BORDERS_4x4.png",
+      "json_file": "CG_B06_05_ROGUELITE_SKILL_CARD_FRAMES_AND_RARITY_BORDERS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 43.64,
+      "sha256": "b6f0c0afe2986f2696aa18c361740f5aaf8329da9e7e5553af071e37687984b3",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

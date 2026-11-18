@@ -1,0 +1,43 @@
+{
+  "batch_id": "ANIM_BATCH_2A_TRACK_C",
+  "total_sheets": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "KAI_ACT_11_EAT_VEGETARIAN_BAO_AND_DRINK_POTION_16F_4x4",
+      "title": "Eat Vegetarian Bao & Drink Potion (16F)",
+      "overall_transparency_pct": 55.3,
+      "sha256": "0d34533da3fe518468f14da179592524963a03e3a1ec4ee0848178d0ce4a6e74",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_12_PET_AND_HIGH_FIVE_STRING_CAPYBARA_16F_4x4",
+      "title": "Pet & High-Five String Capybara (16F)",
+      "overall_transparency_pct": 47.37,
+      "sha256": "b36723bcdc3cdde31853a764d9dd8577cc9db85e7ffe19d53d411dfc7f0b07d4",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_13_PYTHON_IDE_CODE_AND_CAST_SCROLL_16F_4x4",
+      "title": "Python IDE Code & Cast Scroll (16F)",
+      "overall_transparency_pct": 52.95,
+      "sha256": "8447fce875f802d1fe8a0d776ba55d28f8824607c82cd7056fa6cd16fe905ded",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_14_SYNTAX_ERROR_FIZZLE_AND_RECOVER_16F_4x4",
+      "title": "SyntaxError Fizzle & Recover (16F)",
+      "overall_transparency_pct": 51.74,
+      "sha256": "6202f232274357fb64c6724cdcc5e4f6510205fef41a67ef47cb2f3151b78f76",
+      "acve_status": "PASS"
+    },
+    {
+      "sheet_id": "KAI_ACT_15_MOUNT_RIDE_AND_GALLOP_CAPYBARA_16F_4x4",
+      "title": "Mount Ride & Gallop Capybara (16F)",
+      "overall_transparency_pct": 56.21,
+      "sha256": "6948503cc575a280482cdd1be81858f7b9616aef2eec18e58ddca3adbddc1b03",
+      "acve_status": "PASS"
+    }
+  ]
+}

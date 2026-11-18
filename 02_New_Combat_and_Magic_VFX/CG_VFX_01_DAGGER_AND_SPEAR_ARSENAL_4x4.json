@@ -1,0 +1,237 @@
+{
+  "sheet_id": "CG_VFX_01_DAGGER_AND_SPEAR_ARSENAL_4x4",
+  "title": "Dagger & Spear Arsenal (Basic, Rage, Poison, Ice, Bolt, Lotus, Light Spear, Zhanxian)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "267b72506ac3a2ecf8766c5e81d6d05e5a9500fe32261005bcdaa7017bf69e53",
+  "overall_transparency_pct": 66.36,
+  "enclosed_white_islands_stripped": 22,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Basic Silver Dagger (Spin+Trail)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 66.68,
+      "islands_stripped": 1
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Basic Silver Dagger (Pierce Burst)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 84.86,
+      "islands_stripped": 2
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Crimson Rage Dagger (Spin+Trail)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 63.3,
+      "islands_stripped": 3
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Crimson Rage Dagger (Impact Burst)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 75.42,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Poison Green Dagger (Venom Trail)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 63.1,
+      "islands_stripped": 1
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Poison Green Dagger (Toxic Splash)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 74.04,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Glacial Ice Dagger (Frost Trail)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 60.05,
+      "islands_stripped": 2
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Glacial Ice Dagger (Crystal Shatter)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 65.74,
+      "islands_stripped": 1
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Electric Bolt Dagger (Arc Trail)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 72.06,
+      "islands_stripped": 5
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Electric Bolt Dagger (Spark Burst)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 80.66,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Lotus Healing Dagger (Petal Trail)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 56.58,
+      "islands_stripped": 2
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Lotus Healing Dagger (Bloom Burst)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 57.77,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Radiant Light Spear (Sky Lance)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 65.27,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Radiant Light Spear (Ground Crater)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 58.15,
+      "islands_stripped": 2
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Zhanxian Flying Knife (Halo Blade)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 59.42,
+      "islands_stripped": 1
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Zhanxian Flying Knife (Cross Slash)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 58.65,
+      "islands_stripped": 1
+    }
+  ]
+}

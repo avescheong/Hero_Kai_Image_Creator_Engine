@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_37_QUEST_SCROLL_SEAL_AND_STAMP_COMPLETE_16F_4x4",
+  "title": "Quest Scroll Seal & Checkmark Stamp (16F)",
+  "subtitle": "Brass Wax Seal Slam & Golden Laurel Complete",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "09e3f1805b9d1ce5f610c35edc4aa0c546ca51e066969e5a17c3a43415e80e29",
+  "overall_transparency_pct": 55.46,
+  "enclosed_white_islands_stripped": 4,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.64
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.71
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 57.14
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 57.76
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 58.94
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 45.22
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 52.54
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 57.14
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.35
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.21
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 44.8
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 39.62
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 55.2
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 56.44
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.2
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 60.49
+    }
+  ]
+}

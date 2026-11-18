@@ -1,0 +1,110 @@
+{
+  "batch": "CG_BATCH_08",
+  "assets": [
+    {
+      "asset_id": "CG_B08_01_TOP_SCREEN_BIOME_BANNERS_ACT1_CH01_TO_CH06_4x4",
+      "png_file": "CG_B08_01_TOP_SCREEN_BIOME_BANNERS_ACT1_CH01_TO_CH06_4x4.png",
+      "json_file": "CG_B08_01_TOP_SCREEN_BIOME_BANNERS_ACT1_CH01_TO_CH06_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 57.31,
+      "sha256": "f3c4515eb6031dd29c557c4bbe2f314b727e3c56709c2d866d59272914b345f1",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B08_02_TOP_SCREEN_BIOME_BANNERS_ACT2_CH07_TO_CH11_4x4",
+      "png_file": "CG_B08_02_TOP_SCREEN_BIOME_BANNERS_ACT2_CH07_TO_CH11_4x4.png",
+      "json_file": "CG_B08_02_TOP_SCREEN_BIOME_BANNERS_ACT2_CH07_TO_CH11_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 40.32,
+      "sha256": "45fe82e5b06550cbdbcd650e95405b650a81834bf9bf8dedbd5c556667d3def9",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B08_03_ROADSIDE_DAY_EVENT_ENCOUNTER_PROPS_4x4",
+      "png_file": "CG_B08_03_ROADSIDE_DAY_EVENT_ENCOUNTER_PROPS_4x4.png",
+      "json_file": "CG_B08_03_ROADSIDE_DAY_EVENT_ENCOUNTER_PROPS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 58.45,
+      "sha256": "eed40318e6468ebdf7f178d0169c2f81743432167deaf8067987ede4f096f149",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B08_04_BOTTOM_SCREEN_TEXT_LOG_AND_BUTTON_UI_KIT_4x4",
+      "png_file": "CG_B08_04_BOTTOM_SCREEN_TEXT_LOG_AND_BUTTON_UI_KIT_4x4.png",
+      "json_file": "CG_B08_04_BOTTOM_SCREEN_TEXT_LOG_AND_BUTTON_UI_KIT_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 43.54,
+      "sha256": "b6db163ea08708352be5cd225bf5eb7c0c37c71f65fc5a895e9b541bd0778ebb",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B08_05_COMBAT_VFX_DAMAGE_POPUPS_AND_VICTORY_BANNERS_4x4",
+      "png_file": "CG_B08_05_COMBAT_VFX_DAMAGE_POPUPS_AND_VICTORY_BANNERS_4x4.png",
+      "json_file": "CG_B08_05_COMBAT_VFX_DAMAGE_POPUPS_AND_VICTORY_BANNERS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 60.42,
+      "sha256": "3b6e10d4ba3921231a66c80971806a1c86653f1f82a0d90e3077bb7ab73169d2",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

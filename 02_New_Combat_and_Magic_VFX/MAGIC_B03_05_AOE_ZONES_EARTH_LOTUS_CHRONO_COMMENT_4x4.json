@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B03_05_AOE_ZONES_EARTH_LOTUS_CHRONO_COMMENT_4x4",
+  "title": "Multi-Tile AoE Zones \u2014 Earth (Tectonic Wall/Quake), Lotus Sanctuary, Chrono Loop, Shadow # Null",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "bb1ed91751ea8ca64570003246eaee86dcf6fedfac8af08db28c82a3f357ef3b",
+  "overall_transparency_pct": 54.76,
+  "enclosed_white_islands_stripped": 25,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Earth (Terracotta Rune)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 57.62,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Earth (Topaz Crystal Fissure)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 50.45,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Earth (Tectonic Wall Rise)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 44.27,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Earth (Rock Dust Settle)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 46.44,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Lotus (Ivory-Gold Ring)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 56.47,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Lotus (8-Petal Bloom)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 51.38,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Lotus (Sanctuary Dome)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 47.44,
+      "islands_stripped": 2
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Lotus (Drifting Petals)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 53.29,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Chrono (Blue Clock Face)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 56.59,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Chrono (Clockwork Gears)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 61.55,
+      "islands_stripped": 12
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Chrono (Temporal Echo Ring)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 33.29,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Chrono (Rewind Fade)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 79.41,
+      "islands_stripped": 7
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Shadow (# Ground Rune)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 60.25,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Shadow (# Null Barrier Cube)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 66.64,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Shadow (# Mute Chain Cage)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 50.26,
+      "islands_stripped": 3
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Shadow (Wisp Dissolve)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 60.87,
+      "islands_stripped": 1
+    }
+  ]
+}

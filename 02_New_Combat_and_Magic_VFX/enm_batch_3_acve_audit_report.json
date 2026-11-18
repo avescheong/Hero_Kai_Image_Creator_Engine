@@ -1,0 +1,199 @@
+{
+  "batch_id": "ENM-3",
+  "checkpoint": "CHK-KAI-CAPYBARA-GO-ENM-BATCH-3-20261118",
+  "total_sheets": 10,
+  "total_frames": 160,
+  "passed": 10,
+  "records": [
+    {
+      "id": "ENM_BOSS_21",
+      "src": "watermarked_img_8237582968738869423.jpg",
+      "filename": "ENM_BOSS_21_ELITE01_MUTED_BELL_TOWER_GARGOYLE_16F_4x4.png",
+      "title": "Muted Bell-Tower Gargoyle",
+      "chapter": "Ch. 1 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (print() Sound-Lock)",
+      "rows": [
+        "F01\u201304: Heavy Wing Hover",
+        "F05\u201308: Double Stone Claw Slam",
+        "F09\u201312: Muffled Chain Soundwave",
+        "F13\u201316: Padlock Open & Golden Bell"
+      ],
+      "sha256": "9538635e3ebe5e8cd9d3775564909597dc28cdb8ff07d7315bf07a19ab58b70c",
+      "alpha_pct": 58.77,
+      "islands_stripped": 6,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_22",
+      "src": "watermarked_img_7038734443477452995.jpg",
+      "filename": "ENM_BOSS_22_ELITE02_QUEEN_SILK_SPINDLE_ARACHNE_16F_4x4.png",
+      "title": "Queen Silk-Spindle Arachne",
+      "chapter": "Ch. 2 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (String & Variable Weaver)",
+      "rows": [
+        "F01\u201304: Royal Bobbin Crown Idle",
+        "F05\u201308: Twin Needle Rapier Lunge",
+        "F09\u201312: Magenta-Gold Web Cage",
+        "F13\u201316: Bow & Rainbow Silk Spool"
+      ],
+      "sha256": "de78fa871ba5ff0185f10a1bb987da8e642e8dddbac99fe19c99cacc37ac0f5d",
+      "alpha_pct": 56.07,
+      "islands_stripped": 12,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_23",
+      "src": "watermarked_img_14273188670088135010.jpg",
+      "filename": "ENM_BOSS_23_ELITE03_DREDGE_FURNACE_LOCOMOTIVE_TORTOISE_16F_4x4.png",
+      "title": "Dredge-Furnace Locomotive Tortoise",
+      "chapter": "Ch. 3 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (int/float Boiler)",
+      "rows": [
+        "F01\u201304: Chugging Coal Puff Idle",
+        "F05\u201308: Cowcatcher Steam Charge",
+        "F09\u201312: Coal Mortar Shell Volley",
+        "F13\u201316: Clean Cloud Steam Whistle"
+      ],
+      "sha256": "fb3d47027e55bde4630c9de33b5239bebaded3f9b85026bfc5e6732926ea9c54",
+      "alpha_pct": 51.49,
+      "islands_stripped": 29,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_24",
+      "src": "watermarked_img_14435840956793826635.jpg",
+      "filename": "ENM_BOSS_24_ELITE04_ALPHA_HOWLING_GALE_FENRIR_16F_4x4.png",
+      "title": "Alpha Howling Gale-Fenrir",
+      "chapter": "Ch. 4 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (f-String Gale)",
+      "rows": [
+        "F01\u201304: Wind-Ruffled Prowl",
+        "F05\u201308: Double Emerald-Claw Pounce",
+        "F09\u201312: Teal Wind-Blade Howl",
+        "F13\u201316: Gentle Breeze Sit & Wag"
+      ],
+      "sha256": "a04f087ebde7e2e2e3bb199fa55190980fa96263a4de9beff6c010cef91f7477",
+      "alpha_pct": 56.28,
+      "islands_stripped": 16,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_25",
+      "src": "watermarked_img_12742978469658323186.jpg",
+      "filename": "ENM_BOSS_25_ELITE05_KING_MIRE_CROAK_LEVIATHAN_TOAD_16F_4x4.png",
+      "title": "King Mire-Croak Leviathan Toad",
+      "chapter": "Ch. 5 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (Type Casting Surge)",
+      "rows": [
+        "F01\u201304: Whirlpool Lilypad Bounce",
+        "F05\u201308: Tidal Belly-Flop Tsunami",
+        "F09\u201312: Acid Raincloud Croak",
+        "F13\u201316: Golden Prosperity Lotus Frog"
+      ],
+      "sha256": "95fc90c53ded454e177001f7476e0a097bb5f354743fa43ea3fa7b19a89c9b07",
+      "alpha_pct": 61.32,
+      "islands_stripped": 6,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_26",
+      "src": "watermarked_img_11121625882888434860.jpg",
+      "filename": "ENM_BOSS_26_ELITE06_GRAND_GRIMOIRE_ARCHIVE_CHIMERA_16F_4x4.png",
+      "title": "Grand Grimoire Archive Chimera",
+      "chapter": "Ch. 6 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (Boolean Logic Vault)",
+      "rows": [
+        "F01\u201304: Floating Page-Flutter",
+        "F05\u201308: Origami Paper Claw Slash",
+        "F09\u201312: Golden Index Card Storm",
+        "F13\u201316: Peaceful Floating Bookshelf"
+      ],
+      "sha256": "88a79bd2e1670ee3afeb4c91604dbe53b16679229575626e32f121f7a909f795",
+      "alpha_pct": 57.72,
+      "islands_stripped": 5,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_27",
+      "src": "watermarked_img_1338013329829353464.jpg",
+      "filename": "ENM_BOSS_27_ELITE07_DIAMOND_MIRROR_GOLEM_SENTINEL_16F_4x4.png",
+      "title": "Diamond Mirror-Golem Sentinel",
+      "chapter": "Ch. 7 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (elif Branch Reflector)",
+      "rows": [
+        "F01\u201304: Crystal Pulse Hover",
+        "F05\u201308: Wide Cyan Halberd Sweep",
+        "F09\u201312: Prismatic Mirror Shield",
+        "F13\u201316: Rainbow Crystal Chandelier"
+      ],
+      "sha256": "9e29d9683e4f8c59db1433552af541bcc2ca5abefcc4f4864a5a24cf0de1c3da",
+      "alpha_pct": 57.36,
+      "islands_stripped": 24,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_28",
+      "src": "watermarked_img_1577202480905975045.jpg",
+      "filename": "ENM_BOSS_28_ELITE08_PYROCLAST_SALAMANDER_BEHEMOTH_16F_4x4.png",
+      "title": "Pyroclast Salamander Behemoth",
+      "chapter": "Ch. 8 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (Indentation Meltdown)",
+      "rows": [
+        "F01\u201304: Tail-Wagging Magma Idle",
+        "F05\u201308: Fiery Lava-Wheel Tackle",
+        "F09\u201312: Twin Caldera Geyser Stomp",
+        "F13\u201316: Rich Soil & Fire-Lotus Bloom"
+      ],
+      "sha256": "f7ae3d06fe341839d50a1090341c263a2b5aed9c8b718d97ead3f2037a01f4b8",
+      "alpha_pct": 62.69,
+      "islands_stripped": 2,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_29",
+      "src": "watermarked_img_7294845478663398048.jpg",
+      "filename": "ENM_BOSS_29_ELITE09_PISTON_CENTURION_GEAR_TITAN_16F_4x4.png",
+      "title": "Piston-Centurion Gear-Titan",
+      "chapter": "Ch. 9 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (for-Loop Drill Captain)",
+      "rows": [
+        "F01\u201304: Rhythmic Piston-Puff Idle",
+        "F05\u201308: Twin Rotary Drill Lunge",
+        "F09\u201312: Brass Gear-Blade Volley",
+        "F13\u201316: Drills Down & Brass Thumbs-Up"
+      ],
+      "sha256": "3ba9960b052bd4b2c17dabe33fb0c04e7aae2a427b14c7389fdc38c5a0f51df0",
+      "alpha_pct": 59.79,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_30",
+      "src": "watermarked_img_8607553653859614014.jpg",
+      "filename": "ENM_BOSS_30_ELITE10_TEMPEST_TENGU_MIRAGE_MASTER_16F_4x4.png",
+      "title": "Tempest Tengu Mirage Master",
+      "chapter": "Ch. 10 \u2014 Day-40 Elite Gatekeeper",
+      "role": "Mini-Boss (while-Loop Mirage)",
+      "rows": [
+        "F01\u201304: Cloud Fan-Flutter Idle",
+        "F05\u201308: X-Shaped Cyan Wind Slash",
+        "F09\u201312: 3x Mirage Afterimage Split",
+        "F13\u201316: Warm Smile & Golden Tailwind"
+      ],
+      "sha256": "f67a5e3cf0ca29070ab34274777cab2dab0706667e11af927b9634e5b1118684",
+      "alpha_pct": 53.8,
+      "islands_stripped": 20,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    }
+  ]
+}

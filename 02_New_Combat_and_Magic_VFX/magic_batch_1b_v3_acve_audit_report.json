@@ -1,0 +1,83 @@
+{
+  "batch_id": "MAGIC_BATCH_1B_V3_IMAGE_REF_LOCKED",
+  "total_sheets": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "MAGIC_B01_01_KAI_HD2D_ELEMENTAL_CASTING_WATER_FIRE_ICE_LIGHTNING_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 65.14,
+      "enclosed_white_islands_stripped": 12,
+      "gate_8_genome_hex_audit": {
+        "#D7A84B": true,
+        "#345830": true,
+        "#F4EFE6": true,
+        "#1F6A38": true,
+        "#D4AF37": true,
+        "#6E4226": true
+      },
+      "sha256": "d0ca64d593a1a5ad40b94ca91987f7e49ac73036c10fc9184770a95dc1bcfffa"
+    },
+    {
+      "sheet_id": "MAGIC_B01_02_KAI_HD2D_ELEMENTAL_CASTING_WIND_NATURE_STARLIGHT_SPECIAL_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 62.17,
+      "enclosed_white_islands_stripped": 30,
+      "gate_8_genome_hex_audit": {
+        "#D7A84B": true,
+        "#345830": true,
+        "#F4EFE6": true,
+        "#1F6A38": true,
+        "#D4AF37": true,
+        "#6E4226": true
+      },
+      "sha256": "7e67dc5fff65c334ac1cb07b21ff5ab8a7331e4c23e43ab281d4168342a8b317"
+    },
+    {
+      "sheet_id": "MAGIC_B01_03_KAI_HD2D_PYTHONIC_CASTING_EARTH_LOTUS_CHRONO_COMMENT_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 63.21,
+      "enclosed_white_islands_stripped": 14,
+      "gate_8_genome_hex_audit": {
+        "#D7A84B": true,
+        "#345830": true,
+        "#F4EFE6": true,
+        "#1F6A38": true,
+        "#D4AF37": true,
+        "#6E4226": true
+      },
+      "sha256": "4076e255accc897aed550059a3f1cee7c96fd5c67f8d54e952d103e92cd9ae3e"
+    },
+    {
+      "sheet_id": "MAGIC_B01_04_KAI_CHIBI_ELEMENTAL_CASTING_ALL_8_CORE_SCHOOLS_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 49.32,
+      "enclosed_white_islands_stripped": 22,
+      "gate_8_genome_hex_audit": {
+        "#D7A84B": true,
+        "#345830": true,
+        "#F4EFE6": true,
+        "#1F6A38": true,
+        "#D4AF37": true,
+        "#6E4226": true
+      },
+      "sha256": "c6f9f0e129167fde2a523bfed639044832d4725e3c40b53088868eaca96a3a82"
+    },
+    {
+      "sheet_id": "MAGIC_B01_05_KAI_CHIBI_AND_SRPG_PYTHONIC_CASTING_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 57.57,
+      "enclosed_white_islands_stripped": 14,
+      "gate_8_genome_hex_audit": {
+        "#D7A84B": true,
+        "#345830": true,
+        "#F4EFE6": true,
+        "#1F6A38": true,
+        "#D4AF37": true,
+        "#6E4226": true
+      },
+      "sha256": "3bfcdc7c49470998f553595e688b27111de005f61ff6748154502660b7e05cfb"
+    }
+  ]
+}

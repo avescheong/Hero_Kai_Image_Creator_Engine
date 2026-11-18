@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B02_02_PROJECTILES_WIND_NATURE_STARLIGHT_SPECIAL_4x4",
+  "title": "Elemental Projectiles \u2014 Wind, Nature, Starlight, Special Attack",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "1538e7271381f38c703af32f944a2c0b10e12c22aadf1242e91fe8ae0837c272",
+  "overall_transparency_pct": 73.35,
+  "enclosed_white_islands_stripped": 33,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Wind (Gust Launch)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 67.12,
+      "islands_stripped": 7
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Wind (Boomerang Blade)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 75.83,
+      "islands_stripped": 5
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Wind (Sonic Air-Arrow)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 80.61,
+      "islands_stripped": 8
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Wind (Cyclone Burst)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 67.63,
+      "islands_stripped": 5
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Nature (Seed Pod Launch)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 79.52,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Nature (Razor Leaf Storm)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 66.32,
+      "islands_stripped": 4
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Nature (Thorn Vine Lance)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 90.07,
+      "islands_stripped": 1
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Nature (Blossom Burst)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 62.5,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Starlight (Astral Orb)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 66.66,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Starlight (Shooting Stars)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 83.78,
+      "islands_stripped": 1
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Starlight (Prism Ray)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 86.81,
+      "islands_stripped": 1
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Starlight (Supernova Spark)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 59.63,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Special (Python Rune Orb)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 65.88,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Special (Sword Chi Barrage)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 77.55,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Special (String Sonic Bark)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 74.75,
+      "islands_stripped": 0
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Special (Grand Cross)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 68.9,
+      "islands_stripped": 0
+    }
+  ]
+}

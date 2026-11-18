@@ -1,0 +1,113 @@
+window.CAPYBARA_CONFIG = {
+  CELL_SIZE: 256,
+  ATLAS_FILES: {
+    KAI_CHIBI: "assets/CG_B01_01_CHIBI_KAI_AUTO_MARCH_AND_COMBAT_4x4.png",
+    STRING_PET: "assets/CG_B02_01_CHIBI_STRING_BEAN_PET_AUTO_BATTLER_4x4.png",
+    MANTIS_PET: "assets/CG_B02_02_CHIBI_SPELL_GUARDIAN_MANTIS_PET_4x4.png",
+    BOSS_01: "assets/CG_B04_01_CHIBI_BOSS01_GLITCH_THORN_BRUTE_4x4.png",
+    MINIONS_ACT1: "assets/CG_B04_05_CHIBI_ACT1_FIELD_MINIONS_SQUAD_4x4.png",
+    BUG_KING: "assets/CG_B05_04_CHIBI_BUG_KING_PHASE1_AND_PHASE2_4x4.png",
+    BIOMES_ACT1: "assets/CG_B08_01_TOP_SCREEN_BIOME_BANNERS_ACT1_CH01_TO_CH06_4x4.png",
+    ROADSIDE_PROPS: "assets/CG_B08_03_ROADSIDE_DAY_EVENT_ENCOUNTER_PROPS_4x4.png",
+    VFX_DAGGERS: "assets/CG_VFX_01_DAGGER_AND_SPEAR_ARSENAL_4x4.png",
+    VFX_SWORD_CHI: "assets/CG_VFX_02_SWORD_CHI_AND_WEAPON_WAVES_4x4.png",
+    VFX_DEFENSE: "assets/CG_VFX_03_DEFENSE_SHIELDS_COUNTER_AND_DODGE_4x4.png",
+    VFX_STATUS: "assets/CG_VFX_04_STATUS_EFFECTS_POISON_CONFUSE_CC_4x4.png",
+    VFX_STRIKES: "assets/CG_VFX_05_CHIBI_ELEMENTAL_STRIKES_AND_COMBO_POPUPS_4x4.png",
+    KAI_MAGIC_CORE: "assets/MAGIC_B01_04_KAI_CHIBI_ELEMENTAL_CASTING_ALL_8_CORE_SCHOOLS_4x4.png",
+    KAI_MAGIC_PYTHON: "assets/MAGIC_B01_05_KAI_CHIBI_AND_SRPG_PYTHONIC_CASTING_4x4.png",
+    KAI_16F_IDLE: "assets/KAI_ACT_01_IDLE_BREATHING_AND_BLINK_16F_4x4.png",
+    KAI_16F_WALK: "assets/KAI_ACT_02_WALK_CYCLE_SMOOTH_16F_4x4.png",
+    KAI_16F_RUN: "assets/KAI_ACT_03_RUN_SPRINT_CYCLE_16F_4x4.png",
+    KAI_16F_HIT: "assets/KAI_ACT_17_HIT_STAGGER_LOW_HP_KO_REVIVE_16F_4x4.png",
+    KAI_16F_VICTORY: "assets/KAI_ACT_18_VICTORY_FANFARE_AND_LEVEL_UP_16F_4x4.png",
+    KAI_16F_ATTACK: "assets/KAI_CMB_01_SWORD_3HIT_COMBO_AND_SWORD_CHI_16F_4x4.png",
+    KAI_16F_WATER: "assets/KAI_MAG_01_WATER_HYDRO_STREAM_AND_TIDAL_GEYSER_16F_4x4.png",
+    KAI_16F_FIRE: "assets/KAI_MAG_02_FIRE_SOLAR_FORGE_AND_METEOR_PILLAR_16F_4x4.png",
+    KAI_16F_ICE: "assets/KAI_MAG_03_ICE_GLACIAL_CRYO_AND_BLIZZARD_SPIRES_16F_4x4.png",
+    KAI_16F_THUNDER: "assets/KAI_MAG_04_THUNDER_LIGHTNING_VOLT_SURGE_16F_4x4.png",
+    KAI_16F_WIND: "assets/KAI_MAG_05_WIND_GALE_ZEPHYR_AND_CYCLONE_16F_4x4.png",
+    KAI_16F_NATURE: "assets/KAI_MAG_06_NATURE_BOTANICAL_VINE_AND_BLOOM_16F_4x4.png",
+    KAI_16F_STARLIGHT: "assets/KAI_MAG_07_STARLIGHT_CELESTIAL_SUPERNOVA_16F_4x4.png",
+    KAI_16F_EARTH: "assets/KAI_MAG_08_EARTH_TECTONIC_WALL_AND_QUAKE_16F_4x4.png",
+    KAI_16F_LOTUS: "assets/KAI_MAG_09_LOTUS_COMPASSIONATE_PURIFY_SANCTUARY_16F_4x4.png",
+    KAI_16F_CHRONO: "assets/KAI_MAG_10_CHRONO_TIME_LOOP_AND_ECHO_CLONE_16F_4x4.png",
+    KAI_16F_SHADOW: "assets/KAI_MAG_11_SHADOW_HASH_COMMENT_MUTE_BLINK_16F_4x4.png",
+    KAI_16F_SIGHT: "assets/KAI_MAG_12_SIGHT_TRUTH_LENS_AND_ILLUSION_SHATTER_16F_4x4.png",
+    KAI_16F_RAGE: "assets/KAI_MAG_13_RAGE_100_OVERDRIVE_TRANSFORMATION_16F_4x4.png",
+    KAI_16F_ULTIMATE: "assets/KAI_MAG_16_ULTIMATE_SCROLLS_OF_PYTHONIA_GRAND_SEAL_16F_4x4.png"
+  },
+  MAGIC_16F_MAP: {
+    water: "KAI_16F_WATER",
+    fire: "KAI_16F_FIRE",
+    ice: "KAI_16F_ICE",
+    lightning: "KAI_16F_THUNDER",
+    wind: "KAI_16F_WIND",
+    nature: "KAI_16F_NATURE",
+    starlight: "KAI_16F_STARLIGHT",
+    special: "KAI_16F_ULTIMATE",
+    earth: "KAI_16F_EARTH",
+    lotus: "KAI_16F_LOTUS",
+    chrono: "KAI_16F_CHRONO",
+    shadow: "KAI_16F_SHADOW",
+    sight: "KAI_16F_SIGHT"
+  },
+  MAGIC_SCHOOLS: [
+    { id: "water", name: "Water (Hydro Stream)", py: "stream.read()", sheet: "KAI_MAGIC_CORE", chant: [0,0], cast: [0,1], vfxSheet: "VFX_STRIKES", vfxCell: [1,2], status: "burn_cleanse", color: "#00B4D8" },
+    { id: "fire", name: "Fire (Solar Forge)", py: "int * int", sheet: "KAI_MAGIC_CORE", chant: [0,2], cast: [0,3], vfxSheet: "VFX_STRIKES", vfxCell: [0,2], status: "burn", color: "#FF4500" },
+    { id: "ice", name: "Ice (Glacial Cryo)", py: "tuple()", sheet: "KAI_MAGIC_CORE", chant: [1,0], cast: [1,1], vfxSheet: "VFX_STRIKES", vfxCell: [1,0], status: "freeze", color: "#48CAE4" },
+    { id: "lightning", name: "Lightning (Volt Surge)", py: "async/await", sheet: "KAI_MAGIC_CORE", chant: [1,2], cast: [1,3], vfxSheet: "VFX_STRIKES", vfxCell: [0,0], status: "stun", color: "#FEE440" },
+    { id: "wind", name: "Wind (Gale Zephyr)", py: "range()", sheet: "KAI_MAGIC_CORE", chant: [2,0], cast: [2,1], vfxSheet: "VFX_STRIKES", vfxCell: [2,0], status: "dodge_up", color: "#52B788" },
+    { id: "nature", name: "Nature (Botanical Vine)", py: "list.append()", sheet: "KAI_MAGIC_CORE", chant: [2,2], cast: [2,3], vfxSheet: "VFX_STRIKES", vfxCell: [2,1], status: "poison", color: "#2D6A4F" },
+    { id: "starlight", name: "Starlight (Celestial)", py: "print()", sheet: "KAI_MAGIC_CORE", chant: [3,0], cast: [3,1], vfxSheet: "VFX_SWORD_CHI", vfxCell: [2,1], status: "confuse", color: "#FFD166" },
+    { id: "special", name: "Special (Python Overdrive)", py: "def ultimate():", sheet: "KAI_MAGIC_CORE", chant: [3,2], cast: [3,3], vfxSheet: "VFX_SWORD_CHI", vfxCell: [1,1], status: "crit_break", color: "#F4C430" },
+    { id: "earth", name: "Earth / Geo (Wall)", py: "int()", sheet: "KAI_MAGIC_PYTHON", chant: [0,0], cast: [0,1], vfxSheet: "VFX_SWORD_CHI", vfxCell: [3,2], status: "shield_up", color: "#B08968" },
+    { id: "lotus", name: "Light / Lotus Purify", py: "bool == True", sheet: "KAI_MAGIC_PYTHON", chant: [0,2], cast: [0,3], vfxSheet: "VFX_STRIKES", vfxCell: [2,2], status: "heal_cleanse", color: "#FFCAD4" },
+    { id: "chrono", name: "Chrono / Loop Time", py: "for / while", sheet: "KAI_MAGIC_PYTHON", chant: [1,0], cast: [1,1], vfxSheet: "VFX_STRIKES", vfxCell: [3,1], status: "combo_up", color: "#00BBF9" },
+    { id: "shadow", name: "Shadow / # Mute", py: "# comment", sheet: "KAI_MAGIC_PYTHON", chant: [1,2], cast: [1,3], vfxSheet: "VFX_STATUS", vfxCell: [3,0], status: "silence", color: "#4361EE" }
+  ],
+  SKILL_POOL: [
+    { id: "flying_daggers", name: "Flying Dagger Volley", rarity: "Rare", desc: "Every attack launches 2 spinning Flying Daggers (+45% ATK)." },
+    { id: "poison_dagger", name: "Venomous Poison Dagger", rarity: "Epic", desc: "Daggers inflict Poison (stacking venom DoT each turn)." },
+    { id: "sword_chi", name: "Basic Sword Chi Wave", rarity: "Common", desc: "Basic attacks unleash a cyan Sword Chi arc (+35% DMG)." },
+    { id: "skill_shield", name: "3-Combo Cyan Skill Shield", rarity: "Epic", desc: "Every 3rd Combo grants a Cyan Hex Shield (+18% Max HP)." },
+    { id: "sky_bolt", name: "Thunderstorm Bolt", rarity: "Rare", desc: "50% chance per turn to call down a Sky Lightning Bolt + Stun." },
+    { id: "icy_spike", name: "Glacial Icy Spike", rarity: "Epic", desc: "Casts Icy Spike with 35% Freeze chance (1-turn lock)." },
+    { id: "dragon_flame", name: "Dragon Flame Pillar", rarity: "Legendary", desc: "Rage attacks erupt in Dragon Flame + 2x Burn stacks." },
+    { id: "piggy_counter", name: "Sun Aegis Counter", rarity: "Rare", desc: "+25% Counter Rate; counters stun enemies with golden stars." },
+    { id: "lotus_cleanse", name: "Compassionate Lotus Aura", rarity: "Legendary", desc: "Heals 10% Max HP & cleanses Poison/Confuse every 2 turns." },
+    { id: "chrono_combo", name: "Chrono Loop Combo +1", rarity: "Legendary", desc: "+25% Combo Rate and +10 Rage per combo hit." }
+  ],
+  VEG_PROVISIONS: [
+    { id: "bao", name: "Steamed Vegetable Bao", hpPct: 0.35, rage: 10, desc: "100% plant-based bamboo-steamed bun (+35% HP)." },
+    { id: "nasi_lemak", name: "Plant-Based Nasi Lemak", hpPct: 0.45, rage: 25, desc: "Aromatic coconut rice with herb sambal (+45% HP, +25 Rage)." },
+    { id: "salt_orange", name: "Cantonese Salt-Steamed Orange", hpPct: 0.20, rage: 50, cleanse: true, desc: "Cleanses Poison/Silence & grants +50 Rage." },
+    { id: "ginseng_tea", name: "Grandma Looma Herbal Tea", hpPct: 0.30, rage: 30, shield: 80, desc: "+30% HP & +80 Golden Shield." }
+  ],
+  PYTHON_GATES: [
+    {
+      day: 10,
+      prompt: "Unlock the Silent Village Gate! Complete the Python print statement:",
+      code: 'gate_signal = _______("LIGHT")',
+      options: ["print", "echo", "say", "write"],
+      answer: "print",
+      reward: "+25% ATK & +100 Gold"
+    },
+    {
+      day: 30,
+      prompt: "Name Kai's loyal golden-tan terrier using a Python string variable:",
+      code: "pet_name = _______",
+      options: ['"String"', "String", "123", "[Ember]"],
+      answer: '"String"',
+      reward: "String Sonic Bark +50% DMG & +150 Gold"
+    },
+    {
+      day: 50,
+      prompt: "For Ch. 9 Master Grimsby's forge, repeat hammer_slam() 5 times:",
+      code: "for i in _______(5):\n    hammer_slam()",
+      options: ["range", "loop", "count", "repeat"],
+      answer: "range",
+      reward: "Chrono Loop +15% Combo & +200 Gold"
+    }
+  ]
+};

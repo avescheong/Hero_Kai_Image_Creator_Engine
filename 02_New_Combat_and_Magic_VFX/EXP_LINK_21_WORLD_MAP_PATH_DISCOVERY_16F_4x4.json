@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "image": "EXP_LINK_21_WORLD_MAP_PATH_DISCOVERY_16F_4x4.png",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "grid": {
+      "cols": 4,
+      "rows": 4,
+      "cell_w": 256,
+      "cell_h": 256
+    },
+    "pivot_standard": {
+      "x": 0.5,
+      "y": 1.0
+    },
+    "sha256": "f09207b81f165ffe3fa8b9da04e98eb0f28e3258c58059108e7d6b200a4eb0af"
+  },
+  "frames": [
+    {
+      "row": 0,
+      "col": 0,
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "frame": {
+        "x": 256,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "frame": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "frame": {
+        "x": 0,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "frame": {
+        "x": 256,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "frame": {
+        "x": 512,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "frame": {
+        "x": 768,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "occupied": true,
+      "content_bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    }
+  ]
+}

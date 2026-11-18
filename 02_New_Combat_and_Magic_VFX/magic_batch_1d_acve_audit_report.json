@@ -1,0 +1,43 @@
+{
+  "batch_id": "MAGIC_BATCH_1D_AOE_ZONES",
+  "total_sheets": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "sheet_id": "MAGIC_B03_01_AOE_ZONES_WATER_WHIRLPOOL_AND_FIRE_METEOR_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 68.1,
+      "enclosed_white_islands_stripped": 28,
+      "sha256": "b4adc26487f48d991c82fb6a84c3da6c5a678cc17af240e80d0fc84471b9ab25"
+    },
+    {
+      "sheet_id": "MAGIC_B03_02_AOE_ZONES_ICE_BLIZZARD_AND_LIGHTNING_STORM_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 70.13,
+      "enclosed_white_islands_stripped": 96,
+      "sha256": "2d09142c3083d7a21c152564a0a8ece474bdabd43879ff1990232892d88822bb"
+    },
+    {
+      "sheet_id": "MAGIC_B03_03_AOE_ZONES_WIND_TEMPEST_AND_NATURE_BRIAR_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 70.53,
+      "enclosed_white_islands_stripped": 44,
+      "sha256": "a4925ca82ff2b0ddc3865f30082b1b7e000c6267b1cc42ff3c6d98cab6292a27"
+    },
+    {
+      "sheet_id": "MAGIC_B03_04_AOE_ZONES_STARLIGHT_SUPERNOVA_AND_SPECIAL_SEAL_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 60.56,
+      "enclosed_white_islands_stripped": 77,
+      "sha256": "4f811d9a4cd57da0b6ba338a86cf68b27d3b89dbbedd89d6caa84123d8bfdba3"
+    },
+    {
+      "sheet_id": "MAGIC_B03_05_AOE_ZONES_EARTH_LOTUS_CHRONO_COMMENT_4x4",
+      "acve_status": "PASS",
+      "overall_transparency_pct": 54.76,
+      "enclosed_white_islands_stripped": 25,
+      "sha256": "bb1ed91751ea8ca64570003246eaee86dcf6fedfac8af08db28c82a3f357ef3b"
+    }
+  ]
+}

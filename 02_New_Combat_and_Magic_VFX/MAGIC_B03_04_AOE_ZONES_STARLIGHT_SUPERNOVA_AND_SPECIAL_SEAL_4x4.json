@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B03_04_AOE_ZONES_STARLIGHT_SUPERNOVA_AND_SPECIAL_SEAL_4x4",
+  "title": "Multi-Tile AoE Zones \u2014 Starlight (Constellation + Supernova) & Special Attack (Ouroboros Seal + Omnislash)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "4f811d9a4cd57da0b6ba338a86cf68b27d3b89dbbedd89d6caa84123d8bfdba3",
+  "overall_transparency_pct": 60.56,
+  "enclosed_white_islands_stripped": 77,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Starlight (Star Sigil)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 70.24,
+      "islands_stripped": 2
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Starlight (8-Point Constellation)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 85.91,
+      "islands_stripped": 10
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Starlight (Cosmic Astral Circle)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 35.67,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Starlight (Stardust Fade)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 96.39,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Starlight (3 Shooting Comets)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 76.84,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Starlight (Supernova Impact)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 61.55,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Starlight (Astral Shockwave)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 39.9,
+      "islands_stripped": 1
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Starlight (Stardust Motes)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 82.96,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Special (Gold-Cyan Rune)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 59.4,
+      "islands_stripped": 6
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Special (Ouroboros Seal)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 50.53,
+      "islands_stripped": 25
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Special (Blazing Grand Seal)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 35.92,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Special (Code-Rune Glow)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 50.75,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Special (Gold-Cyan Beam)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 57.96,
+      "islands_stripped": 7
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Special (Omnislash Pillar)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 43.75,
+      "islands_stripped": 15
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Special (Grand Energy Burst)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 45.85,
+      "islands_stripped": 9
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Special (Blade Sparkle Fade)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 75.35,
+      "islands_stripped": 1
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_24_GRANDMA_LOOMA_MAGICAL_OAK_WEAVING_LOOM_16F_4x4",
+  "title": "Grandma Looma Oak Weaving Loom (16F)",
+  "subtitle": "Upgrades CG_B08_03 R2C1 \u2014 Flying Shuttle & Silk Ribbon",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "1afe1bf0709df4a1d200f38112c6234881b9cc6384fea3cc3941ce2da005cd08",
+  "overall_transparency_pct": 43.71,
+  "enclosed_white_islands_stripped": 83,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.68
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.01
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 45.29
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 43.98
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 40.98
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 40.65
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 45.41
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.14
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.66
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 43.87
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.07
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.22
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.27
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 41.63
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 43.49
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 44.06
+    }
+  ]
+}

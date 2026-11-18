@@ -1,0 +1,238 @@
+{
+  "sheet_id": "MAGIC_B02_04_ELEMENTAL_WEAPON_SLASH_ARCS_PART1_4x4",
+  "title": "Elemental Weapon Slash Arcs Part 1 \u2014 Water, Fire, Ice, Lightning",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "da308581f93cbdc7af5824abc9daa3eeac1fd26ee68efc12f4c3ba9c5fa613c6",
+  "overall_transparency_pct": 78.72,
+  "caption_glyphs_stripped": 0,
+  "enclosed_white_islands_stripped": 30,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Water Crescent Slash",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 81.04,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Tidal Water Arc",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 66.47,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Foamy Droplet Trail",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 79.13,
+      "islands_stripped": 2
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Mist Ripple Fade",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 80.82,
+      "islands_stripped": 4
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Fire Sword Slash",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 76.77,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Solar Flame Crescent",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 66.0,
+      "islands_stripped": 2
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Fiery Ember Trail",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 82.3,
+      "islands_stripped": 0
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Scorch Spark Fade",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 83.62,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Ice Blade Slash",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 82.06,
+      "islands_stripped": 1
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Diamond Frost Crescent",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 71.82,
+      "islands_stripped": 3
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Snowflake Trail",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 75.51,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Frost Shatter Fade",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 84.83,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Lightning Plasma Slash",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 81.44,
+      "islands_stripped": 2
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Thunderbolt Crescent",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 72.22,
+      "islands_stripped": 9
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Crackling Arc Trail",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 86.84,
+      "islands_stripped": 6
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Ionized Spark Fade",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 88.57,
+      "islands_stripped": 0
+    }
+  ]
+}

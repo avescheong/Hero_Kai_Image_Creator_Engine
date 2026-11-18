@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_26_TZU_CHI_LOTUS_SHRINE_AND_JING_SI_SCROLL_16F_4x4",
+  "title": "Tzu Chi Lotus Shrine & Jing Si Scroll (16F)",
+  "subtitle": "Upgrades CG_B08_03 R2C3 \u2014 Lanterns, Lotus & Unfurling Scroll",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "d93589e1838191b67208498873a3922df119fc85b9de83f680628cd7d629c74c",
+  "overall_transparency_pct": 43.99,
+  "enclosed_white_islands_stripped": 17,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.78
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.75
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.75
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.72
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.61
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.6
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.6
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.58
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.66
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 48.46
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 47.22
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 47.44
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 37.2
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 30.91
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 27.93
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.92
+      ],
+      "occupied": true,
+      "transparency_pct": 26.67
+    }
+  ]
+}

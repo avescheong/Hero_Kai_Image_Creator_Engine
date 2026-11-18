@@ -1,0 +1,237 @@
+{
+  "sheet_id": "CG_VFX_03_DEFENSE_SHIELDS_COUNTER_AND_DODGE_4x4",
+  "title": "Defense Shields, Counter-Attack & Dodge (HP Bubble, Hex Skill Shield, Sun Aegis, Mirage)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "cc0716f3c19db4306b9db669dd7c73a045b780103964189dcf3f22df6234347b",
+  "overall_transparency_pct": 57.77,
+  "enclosed_white_islands_stripped": 19,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Golden HP Shield (Orb Spawn)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 68.02,
+      "islands_stripped": 2
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Golden HP Shield (Full Dome)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 39.69,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Golden HP Shield (Hit Ripple)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 49.69,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Golden HP Shield (Shard Shatter)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 46.56,
+      "islands_stripped": 1
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Cyan Hex Skill Shield (Sigil)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 67.59,
+      "islands_stripped": 4
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Cyan Hex Skill Shield (Hex Dome)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 39.69,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Cyan Hex Skill Shield (Deflect)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 46.96,
+      "islands_stripped": 4
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Cyan Hex Skill Shield (Fade)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 66.19,
+      "islands_stripped": 1
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Sun Aegis Parry (Shield Flash)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 49.32,
+      "islands_stripped": 1
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Counter Trigger (Red-Gold Crosshair)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 60.95,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Counter-Attack (Golden Slash Arc)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 67.43,
+      "islands_stripped": 2
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Counter Callout (COUNTER!)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 64.06,
+      "islands_stripped": 0
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Dodge Mirage (Ghost Afterimage)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 61.42,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Dodge Backflip (Wind Blur)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 67.65,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Dodge Puff (Smoke Cloud)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 63.14,
+      "islands_stripped": 4
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Dodge Callout (DODGE!)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 65.97,
+      "islands_stripped": 0
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B02_05_ELEMENTAL_WEAPON_SLASH_ARCS_PART2_4x4",
+  "title": "Infused Weapon Slash Arcs Part 2 \u2014 Wind, Nature, Starlight, Special Overdrive",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "c13c08bd09661419548f60f3feeff7e6f36004785e6d1588cfa2a1a79c0045e0",
+  "overall_transparency_pct": 71.25,
+  "enclosed_white_islands_stripped": 11,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Wind (Aero Blade Glow)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 73.98,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Wind (Slicing Crescent)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 84.41,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Wind (Leaf Ribbon)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 79.48,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Wind (Gust Sparks)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 76.41,
+      "islands_stripped": 1
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Nature (Vine Blade Glow)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 71.73,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Nature (Thorn Crescent)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 79.08,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Nature (Flower Ribbon)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 76.74,
+      "islands_stripped": 2
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Nature (Pollen Sparks)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 75.7,
+      "islands_stripped": 3
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Starlight (Astral Blade)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 77.25,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Starlight (Cosmic Crescent)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 77.15,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Starlight (Constellation Arc)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 53.67,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Starlight (Prism Sparks)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 79.36,
+      "islands_stripped": 0
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Special (Sun-Aegis Charge)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 73.82,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Special (Gold-Cyan Omnislash)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 56.64,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Special (6-Point Starburst)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 56.01,
+      "islands_stripped": 5
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Special (Overdrive Burst)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 48.63,
+      "islands_stripped": 0
+    }
+  ]
+}

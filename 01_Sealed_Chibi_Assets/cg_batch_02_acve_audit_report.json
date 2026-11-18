@@ -1,0 +1,110 @@
+{
+  "batch": "CG_BATCH_02",
+  "assets": [
+    {
+      "asset_id": "CG_B02_01_CHIBI_STRING_BEAN_PET_AUTO_BATTLER_4x4",
+      "png_file": "CG_B02_01_CHIBI_STRING_BEAN_PET_AUTO_BATTLER_4x4.png",
+      "json_file": "CG_B02_01_CHIBI_STRING_BEAN_PET_AUTO_BATTLER_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 56.49,
+      "sha256": "f4485d20c5265a5123a65bda481884ad05d8721bffa42cf2d65b4041a6502472",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B02_02_CHIBI_SPELL_GUARDIAN_MANTIS_PET_4x4",
+      "png_file": "CG_B02_02_CHIBI_SPELL_GUARDIAN_MANTIS_PET_4x4.png",
+      "json_file": "CG_B02_02_CHIBI_SPELL_GUARDIAN_MANTIS_PET_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 65.74,
+      "sha256": "52b7411e825188cb9e2c520b0e1e8854d13268edf658f55b07709d84cfb8ec84",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B02_03_CHIBI_FOUR_SHAPESHIFT_SPIRIT_PETS_4x4",
+      "png_file": "CG_B02_03_CHIBI_FOUR_SHAPESHIFT_SPIRIT_PETS_4x4.png",
+      "json_file": "CG_B02_03_CHIBI_FOUR_SHAPESHIFT_SPIRIT_PETS_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 62.47,
+      "sha256": "b13b967033cf4ee8a798c17e9ae5a0757b0f7dc60e750eea03d5433f8b435841",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B02_04_CHIBI_GREAT_WIZARD_EVENT_MENTOR_4x4",
+      "png_file": "CG_B02_04_CHIBI_GREAT_WIZARD_EVENT_MENTOR_4x4.png",
+      "json_file": "CG_B02_04_CHIBI_GREAT_WIZARD_EVENT_MENTOR_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 53.69,
+      "sha256": "d6b551ddac0e5cfef496661dd0a6b02aeda118d85d696a0f31c8875dc62159bf",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B02_05_CHIBI_PET_EGGS_GACHAPON_AND_SYNERGY_4x4",
+      "png_file": "CG_B02_05_CHIBI_PET_EGGS_GACHAPON_AND_SYNERGY_4x4.png",
+      "json_file": "CG_B02_05_CHIBI_PET_EGGS_GACHAPON_AND_SYNERGY_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 43.78,
+      "sha256": "180c4673d102122672ec55802ccf8a436d375fe831430ad2e6ccd870a18b89a7",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

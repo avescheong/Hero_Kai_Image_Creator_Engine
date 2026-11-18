@@ -1,0 +1,199 @@
+{
+  "batch_id": "ENM-5",
+  "checkpoint": "CHK-KAI-CAPYBARA-GO-ENM-BATCH-5-20261118",
+  "total_sheets": 10,
+  "total_frames": 160,
+  "passed": 10,
+  "records": [
+    {
+      "id": "ENM_BOSS_43",
+      "src": "watermarked_img_1355908701361725961.jpg",
+      "filename": "ENM_BOSS_43_NPC01_GREAT_WIZARD_STARLIGHT_MENTOR_16F_4x4.png",
+      "title": "Great Wizard Starlight Mentor",
+      "chapter": "Ch. 1\u201312 Mentor",
+      "role": "Starlight Mentor (Indigo Hat #23396C, Emerald Orb #2BD980)",
+      "rows": [
+        "F01\u201304: Breathing Idle & Emerald Orb Pulse",
+        "F05\u201308: Starlight Staff Spell Cast",
+        "F09\u201312: Unfurling Legendary Golden Scroll",
+        "F13\u201316: Encouraging Nod & Hat Tip"
+      ],
+      "sha256": "ec93c7b34008968215ee873e70dc9666ce810bedcfe4b44a9cfefc0dcc24bd8c",
+      "alpha_pct": 53.74,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_44",
+      "src": "watermarked_img_8635001645579783066.jpg",
+      "filename": "ENM_BOSS_44_NPC02_GRANDMA_LOOMA_WEAVER_AND_TEA_BLESSING_16F_4x4.png",
+      "title": "Grandma Looma & Puppy String",
+      "chapter": "Ch. 2 Loom Forest Mentor",
+      "role": "Weaver Elder + String (#D89B4C)",
+      "rows": [
+        "F01\u201304: Gentle Knitting & Puppy Tail Wag",
+        "F05\u201308: Boat-Shuttle Golden Silk Weave",
+        "F09\u201312: Pouring Vegetarian Ginseng Tea",
+        "F13\u201316: Warm Tea Blessing & Happy Hop"
+      ],
+      "sha256": "d3777c615b60b1e0c6df90e21903cfbe602a7dcf52bb3b9916681bfc9220a6c2",
+      "alpha_pct": 56.55,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_45",
+      "src": "watermarked_img_15389134125804690055.jpg",
+      "filename": "ENM_BOSS_45_NPC03_CH03_OUTPOST_BLACKSMITH_HORNED_HELM_16F_4x4.png",
+      "title": "Ch. 3 Outpost Blacksmith",
+      "chapter": "Ch. 3 Iron Outpost",
+      "role": "Forge Master (LOCKED 2-Horned Helm & Bare Arms)",
+      "rows": [
+        "F01\u201304: Sturdy Hammer-on-Shoulder Idle",
+        "F05\u201308: Anvil Slam & Orange Forge Sparks",
+        "F09\u201312: Tempering Glowing Iron Broadsword",
+        "F13\u201316: Hearty Laugh & Gleaming Sword"
+      ],
+      "sha256": "590ebe0a107f26e7090ab72d4e9e247f9001f70576e28b3f83d2fcb27c3804d2",
+      "alpha_pct": 50.72,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_46",
+      "src": "watermarked_img_2896106716703709620.jpg",
+      "filename": "ENM_BOSS_46_NPC04_CH09_MASTER_GRIMSBY_DWARF_RUNESMITH_16F_4x4.png",
+      "title": "Master Grimsby Dwarf Runesmith",
+      "chapter": "Ch. 9 Deep Dwarven Forge",
+      "role": "Runesmith (LOCKED Hatless + Goggles + Ginger Beard)",
+      "rows": [
+        "F01\u201304: Inspecting Blue Rune Stone",
+        "F05\u201308: Runic Hammering & Cyan Sparks",
+        "F09\u201312: Raising Dwarven Cuirass & Sun Aegis",
+        "F13\u201316: Cheerful Dwarven Salute"
+      ],
+      "sha256": "54b50c95c3c45cb34773110e1794afd69b1af28e91311c17d5556a562fe8f03f",
+      "alpha_pct": 54.37,
+      "islands_stripped": 1,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_47",
+      "src": "watermarked_img_9526350524659765229.jpg",
+      "filename": "ENM_BOSS_47_NPC05_FELLOW_APPRENTICES_LYRA_AND_BRAM_16F_4x4.png",
+      "title": "Fellow Apprentices Lyra & Bram",
+      "chapter": "Academy Rivals & Co-Op",
+      "role": "Lyra (Astrolabe) & Bram (Wrench-Staff)",
+      "rows": [
+        "F01\u201304: Lyra Starry Idle & Quill Writing",
+        "F05\u201308: Lyra Violet-Gold Constellation Burst",
+        "F09\u201312: Bram Bouncy Gear-Tinkering Idle",
+        "F13\u201316: Bram Wrench-Staff Spin & Wave"
+      ],
+      "sha256": "79b0672c763cc21ee8ab70d1d9bf0bbda3d7203881ede9839c246c0c1e8d34c7",
+      "alpha_pct": 68.87,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_48",
+      "src": "watermarked_img_10032746720139977636.jpg",
+      "filename": "ENM_BOSS_48_NPC06_MASTER_CHENG_VEGGIE_CHEF_AND_BARNABY_BAKER_16F_4x4.png",
+      "title": "Master Cheng & Barnaby Baker",
+      "chapter": "100% Vegetarian Culinary Masters",
+      "role": "Veggie Bao Sage & Honey-Bread Baker",
+      "rows": [
+        "F01\u201304: Master Cheng Fanning Veggie Bao Steam",
+        "F05\u201308: Bamboo Steamer Lotus-Steam Burst",
+        "F09\u201312: Barnaby Kneading Honey-Wheat Dough",
+        "F13\u201316: Presenting Fresh Golden Loaf"
+      ],
+      "sha256": "8cab8553e29d1f8afc1f7d02bc9cb64994b9710d2e1c4fbb900511a48dc26e7a",
+      "alpha_pct": 59.08,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_49",
+      "src": "watermarked_img_17523939927700610881.jpg",
+      "filename": "ENM_BOSS_49_NPC07_ZEN_CAPYBARA_MASTER_AND_CARAVAN_MERCHANT_16F_4x4.png",
+      "title": "Master Yuzu & Caravan Poko",
+      "chapter": "Capybara Go! Homage Specials",
+      "role": "Hot-Spring Yuzu & Merchant Poko",
+      "rows": [
+        "F01\u201304: Master Yuzu Peaceful Barrel Soak",
+        "F05\u201308: Yuzu Pink-Gold Lotus Stamina Aura",
+        "F09\u201312: Poko Cheerful Backpack Waddle",
+        "F13\u201316: Poko Displaying Golden Wares"
+      ],
+      "sha256": "3c21a7c9758895023eb71dca622374f1003724c707ebde4f994a9bb60983336c",
+      "alpha_pct": 53.51,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_50",
+      "src": "watermarked_img_755899106635689537.jpg",
+      "filename": "ENM_BOSS_50_NPC08_GHOST_LIBRARIAN_AND_FOREST_DRYAD_16F_4x4.png",
+      "title": "Ghost Librarian & Forest Dryad",
+      "chapter": "Ch. 4 & Ch. 6 Mystical NPCs",
+      "role": "Silver-Quill Ghost & Flute Dryad",
+      "rows": [
+        "F01\u201304: Ghost Librarian Floating Tome Read",
+        "F05\u201308: Ghost Playful Shush & Silver Sparkles",
+        "F09\u201312: Forest Dryad Reed Flute Melody",
+        "F13\u201316: Dryad Emerald Leaves & Blossoms"
+      ],
+      "sha256": "4d032ba21a41135d5b1a0d182dbfdd61c27c9e74b1f084e44143d143f2979f9d",
+      "alpha_pct": 70.7,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_51",
+      "src": "watermarked_img_6823705608730683877.jpg",
+      "filename": "ENM_BOSS_51_NPC09_REFORMED_VEGGIE_GOBLIN_AND_SIGNPOST_KEEPER_16F_4x4.png",
+      "title": "Pip Veggie Goblin & Signpost Keeper",
+      "chapter": "Roadside Friends",
+      "role": "Organic Pumpkin Goblin & Lantern Keeper",
+      "rows": [
+        "F01\u201304: Pip Cheerful Garden Hop",
+        "F05\u201308: Pip Offering Fresh Orange Pumpkin",
+        "F09\u201312: Signpost Keeper Swaying Lantern",
+        "F13\u201316: Raising Golden Balance Lantern"
+      ],
+      "sha256": "0bf4d81091b6b24775995ac41b1c01b6a4c27964b18df1063fbbca5c8e4bc73f",
+      "alpha_pct": 59.22,
+      "islands_stripped": 2,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_52",
+      "src": "watermarked_img_18190167334765987237.jpg",
+      "filename": "ENM_BOSS_52_NPC10_ANCIENT_LIBRARY_DRAGON_AND_VILLAGE_GIRL_16F_4x4.png",
+      "title": "Library Dragon & Village Girl",
+      "chapter": "Ch. 1 & Ch. 6 Iconic NPCs",
+      "role": "Tea-Sipping Dragon & Pinwheel Girl",
+      "rows": [
+        "F01\u201304: Library Dragon Tail Sway & Tea Sip",
+        "F05\u201308: Dragon Adjusting Glasses & Book Page",
+        "F09\u201312: Village Girl Pinwheel Skip",
+        "F13\u201316: Village Girl Cheer & Sparkles"
+      ],
+      "sha256": "a90c08f108556b02d56cfec76149d72d7a9a45202d085db10a8dd15d4e5815a5",
+      "alpha_pct": 60.54,
+      "islands_stripped": 1,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    }
+  ]
+}

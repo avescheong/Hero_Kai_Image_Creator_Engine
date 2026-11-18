@@ -1,0 +1,76 @@
+{
+  "batch": "EXP-LINK-5",
+  "total": 10,
+  "results": [
+    {
+      "filename": "EXP_LINK_41_VARIABLE_CRYSTAL_SLOT_POP_AND_GLOW_16F_4x4.png",
+      "alpha_pct": 59.08,
+      "cells_occupied": "16/16",
+      "sha256": "a7e7a23717f64e6f53b58affbeaa3325c8d67e13c6de95372c7b377e370a79c0",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_42_LOOP_ORBITING_GEAR_AND_STEP_COUNTER_HALO_16F_4x4.png",
+      "alpha_pct": 66.95,
+      "cells_occupied": "16/16",
+      "sha256": "3f2ca1835593b103d028714026e9ae44cf4ebdd78a73b52cbbc01f4d53c49129",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_43_IF_ELSE_GOLDEN_FORKING_PATH_GATE_SPARK_16F_4x4.png",
+      "alpha_pct": 69.88,
+      "cells_occupied": "15/16",
+      "sha256": "9303aa814860463401175f567e81abb68f36df6ce5fea9f761881b6a44ae95dc",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_44_FUNCTION_SCROLL_SUMMON_CIRCLE_AND_GEM_LOCK_16F_4x4.png",
+      "alpha_pct": 63.25,
+      "cells_occupied": "16/16",
+      "sha256": "90f928536aaee9e3c933e9a9a90051a857947cb937a7aeb6309cbbd3ca40852f",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_45_LIST_ARRAY_CHEST_SLOT_POP_AND_INDEX_STAR_16F_4x4.png",
+      "alpha_pct": 68.5,
+      "cells_occupied": "15/16",
+      "sha256": "5cd8335fe9182e9bfbc65bb233ae0369cfebf14ec847baee7af982c70d470e2c",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_46_LEVEL_UP_GOLDEN_CROWN_AND_STAT_BOOST_PILLAR_RISE_16F_4x4.png",
+      "alpha_pct": 59.66,
+      "cells_occupied": "16/16",
+      "sha256": "ba9e4291b8d9f9a50cb41ff8968a214ae9e1e78d36e49679638f5769eaacf014",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_47_STAGE_CLEAR_CONFETTI_RIBBON_AND_STARLIGHT_SHOWER_16F_4x4.png",
+      "alpha_pct": 87.83,
+      "cells_occupied": "16/16",
+      "sha256": "189666f70586191514d57fb61860da90bdddf1b9fe5ddb4da70a916255759609",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_48_BOSS_DEFEAT_GRAND_TREASURE_CHEST_POP_GEM_FOUNTAIN_16F_4x4.png",
+      "alpha_pct": 65.8,
+      "cells_occupied": "16/16",
+      "sha256": "6d28e2e34e157f2fa91dc2c868969706561d7ebf7a31512444641ba2cb9cd20f",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_49_HERO_KAI_AND_COMPANIONS_HIGH_FIVE_VICTORY_EMBLEM_16F_4x4.png",
+      "alpha_pct": 42.53,
+      "cells_occupied": "16/16",
+      "sha256": "ba68857a6d6b27a72a9e506822b202fb90b51dc0b22c35471cc22f42d21de5b7",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_50_TZU_CHI_LOTUS_GRATITUDE_HALO_AND_KINDNESS_STAR_BURST_16F_4x4.png",
+      "alpha_pct": 70.11,
+      "cells_occupied": "16/16",
+      "sha256": "6908473765c5485035e58f71dfebff3131552ffcdb08d081acaa5330eb100440",
+      "exit_code": 0
+    }
+  ]
+}

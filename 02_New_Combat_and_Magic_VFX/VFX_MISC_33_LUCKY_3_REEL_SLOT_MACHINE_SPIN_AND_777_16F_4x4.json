@@ -1,0 +1,288 @@
+{
+  "sheet_id": "VFX_MISC_33_LUCKY_3_REEL_SLOT_MACHINE_SPIN_AND_777_16F_4x4",
+  "title": "Lucky 3-Reel Slot Machine & 777 Jackpot (16F)",
+  "subtitle": "Lever Pull, Reel Blur, 7-7-7 Lock & Coin Fountain",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "fps": 16,
+  "sha256": "525e063edf26eeed04b51d259f02b6ea0c7c9871e8ec7b457a876c23e382b9a7",
+  "overall_transparency_pct": 40.71,
+  "enclosed_white_islands_stripped": 5,
+  "occupied_cells": "16/16",
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.81
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.39
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 43.02
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 41.67
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.59
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.9
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.47
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.42
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 42.91
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 41.84
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 36.74
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 40.56
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 39.03
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 33.97
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 40.6
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "occupied": true,
+      "transparency_pct": 35.37
+    }
+  ]
+}

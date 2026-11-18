@@ -1,0 +1,238 @@
+{
+  "sheet_id": "MAGIC_B02_02_PROJECTILES_WIND_NATURE_STARLIGHT_SPECIAL_4x4",
+  "title": "Elemental Projectiles \u2014 Wind, Nature, Starlight, Special Attack (4-Frame Sequences)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "339f978aa63efac3862d00cce16871cf12e36445342648eb3a95314e0169daa2",
+  "overall_transparency_pct": 73.51,
+  "caption_glyphs_stripped": 0,
+  "enclosed_white_islands_stripped": 33,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Wind Air-Blade Launch",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 75.68,
+      "islands_stripped": 0
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Boomerang Wind Crescent",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 67.99,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Sonic Air-Arrow",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 86.33,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Gale Vacuum Impact",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 62.51,
+      "islands_stripped": 12
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Nature Seed Pod Launch",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 77.96,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Razor Leaf Storm",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 76.67,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Thorny Vine Dart",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 88.68,
+      "islands_stripped": 1
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Sprouting Flower Impact",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 69.04,
+      "islands_stripped": 1
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Starlight Star Launch",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 83.31,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Homing Shooting-Star",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 82.51,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Astral Prism Ray",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 85.07,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Supernova Sparkle Impact",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 65.44,
+      "islands_stripped": 3
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Special Rune Orb Launch",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 64.73,
+      "islands_stripped": 4
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Phantom Sword Chi Barrage",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 72.87,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Sonic Bark + Mantis Crescent",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 69.84,
+      "islands_stripped": 4
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Grand Pythonic Slash Impact",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 47.44,
+      "islands_stripped": 8
+    }
+  ]
+}

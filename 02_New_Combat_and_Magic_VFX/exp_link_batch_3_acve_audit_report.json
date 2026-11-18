@@ -1,0 +1,76 @@
+{
+  "batch": "EXP-LINK-3",
+  "total": 10,
+  "results": [
+    {
+      "filename": "EXP_LINK_21_HUD_KAICAM_PORTRAIT_HEALTHY_JOY_THINK_SHIELD_16F_4x4.png",
+      "alpha_pct": 20.33,
+      "cells_occupied": "16/16",
+      "sha256": "85cb1d862051c8cb1bdbee379cba0255c691e48d87245ecce619429b1e18ea5c",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_22_HUD_KAICAM_PORTRAIT_BLEED_POISON_CONFUSE_FREEZE_16F_4x4.png",
+      "alpha_pct": 27.67,
+      "cells_occupied": "16/16",
+      "sha256": "845d52c59c8b2d399acde6e89b196b0b5fef55457989740e48aca8990b4cfecf",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_23_OVERHEAD_COMIC_SPEECH_BUBBLE_EMOTE_POPS_16F_4x4.png",
+      "alpha_pct": 63.28,
+      "cells_occupied": "16/16",
+      "sha256": "c8b3ca322fdac1aafda4bf4d017bd661688e9e8de94666fc5b3e089c62bb590d",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_24_MANGA_CUTIN_HERO_KAI_100_RAGE_AND_CRIT_16F_4x4.png",
+      "alpha_pct": 34.18,
+      "cells_occupied": "16/16",
+      "sha256": "c6decf8f62037cf93f2f217f7a3404a2a3119d5eaa832457b5a0881cbe6723fe",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_25_MANGA_CUTIN_STRING_AND_BABY_MANTIS_ASSIST_16F_4x4.png",
+      "alpha_pct": 24.95,
+      "cells_occupied": "16/16",
+      "sha256": "b361b5913f98678dd89463c85d56d447f5b6a12912bc0b44ef962dd200b81c31",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_26_MANGA_CUTIN_BOSS_SPELL_TELEGRAPH_CLASH_16F_4x4.png",
+      "alpha_pct": 46.87,
+      "cells_occupied": "16/16",
+      "sha256": "97bae5b317ba1c59691c60a51458498360e8d0fd33c14a75ec8fe63ea4396163",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_27_INTERACTIVE_RHYTHM_PARRY_COLON_TIMING_RING_16F_4x4.png",
+      "alpha_pct": 63.55,
+      "cells_occupied": "15/16",
+      "sha256": "fe13e04ecbedf196b3ce90bf0998d3640d232b5286277bc1218df2573654ce12",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_28_INTERACTIVE_TAP_AND_SHAKE_STATUS_CURE_WIDGET_16F_4x4.png",
+      "alpha_pct": 71.18,
+      "cells_occupied": "16/16",
+      "sha256": "31f2a4ba214488b8593367285844ea649ebb4e8dda4c36edbabfbb093e62f485",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_29_SAKUGA_HIT_STOP_IMPACT_FRAME_SHOCK_HALO_16F_4x4.png",
+      "alpha_pct": 76.79,
+      "cells_occupied": "15/16",
+      "sha256": "32aa382c963084f2aac38d64724cf71636ec1174f6bc380b24c54406afb61476",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_30_KID_PACING_MODE_TOGGLE_MASCOTS_TURTLE_SWORD_BOLT_16F_4x4.png",
+      "alpha_pct": 44.92,
+      "cells_occupied": "16/16",
+      "sha256": "56421f1e5f45e6fbc3075a973c23de6eaa2b069202e7a5527db1fadaaca90358",
+      "exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "sheet_id": "MAGIC_B02_04_ELEMENTAL_WEAPON_SLASH_ARCS_PART1_4x4",
+  "title": "Infused Weapon Slash Arcs Part 1 \u2014 Water, Fire, Ice, Lightning",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "d7b9f897358852bdd0955265e775b49016f7848688558da89be0903eb34eb66d",
+  "overall_transparency_pct": 72.93,
+  "enclosed_white_islands_stripped": 26,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Water (Blade Glow)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 71.88,
+      "islands_stripped": 2
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Water (Tidal Crescent)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 56.87,
+      "islands_stripped": 1
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Water (Ribbon Trail)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 78.2,
+      "islands_stripped": 3
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Water (Droplet Sparks)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 76.82,
+      "islands_stripped": 0
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Fire (Ember Ignition)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 72.63,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Fire (Blazing Crescent)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 63.1,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Fire (Flame Trail)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 77.45,
+      "islands_stripped": 0
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Fire (Ember Sparks)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 80.3,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Ice (Frost Blade Glow)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 60.73,
+      "islands_stripped": 2
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Ice (Diamond Crescent)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 67.5,
+      "islands_stripped": 4
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Ice (Frost Ribbon)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 69.18,
+      "islands_stripped": 2
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Ice (Shatter Sparks)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 72.18,
+      "islands_stripped": 2
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Lightning (Static Blade)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 75.6,
+      "islands_stripped": 2
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Lightning (Volt Crescent)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 69.03,
+      "islands_stripped": 1
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Lightning (Plasma Arc)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 82.66,
+      "islands_stripped": 7
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Lightning (Shock Sparks)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 92.74,
+      "islands_stripped": 0
+    }
+  ]
+}

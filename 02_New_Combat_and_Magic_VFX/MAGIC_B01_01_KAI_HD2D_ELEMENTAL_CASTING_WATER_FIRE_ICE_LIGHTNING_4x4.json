@@ -1,0 +1,245 @@
+{
+  "sheet_id": "MAGIC_B01_01_KAI_HD2D_ELEMENTAL_CASTING_WATER_FIRE_ICE_LIGHTNING_4x4",
+  "title": "HD-2D Hero Kai Elemental Casting \u2014 Water, Fire, Ice, Lightning (Image-Ref Locked V3)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "d0ca64d593a1a5ad40b94ca91987f7e49ac73036c10fc9184770a95dc1bcfffa",
+  "overall_transparency_pct": 65.14,
+  "enclosed_white_islands_stripped": 12,
+  "gate_8_genome_hex_audit": {
+    "#D7A84B": true,
+    "#345830": true,
+    "#F4EFE6": true,
+    "#1F6A38": true,
+    "#D4AF37": true,
+    "#6E4226": true
+  },
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Water (Wind-Up Circle)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 64.61,
+      "islands_stripped": 3
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Water (Orb Chant)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 66.04,
+      "islands_stripped": 0
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Water (Double-Palm Surge)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 61.18,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Water (Mist Recovery)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 64.26,
+      "islands_stripped": 3
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Fire (Ember Clench)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 66.39,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Fire (Overhead Arc)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 58.61,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Fire (Explosive Punch)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 63.57,
+      "islands_stripped": 0
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Fire (Heat Shimmer)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 68.57,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Ice (Frost Breath)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 69.67,
+      "islands_stripped": 0
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Ice (Finger Snap)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 69.29,
+      "islands_stripped": 0
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Ice (Frost Ring Stomp)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 55.31,
+      "islands_stripped": 3
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Ice (Poised Stance)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 70.08,
+      "islands_stripped": 0
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Lightning (Static Sparks)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 66.19,
+      "islands_stripped": 1
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Lightning (Sky Point)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 69.83,
+      "islands_stripped": 0
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Lightning (Thunderbolt Call)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 59.7,
+      "islands_stripped": 2
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Lightning (Ionized Stance)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 68.98,
+      "islands_stripped": 0
+    }
+  ]
+}

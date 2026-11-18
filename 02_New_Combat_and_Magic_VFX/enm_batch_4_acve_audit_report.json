@@ -1,0 +1,237 @@
+{
+  "batch_id": "ENM-4",
+  "checkpoint": "CHK-KAI-CAPYBARA-GO-ENM-BATCH-4-20261118",
+  "total_sheets": 12,
+  "total_frames": 192,
+  "passed": 12,
+  "records": [
+    {
+      "id": "ENM_BOSS_31",
+      "src": "watermarked_img_641794541358048414.jpg",
+      "filename": "ENM_BOSS_31_BOSS01_GRAND_SILENCE_CHIME_GOLEM_16F_4x4.png",
+      "title": "Grand Silence Chime-Golem",
+      "chapter": "Ch. 1 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (print() Grand Awakening)",
+      "rows": [
+        "F01\u201304: Floating Rune-Shoulder Idle",
+        "F05\u201308: Stone Mallet Bell-Quake Slam",
+        "F09\u201312: Chest Chime Shockwave Rings",
+        "F13\u201316: Golden Moss & Joyful Notes"
+      ],
+      "sha256": "4c62107b566344b285864cd46040c61ffdf5853f6729200601670bc5f7cac4c7",
+      "alpha_pct": 48.67,
+      "islands_stripped": 8,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_32",
+      "src": "watermarked_img_8517791896552012761.jpg",
+      "filename": "ENM_BOSS_32_BOSS02_WEAVER_QUEEN_OF_ENTANGLED_THREADS_16F_4x4.png",
+      "title": "Weaver Queen of Entangled Threads",
+      "chapter": "Ch. 2 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (Variables & String Tapestry)",
+      "rows": [
+        "F01\u201304: Spindle-Halo Levitation",
+        "F05\u201308: Criss-Cross Silk Ribbon Lash",
+        "F09\u201312: Golden Web Mandala Weave",
+        "F13\u201316: Rainbow Tapestry Untangle"
+      ],
+      "sha256": "58318feb5b2a52bad4eda2367a2a33a3f295ee24450e91d8583286bf90098191",
+      "alpha_pct": 57.85,
+      "islands_stripped": 40,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_33",
+      "src": "watermarked_img_12244065151835181798.jpg",
+      "filename": "ENM_BOSS_33_BOSS03_COALHEART_IRON_BEHEMOTH_KRAKEN_16F_4x4.png",
+      "title": "Coalheart Iron Behemoth Kraken",
+      "chapter": "Ch. 3 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (Numeric Precision Boiler)",
+      "rows": [
+        "F01\u201304: Boiler-Pressure Idle",
+        "F05\u201308: Twin Iron Piston Tentacle Slam",
+        "F09\u201312: Furnace Dome Ember Geyser",
+        "F13\u201316: Turquoise-Gold Clean Steam"
+      ],
+      "sha256": "ddb326a46562f74e34367df37d665a8086ec814e5a8b410f3a588889642a7e07",
+      "alpha_pct": 54.72,
+      "islands_stripped": 13,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_34",
+      "src": "watermarked_img_10908862267067132396.jpg",
+      "filename": "ENM_BOSS_34_BOSS04_STORMSONG_WYVERN_EMPRESS_16F_4x4.png",
+      "title": "Stormsong Wyvern Empress",
+      "chapter": "Ch. 4 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (f-String Gale Finale)",
+      "rows": [
+        "F01\u201304: Emerald Wing-Beat Hover",
+        "F05\u201308: Cyan Wing-Blade Gale Slash",
+        "F09\u201312: Twin-Spiral Emerald Tornado",
+        "F13\u201316: Calm Folded Wings & Breeze"
+      ],
+      "sha256": "5a5cb0788751f3a3e870458d82120ed40cf50eebbb42fe29aaabd50e4f5ab125",
+      "alpha_pct": 57.68,
+      "islands_stripped": 58,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_35",
+      "src": "watermarked_img_10179994088059725006.jpg",
+      "filename": "ENM_BOSS_35_BOSS05_MIRE_HYDRA_OF_MIXED_TYPES_16F_4x4.png",
+      "title": "Mire-Hydra of Mixed Types",
+      "chapter": "Ch. 5 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (int/float/str Tri-Head)",
+      "rows": [
+        "F01\u201304: Tri-Head Swamp Bob Idle",
+        "F05\u201308: Synchronized Tri-Snap Bite",
+        "F09\u201312: Tri-Color Splash Beam",
+        "F13\u201316: Happy Nuzzle & Pink Lotus"
+      ],
+      "sha256": "bd6938477761d7339fa8b4a734df75adc8608de96a259832a07ffe7afb36b05e",
+      "alpha_pct": 52.13,
+      "islands_stripped": 5,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_36",
+      "src": "watermarked_img_12585279861268155115.jpg",
+      "filename": "ENM_BOSS_36_BOSS06_FALSEHOOD_SPHINX_OF_THE_ARCHIVE_16F_4x4.png",
+      "title": "Falsehood Sphinx of the Archive",
+      "chapter": "Ch. 6 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (Boolean Truth Arbiter)",
+      "rows": [
+        "F01\u201304: Regal Tail-Swish Idle",
+        "F05\u201308: Golden Paw-Swipe Dash",
+        "F09\u201312: Dual True/False Rune Tablets",
+        "F13\u201316: White Starlight Purr"
+      ],
+      "sha256": "ccf0d8106019bf94f5bdf0b9aefdd57cb7f1bc33ee583a2e1cdc7ba276b4a305",
+      "alpha_pct": 49.83,
+      "islands_stripped": 13,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_37",
+      "src": "watermarked_img_2708492943997560054.jpg",
+      "filename": "ENM_BOSS_37_BOSS07_PRISMATIC_ORACLE_COLOSSUS_16F_4x4.png",
+      "title": "Prismatic Oracle Colossus",
+      "chapter": "Ch. 7 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (if/elif/else Prism)",
+      "rows": [
+        "F01\u201304: Tri-Ring Halo Levitation",
+        "F05\u201308: Prismatic Rainbow Laser",
+        "F09\u201312: Starry Cyan-Magenta Barrier",
+        "F13\u201316: Serene Golden Sun-Prism"
+      ],
+      "sha256": "6234e115468afacff335d2735f73c5578051330d6369cc220961783a54202a45",
+      "alpha_pct": 65.52,
+      "islands_stripped": 96,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_38",
+      "src": "watermarked_img_3428698578274420906.jpg",
+      "filename": "ENM_BOSS_38_BOSS08_OBSIDIAN_CALDERA_DRAGON_16F_4x4.png",
+      "title": "Obsidian Caldera Dragon",
+      "chapter": "Ch. 8 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (Nested Conditionals)",
+      "rows": [
+        "F01\u201304: Smoldering Wing-Hover",
+        "F05\u201308: Blazing Magma-Claw Slash",
+        "F09\u201312: Molten Caldera Fire-Stream",
+        "F13\u201316: Jewel-Toned Basalt Cool"
+      ],
+      "sha256": "177d85906538c1f9e441dce602295daf2610a5a099ca8d48e1f3d83429e11e55",
+      "alpha_pct": 57.98,
+      "islands_stripped": 5,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_39",
+      "src": "watermarked_img_5437290171244198662.jpg",
+      "filename": "ENM_BOSS_39_BOSS09_CLOCKWORK_CHRONOS_AUTOMATON_16F_4x4.png",
+      "title": "Clockwork Chronos Automaton",
+      "chapter": "Ch. 9 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (for-Loop Grand Ticker)",
+      "rows": [
+        "F01\u201304: Pendulum Hover Idle",
+        "F05\u201308: 360\u00b0 Clock-Hand Cleave",
+        "F09\u201312: Cyan-Gold Time-Gear Rings",
+        "F13\u201316: 12:00 Chime Alignment"
+      ],
+      "sha256": "e23d8bd1a1afc208d3270dcd44f1df60564d9e81a43ccba8d97d448a560d69a1",
+      "alpha_pct": 57.65,
+      "islands_stripped": 23,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_40",
+      "src": "watermarked_img_6435376912751313809.jpg",
+      "filename": "ENM_BOSS_40_BOSS10_ETERNAL_TEMPEST_CYCLONE_DJINN_16F_4x4.png",
+      "title": "Eternal Tempest Cyclone Djinn",
+      "chapter": "Ch. 10 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (while-Loop Cyclone)",
+      "rows": [
+        "F01\u201304: Cyclone-Vortex Hover",
+        "F05\u201308: Twin Lightning-Scimitar Slash",
+        "F09\u201312: Electric Storm Cloud Ring",
+        "F13\u201316: Pastel Sky Cloud Bow"
+      ],
+      "sha256": "b5d0614ffc044f9ea72373405c3fea1fa9613b4f09541e1619e41238e428b7a1",
+      "alpha_pct": 60.2,
+      "islands_stripped": 8,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_41",
+      "src": "watermarked_img_4153787365504344022.jpg",
+      "filename": "ENM_BOSS_41_BOSS11_FROST_LIST_SOVEREIGN_YETI_16F_4x4.png",
+      "title": "Frost-List Sovereign Yeti",
+      "chapter": "Ch. 11 \u2014 Day-60 Chapter End-Boss",
+      "role": "End-Boss (Lists & Indexing King)",
+      "rows": [
+        "F01\u201304: Chest-Thump Snowy Idle",
+        "F05\u201308: Glacier-Club Snow Slam",
+        "F09\u201312: 6-Pointed Frost Blizzard",
+        "F13\u201316: Cozy Snow-Bear with Cocoa"
+      ],
+      "sha256": "a619cc1eed1ea30e90d57e182a9270dc670ce8ade26c335d603d78d8506edfb1",
+      "alpha_pct": 60.99,
+      "islands_stripped": 153,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_42",
+      "src": "watermarked_img_11903525306036682694.jpg",
+      "filename": "ENM_BOSS_42_BOSS12_CORRUPTED_ARCHMAGE_VOID_SERPENT_16F_4x4.png",
+      "title": "Corrupted Archmage Void-Serpent",
+      "chapter": "Ch. 12 \u2014 Day-60 Grand Final Boss",
+      "role": "Grand Final Boss (Capstone Mastery)",
+      "rows": [
+        "F01\u201304: Starry-Coil Levitation",
+        "F05\u201308: Violet-Gold Fang-Beam",
+        "F09\u201312: Celestial Tome Rune Meteors",
+        "F13\u201316: Golden Guardian Star-Dragon"
+      ],
+      "sha256": "a4efd55901396afaeca7c8d82575f1a0d54553b84adc0891250b8bd9e33a252a",
+      "alpha_pct": 54.66,
+      "islands_stripped": 17,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    }
+  ]
+}

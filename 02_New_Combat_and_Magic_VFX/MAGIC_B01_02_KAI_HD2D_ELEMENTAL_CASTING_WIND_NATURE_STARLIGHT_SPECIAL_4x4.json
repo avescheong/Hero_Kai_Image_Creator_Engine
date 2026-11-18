@@ -1,0 +1,245 @@
+{
+  "sheet_id": "MAGIC_B01_02_KAI_HD2D_ELEMENTAL_CASTING_WIND_NATURE_STARLIGHT_SPECIAL_4x4",
+  "title": "HD-2D Hero Kai Elemental Casting \u2014 Wind, Nature, Starlight, Special Overdrive (Image-Ref Locked V3)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "7e67dc5fff65c334ac1cb07b21ff5ab8a7331e4c23e43ab281d4168342a8b317",
+  "overall_transparency_pct": 62.17,
+  "enclosed_white_islands_stripped": 30,
+  "gate_8_genome_hex_audit": {
+    "#D7A84B": true,
+    "#345830": true,
+    "#F4EFE6": true,
+    "#1F6A38": true,
+    "#D4AF37": true,
+    "#6E4226": true
+  },
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Wind (Leaf Vortex Crouch)",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 54.52,
+      "islands_stripped": 6
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Wind (360 Upward Cast)",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 54.75,
+      "islands_stripped": 6
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Wind (Vacuum Crescent)",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 62.95,
+      "islands_stripped": 0
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Wind (Feather Landing)",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 65.99,
+      "islands_stripped": 3
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Nature (Earth Palm Touch)",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 67.78,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Nature (Vine Runes)",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 69.2,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Nature (Flower Bloom)",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 63.16,
+      "islands_stripped": 0
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Nature (Petal Aura)",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 62.04,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Starlight (Constellation Halo)",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 61.43,
+      "islands_stripped": 11
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Starlight (Cosmos Chant)",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 63.35,
+      "islands_stripped": 2
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Starlight (Astral Beam)",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 59.98,
+      "islands_stripped": 0
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Starlight (Radiant Recovery)",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 70.85,
+      "islands_stripped": 0
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Special (Twin-Blade Cross)",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 57.74,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Special (Afterimage Dash)",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 57.71,
+      "islands_stripped": 1
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Special (6-Slash Wheel)",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 58.49,
+      "islands_stripped": 1
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Special (Heroic Sheath)",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 64.86,
+      "islands_stripped": 0
+    }
+  ]
+}

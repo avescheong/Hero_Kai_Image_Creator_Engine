@@ -1,0 +1,87 @@
+{
+  "batch": "EXP-LINK-2",
+  "total": 10,
+  "gate_3c_hollow_center": true,
+  "results": [
+    {
+      "filename": "EXP_LINK_11_HOLLOW_RIM_GOLDEN_HP_SHIELD_FRONT_Z45_16F_4x4.png",
+      "alpha_pct": 71.42,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": true,
+      "sha256": "1efb55bd31254ff8e15563dd5bd62c2ea7c36d49f0014bfb0968a2b8dd9bcdbf",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_12_HOLLOW_RIM_CYAN_HEX_SKILL_BARRIER_Z45_16F_4x4.png",
+      "alpha_pct": 65.3,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": true,
+      "sha256": "3702a5263bb564040f924a2d5c64dec1dbf5d859768b0ecdc7120a72de026717",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_13_BACK_HEMISPHERE_SHIELD_AND_LOTUS_AURA_Z15_16F_4x4.png",
+      "alpha_pct": 60.64,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": false,
+      "sha256": "5813404ee3b9e3f221bfb1ea294b7a47b21a56302d141c102c5485617af5b19b",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_14_WAIST_DOWN_TRANSLUCENT_FREEZE_CRYSTAL_BASE_16F_4x4.png",
+      "alpha_pct": 67.59,
+      "cells_occupied": "15/16",
+      "gate_3c_applied": false,
+      "sha256": "d7566ddcf908c93f6c03e2e318634d73f7fc5384c9c4f78014b70dfcdaef03cc",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_15_CROWN_SOCKET_CONFUSE_STUN_SILENCE_HALOS_16F_4x4.png",
+      "alpha_pct": 79.64,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": false,
+      "sha256": "06b5a8034b291bff400724d765d0e6672f509270889fba9f6861092930652299",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_16_CHEEK_SOCKET_BANDAID_BLEED_HEART_DROPS_16F_4x4.png",
+      "alpha_pct": 90.4,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": false,
+      "sha256": "5f8012607d5b7cc27a2c941542cd285de44e800d55deaf4738aa9e3fd1b1a651",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_17_ELLIPTICAL_WAIST_ORBIT_BURN_AND_CHRONO_RINGS_16F_4x4.png",
+      "alpha_pct": 77.67,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": false,
+      "sha256": "3915644c6a9b2cc3d3d64d3e368c0514ba4ab553bbe4be12ec52fd79b5b8e93d",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_18_GROUND_POOL_POISON_BUBBLES_AND_MIASMA_Z12_16F_4x4.png",
+      "alpha_pct": 84.18,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": false,
+      "sha256": "e96a85e317c0c9ab94835ca4a20c4035b3922cd16eed8adf87388e3ec0c3b696",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_19_BACK_LAYER_RAGE_100_SOLAR_FLAME_WING_CLOAK_Z15_16F_4x4.png",
+      "alpha_pct": 74.14,
+      "cells_occupied": "15/16",
+      "gate_3c_applied": false,
+      "sha256": "45bbfdb9256d2fe2d8f16a2c0a10ddc8adb0d0615cdd691270d1076f7ea3794e",
+      "exit_code": 0
+    },
+    {
+      "filename": "EXP_LINK_20_TZU_CHI_LOTUS_STATUS_CLEANSE_RING_SWEEP_16F_4x4.png",
+      "alpha_pct": 82.66,
+      "cells_occupied": "16/16",
+      "gate_3c_applied": false,
+      "sha256": "e8d303799e44cc20df6184d910c545f15b8c0c410b764ed74aae6bc05fef27ac",
+      "exit_code": 0
+    }
+  ]
+}

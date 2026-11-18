@@ -1,0 +1,238 @@
+{
+  "sheet_id": "MAGIC_B02_01_PROJECTILES_WATER_FIRE_ICE_LIGHTNING_4x4",
+  "title": "Elemental Projectiles \u2014 Water, Fire, Ice, Lightning (4-Frame Sequences)",
+  "dimensions": "1024x1024",
+  "grid": "4x4",
+  "cell_size": "256x256",
+  "sha256": "aa2159d6c4baa0e282a0be0ba4bd3a2e595c25837279ae5f56dbf04617f3c10e",
+  "overall_transparency_pct": 77.78,
+  "caption_glyphs_stripped": 283,
+  "enclosed_white_islands_stripped": 31,
+  "acve_status": "PASS",
+  "cells": [
+    {
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "label": "Water Orb Launch",
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 85.03,
+      "islands_stripped": 1
+    },
+    {
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "label": "Hydro Lance Flight",
+      "bbox": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 82.08,
+      "islands_stripped": 4
+    },
+    {
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "label": "Bubble Volley",
+      "bbox": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 81.96,
+      "islands_stripped": 1
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "label": "Splashing Impact",
+      "bbox": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "transparency_pct": 76.05,
+      "islands_stripped": 4
+    },
+    {
+      "index": 4,
+      "row": 2,
+      "col": 1,
+      "label": "Ember Fireball Launch",
+      "bbox": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 74.96,
+      "islands_stripped": 0
+    },
+    {
+      "index": 5,
+      "row": 2,
+      "col": 2,
+      "label": "Solar Comet Flight",
+      "bbox": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 78.74,
+      "islands_stripped": 0
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 3,
+      "label": "Twin Dragon-Flame Wave",
+      "bbox": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 69.71,
+      "islands_stripped": 1
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 4,
+      "label": "Fiery Explosion Impact",
+      "bbox": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "transparency_pct": 59.24,
+      "islands_stripped": 0
+    },
+    {
+      "index": 8,
+      "row": 3,
+      "col": 1,
+      "label": "Glacial Shard Launch",
+      "bbox": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 84.99,
+      "islands_stripped": 1
+    },
+    {
+      "index": 9,
+      "row": 3,
+      "col": 2,
+      "label": "Triple Icicle Barrage",
+      "bbox": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 78.53,
+      "islands_stripped": 2
+    },
+    {
+      "index": 10,
+      "row": 3,
+      "col": 3,
+      "label": "Icy Bubble Orb",
+      "bbox": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 64.61,
+      "islands_stripped": 1
+    },
+    {
+      "index": 11,
+      "row": 3,
+      "col": 4,
+      "label": "Crystal Shatter Burst",
+      "bbox": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "transparency_pct": 77.83,
+      "islands_stripped": 1
+    },
+    {
+      "index": 12,
+      "row": 4,
+      "col": 1,
+      "label": "Static Spark Launch",
+      "bbox": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 86.18,
+      "islands_stripped": 0
+    },
+    {
+      "index": 13,
+      "row": 4,
+      "col": 2,
+      "label": "Chain Lightning Arc",
+      "bbox": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 86.81,
+      "islands_stripped": 2
+    },
+    {
+      "index": 14,
+      "row": 4,
+      "col": 3,
+      "label": "Electric Bolt Dart",
+      "bbox": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 86.81,
+      "islands_stripped": 2
+    },
+    {
+      "index": 15,
+      "row": 4,
+      "col": 4,
+      "label": "Shock Impact Burst",
+      "bbox": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "transparency_pct": 70.9,
+      "islands_stripped": 11
+    }
+  ]
+}

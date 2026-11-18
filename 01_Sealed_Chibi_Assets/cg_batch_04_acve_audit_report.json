@@ -1,0 +1,110 @@
+{
+  "batch": "CG_BATCH_04",
+  "assets": [
+    {
+      "asset_id": "CG_B04_01_CHIBI_BOSS01_GLITCH_THORN_BRUTE_4x4",
+      "png_file": "CG_B04_01_CHIBI_BOSS01_GLITCH_THORN_BRUTE_4x4.png",
+      "json_file": "CG_B04_01_CHIBI_BOSS01_GLITCH_THORN_BRUTE_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 49.96,
+      "sha256": "e89ecd0b79cd836bed565fbf555df6c57d7a302006a568bb1409eb6a7edcd000",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B04_02_CHIBI_BOSS03_RUST_SLAG_CONSTRUCT_4x4",
+      "png_file": "CG_B04_02_CHIBI_BOSS03_RUST_SLAG_CONSTRUCT_4x4.png",
+      "json_file": "CG_B04_02_CHIBI_BOSS03_RUST_SLAG_CONSTRUCT_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 59.34,
+      "sha256": "0933131312ab75497c8194c7d05eab187e682807c5b04768ca452b0dffaed05b",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B04_03_CHIBI_BOSS04_SHADOW_BRAMBLE_STAG_4x4",
+      "png_file": "CG_B04_03_CHIBI_BOSS04_SHADOW_BRAMBLE_STAG_4x4.png",
+      "json_file": "CG_B04_03_CHIBI_BOSS04_SHADOW_BRAMBLE_STAG_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 66.67,
+      "sha256": "4c8197e6d983ebc7051d80d75d7fbdd0e6d810f4e124ad9ea25f9e09df768909",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B04_04_CHIBI_BOSS06_CREEPING_RED_SHADOW_BEAST_4x4",
+      "png_file": "CG_B04_04_CHIBI_BOSS06_CREEPING_RED_SHADOW_BEAST_4x4.png",
+      "json_file": "CG_B04_04_CHIBI_BOSS06_CREEPING_RED_SHADOW_BEAST_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 59.5,
+      "sha256": "9eb5ab768fc6ddfae7255c8fcfd8fb6877d098800a32074364c5678f89b5599e",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    },
+    {
+      "asset_id": "CG_B04_05_CHIBI_ACT1_FIELD_MINIONS_SQUAD_4x4",
+      "png_file": "CG_B04_05_CHIBI_ACT1_FIELD_MINIONS_SQUAD_4x4.png",
+      "json_file": "CG_B04_05_CHIBI_ACT1_FIELD_MINIONS_SQUAD_4x4.json",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "transparency_pct": 67.18,
+      "sha256": "40d9ebd18698b2a313e1cf5089ae25c92694c296b20f9e98edd94789aa3b8af3",
+      "acve_gates": {
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha_preserved_interior": true,
+        "gate_4_grid_occupancy": true,
+        "gate_5_bottom_center_pivot": true,
+        "gate_7_sha256_sealed": true
+      },
+      "all_gates_passed": true
+    }
+  ]
+}

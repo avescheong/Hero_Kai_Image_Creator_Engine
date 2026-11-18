@@ -1,0 +1,503 @@
+{
+  "total": 55,
+  "passed": 55,
+  "failed": 0,
+  "reference": "CG_B01_01_CHIBI_KAI_AUTO_MARCH_AND_COMBAT_4x4.jpg",
+  "items": [
+    {
+      "code": "EXP_LINK_01",
+      "file": "EXP_LINK_01_PYTHON_PRINT_HELLO_WORLD_16F_4x4.png",
+      "source": "watermarked_img_16240199250183772078.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1088265
+    },
+    {
+      "code": "EXP_LINK_02",
+      "file": "EXP_LINK_02_VARIABLE_BOX_ASSIGNMENT_16F_4x4.png",
+      "source": "watermarked_img_13922599980746665249.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1039284
+    },
+    {
+      "code": "EXP_LINK_03",
+      "file": "EXP_LINK_03_IF_ELSE_FORK_DECISION_16F_4x4.png",
+      "source": "watermarked_img_1057219420209085593.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1051389
+    },
+    {
+      "code": "EXP_LINK_04",
+      "file": "EXP_LINK_04_FOR_LOOP_REPETITION_MARCH_16F_4x4.png",
+      "source": "watermarked_img_17235866517321896303.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1067845
+    },
+    {
+      "code": "EXP_LINK_05",
+      "file": "EXP_LINK_05_WHILE_LOOP_GUARD_CYCLE_16F_4x4.png",
+      "source": "watermarked_img_3363125130497048960.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1115648
+    },
+    {
+      "code": "EXP_LINK_06",
+      "file": "EXP_LINK_06_LIST_ARRAY_BACKPACK_SORT_16F_4x4.png",
+      "source": "watermarked_img_2089462308531854203.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1131120
+    },
+    {
+      "code": "EXP_LINK_07",
+      "file": "EXP_LINK_07_DICTIONARY_KEY_VALUE_VAULT_16F_4x4.png",
+      "source": "watermarked_img_12744179057577900417.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1081799
+    },
+    {
+      "code": "EXP_LINK_08",
+      "file": "EXP_LINK_08_FUNCTION_DEF_SCROLL_CALL_16F_4x4.png",
+      "source": "watermarked_img_885861487876227905.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1125665
+    },
+    {
+      "code": "EXP_LINK_09",
+      "file": "EXP_LINK_09_BUG_SYNTAX_ERROR_ZAP_16F_4x4.png",
+      "source": "watermarked_img_15310855140512343701.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1084182
+    },
+    {
+      "code": "EXP_LINK_10",
+      "file": "EXP_LINK_10_RETURN_VALUE_CRYSTAL_DELIVERY_16F_4x4.png",
+      "source": "watermarked_img_5104280185430684221.jpg",
+      "batch": "KAI-1",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1058746
+    },
+    {
+      "code": "EXP_LINK_21",
+      "file": "EXP_LINK_21_WORLD_MAP_PATH_DISCOVERY_16F_4x4.png",
+      "source": "watermarked_img_273095939890445276.jpg",
+      "batch": "KAI-3",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1773531
+    },
+    {
+      "code": "EXP_LINK_22",
+      "file": "EXP_LINK_22_CAMPFIRE_REST_VEG_FEAST_16F_4x4.png",
+      "source": "watermarked_img_5042275225561799228.jpg",
+      "batch": "KAI-2",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1806731
+    },
+    {
+      "code": "EXP_LINK_24",
+      "file": "EXP_LINK_24_TREASURE_CHEST_UNLOCK_16F_4x4.png",
+      "source": "watermarked_img_12507408918893316325.jpg",
+      "batch": "KAI-2",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1689580
+    },
+    {
+      "code": "EXP_LINK_49",
+      "file": "EXP_LINK_49_HERO_KAI_AND_COMPANIONS_HIGH_FIVE_VICTORY_EMBLEM_16F_4x4.png",
+      "source": "watermarked_img_7125105993199856508.jpg",
+      "batch": "KAI-2",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1583880
+    },
+    {
+      "code": "EXP_LINK_50",
+      "file": "EXP_LINK_50_TZU_CHI_LOTUS_GRATITUDE_HALO_AND_KINDNESS_STAR_BURST_16F_4x4.png",
+      "source": "watermarked_img_13510794587834115617.jpg",
+      "batch": "KAI-2",
+      "category": "EXP_LINK",
+      "status": "PASS",
+      "size_bytes": 1278494
+    },
+    {
+      "code": "KAI_ACT_01",
+      "file": "KAI_ACT_01_IDLE_BREATHING_AND_CAPE_SWAY_16F_4x4.png",
+      "source": "watermarked_img_14132905179107814515.jpg",
+      "batch": "KAI-2",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 998799
+    },
+    {
+      "code": "KAI_ACT_02",
+      "file": "KAI_ACT_02_BRISK_ADVENTURE_MARCH_16F_4x4.png",
+      "source": "watermarked_img_8198915751050318977.jpg",
+      "batch": "KAI-2",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1029872
+    },
+    {
+      "code": "KAI_ACT_03",
+      "file": "KAI_ACT_03_HEROIC_SPRINT_DASH_16F_4x4.png",
+      "source": "watermarked_img_15886816573721650395.jpg",
+      "batch": "KAI-2",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1058232
+    },
+    {
+      "code": "KAI_ACT_04",
+      "file": "KAI_ACT_04_ACROBATIC_JUMP_AND_LAND_16F_4x4.png",
+      "source": "watermarked_img_8907462596000831061.jpg",
+      "batch": "KAI-2",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1051191
+    },
+    {
+      "code": "KAI_ACT_05",
+      "file": "KAI_ACT_05_TACTICAL_DODGE_ROLL_16F_4x4.png",
+      "source": "watermarked_img_17295166091525417939.jpg",
+      "batch": "KAI-2",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1024880
+    },
+    {
+      "code": "KAI_ACT_06",
+      "file": "KAI_ACT_06_HIT_STAGGER_AND_RECOVERY_16F_4x4.png",
+      "source": "watermarked_img_13001782737620042878.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 991676
+    },
+    {
+      "code": "KAI_ACT_07",
+      "file": "KAI_ACT_07_KO_COLLAPSE_AND_DIZZY_STARS_16F_4x4.png",
+      "source": "watermarked_img_1719762361600472600.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1009016
+    },
+    {
+      "code": "KAI_ACT_08",
+      "file": "KAI_ACT_08_VICTORY_JUMP_AND_CHEER_16F_4x4.png",
+      "source": "watermarked_img_11978722379691733568.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1260769
+    },
+    {
+      "code": "KAI_ACT_09",
+      "file": "KAI_ACT_09_READING_PYTHONIA_SCROLL_16F_4x4.png",
+      "source": "watermarked_img_6463593769293736400.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1036400
+    },
+    {
+      "code": "KAI_ACT_10",
+      "file": "KAI_ACT_10_DRINKING_HP_POTION_HEAL_16F_4x4.png",
+      "source": "watermarked_img_15521600019351589309.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1137376
+    },
+    {
+      "code": "KAI_ACT_11",
+      "file": "KAI_ACT_11_EATING_VEG_BREAD_AND_FRUIT_16F_4x4.png",
+      "source": "watermarked_img_16124478480097991306.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1136050
+    },
+    {
+      "code": "KAI_ACT_12",
+      "file": "KAI_ACT_12_CLIMBING_LADDER_UPWARD_16F_4x4.png",
+      "source": "watermarked_img_8203831310005566293.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1204650
+    },
+    {
+      "code": "KAI_ACT_13",
+      "file": "KAI_ACT_13_THINKING_AND_DEBUGGING_POSE_16F_4x4.png",
+      "source": "watermarked_img_1081415714385282331.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1271047
+    },
+    {
+      "code": "KAI_ACT_14",
+      "file": "KAI_ACT_14_PETTING_STRING_AND_MANTIS_16F_4x4.png",
+      "source": "watermarked_img_7745057820785286584.jpg",
+      "batch": "KAI-3",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1198725
+    },
+    {
+      "code": "KAI_ACT_15",
+      "file": "KAI_ACT_15_OPENING_TREASURE_CHEST_16F_4x4.png",
+      "source": "watermarked_img_10196324888499103868.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1125054
+    },
+    {
+      "code": "KAI_ACT_16",
+      "file": "KAI_ACT_16_LEVEL_UP_STARLIGHT_BURST_16F_4x4.png",
+      "source": "watermarked_img_16369906249963840765.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1073299
+    },
+    {
+      "code": "KAI_ACT_17",
+      "file": "KAI_ACT_17_SHIELD_BLOCK_GUARD_STANCE_16F_4x4.png",
+      "source": "watermarked_img_3654734265837213295.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1172808
+    },
+    {
+      "code": "KAI_ACT_18",
+      "file": "KAI_ACT_18_PORTAL_WARP_TELEPORT_16F_4x4.png",
+      "source": "watermarked_img_9694385162826125091.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_ACT",
+      "status": "PASS",
+      "size_bytes": 1281924
+    },
+    {
+      "code": "KAI_CMB_01",
+      "file": "KAI_CMB_01_WOODEN_SWORD_3_HIT_COMBO_16F_4x4.png",
+      "source": "watermarked_img_12671186172072532985.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_CMB",
+      "status": "PASS",
+      "size_bytes": 1187257
+    },
+    {
+      "code": "KAI_CMB_02",
+      "file": "KAI_CMB_02_HEAVY_FORGE_HAMMER_EARTHQUAKE_SLAM_16F_4x4.png",
+      "source": "watermarked_img_4078686451651848165.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_CMB",
+      "status": "PASS",
+      "size_bytes": 1289549
+    },
+    {
+      "code": "KAI_CMB_03",
+      "file": "KAI_CMB_03_TWIN_DAGGER_RAPID_FLURRY_16F_4x4.png",
+      "source": "watermarked_img_10555345243856584599.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_CMB",
+      "status": "PASS",
+      "size_bytes": 1322046
+    },
+    {
+      "code": "KAI_CMB_04",
+      "file": "KAI_CMB_04_SPEAR_PIERCING_LUNGE_THRUST_16F_4x4.png",
+      "source": "watermarked_img_13341709242194798705.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_CMB",
+      "status": "PASS",
+      "size_bytes": 1195146
+    },
+    {
+      "code": "KAI_CMB_05",
+      "file": "KAI_CMB_05_ARCANE_BOW_STARLIGHT_VOLLEY_16F_4x4.png",
+      "source": "watermarked_img_2282514674843949646.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_CMB",
+      "status": "PASS",
+      "size_bytes": 1366813
+    },
+    {
+      "code": "KAI_CMB_06",
+      "file": "KAI_CMB_06_PARRY_COUNTER_RIPoste_STRIKE_16F_4x4.png",
+      "source": "watermarked_img_1356825287296758638.jpg",
+      "batch": "KAI-4",
+      "category": "KAI_CMB",
+      "status": "PASS",
+      "size_bytes": 1117223
+    },
+    {
+      "code": "KAI_MAG_01",
+      "file": "KAI_MAG_01_FIREBALL_EMBER_VOLLEY_16F_4x4.png",
+      "source": "watermarked_img_4216057845930926553.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1334525
+    },
+    {
+      "code": "KAI_MAG_02",
+      "file": "KAI_MAG_02_FROST_NOVA_CRYSTAL_BURST_16F_4x4.png",
+      "source": "watermarked_img_9508787144601512242.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1277080
+    },
+    {
+      "code": "KAI_MAG_03",
+      "file": "KAI_MAG_03_THUNDER_CHAIN_BOLT_16F_4x4.png",
+      "source": "watermarked_img_12841167776961717826.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1365927
+    },
+    {
+      "code": "KAI_MAG_04",
+      "file": "KAI_MAG_04_EMERALD_VINE_ENTANGLE_16F_4x4.png",
+      "source": "watermarked_img_2635587378699810655.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1327586
+    },
+    {
+      "code": "KAI_MAG_05",
+      "file": "KAI_MAG_05_STARLIGHT_METEOR_SHOWER_16F_4x4.png",
+      "source": "watermarked_img_8541766429482089566.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1301155
+    },
+    {
+      "code": "KAI_MAG_06",
+      "file": "KAI_MAG_06_GOLDEN_AEGIS_DOME_SHIELD_16F_4x4.png",
+      "source": "watermarked_img_17324258900752555879.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1305383
+    },
+    {
+      "code": "KAI_MAG_07",
+      "file": "KAI_MAG_07_LOTUS_HEALING_AURA_WAVE_16F_4x4.png",
+      "source": "watermarked_img_6703733575787279768.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1406477
+    },
+    {
+      "code": "KAI_MAG_08",
+      "file": "KAI_MAG_08_GRAVITY_WELL_VORTEX_PULL_16F_4x4.png",
+      "source": "watermarked_img_4560772634867161145.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1297621
+    },
+    {
+      "code": "KAI_MAG_09",
+      "file": "KAI_MAG_09_SOLAR_BEAM_PIERCING_RAY_16F_4x4.png",
+      "source": "watermarked_img_6810288349753903471.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1335680
+    },
+    {
+      "code": "KAI_MAG_10",
+      "file": "KAI_MAG_10_CHRONO_TIME_LOOP_AND_ECHO_CLONE_16F_4x4.png",
+      "source": "watermarked_img_3549214285753845860.jpg",
+      "batch": "KAI-5",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1429865
+    },
+    {
+      "code": "KAI_MAG_11",
+      "file": "KAI_MAG_11_SHADOW_HASH_COMMENT_MUTE_BLINK_16F_4x4.png",
+      "source": "watermarked_img_911346186692803514.jpg",
+      "batch": "KAI-6",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1507967
+    },
+    {
+      "code": "KAI_MAG_12",
+      "file": "KAI_MAG_12_SIGHT_TRUTH_LENS_AND_ILLUSION_SHATTER_16F_4x4.png",
+      "source": "watermarked_img_10818554430743810343.jpg",
+      "batch": "KAI-6",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1664814
+    },
+    {
+      "code": "KAI_MAG_13",
+      "file": "KAI_MAG_13_RAGE_100_OVERDRIVE_TRANSFORMATION_16F_4x4.png",
+      "source": "watermarked_img_4504301237031178010.jpg",
+      "batch": "KAI-6",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1960719
+    },
+    {
+      "code": "KAI_MAG_14",
+      "file": "KAI_MAG_14_ELEMENTAL_SWORD_INFUSION_SWINGS_16F_4x4.png",
+      "source": "watermarked_img_9109641974947479354.jpg",
+      "batch": "KAI-6",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1710384
+    },
+    {
+      "code": "KAI_MAG_15",
+      "file": "KAI_MAG_15_NATURE_WIND_STARLIGHT_LOTUS_BLADE_SWINGS_16F_4x4.png",
+      "source": "watermarked_img_12306591372212566595.jpg",
+      "batch": "KAI-6",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1712272
+    },
+    {
+      "code": "KAI_MAG_16",
+      "file": "KAI_MAG_16_ULTIMATE_SCROLLS_OF_PYTHONIA_GRAND_SEAL_16F_4x4.png",
+      "source": "watermarked_img_12593388752982241988.jpg",
+      "batch": "KAI-6",
+      "category": "KAI_MAG",
+      "status": "PASS",
+      "size_bytes": 1851297
+    }
+  ]
+}

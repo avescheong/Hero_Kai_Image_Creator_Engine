@@ -1,0 +1,59 @@
+{
+  "manifest_version": "EXP_LINK_MASTER_ATLAS_v1.0",
+  "total_sheets": 50,
+  "total_frames": 800,
+  "grid": {
+    "cols": 4,
+    "rows": 4,
+    "frame_px": 256,
+    "sheet_px": 1024
+  },
+  "timing_modes": {
+    "kid_paced_sakuga_ms": [
+      85,
+      85,
+      85,
+      85,
+      50,
+      50,
+      50,
+      50,
+      110,
+      290,
+      110,
+      110,
+      75,
+      75,
+      75,
+      75
+    ],
+    "kid_paced_total_ms": 1460,
+    "standard_16fps_ms": 62.5,
+    "fast_arcade_ms": 40
+  },
+  "z_sandwich_layers": {
+    "Z0": "16:9 Biome Backdrop",
+    "Z1": "Back-Layer Translucent Aura (EXP_LINK_11..20 back halos & Lesson rings)",
+    "Z2": "Hero Kai / Companions / Enemies (EXP_LINK_01..10, 31..35, 49)",
+    "Z3": "Front-Layer Translucent VFX, Cut-Ins & Tethers (EXP_LINK_24..29, 36..40, 46..50)",
+    "Z4": "HUD Kai-Cam Portraits, Speech Bubbles & Kid-Pacing Badges (EXP_LINK_21..23, 30)"
+  },
+  "batches": {
+    "EXP-LINK-1": "EXP_LINK_01..10 (Hero Kai Reactive Expressions & Status)",
+    "EXP-LINK-2": "EXP_LINK_11..20 (Translucent Z-Sandwich Auras & Status Overlays)",
+    "EXP-LINK-3": "EXP_LINK_21..30 (HUD Kai-Cam, Manga Cut-Ins & Interactive Kid-Pacing Widgets)",
+    "EXP-LINK-4": "EXP_LINK_31..40 (Companion Empathy Sync, Enemy Debuffs & Code-Trace Tethers)",
+    "EXP-LINK-5": [
+      "EXP_LINK_41_VARIABLE_CRYSTAL_SLOT_POP_AND_GLOW_16F_4x4.png",
+      "EXP_LINK_42_LOOP_ORBITING_GEAR_AND_STEP_COUNTER_HALO_16F_4x4.png",
+      "EXP_LINK_43_IF_ELSE_GOLDEN_FORKING_PATH_GATE_SPARK_16F_4x4.png",
+      "EXP_LINK_44_FUNCTION_SCROLL_SUMMON_CIRCLE_AND_GEM_LOCK_16F_4x4.png",
+      "EXP_LINK_45_LIST_ARRAY_CHEST_SLOT_POP_AND_INDEX_STAR_16F_4x4.png",
+      "EXP_LINK_46_LEVEL_UP_GOLDEN_CROWN_AND_STAT_BOOST_PILLAR_RISE_16F_4x4.png",
+      "EXP_LINK_47_STAGE_CLEAR_CONFETTI_RIBBON_AND_STARLIGHT_SHOWER_16F_4x4.png",
+      "EXP_LINK_48_BOSS_DEFEAT_GRAND_TREASURE_CHEST_POP_GEM_FOUNTAIN_16F_4x4.png",
+      "EXP_LINK_49_HERO_KAI_AND_COMPANIONS_HIGH_FIVE_VICTORY_EMBLEM_16F_4x4.png",
+      "EXP_LINK_50_TZU_CHI_LOTUS_GRATITUDE_HALO_AND_KINDNESS_STAR_BURST_16F_4x4.png"
+    ]
+  }
+}

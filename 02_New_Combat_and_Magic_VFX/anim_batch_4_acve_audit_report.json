@@ -1,0 +1,2375 @@
+{
+  "batch": "ANIM-4",
+  "sheets": [
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_07_STARLIGHT_CELESTIAL_SUPERNOVA_16F_4x4.png",
+      "sha256": "5716b0c6e602ddb0e97b730589e01ee79d31d99b49b63f2949cb86d17d6e7c76",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "11/16",
+      "transparency_pct": 64.75,
+      "caption_glyphs_stripped": 4,
+      "enclosed_white_islands_stripped": 22,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 215,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 223,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 231,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 201,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 220,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 256,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 223,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 203,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": false,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 238,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 238,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 255,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 199,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 218,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 204,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 205,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_07_STARLIGHT_CELESTIAL_SUPERNOVA_16F_4x4.png",
+      "label": "7. Starlight (Celestial Supernova)",
+      "subtitle": "print() Output Light / Ch. 1 & 11"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_08_EARTH_TECTONIC_WALL_AND_QUAKE_16F_4x4.png",
+      "sha256": "d02891306801929e19bf36500b439f48ea7b2d93db3f6f46ed4f6520154dd482",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "16/16",
+      "transparency_pct": 61.75,
+      "caption_glyphs_stripped": 14,
+      "enclosed_white_islands_stripped": 4,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": true
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 220,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 217,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 232,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 238,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 199,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 227,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 218,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 218,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 218,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 227,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 227,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 231,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 227,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 228,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 228,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_08_EARTH_TECTONIC_WALL_AND_QUAKE_16F_4x4.png",
+      "label": "8. Earth (Tectonic Wall & Quake)",
+      "subtitle": "int() Wall Builder (A5-A7)"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_09_LOTUS_COMPASSIONATE_PURIFY_SANCTUARY_16F_4x4.png",
+      "sha256": "26dceddc31ee03ebaab94a4e051e84ac7bf5c78494000b1f513540d81855b8c9",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "11/16",
+      "transparency_pct": 58.79,
+      "caption_glyphs_stripped": 3,
+      "enclosed_white_islands_stripped": 13,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 220,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 220,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 237,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 237,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 237,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 237,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 244,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 244,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 244,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 244,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 245,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 243,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 225,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 225,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 225,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_09_LOTUS_COMPASSIONATE_PURIFY_SANCTUARY_16F_4x4.png",
+      "label": "9. Light / Tzu Chi Lotus Purify",
+      "subtitle": "bool == True Sanctuary Purify"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_10_CHRONO_TIME_LOOP_AND_ECHO_CLONE_16F_4x4.png",
+      "sha256": "19ba68cc832ceb49330e6d7441180f67aab3ef02e9baa529c5e40505f1088687",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "15/16",
+      "transparency_pct": 55.77,
+      "caption_glyphs_stripped": 3,
+      "enclosed_white_islands_stripped": 23,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 237,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 238,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 222,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 217,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 246,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 214,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 215,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 215,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 219,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 238,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 233,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 221,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_10_CHRONO_TIME_LOOP_AND_ECHO_CLONE_16F_4x4.png",
+      "label": "10. Chrono (Time Loop & Echo Clone)",
+      "subtitle": "for / while Temporal Echo"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_11_SHADOW_HASH_COMMENT_MUTE_BLINK_16F_4x4.png",
+      "sha256": "7f3624e6e4b11a063e41b8d26d7616b70b56f79b4be5c9fd9274bd6c0119b094",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "2/16",
+      "transparency_pct": 65.45,
+      "caption_glyphs_stripped": 6,
+      "enclosed_white_islands_stripped": 23,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 212,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 212,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 212,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 218,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 211,
+          "roi_checks": {
+            "crown_hair": false,
+            "face_eyes": true,
+            "collar_torso": false,
+            "boots_baseline": false,
+            "hip_asymmetry_gate_10": false
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 211,
+          "roi_checks": {
+            "crown_hair": false,
+            "face_eyes": true,
+            "collar_torso": false,
+            "boots_baseline": false,
+            "hip_asymmetry_gate_10": false
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 207,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": false,
+            "hip_asymmetry_gate_10": false
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 211,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 208,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 211,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 219,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 211,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 209,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 217,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 212,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 212,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        }
+      ],
+      "filename": "KAI_MAG_11_SHADOW_HASH_COMMENT_MUTE_BLINK_16F_4x4.png",
+      "label": "11. Shadow (# Comment Mute Blink)",
+      "subtitle": "# comment Stealth & Silence"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_12_SIGHT_TRUTH_LENS_AND_ILLUSION_SHATTER_16F_4x4.png",
+      "sha256": "51f4da18904066974b2005471f667ca4651f9b4b6eb338038130d928ca71661d",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "5/16",
+      "transparency_pct": 50.57,
+      "caption_glyphs_stripped": 0,
+      "enclosed_white_islands_stripped": 19,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 240,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 240,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 240,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 240,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 256,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 256,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 255,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 254,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 244,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 244,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 244,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 245,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 245,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 245,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 245,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 245,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        }
+      ],
+      "filename": "KAI_MAG_12_SIGHT_TRUTH_LENS_AND_ILLUSION_SHATTER_16F_4x4.png",
+      "label": "12. Sight (== Truth Lens)",
+      "subtitle": "== != > < Illusion Shatter"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_13_RAGE_100_OVERDRIVE_TRANSFORMATION_16F_4x4.png",
+      "sha256": "6904cd8f55c9bcf4c6138d916ae7f605853113e95145fcedae5484f59cd03b10",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "14/16",
+      "transparency_pct": 51.74,
+      "caption_glyphs_stripped": 14,
+      "enclosed_white_islands_stripped": 15,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 234,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 234,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 234,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 220,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 243,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 256,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 229,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 226,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 249,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 250,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 250,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 232,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 232,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 248,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 240,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 240,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_13_RAGE_100_OVERDRIVE_TRANSFORMATION_16F_4x4.png",
+      "label": "100% Rage Awakening Overdrive",
+      "subtitle": "Capybara Go! Full Rage (100/100)"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_14_ELEMENTAL_SWORD_INFUSION_SWINGS_16F_4x4.png",
+      "sha256": "42ff661ca44fed82b408778bd5a45d21f84ff5b0b330204a68efe39da6096e58",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "15/16",
+      "transparency_pct": 57.62,
+      "caption_glyphs_stripped": 26,
+      "enclosed_white_islands_stripped": 14,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 221,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 224,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 232,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 222,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 227,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 222,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 221,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 221,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 222,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 221,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 222,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 221,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 211,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 207,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 214,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_14_ELEMENTAL_SWORD_INFUSION_SWINGS_16F_4x4.png",
+      "label": "Elemental Spellblade Arcs I",
+      "subtitle": "Water, Fire, Ice & Thunder Slashes"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_15_NATURE_WIND_STARLIGHT_LOTUS_BLADE_SWINGS_16F_4x4.png",
+      "sha256": "e519c6609f0bab85bd38d45219cc4a788893f3103d3109bc147de4313de2c857",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "16/16",
+      "transparency_pct": 53.36,
+      "caption_glyphs_stripped": 6,
+      "enclosed_white_islands_stripped": 18,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": true
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 235,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 235,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 235,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 235,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 235,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 237,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 236,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_15_NATURE_WIND_STARLIGHT_LOTUS_BLADE_SWINGS_16F_4x4.png",
+      "label": "Elemental Spellblade Arcs II",
+      "subtitle": "Wind, Nature, Starlight & Lotus"
+    },
+    {
+      "acve_version": "3.0.0",
+      "asset_file": "KAI_MAG_16_ULTIMATE_SCROLLS_OF_PYTHONIA_GRAND_SEAL_16F_4x4.png",
+      "sha256": "118eea91a022f7ce2efff28c66cd894cf6cda46c988b29f4248abb983f4b2cd3",
+      "dimensions": {
+        "w": 1024,
+        "h": 1024
+      },
+      "occupied_cells": "16/16",
+      "roi_passed_cells": "10/16",
+      "transparency_pct": 55.95,
+      "caption_glyphs_stripped": 4,
+      "enclosed_white_islands_stripped": 30,
+      "gates": {
+        "gate_0_caption_clean": true,
+        "gate_1_rgba_format": true,
+        "gate_2_dimension_lock": true,
+        "gate_3_bfs_alpha": true,
+        "gate_3b_white_islands_stripped": true,
+        "gate_4_grid_occupancy": true,
+        "gate_7_sha256_sealed": true,
+        "gate_8_to_10_anatomical_roi_pass": false
+      },
+      "cells": [
+        {
+          "cell": 0,
+          "occupied": true,
+          "bbox_h": 229,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 1,
+          "occupied": true,
+          "bbox_h": 208,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 2,
+          "occupied": true,
+          "bbox_h": 223,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 3,
+          "occupied": true,
+          "bbox_h": 229,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 4,
+          "occupied": true,
+          "bbox_h": 227,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 5,
+          "occupied": true,
+          "bbox_h": 203,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 6,
+          "occupied": true,
+          "bbox_h": 256,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 7,
+          "occupied": true,
+          "bbox_h": 204,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 8,
+          "occupied": true,
+          "bbox_h": 194,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 9,
+          "occupied": true,
+          "bbox_h": 219,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 10,
+          "occupied": true,
+          "bbox_h": 256,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": false,
+            "boots_baseline": false,
+            "hip_asymmetry_gate_10": false
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 11,
+          "occupied": true,
+          "bbox_h": 197,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": false,
+            "boots_baseline": false,
+            "hip_asymmetry_gate_10": false
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 12,
+          "occupied": true,
+          "bbox_h": 211,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 13,
+          "occupied": true,
+          "bbox_h": 237,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": false,
+            "collar_torso": false,
+            "boots_baseline": false,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": false
+        },
+        {
+          "cell": 14,
+          "occupied": true,
+          "bbox_h": 215,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        },
+        {
+          "cell": 15,
+          "occupied": true,
+          "bbox_h": 214,
+          "roi_checks": {
+            "crown_hair": true,
+            "face_eyes": true,
+            "collar_torso": true,
+            "boots_baseline": true,
+            "hip_asymmetry_gate_10": true
+          },
+          "roi_pass": true
+        }
+      ],
+      "filename": "KAI_MAG_16_ULTIMATE_SCROLLS_OF_PYTHONIA_GRAND_SEAL_16F_4x4.png",
+      "label": "Ultimate: Grand Ouroboros Seal",
+      "subtitle": "def ultimate_combo(): Kai + String + Mantis"
+    }
+  ]
+}

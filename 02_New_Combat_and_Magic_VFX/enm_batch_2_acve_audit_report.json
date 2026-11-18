@@ -1,0 +1,199 @@
+{
+  "batch_id": "ENM-2",
+  "checkpoint": "CHK-KAI-CAPYBARA-GO-ENM-BATCH-2-20261118",
+  "total_sheets": 10,
+  "total_frames": 160,
+  "passed": 10,
+  "records": [
+    {
+      "id": "ENM_BOSS_11",
+      "src": "watermarked_img_728789286006634434.jpg",
+      "filename": "ENM_BOSS_11_CH06_CHOMP_BOOK_MIMIC_AND_SCROLL_GEIST_16F_4x4.png",
+      "title": "Chomp-Book Mimic & Scroll Geist",
+      "chapter": "Ch. 6 \u2014 Dragon's Library",
+      "role": "Tier-1 Field Minion (Boolean Trickster)",
+      "rows": [
+        "F01\u201304: Flapping Hover Idle",
+        "F05\u201308: Page Chomp & Paper Cut",
+        "F09\u201312: != FALSE Paradox Seal",
+        "F13\u201316: Golden True Bookmark Reveal"
+      ],
+      "sha256": "0b6d1c505a2a7e738915a9650a3417597bf56484d92982d4d343559563708a3b",
+      "alpha_pct": 60.73,
+      "islands_stripped": 5,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_12",
+      "src": "watermarked_img_1224529392919344056.jpg",
+      "filename": "ENM_BOSS_12_CH06_BLOTTED_INK_PHANTOM_AND_QUILL_IMP_16F_4x4.png",
+      "title": "Blotted Ink-Phantom & Quill Imp",
+      "chapter": "Ch. 6 \u2014 Dragon's Library",
+      "role": "Day-20 Mini-Boss (Ink Corruption)",
+      "rows": [
+        "F01\u201304: Swirling Inkwell Idle",
+        "F05\u201308: Calligraphy Spear Slash",
+        "F09\u201312: Rorschach Blot Tornado",
+        "F13\u201316: Clear Water -> Gold Sparkles"
+      ],
+      "sha256": "32527fb2b3fe95eae890648e6cf45ae7dd7603414f60aaaae77d0fb42c82cf38",
+      "alpha_pct": 64.11,
+      "islands_stripped": 34,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_13",
+      "src": "watermarked_img_12920052578386430120.jpg",
+      "filename": "ENM_BOSS_13_CH07_PRISM_GARGOYLE_AND_SHARD_SLIME_16F_4x4.png",
+      "title": "Prism Gargoyle & Shard Slime",
+      "chapter": "Ch. 7 \u2014 Crystal Cave",
+      "role": "Tier-1 Field Minion (if/elif/else)",
+      "rows": [
+        "F01\u201304: Geometric Wing Hover",
+        "F05\u201308: Spinning Crystal Drill Dive",
+        "F09\u201312: Tri-Branch Prism Laser",
+        "F13\u201316: Peaceful Wind-Chime Crystal"
+      ],
+      "sha256": "3dd18c1ca847f580031bf33bb1edc56bec5713fba2a449f811f7fbb4ba36b06b",
+      "alpha_pct": 66.79,
+      "islands_stripped": 27,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_14",
+      "src": "watermarked_img_12320659684388853206.jpg",
+      "filename": "ENM_BOSS_14_CH07_GLACIAL_FROST_BAT_AND_YETI_CUB_16F_4x4.png",
+      "title": "Glacial Frost-Bat & Yeti Cub",
+      "chapter": "Ch. 7 \u2014 Crystal Cave",
+      "role": "Day-20 Mini-Boss (tuple Freeze)",
+      "rows": [
+        "F01\u201304: Shivering Snowball Idle",
+        "F05\u201308: Giant Snowball Bowling",
+        "F09\u201312: 4x Icicle Ceiling Drop",
+        "F13\u201316: Cozy Scarf Wave Cheer"
+      ],
+      "sha256": "40c209dec99997cdb8c3b6a2840857ee6eaca322a5a2ce0c8c43c43cec3095c4",
+      "alpha_pct": 65.92,
+      "islands_stripped": 117,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_15",
+      "src": "watermarked_img_6394269050168733090.jpg",
+      "filename": "ENM_BOSS_15_CH08_MAGMA_SLIME_AND_OBSIDIAN_ASH_DRAKE_16F_4x4.png",
+      "title": "Magma Slime & Obsidian Ash-Drake",
+      "chapter": "Ch. 8 \u2014 Magma Caldera",
+      "role": "Tier-1 Field Minion (Unmuted Burn)",
+      "rows": [
+        "F01\u201304: Bubbling & Snorting Idle",
+        "F05\u201308: Lava Tail Whip & Splash",
+        "F09\u201312: 5x Burn Flame Pillar",
+        "F13\u201316: Cooled Pebble Spirit Smile"
+      ],
+      "sha256": "da93c2c17f33635da13b02fe451fae9b135fa974fd8ef346f471f6298307b157",
+      "alpha_pct": 58.27,
+      "islands_stripped": 3,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_16",
+      "src": "watermarked_img_14582818825857209535.jpg",
+      "filename": "ENM_BOSS_16_CH08_INDENTATION_SHIFT_BLOCK_GOLEM_16F_4x4.png",
+      "title": "Indentation-Shift Block Golem",
+      "chapter": "Ch. 8 \u2014 Magma Caldera",
+      "role": "Day-20 Mini-Boss (IndentationError)",
+      "rows": [
+        "F01\u201304: Misaligned Block Slide",
+        "F05\u201308: Staggered Block Punch",
+        "F09\u201312: Seismic Tab-Quake Slam",
+        "F13\u201316: Aligned 4-Space Green Pillar"
+      ],
+      "sha256": "15d79ba714a76baa3fdab02fbdf20543525f0a80555b1adb5fbe9cd457b3f25c",
+      "alpha_pct": 54.36,
+      "islands_stripped": 0,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_17",
+      "src": "watermarked_img_5531249566999612896.jpg",
+      "filename": "ENM_BOSS_17_CH09_RUNIC_CLOCKWORK_AUTOMATON_16F_4x4.png",
+      "title": "Runic Clockwork Automaton",
+      "chapter": "Ch. 9 \u2014 Deep Dwarven Forge",
+      "role": "Tier-1 Field Minion (for Loop Bot)",
+      "rows": [
+        "F01\u201304: Wind-Up Key March",
+        "F05\u201308: 1-2-3 Piston Hammer Punch",
+        "F09\u201312: for i in range(4) Top Spin",
+        "F13\u201316: Wind-Down & Helmet Tip"
+      ],
+      "sha256": "51a5e55bdf08d0a5aae25e2154daae3b86abd0c16e048b49ae7bed87931a737f",
+      "alpha_pct": 59.27,
+      "islands_stripped": 34,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_18",
+      "src": "watermarked_img_16392294781860594022.jpg",
+      "filename": "ENM_BOSS_18_CH09_COPPER_FORGE_BEETLE_AND_SLAG_SNAIL_16F_4x4.png",
+      "title": "Copper Forge-Beetle & Slag Snail",
+      "chapter": "Ch. 9 \u2014 Deep Dwarven Forge",
+      "role": "Day-20 Mini-Boss (Runic Armor)",
+      "rows": [
+        "F01\u201304: Molten Rune Orb Scuttle",
+        "F05\u201308: Horn Flip Cannonball Shot",
+        "F09\u201312: Tempered Carapace Shield",
+        "F13\u201316: Mirror-Polish Happy Buzz"
+      ],
+      "sha256": "fa7a545cd4d945755e85314657650c3d609e56f62f32b219cf598db180ff97d8",
+      "alpha_pct": 61.61,
+      "islands_stripped": 19,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_19",
+      "src": "watermarked_img_8674641328594519133.jpg",
+      "filename": "ENM_BOSS_19_CH10_INFINITE_OUROBOROS_WHEEL_AND_STORM_HARPY_16F_4x4.png",
+      "title": "Infinite Ouroboros Wheel & Storm Harpy",
+      "chapter": "Ch. 10 \u2014 Twin Illusion Highlands",
+      "role": "Tier-1 Field Minion (while True Loop)",
+      "rows": [
+        "F01\u201304: Spinning Wheel & Harpy Hover",
+        "F05\u201308: Lightning Burnout Skid",
+        "F09\u201312: Infinite Cyclone Vortex",
+        "F13\u201316: Uncoiled Dizzy Yawn"
+      ],
+      "sha256": "efc8880e4e13831e14569a38ad0d6ab6e61f24fc5cb5846fce3b9f9261201225",
+      "alpha_pct": 55.97,
+      "islands_stripped": 25,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    },
+    {
+      "id": "ENM_BOSS_20",
+      "src": "watermarked_img_8100610858377243722.jpg",
+      "filename": "ENM_BOSS_20_CH11_CORRUPTED_SYNTAX_BEETLE_AND_ZERO_DIV_WRAITH_16F_4x4.png",
+      "title": "Corrupted Syntax Beetle & / 0 Wraith",
+      "chapter": "Ch. 11 \u2014 Citadel of the Core",
+      "role": "Elite Minion (ZeroDivisionError)",
+      "rows": [
+        "F01\u201304: Citadel Guard & Void Wraith",
+        "F05\u201308: Magenta Halberd Slash",
+        "F09\u201312: / 0 Singularity Vortex",
+        "F13\u201316: Emerald Fireflies & Gold Scarab"
+      ],
+      "sha256": "eecb802fd7952c0c3eb2008ff59401cc4194fd4cf8d455f3f93ff0c03356a957",
+      "alpha_pct": 67.04,
+      "islands_stripped": 5,
+      "occupied_cells": 16,
+      "acve_status": "PASS"
+    }
+  ]
+}

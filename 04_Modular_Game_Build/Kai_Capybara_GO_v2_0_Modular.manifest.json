@@ -1,0 +1,52 @@
+{
+  "filename": "Kai_Capybara_GO_v2_0_Modular.zip",
+  "total_size": 38424500,
+  "sha256": "fcdb75dc03e4ddf78f92930fe031beadf1dcd050294d26b2632a5411e42821d7",
+  "parts": [
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part01",
+      "size": 4718592,
+      "sha256": "54db63447776ee52f8260e9a26af54f299a46bf75b784b4042a9fe88e514755f"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part02",
+      "size": 4718592,
+      "sha256": "3fd4c8b9abfb86a9201be3b290889b1d6f8427d0ca3d59291eb6a89f50689f8f"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part03",
+      "size": 4718592,
+      "sha256": "c936cf58591709ac062399ce7cc085a8f1485047bc813e5501fa1de06d40217a"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part04",
+      "size": 4718592,
+      "sha256": "e44c1387f49fb00ac72f90f4b6d5648554e958c5ee46f30d6f69e1f9dfda60cd"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part05",
+      "size": 4718592,
+      "sha256": "ba4f78d518bd9e939c82bd16d6848ca876ac17bcb424664f7eeb956e8dbb4c30"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part06",
+      "size": 4718592,
+      "sha256": "c4728890cbc8d25c9e864812eb738b6af5b34181c0f795206387669fbf9869c4"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part07",
+      "size": 4718592,
+      "sha256": "ffa58d57cab0df636967850f8b13ab58327071da933de3d68ffad623ba9956ff"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part08",
+      "size": 4718592,
+      "sha256": "d6e211991bff7cf1f85b9e682062f9bacca3514345890b6bb1241d861818b988"
+    },
+    {
+      "part": "Kai_Capybara_GO_v2_0_Modular.zip.part09",
+      "size": 675764,
+      "sha256": "f9f3d3ffb1020e47e2fe6bb56933ddc55f91e069226732835f787537c63d4e03"
+    }
+  ]
+}

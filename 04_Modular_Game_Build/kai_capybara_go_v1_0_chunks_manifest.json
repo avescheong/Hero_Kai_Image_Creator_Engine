@@ -1,0 +1,32 @@
+{
+  "archive": "Kai_Capybara_GO_v1_0_Modular.zip",
+  "total_bytes": 17787526,
+  "sha256": "e42a4ef9c9d4b0e9b3082c88f7a0f4e8f2ae25f963e4b03d7543281b27447dda",
+  "chunk_count": 4,
+  "parts": [
+    {
+      "part": 1,
+      "filename": "Kai_Capybara_GO_v1_0_Modular.zip.part_01",
+      "bytes": 4800000,
+      "sha256": "eecb32d5ae3c86524a243cf39cb0e46942944ac5fc56a693ddc2ff05e2bad360"
+    },
+    {
+      "part": 2,
+      "filename": "Kai_Capybara_GO_v1_0_Modular.zip.part_02",
+      "bytes": 4800000,
+      "sha256": "6295ecf16416bb30c0fcaf68e0f05d6f12b5e1de2d35416b248f217d793150da"
+    },
+    {
+      "part": 3,
+      "filename": "Kai_Capybara_GO_v1_0_Modular.zip.part_03",
+      "bytes": 4800000,
+      "sha256": "097210c12a3d2863a080ee2597dae6850dc355521dfc99f56a7fcd22ad758652"
+    },
+    {
+      "part": 4,
+      "filename": "Kai_Capybara_GO_v1_0_Modular.zip.part_04",
+      "bytes": 3387526,
+      "sha256": "69c3ab36fb5033082d5123a9f10bdfe0f199dea8de34fd81bc43cfc8738f4045"
+    }
+  ]
+}

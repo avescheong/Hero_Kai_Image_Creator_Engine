@@ -1,0 +1,11 @@
+# Superseded / redundant Google Drive download artifacts
+99_Archive/
+*.zip
+*.part*
+*.docx
+
+# OS & Python cache
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

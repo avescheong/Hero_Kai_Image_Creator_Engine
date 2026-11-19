@@ -880,3 +880,14 @@
   - Static check after final edit: `226/226` asset paths present on disk (`0` missing), `index.html == index_v4_2.html` (`True`), `0` unmatched `getElementById()` references across all 11 JS modules.
   - Live browser QA (`http://localhost:8080/index.html?v=5.3.0` & `?v=5.3.1`, `1280×800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`), all 6 manual command types + sub-menus + Weakness Break (`WEAK!`) + `#btn-ff-auto-toggle` (`Manual Mode ⇄ Auto-Battle: ON`) verified, `SystemDiagnostics` (`🩺 Self-Test`) passed `11/11 PASSED`, inspected host-verified screenshot `final_step_70.png`.
 - **Next Unblocked Step**: Ready for user playtest and optional commit/push to orphan branch `origin/Kai_Capybara_GO` upon user confirmation.
+
+---
+
+### Entry 54 — GitHub README.md Created
+- **Timestamp**: 2026-11-19T11:08:50+08:00
+- **Checkpoint ID**: `CHK-KAI-CAPYBARA-GO-README-20261119`
+- **Completed Items**:
+  - Created root `README.md` covering what the game is about (60-day Capybara Go! adventure + v5.3.0 Final Fantasy Manual Tactical Command Deck), its origin in the *Scrolls of Pythonia* & `Hero Kai` 16-FPS sprite engine, how it helps children ages 8–12 learn Python (`print()`, variables, arithmetic, types, Booleans, conditionals, `# comments`, loops, lists, `def`), strategic thinking, bilingual Jing Si wisdom, and plant-based empathy values, what makes the zero-framework `226`-asset prototype special, the upcoming **Kids Game Creator Studio** roadmap, repository layout, and local play instructions.
+- **Verification Proof**:
+  - Cross-checked all asset counts, chapter curriculum topics, filenames, branch names (`Kai_Capybara_GO`, `Kai_Capybara_Go_Community_Wiki`), and clone URL directly against `04_Modular_Game_Build/index.html`, `04_Modular_Game_Build/config_and_manifests_v4_2.js`, `00_Governance_and_Blueprints/03_KAI_CAPYBARA_GO_STORY_CURRICULUM_AND_ENVIRONMENT_PLAN.md`, `05_Kai_Wikipedia/00_MASTER_PLAN_KAI_WIKIPEDIA_COMMUNITY_DB.md`, and `git remote -v`.
+- **Next Unblocked Step**: Review `README.md` and commit/push to `origin/Kai_Capybara_GO` when ready.

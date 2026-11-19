@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hero Kai: Scrolls of Pythonia — Capybara Go! Edition (v4.3 Spell-Forge)</title>
-  <link rel="stylesheet" href="capybara_studio_v4_2.css?v=4.3.1" />
+  <title>Hero Kai: Scrolls of Pythonia — Capybara Go! Edition (v5.2 Sakuga Showcase)</title>
+  <link rel="stylesheet" href="capybara_studio_v4_2.css?v=5.2.0" />
 </head>
 <body>
   <div id="loader-overlay" class="loader-overlay">
     <div class="loader-box">
-      <div class="loader-title">Loading 204 16-FPS Atlases &amp; 10 Biomes (v4.3 Spell-Forge)...</div>
+      <div class="loader-title">Loading 204 16-FPS Atlases &amp; 10 Biomes (v5.2.0)...</div>
       <div class="loader-bar"><div id="loader-bar-fill"></div></div>
       <div id="loader-pct">0%</div>
     </div>
@@ -26,6 +26,8 @@
         <span class="pill" id="hud-atk-badge">⚔️ 105 ATK · 🎯 27% Crit · 🛡️ 25% DR</span>
         <span class="pill badge-gold" id="hud-gold">🪙 120G · 💎 25</span>
         <span class="pill badge-stamina" id="hud-stamina">🥬 Stamina 20/20</span>
+        <button id="btn-audio-mute" class="pill btn-hud-audio" title="Toggle Web Audio SFX">🔊 SFX</button>
+        <button id="btn-sandbox-mode" class="pill btn-hud-sandbox" title="Toggle Teacher Sandbox (unlock all chapters &amp; gear)">🧪 Sandbox: OFF</button>
         <button id="btn-save-reset" class="pill btn-hud-reset" title="Save or Reset Run">💾 Reset</button>
       </div>
     </header>
@@ -68,23 +70,31 @@
     <main id="log-container" class="adventure-log"></main>
 
     <div id="choice-chips-bar" class="choice-chips-bar"></div>
+    <div id="tutorial-coach-bar" class="tutorial-coach-bar hidden"></div>
 
     <footer class="action-toolbar">
       <button id="btn-next-day" class="btn-primary">NEXT DAY (Space)</button>
       <button id="btn-auto" class="btn-tool">▶️ Auto: OFF</button>
       <button id="btn-parry" class="btn-tool">🛡️ Parry</button>
+      <button id="btn-tag-string" class="btn-tool btn-pet-tag" title="String Sonic Bark (Q) - 150% Pet ATK & -1 Boss Stagger">🐾 [Q] String</button>
+      <button id="btn-tag-mantis" class="btn-tool btn-pet-tag" title="Mantis Dawn Blossom (E) - +12% HP & Cleanse">🌿 [E] Mantis</button>
       <button id="btn-cure-status" class="btn-tool hidden">🌸 Cure 3×</button>
+      <button id="btn-hack-boss" class="btn-tool btn-forge-glow hidden" title="Hack Boss AI Source Code">⚡ Hack Boss AI</button>
       <button id="btn-code-forge" class="btn-tool btn-forge-glow">💻 Spell-Forge IDE</button>
       <button id="btn-gacha" class="btn-tool">🎰 Gacha &amp; Draft</button>
       <button id="btn-pacing" class="btn-tool">⚔️ 1.0x Sakuga</button>
-      <button id="btn-chapter" class="btn-tool">🗺️ Ch. 1</button>
       <button id="btn-gear" class="btn-tool">⚔️ Gear</button>
-      <button id="btn-skill-tree" class="btn-tool">🌳 Skill Tree</button>
-      <button id="btn-magic" class="btn-tool">✨ 12 Magic</button>
-      <button id="btn-pets" class="btn-tool">🐾 Pets &amp; Mount</button>
-      <button id="btn-bestiary" class="btn-tool">👾 62 Bestiary</button>
-      <button id="btn-wiki-import" class="btn-tool">📥 Wiki Import</button>
-      <button id="btn-atlas" class="btn-tool">📦 226 Assets</button>
+      <button id="btn-skill-tree" class="btn-tool">🌳 Skills</button>
+      <button id="btn-magic" class="btn-tool">✨ Magic</button>
+      <button id="btn-pets" class="btn-tool">🐾 Pets</button>
+      <button id="btn-dev-drawer" class="btn-tool" title="Chapters, Bestiary, Wiki &amp; Asset Atlas">⚙️ More</button>
+      <span id="dev-tools-group" class="dev-tools-group hidden">
+        <button id="btn-chapter" class="btn-tool">🗺️ Ch. 1</button>
+        <button id="btn-bestiary" class="btn-tool">👾 Bestiary</button>
+        <button id="btn-wiki-import" class="btn-tool">📥 Wiki/Save</button>
+        <button id="btn-atlas" class="btn-tool">📦 Atlas</button>
+        <button id="btn-self-test" class="btn-tool">🩺 Self-Test</button>
+      </span>
     </footer>
   </div>
 
@@ -98,11 +108,19 @@
     </div>
   </div>
 
-  <script src="config_and_manifests_v4_2.js?v=4.3.1"></script>
-  <script src="sprite_16fps_engine_v4_2.js?v=4.3.1"></script>
-  <script src="vfx_particle_renderer_v4_2.js?v=4.3.1"></script>
-  <script src="combat_event_chain_v4_2.js?v=4.3.1"></script>
-  <script src="equipment_and_pets_drawer_v4_2.js?v=4.3.1"></script>
-  <script src="main_v4_2.js?v=4.3.1"></script>
+  <div id="anim-zoom-overlay" class="anim-zoom-overlay hidden" onclick="if(event.target===this && window.DrawerUI) window.DrawerUI.closeAnimZoomModal()">
+    <div id="anim-zoom-card" class="anim-zoom-card"></div>
+  </div>
+
+  <script src="config_and_manifests_v4_2.js?v=5.2.0"></script>
+  <script src="sprite_16fps_engine_v4_2.js?v=5.2.0"></script>
+  <script src="vfx_particle_renderer_v4_2.js?v=5.2.0"></script>
+  <script src="spell_chain_and_boss_hack_v5.js?v=5.2.0"></script>
+  <script src="crossroads_and_stamina_v5.js?v=5.2.0"></script>
+  <script src="audio_and_passport_v5.js?v=5.2.0"></script>
+  <script src="tutorial_director_v5.js?v=5.2.0"></script>
+  <script src="combat_event_chain_v4_2.js?v=5.2.0"></script>
+  <script src="equipment_and_pets_drawer_v4_2.js?v=5.2.0"></script>
+  <script src="main_v4_2.js?v=5.2.0"></script>
 </body>
 </html>

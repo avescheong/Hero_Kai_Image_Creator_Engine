@@ -1,7 +1,7 @@
 // Hero Kai: Scrolls of Pythonia — Capybara Go! Edition
 // config_and_manifests_v4_1.js (Phase 1: 212 Assets = 202 16-FPS Sheets [3,232 Frames] + 10 Biomes + Skill/Gear Parity)
 window.CAPYBARA_CONFIG = {
-  VERSION: "4.3.0",
+  VERSION: "5.2.0",
   FPS: 16,
   CELL_SIZE: 256,
   GRID_COLS: 4,
@@ -246,57 +246,57 @@ window.CAPYBARA_CONFIG = {
     "BIOME_10": "assets/biomes/BIOME_10_CITADEL_OF_THE_CORE_16x9.png"
   },
   WEAPONS_DB: {
-    ironsword: { id: "ironsword", name: "IronSword of Pythonia", sheet: "KAI_CMB_01", atk: 45, crit: 12, combo: 20, counter: 15, skillDmg: 25, dr: 10, desc: "Launches Golden Sword Chi Wave (145% ATK) every 2nd strike." },
-    forge_hammer: { id: "forge_hammer", name: "Heavy Forge Hammer", sheet: "KAI_CMB_02", atk: 70, crit: 10, combo: 10, counter: 32, skillDmg: 20, dr: 22, desc: "Earthquake Slam grants +120 Hollow-Rim Shield & 25% Stun." },
-    twin_blade: { id: "twin_blade", name: "Twin-Blade Omnislash", sheet: "KAI_CMB_03", atk: 55, crit: 22, combo: 42, counter: 12, skillDmg: 22, dr: 12, desc: "4-hit Whirlwind Combo & +15 Rage per turn." },
-    flying_dagger: { id: "flying_dagger", name: "Flying Dagger & Light Spear", sheet: "KAI_CMB_04", atk: 50, crit: 38, combo: 30, counter: 10, skillDmg: 35, dr: 10, desc: "Fires 3 curved Bezier Daggers + Falling Light Spear on Crit." },
-    starlight_staff: { id: "starlight_staff", name: "Great Wizard Starlight Staff", sheet: "KAI_MAG_07", atk: 65, crit: 25, combo: 18, counter: 14, skillDmg: 55, dr: 16, desc: "Amplifies all 12 Pythonic Magic Schools by +45% DMG." }
+    ironsword: { id: "ironsword", name: "IronSword of Pythonia", sheet: "KAI_CMB_01", unlockCh: 1, atk: 45, crit: 12, combo: 20, counter: 15, skillDmg: 25, dr: 10, desc: "Launches Golden Sword Chi Wave (145% ATK) every 2nd strike." },
+    forge_hammer: { id: "forge_hammer", name: "Heavy Forge Hammer", sheet: "KAI_CMB_02", unlockCh: 3, atk: 70, crit: 10, combo: 10, counter: 32, skillDmg: 20, dr: 22, desc: "Earthquake Slam grants +120 Hollow-Rim Shield & 25% Stun." },
+    twin_blade: { id: "twin_blade", name: "Twin-Blade Omnislash", sheet: "KAI_CMB_03", unlockCh: 5, atk: 55, crit: 22, combo: 42, counter: 12, skillDmg: 22, dr: 12, desc: "4-hit Whirlwind Combo & +15 Rage per turn." },
+    flying_dagger: { id: "flying_dagger", name: "Flying Dagger & Light Spear", sheet: "KAI_CMB_04", unlockCh: 7, atk: 50, crit: 38, combo: 30, counter: 10, skillDmg: 35, dr: 10, desc: "Fires 3 curved Bezier Daggers + Falling Light Spear on Crit." },
+    starlight_staff: { id: "starlight_staff", name: "Great Wizard Starlight Staff", sheet: "KAI_MAG_05", unlockCh: 9, atk: 65, crit: 25, combo: 18, counter: 14, skillDmg: 55, dr: 16, desc: "Amplifies all 12 Pythonic Magic Schools by +45% DMG." }
   },
   ARMORS_DB: {
-    hoodie: { id: "hoodie", name: "Tier 1: Casual Sage Hoodie", hp: 150, shield: 40, dr: 8, armorRow: 0, paperDollCell: 0, auraColor: "#38bdf8" },
-    moss_cloak: { id: "moss_cloak", name: "Tier 2: Moss-Green Cloak (#345830)", hp: 350, shield: 90, dr: 15, armorRow: 1, paperDollCell: 5, auraColor: "#4ade80" },
-    dwarven_plate: { id: "dwarven_plate", name: "Tier 3: Master Grimsby Dwarven Plate", hp: 750, shield: 180, dr: 28, armorRow: 2, paperDollCell: 10, auraColor: "#f59e0b" },
-    lotus_paladin: { id: "lotus_paladin", name: "Tier 4: Tzu Chi Lotus Paladin Mantle", hp: 1200, shield: 280, dr: 35, armorRow: 3, paperDollCell: 14, auraColor: "#f472b6" }
+    hoodie: { id: "hoodie", name: "Tier 1: Casual Sage Hoodie", unlockCh: 1, hp: 150, shield: 40, dr: 8, armorRow: 0, paperDollCell: 0, auraColor: "#38bdf8" },
+    moss_cloak: { id: "moss_cloak", name: "Tier 2: Moss-Green Cloak (#345830)", unlockCh: 1, hp: 350, shield: 90, dr: 15, armorRow: 1, paperDollCell: 5, auraColor: "#4ade80" },
+    dwarven_plate: { id: "dwarven_plate", name: "Tier 3: Master Grimsby Dwarven Plate", unlockCh: 6, hp: 750, shield: 180, dr: 28, armorRow: 2, paperDollCell: 10, auraColor: "#f59e0b" },
+    lotus_paladin: { id: "lotus_paladin", name: "Tier 4: Tzu Chi Lotus Paladin Mantle", unlockCh: 10, hp: 1200, shield: 280, dr: 35, armorRow: 3, paperDollCell: 14, auraColor: "#f472b6" }
   },
   SKILL_TREES_DB: [
     {
       id: "starlight",
       title: "Starlight Caster (print)",
       nodes: [
-        { id: "st_1", name: "Novice Scroll (print())", cost: 2, atk: 15, skillDmg: 10, py: "print('STARLIGHT_BOLT')" },
-        { id: "st_2", name: "String Concatenation (+)", cost: 3, atk: 25, crit: 8, py: "spell = 'SUN' + '_AEGIS'" },
-        { id: "st_3", name: "Hologram Projector (f-str)", cost: 4, atk: 35, skillDmg: 18, py: "f'{kai.atk * 1.8} CRIT!'" },
-        { id: "st_4", name: "Grand Starlight Supernova", cost: 5, atk: 60, crit: 12, py: "cast_supernova(radius=360)" }
+        { id: "st_1", name: "Novice Scroll (print())", cost: 2, atk: 15, skillDmg: 10, sheet: "KAI_MAG_05", py: "print('STARLIGHT_BOLT')" },
+        { id: "st_2", name: "String Concatenation (+)", cost: 3, atk: 25, crit: 8, sheet: "KAI_ACT_09", py: "spell = 'SUN' + '_AEGIS'" },
+        { id: "st_3", name: "Hologram Projector (f-str)", cost: 4, atk: 35, skillDmg: 18, sheet: "EXP_LINK_42", py: "f'{kai.atk * 1.8} CRIT!'" },
+        { id: "st_4", name: "Grand Starlight Supernova", cost: 5, atk: 60, crit: 12, sheet: "KAI_MAG_16", py: "cast_supernova(radius=360)" }
       ]
     },
     {
       id: "forge",
       title: "Solar Forge Striker (int)",
       nodes: [
-        { id: "fg_1", name: "Iron Temper (int * 2)", cost: 2, atk: 20, combo: 8, py: "blade_atk = base_atk * 2" },
-        { id: "fg_2", name: "Outpost Anvil Sparks", cost: 3, atk: 30, counter: 10, py: "smelter_temp = 300 * 4" },
-        { id: "fg_3", name: "Master Grimsby Runes", cost: 4, hp: 250, atk: 40, py: "for rune in range(4): etch()" },
-        { id: "fg_4", name: "100% Rage Solar Overdrive", cost: 5, atk: 75, skillDmg: 20, py: "if rage == 100: awaken()" }
+        { id: "fg_1", name: "Iron Temper (int * 2)", cost: 2, atk: 20, combo: 8, sheet: "KAI_CMB_01", py: "blade_atk = base_atk * 2" },
+        { id: "fg_2", name: "Outpost Anvil Sparks", cost: 3, atk: 30, counter: 10, sheet: "KAI_MAG_01", py: "smelter_temp = 300 * 4" },
+        { id: "fg_3", name: "Master Grimsby Runes", cost: 4, hp: 250, atk: 40, sheet: "KAI_CMB_02", py: "for rune in range(4): etch()" },
+        { id: "fg_4", name: "100% Rage Solar Overdrive", cost: 5, atk: 75, skillDmg: 20, sheet: "KAI_MAG_13", py: "if rage == 100: awaken()" }
       ]
     },
     {
       id: "chrono",
       title: "Chrono Loop & Dagger (for)",
       nodes: [
-        { id: "ch_1", name: "Range Volley (range(3))", cost: 2, atk: 15, combo: 12, py: "for d in range(3): throw()" },
-        { id: "ch_2", name: "Async Lightning Surge", cost: 3, atk: 28, crit: 10, py: "await volt_surge(enemy)" },
-        { id: "ch_3", name: "Echo Clone Loop (while)", cost: 4, atk: 42, combo: 15, py: "while combo < 5: slash()" },
-        { id: "ch_4", name: "Chrono Time-Stop Finale", cost: 5, atk: 65, crit: 15, py: "time_loop.freeze_frame(10)" }
+        { id: "ch_1", name: "Range Volley (range(3))", cost: 2, atk: 15, combo: 12, sheet: "KAI_CMB_04", py: "for d in range(3): throw()" },
+        { id: "ch_2", name: "Async Lightning Surge", cost: 3, atk: 28, crit: 10, sheet: "KAI_MAG_03", py: "await volt_surge(enemy)" },
+        { id: "ch_3", name: "Echo Clone Loop (while)", cost: 4, atk: 42, combo: 15, sheet: "KAI_MAG_10", py: "while combo < 5: slash()" },
+        { id: "ch_4", name: "Chrono Time-Stop Finale", cost: 5, atk: 65, crit: 15, sheet: "KAI_MAG_15", py: "time_loop.freeze_frame(10)" }
       ]
     },
     {
       id: "lotus",
       title: "Tzu Chi Lotus Guardian (True)",
       nodes: [
-        { id: "lt_1", name: "Hollow-Rim Shield (Gate 3C)", cost: 2, hp: 180, shield: 90, py: "shield.center_alpha = 0.0" },
-        { id: "lt_2", name: "Veggie Bao Vitality", cost: 3, hp: 300, dr: 8, py: "eat('Steamed_Veggie_Bao')" },
-        { id: "lt_3", name: "Colon : Rhythm Parry", cost: 4, shield: 150, counter: 15, py: "if timing == ':': parry()" },
-        { id: "lt_4", name: "Compassionate Lotus Sanctuary", cost: 5, hp: 500, shield: 220, dr: 12, py: "purify_all(is_kind == True)" }
+        { id: "lt_1", name: "Hollow-Rim Shield (Gate 3C)", cost: 2, hp: 180, shield: 90, sheet: "EXP_LINK_11", py: "shield.center_alpha = 0.0" },
+        { id: "lt_2", name: "Veggie Bao Vitality", cost: 3, hp: 300, dr: 8, sheet: "KAI_ACT_11", py: "eat('Steamed_Veggie_Bao')" },
+        { id: "lt_3", name: "Colon : Rhythm Parry", cost: 4, shield: 150, counter: 15, sheet: "KAI_CMB_06", py: "if timing == ':': parry()" },
+        { id: "lt_4", name: "Compassionate Lotus Sanctuary", cost: 5, hp: 500, shield: 220, dr: 12, sheet: "KAI_MAG_07", py: "purify_all(is_kind == True)" }
       ]
     }
   ],
@@ -371,15 +371,19 @@ window.CAPYBARA_CONFIG = {
     { id: "ENM_BOSS_52", name: "Ignis Dragon & Mei", role: "Library Dragon & Silent Village Girl", buff: "True Flame Blessing (+35 Rage)" }
   ],
   SPIRIT_PETS: [
-    { id: "string", name: "String (Terrier #D89B4C)", sheet: "EXP_LINK_31", atk: 25, crit: 20, shield: 60, desc: "Sonic Bark (150% Pet ATK) & First-Aid Bandage" },
-    { id: "mantis", name: "Baby Mantis (#2ECC71)", sheet: "EXP_LINK_33", atk: 22, crit: 14, shield: 110, desc: "Dawn Blossom Heal (+12% HP) & Wind Scythe" },
-    { id: "str_int", name: "str Dragonet & int Golem", sheet: "ENM_BOSS_53", atk: 34, crit: 15, shield: 180, desc: "Calligraphy Bolts & Tectonic Boulder Guard" },
-    { id: "float_bool", name: "float Otter & bool Owl", sheet: "ENM_BOSS_54", atk: 28, crit: 26, shield: 130, desc: "Poison Cleanse & Truth Crit Laser" }
+    { id: "string", name: "String (Terrier #D89B4C)", sheet: "EXP_LINK_31", rowStart: 0, rowCount: 4, atk: 25, crit: 20, shield: 60, desc: "Sonic Bark (150% Pet ATK) & First-Aid Bandage" },
+    { id: "mantis", name: "Baby Mantis (#2ECC71)", sheet: "EXP_LINK_33", rowStart: 0, rowCount: 4, atk: 22, crit: 14, shield: 110, desc: "Dawn Blossom Heal (+12% HP) & Wind Scythe" },
+    { id: "str_dragonet", name: "str Scroll Dragonet", sheet: "ENM_BOSS_53", rowStart: 0, rowCount: 2, atk: 34, crit: 16, shield: 130, desc: "Calligraphy Starlight Bolts & String Concat Buff" },
+    { id: "int_golem", name: "int Boulder Golem", sheet: "ENM_BOSS_53", rowStart: 2, rowCount: 2, atk: 30, crit: 12, shield: 210, desc: "Tectonic Boulder Guard & Hollow Shield Wall" },
+    { id: "float_otter", name: "float River Otter", sheet: "ENM_BOSS_54", rowStart: 0, rowCount: 2, atk: 26, crit: 22, shield: 140, desc: "Bubble Cleanse & River Regeneration" },
+    { id: "bool_owl", name: "bool Prism Owl", sheet: "ENM_BOSS_54", rowStart: 2, rowCount: 2, atk: 32, crit: 28, shield: 120, desc: "Truth Crit Laser & Illusion Shatter" }
   ],
   MOUNTS: [
     { id: "none", name: "On Foot (Kai Sprint)", sheet: null, hp: 0, shield: 0, crit: 5, dr: 0, bonus: "Standard Stamina" },
-    { id: "mushroom_boar", name: "Bouncy Mushroom / Runic Boar", sheet: "ENM_BOSS_55", hp: 220, shield: 80, crit: 12, dr: 10, bonus: "+15% Dodge & +80 Shield" },
-    { id: "turtle_stag", name: "Crystal Turtle / Cloud-Stag", sheet: "ENM_BOSS_56", hp: 380, shield: 160, crit: 15, dr: 16, bonus: "+160 Shield & +16% DR" }
+    { id: "bouncy_mushroom", name: "Bouncy Mushroom", sheet: "ENM_BOSS_55", rowStart: 0, rowCount: 2, hp: 200, shield: 80, crit: 12, dr: 10, bonus: "+15% Dodge & +80 Shield" },
+    { id: "runic_boar", name: "Runic Boar", sheet: "ENM_BOSS_55", rowStart: 2, rowCount: 2, hp: 250, shield: 95, crit: 16, dr: 10, bonus: "+15% Dodge & +16% Crit" },
+    { id: "crystal_turtle", name: "Crystal Turtle", sheet: "ENM_BOSS_56", rowStart: 0, rowCount: 2, hp: 380, shield: 180, crit: 10, dr: 18, bonus: "+180 Shield & +18% DR" },
+    { id: "cloud_stag", name: "Starlight Cloud-Stag", sheet: "ENM_BOSS_56", rowStart: 2, rowCount: 2, hp: 340, shield: 140, crit: 20, dr: 14, bonus: "+20% Crit & +14% DR" }
   ],
   WORLD_MISC: {
     "ENM_BOSS_57": "Corrupted Bug Hive -> Critter Sanctuary",
@@ -390,16 +394,16 @@ window.CAPYBARA_CONFIG = {
     "ENM_BOSS_62": "Universal Tzu Chi Lotus Soul Purification & Loot Pinata"
   },
   MAGIC_SCHOOLS: [
-    { id: "water", name: "Water (Hydro Stream)", py: "stream.read()", kaiSheet: "KAI_MAG_01", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_17", color: "#00B4D8", atkPct: 1.85, rageGain: 22, shieldGain: 80, statusEffect: "cleanse_burn", desc: "185% ATK + Cleanses Burn + +80 Hollow Shield" },
-    { id: "fire", name: "Fire (Solar Forge)", py: "int * int", kaiSheet: "KAI_MAG_02", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_15", color: "#FF4500", atkPct: 2.10, rageGain: 25, shieldGain: 0, statusEffect: "burn", desc: "210% ATK + 35% Burn DoT (3 turns)" },
-    { id: "ice", name: "Ice (Glacial Cryo)", py: "tuple()", kaiSheet: "KAI_MAG_03", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_16", color: "#48CAE4", atkPct: 1.75, rageGain: 20, shieldGain: 40, statusEffect: "freeze", desc: "175% ATK + 40% Waist-Down Freeze" },
-    { id: "lightning", name: "Lightning (Volt Surge)", py: "async/await", kaiSheet: "KAI_MAG_04", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_14", color: "#FEE440", atkPct: 1.95, rageGain: 25, critBonus: 15, statusEffect: "none", desc: "195% ATK + +15% Crit Rate" },
-    { id: "wind", name: "Wind (Gale Zephyr)", py: "range()", kaiSheet: "KAI_MAG_05", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_18", color: "#52B788", atkPct: 1.65, rageGain: 20, statusEffect: "dodge_up", desc: "165% ATK + +20% Dodge Rate" },
-    { id: "nature", name: "Nature (Botanical Vine)", py: "list.append()", kaiSheet: "KAI_MAG_06", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_44", color: "#2D6A4F", atkPct: 1.60, rageGain: 20, healPct: 0.15, statusEffect: "none", desc: "160% ATK + Heals 15% Max HP" },
-    { id: "starlight", name: "Starlight (Celestial)", py: "print()", kaiSheet: "KAI_MAG_07", circle: "VFX_MISC_11", overlay: "VFX_MISC_13", vfx: "VFX_MISC_06", color: "#FFD166", atkPct: 2.20, rageGain: 28, statusEffect: "cleanse_silence", desc: "220% ATK + +28 Rage + Shatters Silence" },
+    { id: "water", name: "Water (Hydro Stream)", py: "stream.read()", kaiSheet: "KAI_MAG_08", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_17", color: "#00B4D8", atkPct: 1.85, rageGain: 22, shieldGain: 80, statusEffect: "cleanse_burn", desc: "185% ATK + Cleanses Burn + +80 Hollow Shield" },
+    { id: "fire", name: "Fire (Solar Forge)", py: "int * int", kaiSheet: "KAI_MAG_01", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_15", color: "#FF4500", atkPct: 2.10, rageGain: 25, shieldGain: 0, statusEffect: "burn", desc: "210% ATK + 35% Burn DoT (3 turns)" },
+    { id: "ice", name: "Ice (Glacial Cryo)", py: "tuple()", kaiSheet: "KAI_MAG_02", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_16", color: "#48CAE4", atkPct: 1.75, rageGain: 20, shieldGain: 40, statusEffect: "freeze", desc: "175% ATK + 40% Waist-Down Freeze" },
+    { id: "lightning", name: "Lightning (Volt Surge)", py: "async/await", kaiSheet: "KAI_MAG_03", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_14", color: "#FEE440", atkPct: 1.95, rageGain: 25, critBonus: 15, statusEffect: "none", desc: "195% ATK + +15% Crit Rate" },
+    { id: "wind", name: "Wind (Gale Zephyr)", py: "range()", kaiSheet: "KAI_MAG_15", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_18", color: "#52B788", atkPct: 1.65, rageGain: 20, statusEffect: "dodge_up", desc: "165% ATK + +20% Dodge Rate" },
+    { id: "nature", name: "Nature (Botanical Vine)", py: "list.append()", kaiSheet: "KAI_MAG_04", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_44", color: "#2D6A4F", atkPct: 1.60, rageGain: 20, healPct: 0.15, statusEffect: "none", desc: "160% ATK + Heals 15% Max HP" },
+    { id: "starlight", name: "Starlight (Celestial)", py: "print()", kaiSheet: "KAI_MAG_05", circle: "VFX_MISC_11", overlay: "VFX_MISC_13", vfx: "VFX_MISC_06", color: "#FFD166", atkPct: 2.20, rageGain: 28, statusEffect: "cleanse_silence", desc: "220% ATK + +28 Rage + Shatters Silence" },
     { id: "special", name: "Special (Python Overdrive)", py: "def ultimate():", kaiSheet: "KAI_MAG_16", circle: "VFX_MISC_11", overlay: "VFX_MISC_20", vfx: "VFX_MISC_04", color: "#F4C430", atkPct: 3.20, rageGain: 0, statusEffect: "trio_assist", desc: "320% ATK + Trio Assist Cut-In" },
-    { id: "earth", name: "Earth / Geo (Wall)", py: "int()", kaiSheet: "KAI_MAG_08", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_07", color: "#B08968", atkPct: 1.70, rageGain: 20, shieldGain: 180, statusEffect: "none", desc: "170% ATK + +180 Golden Hollow Shield" },
-    { id: "lotus", name: "Light / Lotus Purify", py: "bool == True", kaiSheet: "KAI_MAG_09", circle: "VFX_MISC_11", overlay: "VFX_MISC_19", vfx: "EXP_LINK_20", color: "#FFCAD4", atkPct: 1.90, rageGain: 24, shieldGain: 220, statusEffect: "cleanse_all", desc: "190% ATK + Cleanse All Debuffs + +220 Shield" },
+    { id: "earth", name: "Earth / Geo (Wall)", py: "int()", kaiSheet: "KAI_MAG_06", circle: "VFX_MISC_11", overlay: "VFX_MISC_12", vfx: "VFX_MISC_07", color: "#B08968", atkPct: 1.70, rageGain: 20, shieldGain: 180, statusEffect: "none", desc: "170% ATK + +180 Golden Hollow Shield" },
+    { id: "lotus", name: "Light / Lotus Purify", py: "bool == True", kaiSheet: "KAI_MAG_07", circle: "VFX_MISC_11", overlay: "VFX_MISC_19", vfx: "EXP_LINK_20", color: "#FFCAD4", atkPct: 1.90, rageGain: 24, shieldGain: 220, statusEffect: "cleanse_all", desc: "190% ATK + Cleanse All Debuffs + +220 Shield" },
     { id: "chrono", name: "Chrono / Loop Time", py: "for / while", kaiSheet: "KAI_MAG_10", circle: "VFX_MISC_11", overlay: "VFX_MISC_13", vfx: "VFX_MISC_41", color: "#00BBF9", atkPct: 2.00, rageGain: 25, statusEffect: "echo_clone", desc: "200% ATK + 50% Echo Double Cast" },
     { id: "shadow", name: "Shadow / # Mute", py: "# comment", kaiSheet: "KAI_MAG_11", circle: "VFX_MISC_11", overlay: "VFX_MISC_45", vfx: "VFX_MISC_03", color: "#4361EE", atkPct: 1.80, rageGain: 22, statusEffect: "silence", desc: "180% ATK + Mutes Boss Spell for 1 Turn" }
   ],
@@ -463,7 +467,7 @@ window.CAPYBARA_CONFIG = {
 
 
 // --- v4.2 Additions: Status Recovery Sheets, Hit Callouts, Stage-Locked Props, Pickups & Chapter Status Matrix ---
-window.CAPYBARA_CONFIG.VERSION = "4.3.0";
+window.CAPYBARA_CONFIG.VERSION = "5.2.0";
 window.GameConfig = window.CAPYBARA_CONFIG;
 window.CAPYBARA_CONFIG.STATUS_SHEETS_V4_2 = {
   KAI_STATUS_BLEED:   "assets/status/KAI_STATUS_BLEED.png",
@@ -517,4 +521,23 @@ window.CAPYBARA_CONFIG.CHAPTER_STATUS_MATRIX_V4_2 = {
   10: { status: "confuse", projRow: 3 },
   11: { status: "freeze", projRow: 2 },
   12: { status: "confuse", projRow: 3 },
+};
+
+// Pixel-verified horizontal facing map (Hero Kai is on LEFT, actors on RIGHT; true = sheet faces RIGHT and needs flipX)
+window.CAPYBARA_CONFIG.ACTOR_FLIP_X_MAP = {
+  ENM_BOSS_01: false, ENM_BOSS_02: true,  ENM_BOSS_03: true,  ENM_BOSS_04: true,
+  ENM_BOSS_05: true,  ENM_BOSS_06: false, ENM_BOSS_07: true,  ENM_BOSS_08: false,
+  ENM_BOSS_09: true,  ENM_BOSS_10: true,  ENM_BOSS_11: true,  ENM_BOSS_12: true,
+  ENM_BOSS_13: true,  ENM_BOSS_14: true,  ENM_BOSS_15: true,  ENM_BOSS_16: true,
+  ENM_BOSS_17: true,  ENM_BOSS_18: true,  ENM_BOSS_19: false, ENM_BOSS_20: true,
+  ENM_BOSS_21: true,  ENM_BOSS_22: true,  ENM_BOSS_23: false, ENM_BOSS_24: true,
+  ENM_BOSS_25: true,  ENM_BOSS_26: true,  ENM_BOSS_27: true,  ENM_BOSS_28: true,
+  ENM_BOSS_29: true,  ENM_BOSS_30: false, ENM_BOSS_31: true,  ENM_BOSS_32: false,
+  ENM_BOSS_33: true,  ENM_BOSS_34: true,  ENM_BOSS_35: true,  ENM_BOSS_36: false,
+  ENM_BOSS_37: false, ENM_BOSS_38: true,  ENM_BOSS_39: true,  ENM_BOSS_40: true,
+  ENM_BOSS_41: true,  ENM_BOSS_42: true,
+  ENM_BOSS_43: true,  ENM_BOSS_44: true,  ENM_BOSS_45: true,  ENM_BOSS_46: true,
+  ENM_BOSS_47: true,  ENM_BOSS_48: true,  ENM_BOSS_49: false, ENM_BOSS_50: true,
+  ENM_BOSS_51: true,  ENM_BOSS_52: true,
+  ENM_BOSS_57: false, ENM_BOSS_58: true,  ENM_BOSS_60: false, ENM_BOSS_61: false
 };

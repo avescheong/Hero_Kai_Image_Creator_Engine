@@ -812,3 +812,57 @@
 - Verification Proof:
   - Verified live on `http://localhost:8080/index.html?v=4.3.1` (`0` console errors, `0` failed requests across `50` requests): leaves overlay is gone, clicking the Lotus Shrine removes it from the stage, increments Gold `120G -> 130G` and Rage `0 -> 10`, and logs the inspection reward.
 - Next Unblocked Step: Live on `http://localhost:8080/` and synced to `origin/Kai_Capybara_GO`.
+
+## 50. Handover Log Entry — CHK-KAI-CAPYBARA-GO-V5_0_4-SPRINT0-4-SYNC-20261119-0920
+- Checkpoint ID: CHK-KAI-CAPYBARA-GO-V5_0_4-SPRINT0-4-SYNC-20261119-0920
+- Timestamp: 2026-11-19T09:20:00+08:00
+- Completed Tasks:
+  - Ingested Neon's Google Drive Sprint 0–4 handoff from `Antigravity/` (`SPRINT_0`..`SPRINT_4_ANTIGRAVITY_SYNC_MANIFEST.md.docx` and `kai-capybara-go-v5-innovation-plan.html`) and synced all 10 updated/new `v5.0 Complete Edition` build files into `04_Modular_Game_Build/` (plus `index_v4_2.html` parity):
+    - Sprint 0 (`v4.4`): Fixed 8 off-by-one `MAGIC_SCHOOLS` `kaiSheet` keys + `starlight_staff` (`KAI_MAG_05`), hero action sheet indices (`KAI_ACT_14`, `KAI_CMB_06`, `KAI_ACT_06`, `KAI_ACT_03`, `KAI_ACT_16`, `KAI_ACT_08`, `KAI_ACT_15`, `KAI_ACT_10`), closed 5 economy/progression exploits (1st-clear Spell-Forge rewards & strict answer match, 3-spin/chapter Lucky Slots cap, 1/chapter Meditate cap, sequential Skill Tree prerequisites, and Chapter/Gear unlock gating + `#btn-sandbox-mode` Teacher Sandbox toggle).
+    - Sprint 1 (`v5.0` Active Combat): Removed HP=1 immortality clamp (`KAI_ACT_07` KO + `openDefeatModal` / `reviveAfterDefeat`), wired all 5 weapon passives, real status warfare (Burn/Poison/Bleed DoT, Freeze skip, Silence mute, Confuse), unique buffs for all 10 NPCs, and `[Q] String` / `[E] Mantis` Companion Tag-Ins.
+    - Sprint 2 (`v5.0` Code-Is-The-Combat): Added `spell_chain_and_boss_hack_v5.js` (`SpellChainVM` zero-`eval()` 3-Slot Trigger → Modifier → Payload pipeline + `BossHackEngine` live Boss AI patching via `#btn-hack-boss`).
+    - Sprint 3 (`v5.0` Crossroads & Stamina): Added `crossroads_and_stamina_v5.js` (3-Lane Branching Crossroads on `day % 5 === 0`), live Stamina (`20/20`) drain & Fatigue (`-20% ATK`), and `SaveManager.exportSaveJson()` / `importSaveJson()`.
+    - Sprint 4 (`v5.0` Complete): Added `audio_and_passport_v5.js` (`AudioSFX` Web Audio synth + `#btn-audio-mute`, `MasteryPassport` 12-chapter tracker & JSON export), living `weatherVfx` + Day-to-Night tint, and `#btn-dev-drawer` (`⚙️ More`) utility grouping.
+  - Applied Antigravity takeover polish & bugfixes in `04_Modular_Game_Build/`:
+    - Added `.choice-chip.active` highlight styling in `capybara_studio_v4_2.css` for the 3-Slot Spell-Chain builder.
+    - Added `st.hero.hp <= 0` guard in `StoryEngine.advanceDay()` and immediate `handleEnemyDefeat()` check in `StoryEngine.triggerParry()` in `combat_event_chain_v4_2.js`.
+    - Restored `st.stamina = st.maxStamina || 20` in `DrawerUI.reviveAfterDefeat()`, exposed Export/Import Full Save JSON buttons in `openWikiImportModal()`, added clipboard copy to `copyPassportExport()`, and updated `openAtlasManifestModal()` title/label to `v5.0 Complete` in `equipment_and_pets_drawer_v4_2.js`.
+- Verification Proof:
+  - Asset & DOM Integrity Check: `226/226` asset paths in `Antigravity/config_and_manifests_v4_2.js` verified present in `04_Modular_Game_Build/` (`0` missing); `0` unmatched DOM IDs across all 8 JS files.
+  - Live Browser QA (`http://localhost:8080/index.html?v=5.0.4`, `1280x800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`). Verified loader completion, `BIOME_01` canvas render, `⚙️ More` drawer (`0` horizontal overflow), Spell-Forge strict validation + 1st-clear cap + 3-Slot Spell-Chain + Meditate 1/ch cap, Sandbox gating, Day 1→5 Stamina drain & 3-Lane Crossroads, Bestiary D60 Boss duel + `Q`/`E` Tag-Ins + `⚡ Hack Boss AI`.
+- Next Unblocked Step: Ready for playtesting (`python -m http.server 8080 --directory 04_Modular_Game_Build`). Optional cleanup: archive legacy `v4_1` / `*.docx` / `*.zip*` files in `04_Modular_Game_Build/` to `99_Archive/` and commit/push `04_Modular_Game_Build/` + `00_Governance_and_Blueprints/` to `origin/Kai_Capybara_GO`.
+
+## 51. Handover Log Entry — CHK-KAI-CAPYBARA-GO-V5_1_0-SAKUGA-DIRECTOR-AND-TUTORIAL-20261119
+- Checkpoint ID: CHK-KAI-CAPYBARA-GO-V5_1_0-SAKUGA-DIRECTOR-AND-TUTORIAL-20261119
+- Timestamp: 2026-11-19T09:55:00+08:00
+- Completed Tasks:
+  - **Small Randomized Non-Overlapping Stage Props (`sprite_16fps_engine_v4_2.js`, `combat_event_chain_v4_2.js`, `main_v4_2.js`)**:
+    - Shrunk roadside props (`114×114 -> 64×64`) and street pickups (`76×76 -> 48×48`), spawned them via `StoryEngine.randomizeStageProps()` at randomized non-overlapping normalized screen coordinates (`propPos` and `activeStreetPickup` including aerial `VFX_MISC_48` Energy Orbs), synced `44px`/`40px` click hitboxes, and added `mousemove` hover cursor feedback.
+  - **Pixel-Verified Actor Facing Fix (`config_and_manifests_v4_2.js`, `sprite_16fps_engine_v4_2.js`)**:
+    - Inspected all 56 `ENM_BOSS` PNG sheets and added `CAPYBARA_CONFIG.ACTOR_FLIP_X_MAP` so Great Wizard (`ENM_BOSS_43`), 8 other Special NPCs (`44–48`, `50–52`), Chest Mimic (`ENM_BOSS_58`), and 33 right-facing enemies/bosses flip horizontally (`flipX: true`) to face LEFT toward Hero Kai, while keeping natively left-facing actors (`ENM_BOSS_01`, `06`, `08`, `19`, `23`, `30`, `32`, `36`, `37`, `49` Master Yuzu, `57`, `60`, `61`) unflipped.
+  - **Bold UX Innovation — Live Sakuga Combat Stage Director & Sequenced 4-Beat Choreography (`sprite_16fps_engine_v4_2.js`, `vfx_particle_renderer_v4_2.js`, `combat_event_chain_v4_2.js`)**:
+    - Replaced stacked raw `setTimeout` animations and blind frame-9/frame-4 VFX spam with an async session-guarded 4-Beat loop (`1. CAST ➔ 2. IMPACT ➔ 3. PARRY ➔ 4. ENEMY`, plus Beat 2b for Weapon Passives/Echo Clone) with modal-pause support in `waitBeat()`.
+    - Added per-action frame index reset (`heroAnimFrame`), dynamic camera zoom/shake/vignette/hit-stop (`triggerCameraPunch`), actor lunge/recoil (`triggerActorImpulse`), Z-split staggered spell travel (`Stage 1 circle ➔ Stage 2 traveling bolt ➔ Stage 3 impact burst`), shrinking Parry timing ring, and an on-canvas Combat Beat + Python Spell-Chain Timeline Ribbon.
+  - **Redesigned Connected Visual Skill Tree (`equipment_and_pets_drawer_v4_2.js`, `capybara_studio_v4_2.css`)**:
+    - Built a 4-column visual tier progression tree (`T1`–`T4`) with themed branch headers, directional `↓` connectors, explicit green stat reward pills, Active Tree Bonuses summary strip, and clear `✅ ACTIVE` / `✨ UNLOCK` / `🔒` / refund hints.
+  - **Chapter 1 Silent Village Step-by-Step Interactive Tutorial & Live System Self-Test (`tutorial_director_v5.js`, `index.html`, `index_v4_2.html`, `crossroads_and_stamina_v5.js`)**:
+    - Added `TutorialDirector` (8-step guided onboarding with animated Great Wizard mentor bar `#tutorial-coach-bar`, glowing `.tutorial-spotlight` indicators, Skip/Replay controls, and scripted Ch. 1 Days 2/3/4/5/6/8 tutorial encounters).
+    - Fixed Magic School ↔ `spellChain.payload` desync in `selectSchool()`, synced footer `#btn-code-forge` to `_pendingPythonGate` (including Ch. 1 `+12 ATK` gate bonus), raised `Tutorial Mini-Boss` `baseHp` (`1450`) + `1400ms` intro beat so `#btn-hack-boss` can always be tested mid-battle, and added `SystemDiagnostics` (`⚙️ More ➔ 🩺 Self-Test`).
+- Verification Proof:
+  - Static Asset & DOM Integrity: `226/226` asset paths verified on disk (`0` missing), `index.html == index_v4_2.html`, `0` unmatched `getElementById()` references across all 10 JS modules.
+  - Live Browser QA (`http://localhost:8080/index.html?v=5.1.0` & `?v=5.1.1`, `1280×800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`). Verified Day 1 small random props, Day 2 4-beat Sakuga combat ribbon & Tag-Ins, Day 3 Great Wizard facing LEFT + Skill Tree unlock (`130 -> 155 ATK`), Day 4 footer `#btn-code-forge` gate completion (`155 -> 167 ATK`, chips cleared `5 -> 0`), Day 5 Crossroads & Stamina (`16/20 -> 20/20`), Day 6 Magic↔Spell-Chain sync (`fire`), Day 8 Scarecrow facing LEFT + live `#btn-hack-boss` (`BOSS AI HACKED!`, `-2 Stagger Pips`), Tutorial Graduation (`Step 8/8`), and `🩺 Self-Test` (`10/10 PASSED`).
+- Next Unblocked Step: Ready for playtesting (`python -m http.server 8080 --directory 04_Modular_Game_Build`) and commit/push to `origin/Kai_Capybara_GO`.
+
+## 52. Handover Log Entry — CHK-KAI-CAPYBARA-GO-V5_2_0-SKILL-ZOOM-AND-NONMIXED-PETS-20261119
+- Checkpoint ID: CHK-KAI-CAPYBARA-GO-V5_2_0-SKILL-ZOOM-AND-NONMIXED-PETS-20261119
+- Timestamp: 2026-11-19T10:16:00+08:00
+- Completed Tasks:
+  - **Skill Tree Mini-Animations & Click-to-Enlarge 16-FPS Showcase Lightbox (`config_and_manifests_v4_2.js`, `equipment_and_pets_drawer_v4_2.js`, `capybara_studio_v4_2.css`, `index.html`, `index_v4_2.html`, `main_v4_2.js`)**:
+    - Assigned matching 16-FPS sprite sheets to all 16 nodes in `SKILL_TREES_DB` and rendered compact `42×42` live animated thumbnails inside each Skill Tree node card.
+    - Added `#anim-zoom-overlay` + `DrawerUI.openAnimZoomModal()` / `openSkillNodeZoom()` / `openMagicZoom()` / `openPetOrMountZoom()` so clicking any animated `🔍` thumbnail opens an enlarged `192×192` 16-FPS showcase lightbox with stats, Python code, and direct Unlock/Equip action buttons, plus `Escape`/backdrop close support.
+  - **Separated Non-Mixed Pets & Mounts (`config_and_manifests_v4_2.js`, `sprite_16fps_engine_v4_2.js`, `combat_event_chain_v4_2.js`, `main_v4_2.js`)**:
+    - Split the 2-in-1 sheets `ENM_BOSS_53..56` into 6 dedicated Spirit Pets (`string`, `mantis`, `str_dragonet`, `int_golem`, `float_otter`, `bool_owl`) and 5 dedicated Rideable Mounts (`none`, `bouncy_mushroom`, `runic_boar`, `crystal_turtle`, `cloud_stag`) with strict `rowStart`/`rowCount` animation slicing in both `renderPreviewCanvases()` and `renderStage()` Z=2.5 (plus save/wiki ID migration and `KAI_ACT_03` icon for `On Foot`).
+- Verification Proof:
+  - Static Asset & DOM Integrity: `226/226` asset paths verified (`0` missing), `43/43` DB `sheet` keys verified, `0` unmatched `getElementById()` references across all 10 JS modules.
+  - Live Browser QA (`http://localhost:8080/index.html?v=5.2.0`, `1280×800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`). Verified all 16 Skill Tree `42×42` canvases, `#anim-zoom-overlay` `192×192` enlarged previews for Skill Tree / Magic / Pets & Mounts, 6 non-mixed Pets & 5 non-mixed Mounts with exact `data-rowstart`/`data-rowcount` slicing, equipping `Starlight Cloud-Stag`, and `🩺 Self-Test` (`10/10 PASSED`).
+- Next Unblocked Step: Checked in and pushed to orphan branch `origin/Kai_Capybara_GO`.

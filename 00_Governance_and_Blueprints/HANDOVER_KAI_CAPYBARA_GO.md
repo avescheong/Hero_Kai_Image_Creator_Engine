@@ -866,3 +866,17 @@
   - Static Asset & DOM Integrity: `226/226` asset paths verified (`0` missing), `43/43` DB `sheet` keys verified, `0` unmatched `getElementById()` references across all 10 JS modules.
   - Live Browser QA (`http://localhost:8080/index.html?v=5.2.0`, `1280×800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`). Verified all 16 Skill Tree `42×42` canvases, `#anim-zoom-overlay` `192×192` enlarged previews for Skill Tree / Magic / Pets & Mounts, 6 non-mixed Pets & 5 non-mixed Mounts with exact `data-rowstart`/`data-rowcount` slicing, equipping `Starlight Cloud-Stag`, and `🩺 Self-Test` (`10/10 PASSED`).
 - Next Unblocked Step: Checked in and pushed to orphan branch `origin/Kai_Capybara_GO`.
+
+---
+
+### Entry 53 — v5.3.0 Final Fantasy Tactical Command Deck, Enemy Intent Telegraph & Weakness Break
+- **Timestamp**: 2026-11-19T10:58:00+08:00
+- **Checkpoint ID**: `CHK-KAI-CAPYBARA-GO-V5_3_0-FF-TACTICAL-BATTLE-DECK-20261119`
+- **Completed Items**:
+  - Added `04_Modular_Game_Build/ff_battle_menu_v5.js` (`window.FFBattleMenu`) delivering the two-pane Final Fantasy Royal-Blue Manual Command Deck (`Attack`, `Magic`, `Heal`, `Defend`, `Taunt`, `Allies` / `100% RAGE LIMIT BREAK`), keyboard hotkeys (`1`–`6`, `Backspace`, `Escape`), tactical hover preview, and preserved 1-click Auto-Battle toggle (`#btn-ff-auto-toggle` bound directly via `onclick` and synced with `StoryEngine.toggleAutoMarch()`).
+  - Updated `04_Modular_Game_Build/config_and_manifests_v4_2.js` (`VERSION` `"5.3.0"`, `CHAPTER_WEAKNESSES_V5_3` Ch. 1–12 weakness pairs) and `04_Modular_Game_Build/combat_event_chain_v4_2.js` (`autoBattle`, `awaitingCommand`, `heroDefending`, `mendCd`, `battleItems`, `toggleAutoMarch()`, `triggerParry()`, `startCombat()`, `_runWeaponPassiveBeat()`, `runTurn()`) for turn-by-turn Manual Tactical Combat with Weakness Break (`1.35×` DMG + -1 Stagger), Defend (`+140` Shield, `50% DR`, hex block + `1.10×` Shield Bash counter), Taunt (`+35` Rage, `1.40×` vulnerability for 2 turns, `2.60×` & `2`-pip Parry), and Heal/Veg items.
+  - Updated `04_Modular_Game_Build/sprite_16fps_engine_v4_2.js` (`resolveHeroSheet` battle-ready stance, `drawCombatBeatRibbon` 4-phase pills, Enemy HUD `NEXT:` intent & `TAUNTED` badge), `04_Modular_Game_Build/vfx_particle_renderer_v4_2.js` (`triggerDefendVfx`, `triggerTauntVfx`, `triggerHealVfx`), `04_Modular_Game_Build/capybara_studio_v4_2.css`, `04_Modular_Game_Build/index.html` & `index_v4_2.html`, `04_Modular_Game_Build/main_v4_2.js`, `04_Modular_Game_Build/equipment_and_pets_drawer_v4_2.js`, and `04_Modular_Game_Build/tutorial_director_v5.js` (`SystemDiagnostics` Check #11).
+- **Verification Proof**:
+  - Static check after final edit: `226/226` asset paths present on disk (`0` missing), `index.html == index_v4_2.html` (`True`), `0` unmatched `getElementById()` references across all 11 JS modules.
+  - Live browser QA (`http://localhost:8080/index.html?v=5.3.0` & `?v=5.3.1`, `1280×800`): `0` console errors, `0` failed network requests (`50/50` HTTP `200`), all 6 manual command types + sub-menus + Weakness Break (`WEAK!`) + `#btn-ff-auto-toggle` (`Manual Mode ⇄ Auto-Battle: ON`) verified, `SystemDiagnostics` (`🩺 Self-Test`) passed `11/11 PASSED`, inspected host-verified screenshot `final_step_70.png`.
+- **Next Unblocked Step**: Ready for user playtest and optional commit/push to orphan branch `origin/Kai_Capybara_GO` upon user confirmation.

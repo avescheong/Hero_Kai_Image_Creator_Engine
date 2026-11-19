@@ -109,5 +109,32 @@ window.VfxRenderer = {
     const canvas = document.getElementById("game-canvas");
     if (!canvas) return;
     window.Sprite16FPSEngine.spawnOneShot(sheetKey, canvas.width * 0.56, canvas.height * 0.58, 0.46, label, 7, null, { maxFrames: 12 });
+  },
+
+  triggerDefendVfx() {
+    const canvas = document.getElementById("game-canvas");
+    if (!canvas) return;
+    const w = canvas.width, h = canvas.height;
+    window.Sprite16FPSEngine.spawnOneShot("KAI_MAG_06", w * 0.28, h * 0.72, 0.50, "", 1, null, { maxFrames: 12 });
+    window.Sprite16FPSEngine.spawnOneShot("EXP_LINK_11", w * 0.28, h * 0.68, 0.56, "AEGIS GUARD!", 7, null, { maxFrames: 12 });
+  },
+
+  triggerTauntVfx() {
+    const canvas = document.getElementById("game-canvas");
+    if (!canvas) return;
+    const w = canvas.width, h = canvas.height;
+    window.Sprite16FPSEngine.spawnOneShot("EXP_LINK_23", w * 0.30, h * 0.48, 0.44, "COME AT ME!", 7, null, { maxFrames: 10 });
+    window.Sprite16FPSEngine.spawnOneShot("EXP_LINK_36", w * 0.73, h * 0.62, 0.52, "VULNERABLE +40%", 7, null, { delayMs: 220, maxFrames: 12 });
+  },
+
+  triggerHealVfx(kind = "mend") {
+    const canvas = document.getElementById("game-canvas");
+    if (!canvas) return;
+    const w = canvas.width, h = canvas.height;
+    const sheet = kind === "mend" ? "VFX_MISC_19" : (kind === "potion" ? "VFX_MISC_48" : "VFX_MISC_38");
+    window.Sprite16FPSEngine.spawnOneShot(sheet, w * 0.28, h * 0.66, 0.52, "", 7, null, { maxFrames: 12 });
+    if (kind === "mend" || kind === "orange") {
+      window.Sprite16FPSEngine.spawnOneShot("EXP_LINK_20", w * 0.28, h * 0.68, 0.54, "CLEANSED!", 7, null, { delayMs: 160, maxFrames: 11 });
+    }
   }
 };

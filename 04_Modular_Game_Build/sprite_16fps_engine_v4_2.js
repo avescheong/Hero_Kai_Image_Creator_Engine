@@ -258,6 +258,7 @@ window.Sprite16FPSEngine = {
     if (st.hero.rage >= 100) return this.images["KAI_EXP_OVERDRIVE"] ? "KAI_EXP_OVERDRIVE" : "KAI_MAG_13";
     if (st.hero.hp / st.hero.maxHp < 0.25) return this.images["KAI_EXP_LOW_HP"] ? "KAI_EXP_LOW_HP" : "KAI_ACT_06";
     if (st.inCombat) {
+      if (st.awaitingCommand) return st.heroDefending ? "KAI_ACT_17" : "KAI_ACT_01";
       if (st.activeActionSheet) return st.activeActionSheet;
       const wCfg = window.CAPYBARA_CONFIG.WEAPONS_DB && window.CAPYBARA_CONFIG.WEAPONS_DB[st.activeWeapon || "ironsword"];
       return (wCfg && wCfg.sheet) ? wCfg.sheet : "KAI_CMB_01";
@@ -274,19 +275,20 @@ window.Sprite16FPSEngine = {
     if (!st.inCombat) return;
     const cfg = window.CAPYBARA_CONFIG;
     const phases = [
-      { id: "cast", label: "1. CAST" },
-      { id: "impact", label: "2. IMPACT" },
+      { id: "command", label: "1. COMMAND" },
+      { id: "action", label: "2. ACTION" },
       { id: "parry", label: "3. PARRY" },
       { id: "enemy", label: "4. ENEMY" }
     ];
-    const activePhase = st.combatPhase || "intro";
+    const rawPhase = st.combatPhase || "intro";
+    const activePhase = (rawPhase === "cast" || rawPhase === "impact") ? "action" : rawPhase;
     const chain = st.spellChain || { trigger: "always", modifier: "amp", payload: st.activeSchool || "starlight" };
     const school = (cfg.MAGIC_SCHOOLS || []).find(s => s.id === chain.payload) || { py: "print()", color: "#fde68a" };
     const vm = window.SpellChainVM;
     const trigLabel = vm ? ((vm.TRIGGERS.find(t => t.id === chain.trigger) || vm.TRIGGERS[0]).label) : chain.trigger;
     const modLabel = vm ? ((vm.MODIFIERS.find(m => m.id === chain.modifier) || vm.MODIFIERS[0]).label) : chain.modifier;
 
-    const barW = Math.min(w - 20, 690);
+    const barW = Math.min(w - 20, 720);
     const barH = 22;
     const barX = (w - barW) / 2;
     const barY = h - 26;
@@ -308,7 +310,7 @@ window.Sprite16FPSEngine = {
     for (let i = 0; i < phases.length; i++) {
       const p = phases[i];
       const isAct = activePhase === p.id;
-      const pillW = 58;
+      const pillW = 64;
       if (isAct) {
         ctx.fillStyle = p.id === "parry" ? "#eab308" : "#0284c7";
         ctx.beginPath();
@@ -328,7 +330,7 @@ window.Sprite16FPSEngine = {
     }
 
     // Divider & Right half: Live Spell-Chain code trace
-    if (barW >= 460) {
+    if (barW >= 480) {
       ctx.strokeStyle = "rgba(148, 163, 184, 0.3)";
       ctx.beginPath();
       ctx.moveTo(px + 2, barY + 4);
@@ -336,8 +338,8 @@ window.Sprite16FPSEngine = {
       ctx.stroke();
 
       const codeX = px + 10;
-      const castHighlight = activePhase === "cast";
-      const impactHighlight = activePhase === "impact";
+      const castHighlight = rawPhase === "cast";
+      const impactHighlight = rawPhase === "impact";
       ctx.textAlign = "left";
       ctx.font = "bold 10px ui-monospace, Consolas, monospace";
       const tTxt = `${trigLabel} ${modLabel}`;
@@ -682,8 +684,11 @@ window.Sprite16FPSEngine = {
       ctx.save();
       const titleTxt = act.name + (act.bug ? ` [${act.bug}]` : "");
       ctx.font = "bold 11px system-ui";
-      const boxW = Math.min(350, Math.max(246, Math.ceil(ctx.measureText(titleTxt).width) + 28));
-      const boxH = act.hp !== undefined ? (isBoss ? 52 : 38) : 26;
+      const hasIntent = !!(act.hp !== undefined && act.intent);
+      const intentTxt = hasIntent ? `NEXT: ${act.intent.icon} ${act.intent.label}` : "";
+      const minW = Math.max(246, Math.ceil(ctx.measureText(titleTxt).width) + 28, hasIntent ? Math.ceil(ctx.measureText(intentTxt).width) + 24 : 0);
+      const boxW = Math.min(365, minW);
+      const boxH = (act.hp !== undefined ? (isBoss ? 52 : 38) : 26) + (hasIntent ? 17 : 0);
       const boxX = Math.max(10, Math.min(w - boxW - 10, enmX - boxW / 2));
       const boxCenterX = boxX + boxW / 2;
       const boxY = 10;
@@ -722,6 +727,23 @@ window.Sprite16FPSEngine = {
               ctx.fillRect(boxX + 70 + i * 24, boxY + 37, 20, 8);
             }
           }
+        }
+        if (hasIntent) {
+          const intentY = boxY + (isBoss ? 62 : 48);
+          ctx.textAlign = "center";
+          ctx.font = "bold 10px system-ui";
+          ctx.fillStyle = act.intent.color || "#fde68a";
+          ctx.fillText(intentTxt, boxCenterX, intentY, boxW - 18);
+        }
+        if ((act.tauntedTurns || 0) > 0) {
+          ctx.fillStyle = "rgba(194, 65, 12, 0.92)";
+          ctx.beginPath();
+          ctx.roundRect(boxCenterX - 44, boxY + boxH + 3, 88, 15, 7);
+          ctx.fill();
+          ctx.fillStyle = "#ffedd5";
+          ctx.font = "bold 9px system-ui";
+          ctx.textAlign = "center";
+          ctx.fillText(`🔥 TAUNTED ${act.tauntedTurns}t`, boxCenterX, boxY + boxH + 13);
         }
       }
       ctx.restore();

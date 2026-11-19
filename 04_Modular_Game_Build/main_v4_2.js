@@ -31,6 +31,11 @@ window.SaveManager = {
     st.activeActionSheet = null;
     st._pendingPythonGate = null;
     st.autoMarch = false;
+    st.autoBattle = !!st.autoBattle && false;
+    st.awaitingCommand = false;
+    st.heroDefending = false;
+    if (st.mendCd === undefined) st.mendCd = 0;
+    if (!st.battleItems) st.battleItems = { potion: 2, bao: 2, orange: 1 };
     if (!Array.isArray(st.draftedSkills)) st.draftedSkills = [];
     if (!Array.isArray(st.collectedScrolls)) st.collectedScrolls = [1];
     if (!st.petLevel) st.petLevel = 1;
@@ -155,6 +160,9 @@ window.AppUI = {
     if (btnSb) {
       btnSb.classList.toggle("sandbox-on", !!st.sandboxMode);
       btnSb.textContent = st.sandboxMode ? "🧪 Sandbox: ON" : "🧪 Sandbox: OFF";
+    }
+    if (window.FFBattleMenu) {
+      window.FFBattleMenu.renderDeck();
     }
     if (window.TutorialDirector && window.TutorialDirector.renderCoachBar) {
       window.TutorialDirector.renderCoachBar();
@@ -286,6 +294,12 @@ window.AppUI = {
       }
     }
     if (!document.getElementById("modal-backdrop").classList.contains("hidden")) return;
+    if (window.GameState.inCombat && window.GameState.awaitingCommand && window.FFBattleMenu) {
+      if (window.FFBattleMenu.handleHotkey(e.code)) {
+        e.preventDefault();
+        return;
+      }
+    }
     if (e.code === "Space") {
       e.preventDefault();
       if (window.GameState.inCombat && window.GameState.parryWindowOpen) {

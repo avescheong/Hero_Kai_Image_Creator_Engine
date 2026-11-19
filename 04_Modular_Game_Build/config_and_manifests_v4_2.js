@@ -1,7 +1,7 @@
 // Hero Kai: Scrolls of Pythonia — Capybara Go! Edition
 // config_and_manifests_v4_1.js (Phase 1: 212 Assets = 202 16-FPS Sheets [3,232 Frames] + 10 Biomes + Skill/Gear Parity)
 window.CAPYBARA_CONFIG = {
-  VERSION: "5.2.0",
+  VERSION: "5.3.0",
   FPS: 16,
   CELL_SIZE: 256,
   GRID_COLS: 4,
@@ -467,7 +467,7 @@ window.CAPYBARA_CONFIG = {
 
 
 // --- v4.2 Additions: Status Recovery Sheets, Hit Callouts, Stage-Locked Props, Pickups & Chapter Status Matrix ---
-window.CAPYBARA_CONFIG.VERSION = "5.2.0";
+window.CAPYBARA_CONFIG.VERSION = "5.3.0";
 window.GameConfig = window.CAPYBARA_CONFIG;
 window.CAPYBARA_CONFIG.STATUS_SHEETS_V4_2 = {
   KAI_STATUS_BLEED:   "assets/status/KAI_STATUS_BLEED.png",
@@ -540,4 +540,19 @@ window.CAPYBARA_CONFIG.ACTOR_FLIP_X_MAP = {
   ENM_BOSS_47: true,  ENM_BOSS_48: true,  ENM_BOSS_49: false, ENM_BOSS_50: true,
   ENM_BOSS_51: true,  ENM_BOSS_52: true,
   ENM_BOSS_57: false, ENM_BOSS_58: true,  ENM_BOSS_60: false, ENM_BOSS_61: false
+};
+
+window.CAPYBARA_CONFIG.CHAPTER_WEAKNESSES_V5_3 = {
+  1: ["starlight", "fire"],
+  2: ["fire", "wind"],
+  3: ["water", "lightning"],
+  4: ["fire", "starlight"],
+  5: ["lightning", "nature"],
+  6: ["starlight", "shadow"],
+  7: ["fire", "earth"],
+  8: ["water", "ice"],
+  9: ["water", "chrono"],
+  10: ["starlight", "lotus"],
+  11: ["fire", "lightning"],
+  12: ["starlight", "lotus"]
 };

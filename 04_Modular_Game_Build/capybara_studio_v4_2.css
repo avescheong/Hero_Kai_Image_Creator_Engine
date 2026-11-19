@@ -420,3 +420,99 @@ html, body {
   display: block; border-radius: 10px;
   background: transparent;
 }
+
+/* v5.3 Final Fantasy Manual Tactical Command Deck */
+.ff-battle-deck {
+  flex-shrink: 0;
+  margin: 4px 10px 2px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 2px solid var(--gold);
+  background: linear-gradient(180deg, #0d225d 0%, #060f2e 100%);
+  box-shadow: inset 0 0 0 1px rgba(147, 197, 253, 0.25), 0 4px 14px rgba(0, 0, 0, 0.45);
+  display: flex; flex-direction: column; gap: 6px;
+  max-height: 186px; overflow: hidden;
+}
+.ff-deck-header {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap;
+  border-bottom: 1px solid rgba(147, 197, 253, 0.25); padding-bottom: 4px;
+}
+.ff-deck-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 11px; }
+.ff-turn-badge { font-weight: 900; color: #fde68a; letter-spacing: 0.03em; }
+.ff-weak-wrap { font-size: 10.5px; color: #cbd5e1; display: inline-flex; align-items: center; gap: 4px; }
+.ff-weak-pill {
+  font-size: 9.5px; font-weight: 800; padding: 1px 6px; border-radius: 999px;
+  border: 1px solid #facc15; background: rgba(15, 23, 42, 0.72); color: #facc15;
+}
+.ff-taunt-pill {
+  font-size: 9.5px; font-weight: 900; padding: 1px 7px; border-radius: 999px;
+  background: rgba(194, 65, 12, 0.9); color: #ffedd5; border: 1px solid #fb923c;
+}
+.ff-deck-controls { display: flex; align-items: center; gap: 6px; }
+.ff-hotkey-hint { font-size: 10px; color: #93c5fd; font-weight: 700; }
+.ff-deck-body {
+  display: grid; grid-template-columns: 210px 1fr; gap: 8px; min-height: 0; flex: 1;
+}
+.ff-cmd-list {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; align-content: start;
+}
+.ff-cmd-btn {
+  display: flex; align-items: center; justify-content: flex-start; gap: 4px;
+  padding: 5px 7px; border-radius: 6px; cursor: pointer;
+  background: rgba(15, 23, 42, 0.75); color: #f8fafc;
+  border: 1px solid rgba(147, 197, 253, 0.35);
+  font-size: 11px; font-weight: 800; text-align: left; white-space: nowrap;
+  transition: background 0.12s, border-color 0.12s, transform 0.1s;
+}
+.ff-cmd-btn kbd {
+  font-size: 9px; font-family: ui-monospace, monospace; background: #1e293b;
+  color: #93c5fd; padding: 0 4px; border-radius: 3px; border: 1px solid #334155;
+}
+.ff-cmd-btn:hover:not(:disabled), .ff-cmd-btn.is-selected:not(:disabled) {
+  background: rgba(37, 99, 235, 0.45); border-color: #fde68a; color: #fde68a;
+}
+.ff-cmd-btn.is-selected:not(:disabled)::before { content: "▶ "; color: #fde68a; font-size: 9px; }
+.ff-cmd-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.ff-cmd-btn.ff-limit-ready:not(:disabled) {
+  background: linear-gradient(90deg, #b45309, #ca8a04); border-color: #fef08a; color: #ffffff;
+  animation: parryPulse 0.8s infinite;
+}
+.ff-sub-pane {
+  min-width: 0; min-height: 0; overflow-y: auto;
+  background: rgba(2, 6, 23, 0.55); border: 1px solid rgba(147, 197, 253, 0.25);
+  border-radius: 8px; padding: 6px 8px;
+}
+.ff-preview-box { display: flex; align-items: center; gap: 10px; }
+.ff-preview-meta { flex: 1; min-width: 0; }
+.ff-preview-title { font-size: 12px; font-weight: 900; color: #fde68a; }
+.ff-preview-stat { font-size: 11px; color: #e2e8f0; margin-top: 2px; }
+.ff-preview-code { font-size: 10px; color: #34d399; margin-top: 2px; }
+.ff-preview-advice { font-size: 10.5px; color: #93c5fd; margin-top: 3px; line-height: 1.3; }
+.ff-sub-header {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  font-size: 11px; font-weight: 800; color: #fde68a; margin-bottom: 5px;
+}
+.ff-back-btn { padding: 2px 7px; font-size: 10px; }
+.ff-magic-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 5px;
+}
+.ff-heal-grid {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px;
+}
+.ff-magic-btn {
+  display: flex; align-items: center; gap: 6px; padding: 4px 6px; border-radius: 7px;
+  background: rgba(30, 41, 59, 0.88); border: 1px solid #334155; color: #f8fafc;
+  cursor: pointer; text-align: left; min-width: 0;
+}
+.ff-magic-btn:hover:not(:disabled) { border-color: #fde68a; background: rgba(30, 58, 138, 0.72); }
+.ff-magic-btn.is-weak { border-color: #facc15; background: rgba(113, 63, 18, 0.35); }
+.ff-magic-btn:disabled { opacity: 0.42; cursor: not-allowed; }
+.ff-magic-info { flex: 1; min-width: 0; }
+.ff-magic-name { font-size: 10.5px; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ff-magic-desc { font-size: 9.5px; color: #cbd5e1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 680px) {
+  .ff-battle-deck { max-height: 220px; }
+  .ff-deck-body { grid-template-columns: 1fr; }
+  .ff-cmd-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .ff-heal-grid { grid-template-columns: 1fr; }
+}

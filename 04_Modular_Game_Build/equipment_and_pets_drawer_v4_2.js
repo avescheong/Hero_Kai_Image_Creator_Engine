@@ -929,6 +929,7 @@ window.DrawerUI = {
       return;
     }
     window.StoryEngine._combatSeqId++;
+    if (window.FFBattleMenu) window.FFBattleMenu.cancelPending(true);
     if (window.Sprite16FPSEngine) window.Sprite16FPSEngine.activeEffects = [];
     st.chapter = ch; st.day = 1; st.inCombat = false; st.awaitingChoice = false; st.combatPhase = "idle"; st.enemy = null; st.roadsideNpc = null; st.activeStreetPickup = null; st.propCollected = false;
     st.slotSpinsThisChapter = 0; st.meditatedThisChapter = false;
@@ -1081,7 +1082,7 @@ window.DrawerUI = {
   openAtlasManifestModal() {
     const cfg = window.CAPYBARA_CONFIG;
     const body = document.getElementById("modal-body");
-    document.getElementById("modal-title").textContent = "📦 226 Production Assets Manifest (v5.2.0)";
+    document.getElementById("modal-title").textContent = "📦 226 Production Assets Manifest (v5.3.0)";
     const charKeys = Object.keys(cfg.CHARACTER_SHEETS_16F || {});
     const vfxKeys = Object.keys(cfg.VFX_MISC_SHEETS_16F || {});
     const enmKeys = Object.keys(cfg.ENM_BOSS_SHEETS_16F || {});
@@ -1089,7 +1090,7 @@ window.DrawerUI = {
     const biomeKeys = Object.keys(cfg.BIOME_BACKDROPS_16x9 || {});
     const statusKeys = Object.keys(cfg.STATUS_SHEETS_V4_2 || {});
     body.innerHTML = `
-      <p style="margin-top:0;color:#cbd5e1;font-size:13px">Wired into Modular Build v5.2.0: <strong>${charKeys.length}</strong> Character + <strong>${vfxKeys.length}</strong> VFX-MISC + <strong>${enmKeys.length}</strong> ENM-BOSS + <strong>${expKeys.length}</strong> EXP-LINK + <strong>${statusKeys.length}</strong> Status/Expression Sheets + <strong>${biomeKeys.length}</strong> 16:9 Biomes = <strong>${charKeys.length + vfxKeys.length + enmKeys.length + expKeys.length + statusKeys.length + biomeKeys.length} Loaded Assets</strong>.</p>
+      <p style="margin-top:0;color:#cbd5e1;font-size:13px">Wired into Modular Build v5.3.0: <strong>${charKeys.length}</strong> Character + <strong>${vfxKeys.length}</strong> VFX-MISC + <strong>${enmKeys.length}</strong> ENM-BOSS + <strong>${expKeys.length}</strong> EXP-LINK + <strong>${statusKeys.length}</strong> Status/Expression Sheets + <strong>${biomeKeys.length}</strong> 16:9 Biomes = <strong>${charKeys.length + vfxKeys.length + enmKeys.length + expKeys.length + statusKeys.length + biomeKeys.length} Loaded Assets</strong>.</p>
       <div style="font-size:12px;color:#38bdf8;margin-bottom:8px"><strong>Biomes (16:9):</strong> ${biomeKeys.join(", ")}</div>
       <div style="font-size:12px;color:#4ade80;margin-bottom:8px"><strong>Characters (${charKeys.length}×16F):</strong> ${charKeys.slice(0, 4).join(", ")} ... ${charKeys.slice(-3).join(", ")}</div>
       <div style="font-size:12px;color:#facc15;margin-bottom:8px"><strong>VFX-MISC (${vfxKeys.length}×16F):</strong> ${vfxKeys.slice(0, 4).join(", ")} ... ${vfxKeys.slice(-2).join(", ")}</div>

@@ -10,9 +10,9 @@ window.TutorialDirector = {
     },
     {
       id: "first_combat",
-      title: "4-Beat Sakuga Combat & Parry",
-      text: "Watch the <strong>Cast ➔ Impact ➔ Parry ➔ Enemy</strong> beat bar! Press <strong>Space / 🛡️ Parry</strong> when the gold ring shrinks, or use <strong>[Q] String / [E] Mantis</strong>!",
-      spotlight: () => (window.GameState && window.GameState.parryWindowOpen ? "btn-parry" : (window.GameState && window.GameState.inCombat ? "btn-tag-string" : "btn-next-day"))
+      title: "Final Fantasy Command Deck & Parry",
+      text: "Your turn! Pick <strong>⚔️ Attack</strong>, <strong>✨ Magic</strong> (hit Weaknesses!), <strong>💚 Heal</strong>, <strong>🛡️ Defend</strong>, or <strong>🔥 Taunt</strong> in the Command Deck (or toggle <strong>Auto-Battle</strong>), then <strong>Space</strong> to Parry!",
+      spotlight: () => (window.GameState && window.GameState.parryWindowOpen ? "btn-parry" : (window.GameState && window.GameState.awaitingCommand ? "ff-battle-deck" : (window.GameState && window.GameState.inCombat ? "btn-tag-string" : "btn-next-day")))
     },
     {
       id: "wizard_and_skills",
@@ -200,6 +200,7 @@ window.TutorialDirector = {
       window.StoryEngine._combatSeqId++;
       window.StoryEngine.randomizeStageProps(true);
     }
+    if (window.FFBattleMenu) window.FFBattleMenu.cancelPending(true);
     if (window.AppUI) {
       window.AppUI.setChoices([]);
       window.AppUI.closeModal();
@@ -320,6 +321,19 @@ window.SystemDiagnostics = {
       name: "10. SaveManager Portable JSON Integrity",
       ok: saveOk,
       detail: saveOk ? `Key ${window.SaveManager.KEY} valid` : "Save JSON invalid"
+    });
+
+    // 11. Final Fantasy Manual Command Deck & Enemy Intent
+    const deckEl = typeof document !== "undefined" ? document.getElementById("ff-battle-deck") : null;
+    const ffMenu = window.FFBattleMenu;
+    const ffIntent = ffMenu && ffMenu.rollEnemyIntent ? ffMenu.rollEnemyIntent({ atk: 20, maxHp: 300, isBoss: false }, 1) : null;
+    const ffWeaks = ffMenu && ffMenu.getEnemyWeaknesses ? ffMenu.getEnemyWeaknesses(1) : [];
+    const ffAuto = ffMenu && ffMenu.chooseAutoAction ? ffMenu.chooseAutoAction(st) : null;
+    const ffOk = !!(deckEl && ffMenu && ffIntent && ffIntent.label && ffWeaks.length >= 2 && ffAuto && ffAuto.type);
+    checks.push({
+      name: "11. Final Fantasy Command Deck & Intent AI",
+      ok: ffOk,
+      detail: ffOk ? `Weaknesses=${ffWeaks.join("/")}, Intent="${ffIntent.label}", Auto=${ffAuto.type}` : "FFBattleMenu check failed"
     });
 
     const passed = checks.filter(c => c.ok).length;
